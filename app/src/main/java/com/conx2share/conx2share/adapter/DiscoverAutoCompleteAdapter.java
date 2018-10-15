@@ -32,7 +32,7 @@ public class DiscoverAutoCompleteAdapter extends ArrayAdapter<String> {
     }
 
     @Override
-    public View getView( int position, View convertView, ViewGroup parent) {
+    public View getView(final int position, View convertView, ViewGroup parent) {
         View view = convertView;
 
         String hashTagTitle = getItem(position);
