@@ -1,0 +1,14 @@
+#Mockito
+-keep class org.mockito.** { *; }
+-keep class org.apache.** { *; }
+-keep class org.junit.** { *; }
+-keep class java.beans.** { *; }
+-keep class sun.misc.** { *; }
+-dontwarn org.mockito.**
+-dontwarn org.apache.**
+-dontwarn org.junit.**
+-dontwarn java.beans.**
+-dontwarn sun.misc.**
+
+#Retro Lambda
+-dontwarn java.lang.invoke.**

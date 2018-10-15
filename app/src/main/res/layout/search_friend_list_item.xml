@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/user_list_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <com.conx2share.conx2share.ui.view.AvatarImageView
+            android:id="@+id/search_user_photo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@id/search_user_photo"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/search_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/conx_teal"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/search_user_handle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/unread_messages_gray"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4">
+
+        <CheckBox
+            android:id="@+id/user_is_friend_checkbox"
+            android:layout_width="55dp"
+            android:layout_height="45dp"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:button="@drawable/add_friend_checkbox" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

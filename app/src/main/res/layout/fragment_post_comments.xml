@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/post_comments_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/messaging_toolbar_background">
+
+        <com.conx2share.conx2share.ui.view.AvenirNextTextView
+            android:id="@+id/comments_toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/post_button_layout"
+            android:layout_width="76dp"
+            android:layout_height="24dp"
+            android:layout_gravity="end"
+            android:gravity="center_vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/post_content_edit"
+                android:layout_width="30dp"
+                android:layout_height="24dp"
+                android:src="@drawable/v_ic_edit_post"
+                android:layout_marginEnd="8dp"/>
+
+            <ImageView
+                android:id="@+id/post_content_delete"
+                android:layout_width="30dp"
+                android:layout_height="24dp"
+                android:src="@drawable/v_ic_delete_post"
+                android:layout_marginEnd="8dp"/>
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <ListView
+        android:id="@+id/post_comments_listview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/post_comments_toolbar"
+        android:layout_weight="1"
+        android:listSelector="@color/transparent"/>
+
+    <LinearLayout
+        android:id="@+id/leave_a_comment_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/unread_messages_gray"
+        android:padding="5dp">
+
+        <com.linkedin.android.spyglass.ui.RichEditorView
+            android:id="@+id/comment_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/leave_a_comment"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textColorHint="@color/hint_gray"
+            app:listHeight="120" />
+
+        <com.conx2share.conx2share.ui.view.AvenirNextTextView
+            android:id="@+id/submit_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:background="@color/conx_teal"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:text="@string/post"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

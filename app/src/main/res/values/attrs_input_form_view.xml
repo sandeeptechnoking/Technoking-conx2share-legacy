@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="InputFormView">
+        <attr name="hint" format="string" />
+        <attr name="input_type" format="enum" >
+            <enum name="normal" value="0"/>
+            <enum name="email" value="1" />
+            <enum name="password" value="2"/>
+            <enum name="decimal" value="3"/>
+            <enum name="no_suggestions" value="5"/>
+        </attr>
+        <attr name="single_line" format="boolean" />
+    </declare-styleable>
+</resources>

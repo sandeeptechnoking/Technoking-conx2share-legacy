@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/say_no_chat.item.send_image_view"
+        android:layout_alignParentRight="true"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/friend_placeholder"
+        android:layout_marginRight="@dimen/padding"
+        android:layout_centerVertical="true"
+        app:riv_oval="true"/>
+
+    <TextView
+        android:id="@+id/say_no_chat.item.send_text_view"
+        style="@style/sayno.send"
+        android:layout_toLeftOf="@id/say_no_chat.item.send_image_view"
+        android:text="This is my message"/>
+
+</RelativeLayout>

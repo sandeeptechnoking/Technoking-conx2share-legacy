@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/main_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/profile_header_background"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/friend_placeholder" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/imagegradient_overlay" />
+
+        <RelativeLayout
+            android:id="@+id/profile_follow_layout"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@id/profile_header_background"
+            android:background="@color/profile_unfollow_gray">
+
+            <com.conx2share.conx2share.ui.view.AvenirNextTextView
+                android:id="@+id/profile_follow_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:text="@string/unfollow"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/profile_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/transparent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/profile_toolbar_up"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/back_button_selector" />
+
+                <ImageView
+                    android:id="@+id/play_button"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:visibility="visible"
+                    android:src="@mipmap/ic_profile_play" />
+
+                <ImageView
+                    android:id="@+id/unchecked_favorite_view"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="@dimen/padding"
+                    android:layout_centerVertical="true"
+                    android:clickable="true"
+                    android:layout_toLeftOf="@id/play_button"
+                    android:src="@mipmap/ic_star_outline" />
+
+                <ImageView
+                    android:id="@+id/check_favorite_view"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="@dimen/padding"
+                    android:layout_centerVertical="true"
+                    android:clickable="true"
+                    android:layout_toLeftOf="@id/play_button"
+                    android:src="@mipmap/ic_star_filled"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></RelativeLayout>
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/profile_user_avatar"
+            android:layout_width="@dimen/profile_image_size"
+            android:layout_height="@dimen/profile_image_size"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="75dp"
+            android:src="@drawable/friend_placeholder"
+            app:riv_border_color="@color/white"
+            app:riv_border_width="1dp"
+            app:riv_oval="true" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="65dp"
+            android:layout_toRightOf="@+id/profile_user_avatar"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/profile_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                tools:text="User Name"
+                android:textColor="@android:color/white"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/profile_user_handle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="2dp"
+                tools:text="\@handle"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/profile_navigation_bar"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_below="@id/profile_follow_layout"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <LinearLayout
+                android:id="@id/about_link"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.conx2share.conx2share.ui.view.AvenirNextTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/about"
+                    android:textColor="@color/conx_teal"
+                    android:textSize="23sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/followers_section"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/profile_info_border"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.conx2share.conx2share.ui.view.AvenirNextTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/followers"
+                    android:textColor="@color/profile_screen_text_gray"
+                    android:textSize="12sp" />
+
+                <com.conx2share.conx2share.ui.view.AvenirNextTextView
+                    android:id="@+id/followers_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/profile_screen_text_gray"
+                    android:textSize="23dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/following_section"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.conx2share.conx2share.ui.view.AvenirNextTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/following"
+                    android:textColor="@color/profile_screen_text_gray"
+                    android:textSize="12sp" />
+
+                <com.conx2share.conx2share.ui.view.AvenirNextTextView
+                    android:id="@+id/following_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/profile_screen_text_gray"
+                    android:textSize="23dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <android.support.v4.widget.SwipeRefreshLayout android:id="@+id/profile_swipe_container"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_navigation_bar"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/profile_feed_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+                android:orientation="vertical"
+                android:listSelector="@color/transparent"/>
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_navigation_bar"
+            android:src="@drawable/shadow" />
+
+    </RelativeLayout>
+
+    <include layout="@layout/partial_about_slideup_panel" />
+
+    <ProgressBar
+        android:id="@+id/profile_progress_bar"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:indeterminate="true" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/user_chat_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/chat_white"
+        app:fabSize="normal"
+        android:visibility="gone"/>
+
+</RelativeLayout>

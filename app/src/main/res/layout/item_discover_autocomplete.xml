@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/post_options_border">
+
+    <!--
+        TextView taken from android.R.layout.simple_dropdown_item_1line
+        - adjusted id of text view
+        - adjusted text size
+    -->
+    <TextView android:id="@+id/hash_tag_title"
+        style="?android:attr/dropDownItemStyle"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceLargePopupMenu"
+        android:textSize="16sp" />
+
+</LinearLayout>

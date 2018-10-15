@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search_for_groups_button"
+        android:icon="@drawable/com_facebook_picker_magnifier"
+        android:title="@string/search_for_groups"
+        app:showAsAction="always" />
+
+</menu>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/messaging_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/conx_primary">
+
+        <com.conx2share.conx2share.ui.view.AvenirNextTextView
+            android:id="@+id/messaging_toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <com.conx2share.conx2share.ui.view.AvatarImageView
+            android:id="@+id/messaging_friend_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:layout_marginEnd="20dp" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/chat_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/chat_screen_bg" />
+
+        <LinearLayout
+            android:id="@+id/text_message_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/chat_photo_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="12dp"
+                android:background="@null"
+                android:src="@drawable/ic_camera" />
+
+            <ImageButton
+                android:id="@+id/chat_video_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:layout_marginEnd="23dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="12dp"
+                android:background="@null"
+                android:src="@drawable/ic_video" />
+
+            <EditText
+                android:id="@+id/chat_input_edit_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="10dp"
+                android:background="@android:color/white"
+                android:inputType="textCapSentences|textMultiLine"
+                android:maxLines="6"
+                android:hint="@string/chat_input_hint"
+                android:textSize="14sp" />
+
+            <ImageButton
+                android:id="@+id/chat_send_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:paddingBottom="15dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="15dp"
+                android:paddingTop="15dp"
+                android:src="@drawable/ic_mic"
+                android:text="@string/chat_send_btn" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/audio_message_layout"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/recording_red_dot"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/red_record_circle"/>
+
+            <TextView
+                android:id="@+id/audio_length"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="48dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerInParent="true"
+                android:text="@string/record_message_length" />
+
+            <ImageView
+                android:id="@+id/audio_send_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toStartOf="@+id/audio_cancel_bt"
+                android:layout_centerInParent="true"
+                android:layout_marginEnd="8dp"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:src="@drawable/ic_send" />
+
+            <ImageView
+                android:id="@+id/audio_cancel_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/v_ic_delete_gray" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

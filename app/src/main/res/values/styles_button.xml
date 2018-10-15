@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="button.post">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/font_xlarge</item>
+        <item name="android:background">@drawable/sign_up_selector</item>
+        <item name="android:text">@string/post_button_text</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="button.default">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/font_xlarge</item>
+        <item name="android:background">@drawable/default_button_selector</item>
+        <item name="android:text">@string/post_button_text</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="button.logout">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/font_large</item>
+        <item name="android:background">@drawable/logout_background</item>
+        <item name="android:text">LOGOUT</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="button.tab">
+        <item name="android:background">@drawable/tab_button_selector</item>
+        <item name="android:textColor">@color/conx_primary</item>
+        <item name="android:textSize">@dimen/font_large</item>
+    </style>
+
+    <style name="button.fab">
+        <item name="android:gravity">bottom|end</item>
+        <item name="android:src">@drawable/ic_fab_add</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="backgroundTint">@color/conx_primary</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="useCompatPadding">true</item>
+    </style>
+
+    <!-- SayNo Styles -->
+
+    <style name="sayno.button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/conx_primary</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/font_large</item>
+    </style>
+
+    <style name="sayno.button.gray">
+        <item name="android:background">@drawable/button_background_gray</item>
+    </style>
+
+</resources>

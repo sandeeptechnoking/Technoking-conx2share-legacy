@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.yqritc.scalablevideoview.ScalableVideoView
+        android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"/>
+    
+    <LinearLayout
+        android:id="@+id/login.container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/padding"
+        android:padding="@dimen/padding"
+        android:background="@drawable/gray_background_rounded"
+        android:visibility="gone">
+
+        <com.conx2share.conx2share.reusableviews.InputFormView
+            android:id="@+id/login_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingTop="5dp"
+            app:hint="@string/email"
+            app:input_type="email"
+            android:textSize="@dimen/font_large" />
+
+        <com.conx2share.conx2share.reusableviews.InputFormView
+            android:id="@+id/login_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            app:hint="@string/password"
+            app:input_type="password"
+            android:textSize="@dimen/font_large" />
+
+        <Button
+            android:id="@+id/forgot_password_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:text="@string/forgot_password"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/login.login_button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/sign_up_selector"
+            android:text="@string/sign_in"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_large" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/signup.container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/padding"
+        android:padding="@dimen/padding"
+        android:background="@drawable/gray_background_rounded"
+        android:visibility="gone">
+
+        <com.conx2share.conx2share.reusableviews.InputFormView
+            android:id="@+id/signup.email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            app:hint="@string/email"
+            app:input_type="email"
+            app:single_line="true"
+            android:imeOptions="actionNext"
+            android:textSize="@dimen/font_large" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.conx2share.conx2share.reusableviews.InputFormView
+                android:id="@+id/signup.first_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:background="@color/white"
+                app:hint="@string/first_name"
+                app:input_type="normal"
+                app:single_line="true"
+                android:imeOptions="actionNext"
+                android:textSize="@dimen/font_large" />
+
+            <com.conx2share.conx2share.reusableviews.InputFormView
+                android:id="@+id/signup.last_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:background="@color/white"
+                app:hint="@string/last_name"
+                app:input_type="normal"
+                app:single_line="true"
+                android:imeOptions="actionNext"
+                android:textSize="@dimen/font_large" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.conx2share.conx2share.reusableviews.InputFormView
+                android:id="@+id/signup.username"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:background="@color/white"
+                app:hint="@string/username"
+                app:input_type="normal"
+                app:single_line="true"
+                android:imeOptions="actionNext"
+                android:textSize="@dimen/font_large" />
+
+            <com.conx2share.conx2share.reusableviews.InputFormView
+                android:id="@+id/signup.password"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:background="@color/white"
+                app:hint="@string/password"
+                app:input_type="password"
+                app:single_line="true"
+                android:imeOptions="actionDone"
+                android:textSize="@dimen/font_large" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/singup_terms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            tools:text="@string/text_terms"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/signup.signup_button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="@dimen/padding"
+            android:background="@drawable/sign_up_selector"
+            android:text="@string/sign_up"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_large" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttons_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:padding="@dimen/padding"
+        android:visibility="visible">
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight=".5"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/login_button_selector"
+            android:text="@string/sign_in"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_large" />
+
+        <Button
+            android:id="@+id/sign_up_button"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight=".5"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/sign_up_selector"
+            android:text="@string/sign_up"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_large" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

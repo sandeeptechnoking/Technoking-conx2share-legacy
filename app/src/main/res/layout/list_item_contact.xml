@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="15dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="30dp"
+    android:paddingTop="15dp">
+
+    <CheckBox
+        android:id="@+id/contact_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/add_friend_checkbox"
+        android:clickable="false"
+        android:focusable="false"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+
+    <LinearLayout
+        android:id="@+id/contact_item_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@id/contact_checkbox"
+        android:orientation="vertical"
+        android:paddingRight="10dp">
+
+        <com.conx2share.conx2share.ui.view.AvenirNextTextView
+            android:id="@+id/contact_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:textSize="16sp" />
+
+        <com.conx2share.conx2share.ui.view.AvenirNextTextView
+            android:id="@+id/contact_extra_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="4dp"
+            android:singleLine="true"
+            android:textSize="14sp" />
+    </LinearLayout>
+</RelativeLayout>

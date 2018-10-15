@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.conx2share.conx2share">
+
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:name="android.hardware.camera.any"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- newrelic requires this as well as INTERNET -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <permission
+        android:name="com.conx2share.conx2share.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.conx2share.conx2share.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:name=".Conx2ShareApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_app"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.sign_up.SignUpActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.photo_preview.PhotoPreviewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.messaging.MediaViewerActivity"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.feed.FeedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.feed.AddUsersActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.messaging.MessagingActivity"
+            android:configChanges="orientation|screenSize"
+            android:label=""
+            android:parentActivityName=".ui.feed.FeedActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.feed.FeedActivity" />
+        </activity>
+        <activity
+            android:name=".ui.friends.AddFriendsActivity"
+            android:parentActivityName=".ui.feed.FeedActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.feed.post.PostActivity"
+            android:parentActivityName=".ui.feed.FeedActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".ui.profile.ProfileActivity"
+            android:parentActivityName=".ui.feed.FeedActivity"
+            android:screenOrientation="portrait" />
+        <!--<activity-->
+            <!--android:name=".ui.profile_settings.ProfileSettingsActivity"-->
+            <!--android:label="Profile Settings"-->
+            <!--android:parentActivityName=".ui.feed.FeedActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateHidden|adjustPan" />-->
+        <activity
+            android:name=".ui.feed.post_comments.PostCommentsActivity"
+            android:parentActivityName=".ui.feed.FeedActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".ui.feed.FeedActivity" />
+
+        <activity
+            android:name=".ui.contact.ContactActivity"
+            android:parentActivityName=".ui.feed.FeedActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.groups.GroupsIndexActivity"
+            android:parentActivityName=".ui.feed.FeedActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.groups.AddGroupActivity"
+            android:parentActivityName=".ui.groups.GroupsIndexActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.groups.GroupActivity"
+            android:parentActivityName=".ui.groups.GroupsIndexActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.events.EventActivity"
+            android:parentActivityName=".ui.events.EventsListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.events.EventsListActivity"
+            android:parentActivityName=".ui.feed.FeedActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <activity
+            android:name=".ui.notifications.NotificationsActivity"
+            android:parentActivityName=".ui.feed.FeedActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <activity
+            android:name=".ui.groups.GroupMembersInviteActivity"
+            android:parentActivityName=".ui.groups.GroupMembersIndexActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.groups.GroupFollowersInviteActivity"
+            android:parentActivityName=".ui.groups.GroupFollowersInviteActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.subscription.SubscriptionActivity"
+            android:noHistory="false"
+            android:parentActivityName=".ui.feed.FeedActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.groups.GroupMembersIndexActivity"
+            android:parentActivityName=".ui.groups.GroupActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.messaging_index.MessageIndexActivity"
+            android:parentActivityName=".ui.feed.FeedActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.message_friends.MessageFriendsActivity"
+            android:parentActivityName=".ui.feed.FeedActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.profile_settings.ChangePasswordActivity"
+            android:parentActivityName=".ui.profile_settings.ProfileSettingsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.followers.FollowersActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.following.FollowingActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.friends.FriendsIndexActivity"
+            android:parentActivityName=".ui.feed.FeedActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.groups.SearchGroupsActivity"
+            android:parentActivityName=".ui.feed.FeedActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.web_view.WebViewActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".ui.business.BusinessProfileActivity"
+            android:parentActivityName=".ui.feed.FeedActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:scheme="conx2share" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mopub.mobileads.MoPubActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.mopub.mobileads.MraidActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.mopub.common.MoPubBrowser"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.mopub.mobileads.MraidVideoPlayerActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name=".ui.business.MyBusinessesActivity"
+            android:parentActivityName=".ui.feed.FeedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.business.SearchBusinessesActivity"
+            android:parentActivityName=".ui.feed.FeedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.groups.GroupFollowersIndexActivity"
+            android:parentActivityName=".ui.feed.FeedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.feed.post_comments.EditPostCommentActivity"
+            android:parentActivityName=".ui.feed.FeedActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".ui.discover.DiscoverActivity"
+            android:parentActivityName=".ui.feed.FeedActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.news.NewsActivity"
+            android:parentActivityName=".ui.feed.FeedActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.news.NewsIndexActivity"
+            android:parentActivityName=".ui.feed.FeedActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".ui.sign_up.BusinessSignUpWebActivity"
+            android:parentActivityName=".ui.login.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".streaming.CameraActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:parentActivityName=".ui.events.EventActivity"
+            android:screenOrientation="fullSensor" />
+
+        <activity
+            android:name=".ui.sayno.intro.SayNoIntroActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.sayno.SayNoChatActivity"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|screenSize"/>
+
+        <activity
+            android:name=".ui.sayno.choose.SayNoTypeChooseActivity"
+            android:label=""
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.sayno.choose.SayNoAnonymityChooseActivity"
+            android:label=""
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.sayno.SayNoSignInActivity"
+            android:label=""
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.likers.LikersActivity"
+            android:parentActivityName=".ui.feed.post.PostActivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".ui.livestream.StreamHomeActivity"
+                  android:screenOrientation="portrait"/>
+
+        <activity android:name=".ui.events.NewEventActivity"
+                  android:screenOrientation="portrait"/>
+
+        <service
+            android:name=".broadcast.XMPPService"
+            android:enabled="true"
+            android:label="XMPPService" />
+
+        <activity android:name=".ui.videocapture.VideoCaptureActivity" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.crashlytics.ApiKey"
+            android:value="17edd5b0be00c140a469d01f180f2cc055984f60" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="LOCALYTICS_APP_KEY"
+            android:value="9b6a11b6f29f812d8c52cd7-62804b8c-cd95-11e4-2f0e-004a77f8b47f" />
+
+        <receiver
+            android:name="com.appsflyer.MultipleInstallBroadcastReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="495d5562bb26d306b22b99e127106f33b0405d6f" />
+
+        <activity android:name=".streaming.EventVideoActivity" />
+
+        <service android:name=".util.CXFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".util.CXFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".ui.settings.SettingsActivity" />
+        <activity android:name=".ui.settings.ContactSupportActivity"></activity>
+    </application>
+
+</manifest>

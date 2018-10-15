@@ -1,0 +1,150 @@
+{
+  "project_info": {
+    "project_number": "768667733695",
+    "firebase_url": "https://conx2share-d8751.firebaseio.com",
+    "project_id": "conx2share-d8751",
+    "storage_bucket": "conx2share-d8751.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768667733695:android:2cf222f9fc4e1556",
+        "android_client_info": {
+          "package_name": "com.conx2share.conx2share"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768667733695-d51m84nvfut2uulu4akmsodseb25f0jl.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "768667733695-tgragrdurlku0nb88j3rjkgd9e9cg5fl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.conx2share.conx2share",
+            "certificate_hash": "ea3a6cd02ede01b49bb355f922d68046ac9c15af"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb17Zxqf63FlbyaZqkUETAeqpYG_X-ScA"
+        },
+        {
+          "current_key": "AIzaSyAWZ1ns7nJ3xJRoHr9FXYK0kxPUpwZiiTY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "768667733695-d51m84nvfut2uulu4akmsodseb25f0jl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768667733695:android:69fdb81ae419fa54",
+        "android_client_info": {
+          "package_name": "com.conx2share.conx2share.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768667733695-5mn51rp9ppv9t377r94pb5qebubnkru0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.conx2share.conx2share.staging",
+            "certificate_hash": "3341e937fb6f8130e728c9823446307a41945a38"
+          }
+        },
+        {
+          "client_id": "768667733695-d51m84nvfut2uulu4akmsodseb25f0jl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb17Zxqf63FlbyaZqkUETAeqpYG_X-ScA"
+        },
+        {
+          "current_key": "AIzaSyAWZ1ns7nJ3xJRoHr9FXYK0kxPUpwZiiTY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768667733695:android:effa1d33334c47df",
+        "android_client_info": {
+          "package_name": "com.conx2share.authentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768667733695-b146t6d6c6p3fj1dbuep88nofr1lvism.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.conx2share.authentication",
+            "certificate_hash": "ea3a6cd02ede01b49bb355f922d68046ac9c15af"
+          }
+        },
+        {
+          "client_id": "768667733695-8tacg7l7j620ek3rbkavvl62sn4bosea.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.conx2share.authentication",
+            "certificate_hash": "3341e937fb6f8130e728c9823446307a41945a38"
+          }
+        },
+        {
+          "client_id": "768667733695-d51m84nvfut2uulu4akmsodseb25f0jl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb17Zxqf63FlbyaZqkUETAeqpYG_X-ScA"
+        },
+        {
+          "current_key": "AIzaSyAWZ1ns7nJ3xJRoHr9FXYK0kxPUpwZiiTY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

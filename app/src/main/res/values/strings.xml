@@ -1,0 +1,1544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="applicationName">"ConX2Share"</string>
+    <string name="labelSignin">"Sign In"</string>
+    <string name="labelSignup">"Sign Up"</string>
+    <string name="labelEmail">"Email"</string>
+    <string name="labelPassword">"Password"</string>
+    <string name="labelOr">"or"</string>
+    <string name="labelUsername">"Username"</string>
+    <string name="labelConfirmPassword">"Confirm Password"</string>
+    <string name="labelFirstName">"First Name"</string>
+    <string name="labelLastName">"Last Name"</string>
+    <string name="blurbTermsAndConditions">"I've read and agreed to the terms and conditions"</string>
+
+    <string name="wz_live_host_address" translatable="false">livestream.conx2share.com</string>
+    <string name="wz_staging_host_address" translatable="false">streaming.staging.conx2share.com</string>
+
+    <!-- I'd like to change this to Authenticating instead of signing in. -->
+    <string name="statusAuthenticating">"Authenticating\u2026"</string>
+    <string name="statusUnexpectedError">"An unexpected error has occurred."</string>
+    <string name="statusMessagedMarkedAsViewed">"Message marked as viewed"</string>
+    <string name="labelSuccess">"Success"</string>
+    <string name="statusMessageSent">"Message Sent"</string>
+    <string name="statusMessageSentFailed">"Message failed to send"</string>
+    <string name="hintEnterMessageHere">"Enter Message Here…"</string>
+    <string name="statusGotSentMessages">"Got Sent Messages"</string>
+    <string name="hintTypeAMessage">"Type a message…"</string>
+
+    <!-- we might want this lower case to be consistent. -->
+    <string name="hintAddTextHere">"Add text here…"</string>
+    <string name="statusFileError">"File Error"</string>
+    <string name="statusCameraError">"Camera Error"</string>
+    <string name="labelAddAttachment">"Add Attachment:"</string>
+    <string name="labelTakeAPhoto">"Take a Photo"</string>
+    <string name="labelTakeAVideo">"Take a Video"</string>
+    <string name="labelMessageType">"Message Type:"</string>
+    <string name="labelError">"Error:"</string>
+
+    <!-- Post Activity -->
+    <string name="labelPost">"Post"</string>
+    <string name="titleCreatePost">"Create Post"</string>
+    <string name="labelPostTo">"To:"</string>
+    <string name="labelEveryone">"Everyone"</string>
+    <string name="statusPostSuccessful">"Post successful"</string>
+    <string name="statusPostFailed">"Post failed: "</string>
+
+    <!-- Image Upload Dialog -->
+    <string name="titleUploadPhoto">"Upload Photo"</string>
+    <string name="promptUploadOrSelectImageQuestion">"Would you like to take a photo or upload one from your library?"</string>
+    <string name="promptUploadOrSelectVideoQuestion">"Would you like to take a video or upload one from your library?"</string>
+    <string name="labelTakePhoto">"Take Photo"</string>
+    <string name="labelLibrary">"Library"</string>
+    <string name="blurbNotYetImplemented">"Not yet implemented."</string>
+
+    <!-- Feed Activity -->
+    <string name="labelDrawerOpen">"Drawer Open"</string>
+    <string name="labelDrawerClose">"Drawer Close"</string>
+    <string name="labelSignout">"Logout"</string>
+    <string name="labelProfilePicture">"Profile Picture"</string>
+
+    <!-- Share Dialog -->
+    <string name="labelShareTo">"Share to..."</string>
+    <string name="labelCancel">"Cancel"</string>
+
+    <!-- Contacts -->
+    <string name="labelContacts">"Contacts"</string>
+    <string name="statusInviteSuccessful">"Friends invited"</string>
+    <string name="statusInviteFailed">"Friend invite failed: "</string>
+
+    <!-- Groups -->
+    <string name="titleGroupName">"GROUP NAME"</string>
+    <string name="labelCreateGroup">"CREATE GROUP"</string>
+    <string name="blurbGroupNameInvalid">"The organization must have a name"</string>
+    <string name="blurbGroupImageInvalid">"The organization must have an image"</string>
+    <string name="labelEditGroup">"EDIT GROUP"</string>
+    <string name="blurbGroupCreationFail">"Group was not successfully created.  Please Try Again."</string>
+    <string name="blurbGroupCreationSuccess">"Created Group %s!"</string>
+    <string name="blurbGroupUpdateFail">"Group was not successfully updated.  Please Try Again."</string>
+    <string name="blurbGenericErrorMessage">"An error has occurred. Please try again."</string>
+    <string name="statusNoUsersFound">"No users found matching criteria"</string>
+    <string name="labelMembers">"Members"</string>
+    <string name="labelSend">"Send"</string>
+    <string name="statusFailedToTetrieveMessages">"Fail to retrieve new messages"</string>
+    <string name="questionSaveMessage">"Save Message?"</string>
+
+    <!-- Message Friends -->
+    <string name="hintFriendsName">"First Name Last Name"</string>
+    <string name="blurbErrorLoadingIndex">"An error has occurred while loading."</string>
+    <string name="titleNewMessage">"New Message"</string>
+
+    <!-- Drawer Notifications -->
+    <string name="statusSentYouANewMessage">"Sent you a new message"</string>
+    <string name="statusReadYourMessage">"Read your message"</string>
+    <string name="labelCommentedOnYourPost">"Commented on your post"</string>
+    <string name="statusInvitedYouToJoin">"Invited you to join"</string>
+    <string name="statusLoginFailed">"Login Failed. Please check internet connection and try again."</string>
+
+    <!-- ######################################### SET 2 STRINGS ##################################################### -->
+    <string name="labelNone">"None"</string>
+    <string name="label15s">"15s"</string>
+    <string name="label30s">"30s"</string>
+    <string name="label60s">"60s"</string>
+    <string name="label120s">"120s"</string>
+    <string name="labelHome">"Home"</string>
+    <string name="labelMessages">"Messages"</string>
+    <string name="labelFriends">"Friends"</string>
+    <string name="labelGroups">"Groups"</string>
+    <string name="labelNotifications">"Notifications"</string>
+    <string name="labelSubscriptionsGP">"GET PLUS"</string>
+    <string name="labelInvite">"Invite"</string>
+    <string name="labelStore">"Store"</string>
+    <string name="labelAbout">"ABOUT"</string>
+    <string name="labelChange">"change"</string>
+    <string name="labelPushMNotifications">"PUSH NOTIFICATIONS"</string>
+    <string name="titleSwitchTitle1">"SWITCH TITLE 1"</string>
+    <string name="titleSwitchTitle2">"SWITCH TITLE 2"</string>
+
+    <!-- Strings for Async Errors -->
+    <string name="labelRetry">"RETRY"</string>
+    <string name="statusUnableToGatherFriendsToInvite">"Unable to gather friends to invite"</string>
+    <string name="statusUnableToInviteFriends">"Unable to invite friends"</string>
+    <string name="statusUnableToPostToGroup">"Unable to post to organization"</string>
+    <string name="statusUnableToPost">"Unable to post"</string>
+    <string name="statusPostAlreadyFlagged">"Unable to flag post, you have already flagged this"</string>
+    <string name="statusUnableToFlagPost">"Unable to flag post"</string>
+    <string name="statusUnableToGetPost">"Unable to get post"</string>
+    <string name="statusUnableToGetPostComments">"Unable to get post comments"</string>
+    <string name="statusUnableToLikePost">"Unable to like post"</string>
+    <string name="statusUnableToUnlikePost">"Unable to unlike post"</string>
+    <string name="statusUnableToCreateGroup">"Unable to create organization"</string>
+    <string name="statusUnableToUpdateGroup">"Unable to update organization"</string>
+    <string name="statusUnableToRefreshFeed">"Unable to refresh feed"</string>
+    <string name="statusUnableToGetPosts">"Unable to get posts"</string>
+    <string name="statusUnableToGetUnreadMessages">"Unable to get unread messages"</string>
+    <string name="statusUnableToGetFriends">"Unable to get friends"</string>
+    <string name="statusUnableToGetGroup">"Unable to get organization"</string>
+    <string name="statusUnableToGetGroupPosts">"Unable to get organization posts"</string>
+    <string name="statusUnableToGetGroupList">"Unable to get organization list"</string>
+    <string name="statusUnableToRemoveOrDeleteGroup">"Unable to remove or delete organization"</string>
+    <string name="statusUnableToGetChats">"Unable to get chats"</string>
+    <string name="statusUnableToGetSavedMessages">"Unable to get saved messages"</string>
+    <string name="statusUnableToUpdateNotificationAsViewed">"Unable to update notification as viewed"</string>
+    <string name="statusUnableToGetMessage">"Unable to get message"</string>
+    <string name="statusUnableToFollowUser">"Unable to follow user"</string>
+    <string name="statusUnableToUnfollowUser">"Unable to unfollow user"</string>
+    <string name="statusUnableToLoadProfile">"Unable to load profile"</string>
+    <string name="statusUnableToUpdateAvatar">"Unable to update avatar"</string>
+    <string name="statusUnableToInviteUserToGroup">"Unable to invite user to organization"</string>
+    <string name="statusUnableToPurchaseSubscription">"Unable to purchase subscription"</string>
+    <string name="statusUnableToUpdateUsersProfile">"Unable to update user's profile"</string>
+    <string name="statusUnableToSendMessage">"Unable to send message"</string>
+    <string name="statusUnableToSetExpiration">"Unable to set message expiration"</string>
+    <string name="statusUnableToSaveMessage">"Unable to save message"</string>
+    <string name="statusUnableToGetChat">"Unable to get chat with user"</string>
+    <string name="statusUnableToGetSentMessages">"Unable to get sent messages"</string>
+    <string name="statusUnableToGetMissedMessages">"Unable to get missed messages"</string>
+    <string name="statusUnableToGetNotifications">"Unable to get notifications"</string>
+    <string name="statusUnableToAcceptGroupInvite">"Unable to accept organization invite"</string>
+    <string name="statusUnableToDeclineGroupInvite">"Unable to decline organization invite"</string>
+    <string name="statusUnableToGetMoreNotifications">"Unable to get more notifications"</string>
+    <string name="statusUnableToGetFollowingUsers">"Unable to get users you are following"</string>
+    <string name="statusUnableToGetFollowers">"Unable to get followers"</string>
+    <string name="statusUnableToGetMessages">"Unable to get messages"</string>
+    <string name="statusUnableToGoToChat">"Unable to go to chat"</string>
+
+    <!-- Search hints -->
+    <string name="hintSearchForUsersToInvite">"search for people to invite"</string>
+    <string name="hintSearchFriends">"search friends"</string>
+    <string name="hintSearchForFriends">"search for friends"</string>
+    <string name="hintSearchForMembers">"search for members"</string>
+    <string name="hintSearchForUsersToChatWith">"search for users to chat with"</string>
+    <string name="hintSearchContacts">"search contacts"</string>
+
+    <!-- Notifications -->
+    <string name="statusNewNotificationReceived">"A new notification was received"</string>
+    <string name="labelRefresh">"REFRESH"</string>
+    <string name="labelViewed">"Viewed"</string>
+    <string name="labelAccepted">"accepted"</string>
+    <string name="labelDeclined">"declined"</string>
+    <string name="titleNotification">"Conx2Share Notification"</string>
+    <string name="clearAllNotificationRequest">""Are you sure you want to mark all your notifications as read?"</string>
+
+    <!-- Prompt text -->
+    <string name="labelYes">"Yes"</string>
+    <string name="labelNo">"No"</string>
+    <string name="labelOk">"OK"</string>
+    <string name="labelExclamation">"!"</string>
+
+    <!-- Subscription Strings -->
+    <string name="statusSubscribedSuccessfully">"Subscribed Successfully"</string>
+    <string name="statusFailedToSubscribe">"Failed to subscribe"</string>
+    <string name="labelPriceFree">"0"</string>
+    <string name="labelPricePlus">"2.40/year"</string>
+    <string name="labelPricePremium">"29.99/year"</string>
+    <string name="labelPricePlatinum">"49.99/year"</string>
+
+    <!-- CDATA section was removed from the english version and should be removed from all languages. -->
+    <string name="blurbFreeSubscriptionDescription">"Photos &amp; videos will be deleted after being viewed."</string>
+    <string name="titleFreeSubscription">"Free"</string>
+    <string name="labelSubscribe">"Subscribe!"</string>
+    <string name="labelCurrentSubscription">"current subscription"</string>
+    <string name="labelAgo">"ago"</string>
+    <string name="labelPlus">"Plus"</string>
+    <string name="blurbPlusSubscriptionDescription">"Save up to 5 photos and 1 video."</string>
+    <string name="titlePremiumSubscription">"Premium"</string>
+
+    <!-- CDATA section was removed from the english version and should be removed from all languages. -->
+    <string name="blurbPremiumSubscriptionDescription">"Cx2share email and 50GB of data storage for messaging, photos &amp; video."</string>
+    <string name="titlePlatinumSubscription">"Platinum"</string>
+    <string name="blurbPlatinumSubscriptionDescription">"Cx2share email and 100GB of data storage for messaging, photos &amp; videos."</string>
+
+    <!-- Sharing Strings -->
+    <string name="labelSharedBy">"\" shared by "</string>
+    <string name="blurbViaConx2shareAndroid">" via Conx2share Android"</string>
+    <string name="titleConx2shareForAndroid">"Conx2share for Android"</string>
+    <string name="messagePleaseInstallFacebook">"Please install the Facebook app in order to share your post."</string>
+    <string name="messagePleaseInstallTheTwiiterApp">"Please install the Twitter app in order to share your post."</string>
+
+    <!-- Progress Dialog Strings -->
+    <string name="statusLoadingMessages">"Loading messages..."</string>
+    <string name="statusGatheringFriends">"Gathering friends..."</string>
+    <string name="statusGatheringMessages">"Gathering messages..."</string>
+    <string name="statusGatheringChats">"Gathering chats..."</string>
+    <string name="statusGatheringFollowedUsers">"Gathering users you are following..."</string>
+    <string name="statusGatheringFollowers">"Gathering followers..."</string>
+    <string name="statusSendingMessage">"Sending message..."</string>
+    <string name="statusPosting">"Posting..."</string>
+    <string name="statusGatheringSavedMessages">"Gathering saved messages..."</string>
+    <string name="statusGatheringChatInformation">"Gathering chat information..."</string>
+
+    <!-- Group Strings -->
+    <string name="labelDeleteGroup">"Delete Group"</string>
+    <string name="labelLeaveGroup">"Leave Group"</string>
+    <string name="labelDeletedGroup">"Deleted Group "</string>
+    <string name="labelLeftGroup">"Left Group "</string>
+    <string name="labelUpdatedGroup">"Updated Group "</string>
+    <string name="labelGroupOwner">"organization owner"</string>
+    <string name="labelGroupMembers">"Group Members"</string>
+    <string name="labelGroupName">"Group Name"</string>
+
+    <!-- Following Strings -->
+    <string name="labelFollowers">"Followers"</string>
+    <string name="labelFollowing">"Following"</string>
+    <string name="statusFailedToFollow">"Following failed. Try Again."</string>
+    <string name="labelUnfollowed">"Unfollowed"</string>
+    <string name="labelFollow">"FOLLOW"</string>
+    <string name="labelUnfollow">"UNFOLLOW"</string>
+    <string name="statusFollowedYou">"Followed you"</string>
+
+    <!-- SignUp Strings -->
+    <string name="statusYouAreNowSignedUp">"You are now signed up!"</string>
+    <string name="statusFailedToSignUp">"Failed to sign up, please try again."</string>
+    <string name="statusPleaseFillOutAllFields">"Please fill out all fields"</string>
+
+    <!-- Image and video strings -->
+    <string name="titleSelectPicture">"Select Picture"</string>
+    <string name="questionUploadFromLibrary">"Would you like to take a video or upload from your library?"</string>
+    <string name="statusErrorUploadingVideo">"An error occurred while loading your video"</string>
+    <string name="messageSelectImageError">"Please choose an image stored on your device. This doesn't include images cached from other applications or social media outlets."</string>
+    <string name="statusTwitterImageError">"Image failed to load and attach to the Twitter post."</string>
+    <string name="satusErrorSelectingImage">"Error occurred when selecting your image"</string>
+    <string name="questionSelectUpload">"What would you like to upload?"</string>
+    <string name="statusImageDownloadFailed">"Image download failed"</string>
+    <string name="statusImageNotFound">"Image could not be found"</string>
+    <string name="labelVideoTake">"Take Video"</string>
+    <string name="statusFileExceedsLimit">"File exceeds 10Mb limit."</string>
+    <string name="questionSelectVideoSource">"Take of video or get one from your library?"</string>
+    <string name="questionSelectImageSource">"Take of picture or get one from your library?"</string>
+
+    <!-- Fuzzy -->
+    <string name="indicatorMedia">"(media)"</string>
+
+    <!-- Fuzzy -->
+    <string name="indicatorPicture">"(picture)"</string>
+
+    <!-- Fuzzy -->
+    <string name="indicatorVideo">"(video)"</string>
+
+    <!-- Fuzzy -->
+    <string name="indicatorAudio">"(audio)"</string>
+
+    <!-- Post Strings -->
+    <string name="promptFlagContentAsInappropriate">"Would you like to flag this post for inappropriate content?"</string>
+    <string name="statusPostFlagged">"This post has now been flagged"</string>
+    <string name="statusMadeANewPost">"Made a new post"</string>
+    <string name="statusMadeANewGroupPost">"Made a new organization post"</string>
+    <string name="hintEnterYourMessageHere">"Enter your message here..."</string>
+
+    <!-- Password Strings -->
+    <string name="promptForgotPassword">"Forgot Password?"</string>
+    <string name="hintEnterYourEmail">"Please enter your email."</string>
+    <string name="labelChangePassword">"Change Password"</string>
+    <string name="statusCantResetPassword">"Can't Reset Password"</string>
+    <string name="labelResetPassword">"Reset Password"</string>
+    <string name="statusResetPasswordEmailSent">"Reset password email sent"</string>
+    <string name="statusPleaseEnterYourEmailAddress">"Please enter your email address and try again."</string>
+    <string name="labelConfirmNewPassword">"Confirm New Password"</string>
+    <string name="labelNewPassword">"New Password"</string>
+    <string name="labelOldPassword">"Old Password"</string>
+    <string name="statusUpdatingPassword">"Updating password"</string>
+    <string name="statusOldPasswordIncorrect">"Old password is incorrect."</string>
+    <string name="statusPasswordUpdated">"Password updated"</string>
+    <string name="statusPasswordFailedToUpdate">"Password failed to update, please try again"</string>
+    <string name="statusPasswordsDontMatch">"Your passwords do not match"</string>
+    <string name="statusOldPasswordError">"Old Password Error"</string>
+    <string name="statusOldPasswordInvalid">"The old password you entered is not valid"</string>
+    <string name="blurbPasswordsDontMatch">"The New Password and Confirm Password do not match.  Please try again."</string>
+    <string name="you_password_has_been_updated">"Your password has been updated"</string>
+    <string name="change_password_error">"Error"</string>
+
+    <!-- Drawer Items -->
+    <string name="labelDrawerHome">"Home"</string>
+    <string name="labelDrawerMessages">"Messages"</string>
+    <string name="labelDrawerFriends">"Friends"</string>
+    <string name="labelDrawerGroups">"Groups"</string>
+    <string name="labelDrawerNotifications">"Notifications"</string>
+    <string name="labelDrawerSubscriptions">"Subscriptions"</string>
+    <string name="labelDrawerInvite">"Invite"</string>
+    <string name="labelDrawerStore">"Store"</string>
+    <string name="labelDrawerEshopping">"E-Shopping"</string>
+    <string name="labelDrawerGames">"Games"</string>
+    <string name="labelDrawerBusiness">"Business"</string>
+
+    <!-- Other Strings -->
+    <string name="blurbFacebookConnectNotImplemented">"Facebook Connect not yet implemented"</string>
+    <string name="blurbTwiterConnectNotImplemented">"Twitter Connect not yet implemented"</string>
+    <string name="errorNoChatNotFollowed">"Both users must follow each other to chat"</string>
+    <string name="errorTryAgain">"Please try again"</string>
+    <string name="statusMessageSaved">"Message is saved."</string>
+    <string name="errorPasswordLength">"Your password must be at least 8 characters"</string>
+    <string name="errorPasswordsNotMatch">"Passwords do not match"</string>
+    <string name="errorGenericSignUp">"An error has occurred while signing up."</string>
+    <string name="statusSigningUp">"Signing Up..."</string>
+    <string name="blurbSubscriptionLevelTooLow">"You already have a higher subscription level"</string>
+    <string name="errorPleaseAcceptTerms">"Please accept terms and conditions."</string>
+
+    <!-- <string name="please_accept_the_terms_of_service">Please accept the terms of service</string> -->
+    <string name="errorUsernameTaken">"User name is already taken."</string>
+    <string name="blurbNotConnectedToGooglePlay">"Not connected to the Google Play Store"</string>
+    <string name="blurbComingSoon">"Coming soon!"</string>
+    <string name="labelAccept">"accept"</string>
+    <string name="labelDecline">"decline"</string>
+    <string name="hintLeaveAComment">"Leave a comment..."</string>
+    <string name="labelZero">"0"</string>
+    <string name="labelOne">"1"</string>
+
+    <!-- ######################################### SET 3 STRINGS ##################################################### -->
+    <string name="statusUnableToGetGroupMembers">"Unable to get current organization members"</string>
+    <string name="statusUnableToLoadWebPage">"Unable to load web page"</string>
+    <string name="hintEnterText">"Please enter text"</string>
+    <string name="labelTermsOfService">"terms of service"</string>
+    <string name="blurbTermsOfServiceAndPrivacyPolicy">"I've read and agree to the terms of service and privacy policy"</string>
+    <string name="labelPrivacyPolicy">"privacy policy"</string>
+    <string name="statusGroupUpdateSuccess">"Updated Group %s!"</string>
+    <string name="statusRetrievingNotificationsFailed">"Retrieving notifications failed. Please try again."</string>
+    <string name="errorGenericMessaging">"An error has occurred during messaging"</string>
+
+    <!-- Message Friends Index -->
+    <string name="labelSaved">"Saved"</string>
+    <string name="labelCurrent">"Current"</string>
+
+    <!-- Follow -->
+    <string name="labelFollowed">"Followed"</string>
+    <string name="statusUnfollowFailed">"Unfollow failed. Try Again."</string>
+    <string name="labelStartRecording">"Start Recording"</string>
+    <string name="labelSubmit">"submit"</string>
+    <string name="errorInvalidUsernameOrPassword">"Invalid username or password"</string>
+    <string name="statusUnableToUpdateFollowersCount">"Unable to update followers count"</string>
+
+    <!-- Promo Codes -->
+    <string name="labelPromoCode">"Promo Code (optional)"</string>
+    <string name="labelActivatePromoCode">"Activate Promo Code"</string>
+    <string name="errorInvalidPromoCode">"The promo code you entered is invalid."</string>
+    <string name="blurbInvalidPromoCode">"The promo code you entered is invalid. Enter a valid promo code or clear the current promo code."</string>
+    <string name="hintEnterPromoCode">"Please enter your promo code..."</string>
+    <string name="blurbAccountSubscriptionUpgradedPlus">"Your account has been upgraded to a Plus Subscription."</string>
+
+    <!-- ######################################### SET 4 STRINGS ##################################################### -->
+    <string name="statusUnableToCheckPromoCodeValid">"Unable to check if promo code is valid"</string>
+    <string name="blurbPromoUpgradePlusDescription">"The promo code you entered was valid. If you were a free user, your account has been upgraded to a Plus subscription."</string>
+    <string name="statusValidPromoCode">"Valid Promo Code"</string>
+    <string name="statusInvalidPromoCode">"Invalid Promo Code"</string>
+    <string name="statusUnableUpdateUserToPromoUser">"Unable to update user to promo user"</string>
+    <string name="errorEmailAlreadyUsed">"Email has already been taken"</string>
+
+    <!-- ######################################### SET 5 Strings ##################################################### -->
+    <string name="statusUserFavoritingFailed">"User favoriting failed."</string>
+    <string name="statusUserUnfavoritingFailed">"User unfavoriting failed"</string>
+    <string name="errorGroupNameTaken">"Group name is already taken."</string>
+    <string name="blurbNewMessageReceivedFrom">"You have received a new message from"</string>
+    <string name="labelOneM">"1m"</string>
+    <string name="statusUnableToPostComment">"Unable to post comment"</string>
+    <string name="labelStartChat">"Start New Chat"</string>
+    <string name="promptDeleteGroupConfirm">"Are you sure you want to delete the organization?"</string>
+    <string name="promptLeaveGroupConfirm">"Are you sure you want to leave the organization?"</string>
+    <string name="labelExit">"Exit"</string>
+    <string name="labelAttachPhoto">"Please attach a photo"</string>
+    <string name="labelAttachVideo">"Please attach a video."</string>
+    <string name="errorEmailBlank">"Email can't be blank"</string>
+
+    <!-- ######################################### SET 6 Strings ##################################################### -->
+    <string name="errorGroupIsPerminant">"You cannot leave or delete the Conx2Share organization"</string>
+    <string name="labelPromoted">"Promoted"</string>
+    <string name="errorRecordingTooShort">"Recording is not long enough."</string>
+    <string name="warningRecordingWillBeTruncated">"Only first 2 mins of recording will be sent."</string>
+    <string name="statusUnableToSendAudioMessage">"Unable to send audio message"</string>
+    <string name="statusUnableToGetBusinessInfo">"Unable to load Business information"</string>
+    <string name="statusCouldNotRetrieveYourBusinesses">"Could not retrieve your businesses"</string>
+    <string name="statusCannotPostToConx2shareGroup">"You cannot post to the Conx2share Group."</string>
+    <string name="hintSearchForBusinesses">"search for businesses"</string>
+    <string name="LabelBusinesses">"Businesses"</string>
+    <string name="labelBusinessOwner">"business owner"</string>
+    <string name="labelGroup">"Group: "</string>
+    <string name="labelBusiness">"Business: "</string>
+    <string name="labelBusinesses">"Businesses"</string>
+    <string name="labelDeletePost">"Delete Post"</string>
+    <string name="errorDeletePostNotOwner">"You don't own this post to delete it"</string>
+    <string name="promptDeletePostConfirm">"Are you sure you want to delete this post?"</string>
+    <string name="statusPostDeleted">"Post Deleted"</string>
+    <string name="statusUnableDeletePost">"Unable to delete post"</string>
+    <string name="labelDeleteComment">"Delete Comment"</string>
+    <string name="errorDeleteCommentNotOwner">"You don't own this comment to delete it"</string>
+    <string name="promptDeleteCommentConfirm">"Are you sure you want to delete this comment?"</string>
+    <string name="statusCommentDeleted">"Comment deleted"</string>
+    <string name="statusUnableDeleteComment">"Unable to delete comment"</string>
+    <string name="labelFlagPost">"Flag Post"</string>
+    <string name="errorGenericCommentNotOwner">"You can't do anything with this comment since you don't own it"</string>
+    <string name="errorEditPostNotOwner">"You don't own this post to edit it"</string>
+    <string name="labelEditPost">"Edit Post"</string>
+    <string name="promptEditPost">"Do you want to edit this post?"</string>
+    <string name="lableUpdate">"Update"</string>
+    <string name="statusUnableToUpdatePost">"Unable to update post"</string>
+    <string name="statusPostEdited">"Post Edited"</string>
+    <string name="statusUpdatingPost">"Updating post..."</string>
+    <string name="labelFlagInappropriate">"FLAG AS INAPPROPRIATE"</string>
+    <string name="errorCannotChangeAudienceEditingPost">"You cannot change the audience when editing a post."</string>
+    <string name="hintEnterCommentHere">"Enter your comment here..."</string>
+    <string name="labelUpdate">"Update"</string>
+    <string name="labelEditComment">"Edit Comment"</string>
+    <string name="errorEditCommentNotOwner">"You don't own this comment to edit it."</string>
+    <string name="statusCommentUpdated">"Comment Updated!"</string>
+    <string name="statusUnableUpdateComment">"Unable to update comment"</string>
+    <string name="statusUpdatingComment">"Updating comment..."</string>
+    <string name="errorGenericImageUploadFailed">"Something went wrong while uploading your image"</string>
+    <string name="errorGenericFileUploadFailed">"Something went wrong while uploading your file"</string>
+    <string name="labelPhoto">"Photo"</string>
+    <string name="labelVideo">"Video"</string>
+    <string name="labelRemoveFromGroup">"REMOVE FROM GROUP"</string>
+    <string name="errorEditGroupMemberNotOwner">"You can't do anything with this organization member since you aren't the organization owner"</string>
+    <string name="labelRemoveUserFromGroup">"Remove User From Group"</string>
+    <string name="promptBlockUserFromGroupConfirm">"Are you sure you want to block this user from the organization?"</string>
+    <string name="labelBlockUser">"Block User"</string>
+    <string name="promptRemoveUserFromGroupConfirm">"Are you sure you want to remove this user from the organization?"</string>
+    <string name="labelMember">"member"</string>
+    <string name="labelFollower">"follower"</string>
+    <string name="statusUnableFollowGroup">"Unable to follow organization"</string>
+    <string name="labelUnableUnfollowGroup">"Unable to unfollow organization"</string>
+    <string name="labelGroupFollowers">"Group Followers"</string>
+    <string name="hintSearchForFollowers">"search for followers"</string>
+    <string name="statusUnableToInviteUserToFollowGroup">"Unable to invite user to follow organization"</string>
+    <string name="statusSendInviteToFollowGroup">"Invite to follow organization sent"</string>
+    <string name="statusUnableToBlockUserFromGroup">"Unable to block user from organization"</string>
+    <string name="statusUserBlockedFromGroup">"You have blocked this user from the organization."</string>
+    <string name="statusUnableToRemoveUserFromGroup">"Unable to remove user from organization"</string>
+    <string name="statusUserRemovedFromGroup">"User has been removed from organization"</string>
+    <string name="statusInvitedToFollowGroup">"Invited you to follow organization"</string>
+    <string name="hintSearchForGroups">"search for groups"</string>
+    <string name="labelPrivate">"Private"</string>
+    <string name="labelBlog">"Blog"</string>
+    <string name="labelDiscussion">"Discussion"</string>
+    <string name="statusUnableToLeaveGroup">"Unable to leave organization"</string>
+    <string name="statusUnableToGetGroupFollowers">"Unable to get organization followers"</string>
+    <string name="statusUnableToUnblockUser">"Unable to unblock user"</string>
+    <string name="statusUserUnblockedFromGroup">"You have unblocked this user from the organization"</string>
+    <string name="statusBlockedUnablePostGroup">"Unable to post to organization, blocked"</string>
+    <string name="statusBlockedUnablePostComment">"Unable to post comment, blocked"</string>
+    <string name="labelUnblockUser">"Unblock User"</string>
+    <string name="promptUnblockUserConfirm">"Are you sure you want to unblock this user?"</string>
+    <string name="statusBlockedUnableToUpdatePost">"Unable to update post, blocked"</string>
+    <string name="statusBlockedUnableToUpdateComment">"Unable to update comment, blocked"</string>
+    <string name="bogusEmergencyLogoutToast">"Your session is invalid. Please login again."</string>
+    <string name="statusUnableToLeaveOrDeleteGroup">"Unable to leave or delete organization"</string>
+    <string name="labelPublic">"PUBLIC"</string>
+    <string name="statusCreatingGroup">"Creating organization..."</string>
+    <string name="statusUpdatingGroup">"Updating organization..."</string>
+    <string name="statusUnableToDeleteGroup">"Unable to delete organization"</string>
+    <string name="promptUnfollowGroupConfirm">"Are you sure you want to unfollow the organization?"</string>
+    <string name="labelUnfollowGroup">"Unfollow Group"</string>
+    <string name="labelGo">"go"</string>
+    <string name="hintSearchHashtags">"search hashtags"</string>
+    <string name="statusNoPostsFoundForHashtag">"No posts were found for that hash tag"</string>
+    <string name="statusUnableToGetHashtagResults">"Unable to get hash tag results"</string>
+    <string name="labelSubscriptions">"Subscriptions"</string>
+    <string name="labelAddFriends">"Add Friends"</string>
+    <string name="labelSearchBusinesses">"Search Businesses"</string>
+    <string name="labelInviteFollowers">"Invite Followers"</string>
+    <string name="labelInviteMembers">"Invite Members"</string>
+    <string name="labelSearchGroups">"Search Groups"</string>
+    <string name="labelDiscover">"Discover"</string>
+    <string name="bogusAnErrorOccurredTryingToStartYourGallery">"An error occurred trying to start your gallery"</string>
+    <string name="statusHashtagNotFound">"The hash tag searched for was not found"</string>
+    <string name="labelRestore">"Restore"</string>
+    <string name="statusSubscriptionRestoredSuccessfully">"Subscription restored successfully!"</string>
+    <string name="statusUnableToRestoreSubscription">"Unable to restore subscription"</string>
+    <string name="statusRestoringSubscription">"Restoring subscription..."</string>
+    <string name="labelRestoreSubscription">"Restore Subscription"</string>
+    <string name="promptRestoreSubscriptionFromGoogleConfirm">"Do you want to restore your subscription based off information from Google?"</string>
+    <string name="statusUnableToSearchUsers">"Unable to search for users to tag"</string>
+    <string name="labelSelectFile">"Select File"</string>
+    <string name="statusUpdatingUserAvatar">"Updating user avatar..."</string>
+    <string name="labelHashtags">"Hashtags"</string>
+    <string name="lableUsers">"Users"</string>
+    <string name="labelPage">"Page "</string>
+    <string name="labelTags">"Tags"</string>
+    <string name="labelInvites">"Invites"</string>
+    <string name="labelPosts">"posts"</string>
+    <string name="messageCancelGoogleSubscriptionNotice">"When purchasing a new subscription, if you already have a current subscription please click on the 'current subscription' link so that you may cancel it through the Google Play Store."</string>
+    <string name="titleCancelGoogleSubscription">"Notice For Current Subscription Owners"</string>
+    <string name="labelContinueToPurchase">"Continue To Purchase"</string>
+    <string name="labelGoBack">"Go Back"</string>
+    <string name="hintSearchUsers">"search users"</string>
+    <string name="labelUnknownShort">"(?)"</string>
+    <string name="labelUnknown">"Unknown"</string>
+    <string name="labelPeople">"People"</string>
+    <string name="blurbPushNotificationNewMessages">"Enable or disable receiving push notifications for new messages"</string>
+    <string name="blurbPushNotificationGroupInvites">"Enable or disable receiving push notifications for new organization invites"</string>
+    <string name="blurbPushNotificationNewComments">"Enable or disable receiving push notifications for new comments on your posts"</string>
+    <string name="blurbPushNotificationFromFollowedGroupsAndBusiness">"Enable or disable receiving push notifications for new posts from businesses or groups you're following"</string>
+    <string name="blurbPushNotificationWhenFollowed">"Enable or disable receiving push notifications for when someone follows you"</string>
+    <string name="blurbPushNotificationWhenTagged">"Enable or disable receiving push notifications for when someone tags you in a post or comment"</string>
+    <string name="statusUnableToFollowBusiness">"Could not follow business"</string>
+    <string name="statusUnableToUnfollowBusiness">"Could not unfollow business"</string>
+    <string name="statusNoBusinesses">"You have no businesses"</string>
+    <string name="statusTaggedYouPost">"Tagged you in a post"</string>
+    <string name="statusTaggedYouComment">"Tagged you in a comment"</string>
+    <string name="statusCreatedBusinessPost">"Made a new business post"</string>
+    <string name="labelAbort">"Abort"</string>
+    <string name="promptAbortBusinessDetailsConfirm">"Are you sure you want to abort providing your business details?"</string>
+    <string name="blurbSignUpBusinessNotice">"This is a business account -- further account setup is required"</string>
+    <string name="errorEnterValidEmailAddress">"Please enter a valid email address"</string>
+    <string name="errorUsernameLettersAndNumbersOnly">"Please use only letters and numbers for your username"</string>
+    <string name="statusMustRestoreAccountUsingYourGoogleCredentials">"You cannot restore your account using someone else's Google credentials"</string>
+    <string name="blurbRegisterAsBusiness">"Register for a business account"</string>
+    <string name="errorEnterUsernameMinimumMaximumChars">"Please enter in a username that is between 2 and 20 characters"</string>
+    <string name="hintSearchToDiscover">"search to discover"</string>
+    <string name="labelNews">"News"</string>
+    <string name="statusUnableToLoadRssFeed">"Unable to load RSS Feed"</string>
+    <string name="statusUnableToGetNewsSources">"Unable to get news sources"</string>
+    <string name="statusNoNewsSourcesFound">"No news sources returned from server"</string>
+    <string name="hintSearchTheNews">"search the news"</string>
+    <string name="labelBirthday">"Birthday"</string>
+    <string name="errorDateOfBirthRequired">"Please enter in a birthday"</string>
+    <string name="errorBusinessRegistrationDateOfBirthRequired">"You must have a birthday entered and be over 18 to register a business."</string>
+    <string name="errorBusinessRegistrationMinimumAge">"You must be over eighteen to register a business"</string>
+    <string name="statusUnableToSearchHashtags">"Unable to search for hashtags to include"</string>
+
+    <!-- Denoted a user initiated operation that was cancelled. e.g. the user tries to take a picture, but then cancels the operation. -->
+    <string name="blurbGenericOperationCanceled">"Operation canceled"</string>
+    <string name="statusPasswordNotValid">"The password you entered is not valid"</string>
+
+    <!-- Authentication -->
+    <string name="blurbLoginRequested">"Sign in to your account"</string>
+
+    <!-- Authentication -->
+    <string name="blurbLoginPasswordRequested">"Enter the password for this account"</string>
+
+    <!-- Selecting a picture of video source, e.g. camera or gallery? -->
+    <string name="titleSelectSource">"Select Source"</string>
+
+    <!-- Rational for granting security access to the camera. -->
+    <string name="permissionCameraAccessRationale">"Access to the camera is required to take pictures and video for sharing."</string>
+
+    <!-- Camera access was denied by the user. -->
+    <string name="permissionCameraAccessDenied">"Camera access denied."</string>
+
+    <!-- Covers all permission related to including images/videos/media to a post. -->
+    <string name="permissionAttachRationale">"Access to the camera and the file system are used to attach media to your messages."</string>
+
+    <!-- Permissions used to attach media were denied. -->
+    <string name="permissionAttachAccessDenied">"The app needs \"Camera\" and \"Storage\" permission for attachments. One or more of those permissions has been denied."</string>
+
+    <!-- Permission to read external storage is denied. -->
+    <string name="permissionReadExternalStorageAccessDenied">"Read from storage denied."</string>
+
+    <!-- Permission to write to external storage is denied. -->
+    <string name="permissionWriteExternalStorageAccessDenied">"Write to storage denied."</string>
+
+    <!-- Why the app needs to read to external storage. -->
+    <string name="permissionReadExternalStorageRational">"Access to read files is required for sharing photos and videos."</string>
+
+    <!-- Why the app needs to write to external storage. -->
+    <string name="permissionWriteExternalStorageRational">"Access to write files is required for sharing photos and videos."</string>
+
+    <!-- Permission was granted. -->
+    <string name="permissionAttachAccessGranted">"Permission for attachments granted. "</string>
+
+    <!-- Common title for all rational dialogs -->
+    <string name="permissionRationalTitle">"Permission Request"</string>
+    <string name="labelSettings">"Settings"</string>
+
+    <!-- RecordAudio is used for voice messaging. -->
+    <string name="permissionRecordAudioAccessRationale">"Record Audio permission is needed for voice messages."</string>
+
+    <!-- RecordAudio permission was rejected. -->
+    <string name="permissionRecordAudioAccessDenied">"Record Audio permission denied."</string>
+
+    <!-- Why do we need the micropphone -->
+    <string name="permissionMicrophoneRationale">"Access to the microphone and the file system are used to send voice messages."</string>
+    <string name="permissionMicrophoneAccessGranted">"Microphone permission granted."</string>
+    <string name="permissionMicrophoneAccessDenied">"Microphone permission denied."</string>
+    <string name="permissionReadContactsAccessRationale">"Give the application the ability to read your contacts."</string>
+    <string name="permissionReadContactsAccessDenied">"Read Contacts access denied."</string>
+    <string name="permissionContactRationale">"Access to your contacts is used for finding people to invite."</string>
+    <string name="permissionContactAccessGranted">"Contact access granted."</string>
+    <string name="permissionContactAccessDenied">"Contact access denied."</string>
+
+    <!-- Generic empty list content -->
+    <string name="emptyList">"Nothing to show"</string>
+
+    <!-- Empty list of groups -->
+    <!-- Fuzzy -->
+    <string name="emptyListGroups">"No groups found"</string>
+
+    <!-- Text label used as a placeholder when there is no other data. -->
+    <string name="emptyNoData">"(empty)"</string>
+
+    <!-- label to show that there is a picture attached, but nothing in the text field. -->
+    <string name="emptyNoDataImage">"(picture)"</string>
+
+    <!-- label to show that there is a video attached, but nothing in the text field. -->
+    <string name="emptyNoDataVideo">"(video)"</string>
+
+    <!-- label to show that there is audio attached, but nothing in the text field. -->
+    <string name="emptyNoDataAudio">"(audio)"</string>
+
+    <!-- The title of the dialog that informs the user that they don't have network connectivity. -->
+    <string name="dialogNoNetworkTitle">"No Network"</string>
+
+    <!-- The message telling the user that they don't have network connectivity. -->
+    <string name="dialogNoNetworkMessage">"This application requires a network connection for full functionality. Certain features may not work while there is no network connection."</string>
+    <string name="labelPlay">"Play"</string>
+    <string name="labelEvent">"Event"</string>
+    <string name="labelText">"Text"</string>
+    <string name="labelAudio">"Audio"</string>
+    <string name="labelVerbose">"Verbose"</string>
+    <string name="labelNormal">"Normal"</string>
+    <string name="labelLogging">"Logging"</string>
+    <string name="labelLive">"Live"</string>
+    <string name="labelDelete">"Delete"</string>
+    <string name="labelEdit">"Edit"</string>
+    <string name="labelEvents">"Events"</string>
+    <string name="labelBoth">"Both"</string>
+    <string name="labelOnline">"Online"</string>
+    <string name="labelStarting">"Starting"</string>
+
+    <!-- the app was unable to create an event -->
+    <string name="statusErrorUnableToCreateEvent">"Unable to create event"</string>
+
+    <!-- The app was unable to update an event -->
+    <string name="statusErrorUnableToUpdateEvent">"Unable to update event"</string>
+
+    <!-- the app was unable to get an event for the business -->
+    <string name="statusErrorUnableToGetEventsForBusiness">"Unable to get events for business"</string>
+
+    <!-- the app was unable to get an event for the organization -->
+    <string name="statusErrorUnableToGetEventsForGroup">"Unable to get events for organization"</string>
+
+    <!-- the app was unable to get livestream events -->
+    <string name="statusErrorUnableToGetLiveStreamEvents">"Unable to get Live Stream events"</string>
+
+    <!-- the app was unable to delete an event -->
+    <string name="statusErrorUnableToDeleteEvent">"Unable to delete event"</string>
+    <string name="labelMyEvents">"My Events"</string>
+    <string name="labelEventType">"Event Type"</string>
+    <string name="labelBusinessName">"Business Name"</string>
+    <string name="labelEventDate">"Event Date"</string>
+    <string name="labelEventEndTime">"Event End Time"</string>
+    <string name="labelEventStartTime">"Event Start Time"</string>
+    <string name="labelEventDescription">"Event Description"</string>
+    <string name="labelEventName">"Event Name"</string>
+    <string name="labelEventLocation">"Event Location"</string>
+
+    <!-- I think this is wrong if we are using Livestream as the brand feature. -->
+    <!-- Fuzzy -->
+    <string name="labelLiveStreaming">"Live Streaming"</string>
+    <string name="labelMyEvent">"My Event"</string>
+    <string name="labelDeleteEvent">"Delete Event"</string>
+    <string name="labelWatch">"Watch"</string>
+    <string name="labelOffline">"Offline"</string>
+    <string name="promptConfirmDeleteEvent">"Are you sure you want to delete the event?"</string>
+    <string name="errorEventMissingName">"Please enter in name for the event"</string>
+    <string name="errorEventMissingDescription">"Please enter in description for the event"</string>
+    <string name="errorEventMissingDate">"Please enter in date for the event"</string>
+    <string name="errorEventMissingStartTime">"Please enter in start time for the event"</string>
+    <string name="errorEventMissingEndTime">"Please enter in end time for the event"</string>
+    <string name="errorEventEndBeforeStart">"The end time cannot be before the start time"</string>
+    <string name="errorEventDescriptionLengthOverLimit">"The description cannot be more than 200 characters"</string>
+    <string name="labelDrawerLivestream">"Live Stream"</string>
+    <string name="statusErrorUnableToGetEvent">"Unable to get event"</string>
+    <string name="indicatorOff">"[off]"</string>
+
+    <!-- The device is tool old to support the DRM scheme. -->
+    <string name="statusErrorDrmUnsupportedOldDevice">"The device is too old to play the protected content."</string>
+
+    <!-- The device does not support this DRM scheme -->
+    <string name="statusErrorDrmUnsupportedScheme">"This device does not support the required DRM scheme"</string>
+
+    <!-- An unknown DRM error -->
+    <string name="statusErrorDrmUnknown">"An unknown DRM error occurred"</string>
+    <string name="labelMaybe">"Maybe"</string>
+    <string name="labelGoing">"Going"</string>
+    <string name="statusEventIsStarting">"is starting"</string>
+    <string name="labelAttendees">"Attendees"</string>
+    <string name="labelNoEvents">"No Events"</string>
+    <string name="labelGoLive">"Go Live"</string>
+    <string name="errorGettingStreamInfo">"There was an error getting the stream information"</string>
+    <string name="statusErrorUnableToGetBusinessList">"Unable to get business list"</string>
+    <string name="errorSpecifyValidGroupOrBusiness">"You must specify a valid organization or business"</string>
+    <string name="statusEventStreamOffline">"The event stream is currently offline"</string>
+    <string name="infoNoLocationGiven">"No Location Given"</string>
+    <string name="optionEnableBackgroundAudio">"Play in background"</string>
+    <string name="promptPickStartTime">"pick start time"</string>
+    <string name="promptPickEndTime">"pick end time"</string>
+    <string name="promptPickDate">"pick date"</string>
+    <string name="labelCreateEvent">"Create Event"</string>
+    <string name="statusWaiting">"Waiting\u2026"</string>
+    <string name="labelURL">"URL"</string>
+    <string name="labelVideoBitrate">"Video bitrate"</string>
+    <string name="labelAudioBitrate">"Audio bitrate"</string>
+    <string name="labelFramesPerSecond">"Frame per second"</string>
+    <string name="labelKeyFrameInterval">"Key frame interval"</string>
+    <string name="labelSampleRate">"Sample rate"</string>
+    <string name="labelSave">"Save"</string>
+    <string name="statusStabilizationOn">"Stabilization ON"</string>
+    <string name="statusFlashOn">"Flash ON"</string>
+    <string name="statusFlashOff">"Flash OFF"</string>
+    <string name="statusStabilizationOff">"Stabilization OFF"</string>
+    <string name="statusMuteOn">"Microphone OFF"</string>
+    <string name="statusMuteOff">"Microphone ON"</string>
+
+    <!-- Fuzzy -->
+    <string name="permissionLivestreamRationale">"Access to the camera, microphone, memory, and the network are used to record Live Streams for broadcasting."</string>
+
+    <!-- Fuzzy -->
+    <string name="permissionLivestreamAccessGranted">"Permissions required for streaming have been granted."</string>
+
+    <!-- Fuzzy -->
+    <string name="permissionLivestreamAccessDenied">"The app needs \"Camera\", \"Microphone\", \"Storage\", and \"Internet\" permission for Streaming. One or more of those permissions has been denied."</string>
+
+    <!-- This sia special parameterized string. You must maintain the %1$s where the users name will go. -->
+    <string name="paramLabelReceivedMessage">"%1$s sent you a message."</string>
+
+    <!-- A button label that will open Conx2share from an external or partial component. -->
+    <string name="labelAppLaunch">"Open Conx2share"</string>
+
+    <!-- This is a generic parameterized label. The variable string will be replaced with a name or other identifying information. -->
+    <string name="paramLabelNotFound">"%1$s not found"</string>
+
+    <!-- to reply to a message or mail. -->
+    <string name="labelReply">"Reply"</string>
+
+    <!-- a label meaning to display something. to make it visible. -->
+    <string name="labelShow">"Show"</string>
+
+    <!-- Meaning taking an action to see something. -->
+    <string name="labelView">"View"</string>
+
+    <!-- used to indicate that there is an operation in progress. -->
+    <string name="statusProcessing">"Processing\u2026"</string>
+
+    <!-- used to indicate an operation in progress -->
+    <string name="statusLoading">"Loading\u2026"</string>
+
+    <!-- used to request that the user wait for an operation to finish -->
+    <string name="statusPleaseWait">"Please wait\u2026"</string>
+
+    <string name="app_name">ConX2Share</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="or">or</string>
+    <string name="username">Username</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="terms_and_conditions">I\'ve read and agreed to the terms and conditions</string>
+    <string name="signing_in">Signing in&#8230;</string>
+    <string name="unexpected_error">An unexpected error has occurred.</string>
+    <string name="mark_messaged_viewed">Message marked as viewed</string>
+    <string name="success">Success</string>
+    <string name="message_sent">Message Sent</string>
+    <string name="message_failed_to_send">Message failed to send</string>
+    <string name="enter_message_here">Enter Message Here…</string>
+    <string name="got_sent_messages">Got Sent Messages</string>
+    <string name="type_a_message">Type a message…</string>
+    <string name="add_text_here">Add text here…</string>
+    <string name="logging_in">Logging In…</string>
+    <string name="file_error">File Error</string>
+    <string name="camera_error">Camera Error</string>
+    <string name="add_attachment">Add Attachment:</string>
+    <string name="take_a_photo">Take a Photo</string>
+    <string name="take_a_video">Take a Video</string>
+    <string name="pick_a_file">Pick a File</string>
+    <string name="message_type">Message Type:</string>
+    <string name="error">Error:</string>
+
+    <!-- Post Activity -->
+    <string name="post">Post</string>
+    <string name="post_activity_title">Create Post</string>
+    <string name="post_to">To:</string>
+    <string name="post_everyone">Everyone</string>
+    <string name="post_followers">Only to my followers</string>
+    <string name="post_successful">Post successful</string>
+    <string name="post_failed">Post failed: </string>
+
+    <!-- Image Upload Dialog -->
+    <string name="upload_photo_title">Upload Photo</string>
+    <string name="upload_photo_message">Would you like to take a picture or upload from your library?</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="library">Library</string>
+    <string name="not_yet_implemented">Not yet implemented.</string>
+
+    <!-- Feed Activity -->
+    <string name="feed_activity_drawer_toggle_open">Drawer Open</string>
+    <string name="feed_activity_drawer_toggle_close">Drawer Close</string>
+    <string name="feed_activity_drawer_logout">Logout</string>
+    <string name="feed_activity_drawer_header_picture_content_desc">Profile Picture</string>
+
+    <!-- Share Dialog -->
+    <string name="share_to">Share to...</string>
+    <string name="cancel">Cancel</string>
+    <string name="facebook_app_id">195797437257242</string>
+
+    <!-- Contacts -->
+    <string name="contacts">Contacts</string>
+    <string name="invite_caps">INVITE</string>
+    <string name="invite_successful">Friends invited</string>
+    <string name="invite_failed">Friend invite failed: </string>
+
+    <!--Groups-->
+    <string name="group_name_layout_title">GROUP NAME</string>
+    <string name="action_create_group">CREATE GROUP</string>
+    <string name="invalid_group_name">The group must have a name</string>
+    <string name="invalid_group_image">The group must have an image</string>
+    <string name="action_edit_group">EDIT GROUP</string>
+    <string name="group_creation_fail">Group was not successfully created.  Please Try Again.</string>
+    <string name="group_creation_success">"Created Group %s!"</string>
+    <string name="group_update_fail">Group was not successfully updated.  Please Try Again.</string>
+    <string name="post_button_text">Post</string>
+    <string name="generic_error_message">An error has occurred. Please try again.</string>
+    <string name="no_users_found">No users found matching criteria</string>
+    <string name="members">Members</string>
+    <string name="send">Send</string>
+    <string name="failed_to_retrieve_messages">Fail to retrieve new messages</string>
+    <string name="save_message">Save Message?</string>
+    <string name="copy_message">Copy Message?</string>
+
+    <!-- Events-->
+    <string name="event_name_layout_title">EVENT NAME</string>
+    <string name="event_type_layout_title">EVENT TYPE</string>
+    <string name="event_type_layout_live">LIVE</string>
+    <string name="event_type_layout_online">ONLINE</string>
+    <string name="event_type_layout_both">BOTH</string>
+    <string name="event_description_layout_title">EVENT DESCRIPTION</string>
+    <string name="event_date_layout_title">EVENT DATE</string>
+    <string name="event_time_layout_title">EVENT TIME</string>
+    <string name="event_location_layout_title">EVENT LOCATION (OPTIONAL)</string>
+    <string name="action_create_event">CREATE EVENT</string>
+    <string name="search_for_events">search for events</string>
+    <string name="no_location_given">No Location Given</string>
+    <string name="no_events">No events</string>
+    <string name="delete_event">Delete event</string>
+    <string name="edit_event">Edit event</string>
+    <string name="delete_event_dialog_title">Delete event?</string>
+    <string name="delete_event_dialog_message">Are you sure you want to delete this event?</string>
+    <string name="delete_event_error">An error occurred while deleting your event</string>
+    <string name="delete_event_success">Event deleted</string>
+    <string name="continue_btn">Continue</string>
+    <string name="event_detail">Event Detail</string>
+    <string name="my_event">My event</string>
+    <string name="event_creation_success">"Created event %s!"</string>
+    <string name="event_update_success">"Update event %s!"</string>
+    <string name="event_creation_fail">"Event was not successfully created.  Please Try Again.</string>
+    <string name="event_update_fail">"Event was not successfully updated.  Please Try Again.</string>
+    <string name="creating_event">Creating event…</string>
+    <string name="updating_event">Updating event…</string>
+    <string name="event_validation_name">Enter a name</string>
+    <string name="event_validation_description">Enter a description</string>
+    <string name="event_validation_date">Enter a date</string>
+    <string name="event_validation_time">Enter a time</string>
+    <string name="event_validation_photo">Set a photo</string>
+    <string name="event_fetch_error">Unable to fetch the event</string>
+    <string name="event_register_attendance_error">Unable to register attendence on event</string>
+
+    <!--Message Friends-->
+    <string name="message_friends_name_holder">First Name Last Name</string>
+    <string name="error_loading_index">An error has occurred while loading.</string>
+    <string name="arrow"><![CDATA[>]]></string>
+    <string name="message_friends_title">New Message</string>
+
+    <!-- Drawer Notifications -->
+    <string name="item_count_holder">##</string>
+    <string name="sent_you_a_new_message">Sent you a new message</string>
+    <string name="read_your_message">Read your message</string>
+    <string name="commented_on_your_post">Commented on your post</string>
+    <string name="invited_you_to_join">Invited you to join</string>
+    <string name="invited_to_follow">Wants follow you</string>
+    <string name="login_failed">Login Failed. Please check internet connection and try again.</string>
+
+    <!--######################################### SET 2 STRINGS #####################################################-->
+
+    <!-- Timers -->
+    <string-array name="timers">
+        <item>None</item>
+        <item>15s</item>
+        <item>30s</item>
+        <item>60s</item>
+        <item>120s</item>
+    </string-array>
+
+    <string name="home">Home</string>
+    <string name="messages">Messages</string>
+    <string name="friends">Friends</string>
+    <string name="groups">Groups</string>
+    <string name="notifications">Notifications</string>
+    <string name="get_plus">GET PLUS</string>
+    <string name="invite">Invite</string>
+    <string name="store">Store</string>
+    <string name="about">About</string>
+    <string name="events">Events</string>
+    <string name="change">change</string>
+    <string name="push_notifications">PUSH NOTIFICATIONS</string>
+    <string name="switch_title_1">SWITCH TITLE 1</string>
+    <string name="switch_title_2">SWITCH TITLE 2</string>
+    <string name="logout">LOGOUT</string>
+
+    <!-- Strings for Async Errors -->
+    <string name="retry">RETRY</string>
+    <string name="unable_to_gather_friends_text">Unable to gather friends to invite</string>
+    <string name="unable_to_invite_friends_text">Unable to invite friends</string>
+    <string name="unable_to_post_to_group_text">Unable to post to group</string>
+    <string name="unable_to_post_text">Unable to post</string>
+    <string name="post_already_flagged">Unable to flag post, you have already flagged this</string>
+    <string name="unable_to_flag_post_text">Unable to flag post</string>
+    <string name="unable_to_get_post_text">Unable to get post</string>
+    <string name="unable_to_get_post_comments_text">Unable to get post comments</string>
+    <string name="unable_to_like_post_text">Unable to like post</string>
+    <string name="unable_to_unlike_post_text">Unable to unlike post</string>
+    <string name="unable_to_create_group_text">Unable to create group</string>
+    <string name="unable_to_update_group_text">Unable to update group</string>
+    <string name="unable_to_refresh_feed_text">Unable to refresh feed</string>
+    <string name="unable_to_get_posts_text">Unable to get posts</string>
+    <string name="unable_to_get_unread_messages_text">Unable to get unread messages</string>
+    <string name="unable_to_get_friends_text">Unable to get friends</string>
+    <string name="unable_to_get_group_text">Unable to get group</string>
+    <string name="unable_to_get_group_posts_text">Unable to get group posts</string>
+    <string name="unable_to_get_group_list_text">Unable to get group list</string>
+    <string name="unable_to_remove_or_delete_group_text">Unable to remove or delete group</string>
+    <string name="unable_to_get_chats_text">Unable to get chats</string>
+    <string name="unable_to_get_saved_messages_text">Unable to get saved messages</string>
+    <string name="unable_to_update_notification_as_viewed_text">Unable to update notification as viewed</string>
+    <string name="unable_to_get_message_text">Unable to get message</string>
+    <string name="unable_to_follow_user">Unable to follow user</string>
+    <string name="unable_to_unfollow_user_text">Unable to unfollow user</string>
+    <string name="unable_to_load_profile_text">Unable to load profile</string>
+    <string name="unable_to_update_avatar_text">Unable to update avatar</string>
+    <string name="unable_to_update_cover_text">Unable to update cover</string>
+    <string name="unable_to_invite_user_to_group_text">Unable to invite user to group</string>
+    <string name="unable_to_purchase_subscription_text">Unable to purchase subscription</string>
+    <string name="unable_to_update_users_profile_text">Unable to update user\'s profile</string>
+    <string name="unable_to_send_message_text">Unable to send message</string>
+    <string name="unable_to_set_expiration_text">Unable to set message expiration</string>
+    <string name="unable_to_save_message_text">Unable to save message</string>
+    <string name="unable_to_get_chat_text">Unable to get chat with user</string>
+    <string name="unable_to_get_sent_messages_text">Unable to get sent messages</string>
+    <string name="unable_to_get_missed_messages_text">Unable to get missed messages</string>
+    <string name="unable_to_get_notifications_text">Unable to get notifications</string>
+    <string name="unable_to_accept_group_invite">Unable to accept group invite</string>
+    <string name="unable_to_decline_group_invite">Unable to decline group invite</string>
+    <string name="unable_to_get_more_notifications">Unable to get more notifications</string>
+    <string name="unable_to_get_following_users">Unable to get users you are following</string>
+    <string name="unable_to_get_followers">Unable to get followers</string>
+    <string name="unable_to_get_messages_text">Unable to get messages</string>
+    <string name="unable_to_go_to_chat">Unable to go to chat</string>
+
+    <!-- Search hints -->
+    <string name="search_for_users_to_invite_text">search for people to invite</string>
+    <string name="search_friends">search friends</string>
+    <string name="search_for_friends">search for friends</string>
+    <string name="search_for_members">search for members</string>
+    <string name="search_for_users_to_chat_with">search for users to chat with</string>
+    <string name="search_contacts">search contacts</string>
+
+    <!-- Notifications -->
+    <string name="new_notification_was_received_text">A new notification was received</string>
+    <string name="refresh_text">REFRESH</string>
+    <string name="viewed">" - viewed"</string>
+    <string name="accepted">accepted</string>
+    <string name="declined">declined</string>
+    <string name="conx2share_notification">Conx2Share Notification</string>
+    <string name="conx2share_notification_message">New Conx2Share Message</string>
+    <string name="clear_all_notification">Clear all</string>
+    <string name="cant_clear_notifications">Can\'t clear notifications</string>
+
+    <!-- Prompt text -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="Success">Success</string>
+    <string name="exclamation">!</string>
+    <string name="error_text">"Error: "</string>
+
+    <!-- Subscription Strings -->
+    <string name="subscribed_successfully_text">Subscribed Successfully</string>
+    <string name="failed_to_subscribe_text">Failed to subscribe</string>
+    <string name="free_price">0</string>
+    <string name="plus_price">2.40/year</string>
+    <string name="premium_price">29.99/year</string>
+    <string name="platinum_price">49.99/year</string>
+    <string name="free_subscription_description"><![CDATA[Photos & videos will be deleted after being viewed.]]></string>
+    <string name="free_subscription_title">Free</string>
+    <string name="subscribe">Subscribe!</string>
+    <string name="current_subscription">current subscription</string>
+    <string name="ago">ago</string>
+    <string name="plus">Plus</string>
+    <string name="plus_subscription_description">Save up to 5 photos and 1 video.</string>
+    <string name="premium_subscription_title">Premium</string>
+    <string name="premium_subscription_description"><![CDATA[Cx2share email and 50GB of data storage for messaging, photos & video.]]></string>
+    <string name="platinum_subscription_title">Platinum</string>
+    <string name="platinum_subscription_description"><![CDATA[Cx2share email and 100GB of data storage for messaging, photos & videos.]]></string>
+
+    <!-- Sharing Strings -->
+    <string name="shared_by_text">"\" shared by "</string>
+    <string name="via_conx2share_android_text">" via Conx2Share Android"</string>
+    <string name="conx2share_for_android">ConX2Share for Android</string>
+    <string name="please_install_facebook">Please install the Facebook app in order to share your post.</string>
+    <string name="please_install_the_twiiter_app">Please install the Twitter app in order to share your post.</string>
+
+    <!-- Progress Dialog Strings -->
+    <string name="loading_messages">Loading messages...</string>
+    <string name="gathering_friends_text">Gathering friends...</string>
+    <string name="gathering_messages_text">Gathering messages...</string>
+    <string name="gather_chats_text">Gathering chats...</string>
+    <string name="gathering_following_users_text">Gathering users you are following...</string>
+    <string name="gathering_followers">Gathering followers...</string>
+    <string name="sending_message_text">Sending message...</string>
+    <string name="posting">Posting...</string>
+    <string name="gathering_saved_messages">Gathering saved messages...</string>
+    <string name="gathering_chat_information_text">Gathering chat information...</string>
+
+    <!-- Group Strings -->
+    <string name="delete_group_text">Delete Group</string>
+    <string name="leave_group_text">Leave Group</string>
+    <string name="deleted_group_text">"Deleted Group "</string>
+    <string name="left_group_text">"Left Group "</string>
+    <string name="updated_group">"Updated Group "</string>
+    <string name="group_owner">group owner</string>
+    <string name="group_members">Group Members</string>
+    <string name="group_name">Group Name</string>
+
+    <!-- Following Strings -->
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="following_failed_try_again">Following failed. Try Again.</string>
+    <string name="unfollowed">Unfollowed</string>
+    <string name="follow">Follow</string>
+    <string name="unfollow">Unfollow</string>
+    <string name="followed_you">Followed you</string>
+    <string name="unfollow_positive_button">Continue</string>
+    <string name="unfollow_dialog_text">You are about to remove %s as a follower?</string>
+    <string name="invite_was_sent">Invite was successfully sent</string>
+    <string name="invite_status">Invite was sent</string>
+    <string name="cant_accept_invite">Can\'t accept invite</string>
+    <string name="cant_decline_invite">Can\'t decline invite</string>
+
+    <!-- SignUp Strings -->
+    <string name="you_are_now_signed_up">You are now signed up!</string>
+    <string name="failed_to_sign_up">Failed to sign up, please try again.</string>
+    <string name="please_fill_out_all_fields_text">Please fill out all fields</string>
+
+    <!-- Image and video strings -->
+    <string name="select_picture">Select Picture</string>
+    <string name="would_you_like_to_upload_a_video_from_your_library">Would you like to take a video or upload from your library?</string>
+    <string name="error_occurred_while_loading_your_video">An error occurred while loading your video</string>
+    <string name="image_null_error">Please choose an image stored on your device. This doesn\'t include images cached from other applications or social media outlets.</string>
+    <string name="image_error">Image failed to load and attach to the Twitter post.</string>
+    <string name="error_occurred_when_selecting_your_image">Error occurred when selecting your image</string>
+    <string name="what_upload">What would you like to upload?</string>
+    <string name="image_download_failed">Image download failed</string>
+    <string name="image_could_not_be_found">Image could not be found</string>
+    <string name="take_video">Take Video</string>
+    <string name="file_exceeds_limit">File exceeds 10Mb limit.</string>
+    <string name="take_a_video_from_your_library_or_get_one_from_your_library">Take of video or get one from your library?</string>
+    <string name="take_a_picture_or_get_one_from_your_library">Take of picture or get one from your library?</string>
+    <string name="media">(media)</string>
+    <string name="picture">(picture)</string>
+    <string name="video">(video)</string>
+
+    <!-- Post Strings -->
+    <string name="flag_content_as_inappropriate_prompt">Would you like to flag this post for inappropriate content?</string>
+    <string name="post_flagged">This post has now been flagged</string>
+    <string name="made_a_new_post">Made a new post</string>
+    <string name="made_a_new_group_post">Made a new group post</string>
+    <string name="enter_your_message_here">Enter your message here...</string>
+
+    <!-- Password Strings -->
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="please_enter_your_email">Please enter your email.</string>
+    <string name="change_password">Change Password</string>
+    <string name="cant_reset_password">Can\'t Reset Password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="reset_password_email_sent">Reset password email sent</string>
+    <string name="please_enter_your_email_address">Please enter your email address and try again.</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="new_password">New Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="updating_password">Updating password</string>
+    <string name="old_password_incorrect">Old password is incorrect.</string>
+    <string name="password_updated">Password updated</string>
+    <string name="password_failed_to_update">Password failed to update, please try again</string>
+    <string name="passwords_dont_match">Your passwords do not match</string>
+    <string name="old_password_error">Old Password Error</string>
+    <string name="the_old_password_you_entered_is_invalid">The old password you entered is not valid</string>
+    <string name="the_new_password_and_confirm_password_dont_match">The New Password and Confirm Password do not match.  Please try again.</string>
+
+    <!-- Drawer Items -->
+    <string name="drawer_home">Home</string>
+    <string name="drawer_messages">Messages</string>
+    <string name="drawer_friends">Friends</string>
+    <string name="drawer_groups">Groups</string>
+    <string name="drawer_notifications">Notifications</string>
+    <string name="drawer_plus">Get plus</string>
+    <string name="drawer_invite">Invite</string>
+    <string name="drawer_store">Store</string>
+    <string name="drawer_eshopping">E-Shopping</string>
+    <string name="drawer_games">Games</string>
+    <string name="drawer_business">Business</string>
+    <string name="drawer_discover">Discover</string>
+
+    <!-- Other Strings -->
+    <string name="facebook_connect_not_implemented_text">Facebook Connect not yet implemented</string>
+    <string name="twiiter_connect_not_implemented_yet">Twitter Connect not yet implemented</string>
+    <string name="this_user_has_not_followed_you_text">Both users must follow each other to chat</string>
+    <string name="please_try_again">Please try again</string>
+    <string name="message_is_saved">Message is saved.</string>
+    <string name="password_length">Your password must be at least 8 characters</string>
+    <string name="passwords_do_not_match">Passwords do not match</string>
+    <string name="sign_up_error">An error has occurred while signing up.</string>
+    <string name="signup_dialog">Signing Up...</string>
+    <string name="you_already_have_a_higher_subscription_level">You already have a higher subscription level</string>
+    <string name="please_accept_terms">Please accept terms and conditions.</string>
+    <string name="user_name_is_taken">User name is already taken.</string>
+    <string name="not_connected_to_the_google_play_store">Not connected to the Google Play Store</string>
+    <string name="coming_soon">Coming soon!</string>
+    <string name="accept">accept</string>
+    <string name="decline">decline</string>
+    <string name="leave_a_comment">Leave a comment...</string>
+
+    <string name="zero">0</string>
+    <string name="one">1</string>
+
+    <!--######################################### SET 3 STRINGS #####################################################-->
+
+    <string name="unable_to_get_group_members">Unable to get current group members</string>
+    <string name="unable_to_load_web_page">Unable to load web page</string>
+    <string name="please_enter_text">Please enter text</string>
+
+    <string name="terms_of_service">terms of service</string>
+    <string name="terms_of_service_and_privacy_policy">I\'ve read and agree to the terms of service and privacy policy</string>
+    <string name="privacy_policy">privacy policy</string>
+
+    <string name="group_update_success">"Updated Group %s!"</string>
+    <string name="retrieving_notifications_failed">Retrieving notifications failed. Please try again.</string>
+    <string name="messaging_error">An error has occurred during messaging</string>
+
+    <!-- Message Friends Index -->
+    <string name="saved_messages_text">Saved</string>
+    <string name="chats_text">Current</string>
+
+    <!-- Follow -->
+    <string name="followed">Followed</string>
+    <string name="unfollow_failed">Unfollow failed. Try Again.</string>
+    <string name="start_recording">Start Recording</string>
+    <string name="submit">submit</string>
+    <string name="invalid_user_name_or_password">Invalid user name or password</string>
+    <string name="unable_to_update_followers_count">Unable to update followers count</string>
+    <string name="please_accept_the_terms_of_service">Please accept the terms of service</string>
+
+    <!-- Promo Codes -->
+    <string name="promo_code_optional">Promo Code (optional)</string>
+    <string name="activate_promo_code">Activate Promo Code</string>
+    <string name="the_promo_code_you_entered_is_invalid">The promo code you entered is invalid.</string>
+    <string name="the_promo_code_you_entered_is_invalid_sign_up">The promo code you entered is invalid. Enter a valid promo code or clear the current promo code.</string>
+    <string name="please_enter_your_promo_code">Please enter your promo code...</string>
+    <string name="your_account_has_been_upgraded_to_a_plus_subscription">Your account has been upgraded to a Plus Subscription.</string>
+
+    <!--######################################### SET 4 STRINGS #####################################################-->
+
+    <string name="unable_to_check_if_promo_code_is_valid">Unable to check if promo code is valid</string>
+    <string name="promo_upgrade_description">The promo code you entered was valid. If you were a free user, your account has been upgraded to a Plus subscription.</string>
+    <string name="valid_promo_code">Valid Promo Code</string>
+    <string name="invalid_promo_code">Invalid Promo Code</string>
+    <string name="unable_to_update_user_to_promo_user">Unable to update user to promo user</string>
+    <string name="email_has_already_been_taken">Email has already been taken</string>
+
+    <!--######################################### SET 5 Strings #####################################################-->
+
+    <string name="edit_favorites">"Edit Favorites</string>
+    <string name="user_add_to_favorites">Added to favorites.</string>
+    <string name="user_remove_from_favorites">Removing from favorites</string>
+    <string name="user_favoriting_failed">User favoriting failed.</string>
+    <string name="user_unfavoriting_failed">User unfavoriting failed</string>
+    <string name="group_name_taken">Group name is already taken.</string>
+    <string name="you_have_received_a_new_message_from">You have received a new message from</string>
+    <string name="one_m">1m</string>
+    <string name="unable_to_post_comment_text">Unable to post comment</string>
+    <string name="chats_button_title">Start New Chat</string>
+    <string name="are_you_sure_you_want_to_delete_the_group">Are you sure you want to delete the group?</string>
+    <string name="are_you_sure_you_want_to_leave_the_group">Are you sure you want to leave the group?</string>
+    <string name="exit">Exit</string>
+    <string name="please_attach_photo">Please attach a photo</string>
+    <string name="please_attach_video">Please attach a video.</string>
+    <string name="email_cant_be_blank">Email can\'t be blank</string>
+
+    <!--######################################### SET 6 Strings #####################################################-->
+
+    <string name="you_cannot_leave_or_delete_the_conx2share_group">You cannot leave or delete the Conx2Share group</string>
+    <string name="promoted">Promoted</string>
+    <string name="audio">(audio)</string>
+    <string name="recording_is_not_long_enough">Recording is not long enough.</string>
+    <string name="only_the_first_two_mins_will_be_sent">Only first 2 mins of recording will be sent.</string>
+    <string name="would_you_like_to_take_a_picture_or_upload_from_your_library">Would you like to take a picture or upload from your library?</string>
+    <string name="unable_to_send_audio_message">Unable to send audio message</string>
+    <string name="unable_to_get_business_info">Unable to load Business information</string>
+    <string name="could_not_retrieve_your_businesses">Could not retrieve your businesses</string>
+    <string name="you_cannot_post_to_the_conx2share_group">You cannot post to the ConX2share Group.</string>
+    <string name="search_for_businesses">search for businesses</string>
+    <string name="drawer_businesses">Businesses</string>
+    <string name="business_owner">business owner</string>
+    <string name="group">"Group: "</string>
+    <string name="business">"Business: "</string>
+    <string name="delete_post">Delete Post</string>
+    <string name="you_dont_own_this_post_to_delete_it">You don\'t own this post to delete it</string>
+    <string name="are_you_sure_you_want_to_delete_this_post">Are you sure you want to delete this post?</string>
+    <string name="post_deleted">Post Deleted</string>
+    <string name="unable_to_delete_post">Unable to delete post</string>
+    <string name="delete_comment">Delete Comment</string>
+    <string name="you_dont_own_this_comment_to_delete_it">You don\'t own this comment to delete it</string>
+    <string name="are_you_sure_you_want_to_delete_this_comment">Are you sure you want to delete this comment?</string>
+    <string name="comment_deleted">Comment deleted</string>
+    <string name="unable_to_delete_comment">Unable to delete comment</string>
+    <string name="flag_post">Flag Post</string>
+    <string name="cant_do_anything_with_comment_since_you_dont_own_it">You can\'t do anything with this comment since you don\'t own it</string>
+    <string name="you_dont_own_this_post_to_edit_it">You don\'t own this post to edit it</string>
+    <string name="edit_post">Edit Post</string>
+    <string name="do_you_want_to_edit_this_post">Do you want to edit this post?</string>
+    <string name="update_post">Update</string>
+    <string name="unable_to_edit_post">Unable to update post</string>
+    <string name="post_edited">Post Edited</string>
+    <string name="updating_post">Updating post...</string>
+    <string name="flag_as_inappropriate">Flag as Inappropriate</string>
+    <string name="edit_post_options_menu">EDIT POST</string>
+    <string name="delete_post_options_menu">DELETE POST</string>
+    <string name="you_cannot_change_the_audience_when_editing_a_post">You cannot change the audience when editing a post.</string>
+    <string name="enter_your_comment_here">Enter your comment here...</string>
+    <string name="edit_comment_options_menu">EDIT COMMENT</string>
+    <string name="delete_comment_options_menu">DELETE COMMENT</string>
+    <string name="update">Update</string>
+    <string name="edit_comment">Edit Comment</string>
+    <string name="you_dont_own_this_comment_to_edit_it">You don\'t own this comment to edit it.</string>
+    <string name="comment_updated">Comment Updated!</string>
+    <string name="unable_to_update_post_comment">Unable to update comment</string>
+    <string name="updating_comment">Updating comment...</string>
+    <string name="something_went_wrong_while_uploading_your_image">Something went wrong while uploading your image</string>
+    <string name="something_went_wrong_while_uploading_your_file">Something went wrong while uploading your file</string>
+    <string name="would_you_like_to_take_a_media_or_upload_one_from_your_library">Would you like to take a photo (video) or upload one from your library?</string>
+    <string name="would_you_like_to_take_a_photo_or_upload_one_from_your_library">Would you like to take a photo or upload one from your library?</string>
+    <string name="would_you_like_to_take_a_video_or_upload_one_from_your_library">Would you like to take a video or upload one from your library?</string>
+    <string name="photo_option">Photo</string>
+    <string name="video_option">Video</string>
+    <string name="block_user_option">BLOCK USER</string>
+    <string name="remove_from_group_option">REMOVE FROM GROUP</string>
+    <string name="you_cant_do_anything_with_this_group_member">You can\'t do anything with this group member since you aren\'t the group owner</string>
+    <string name="remove_user_from_group">Remove User From Group</string>
+    <string name="are_you_sure_you_want_to_block_this_user">Are you sure you want to block this user from the group?</string>
+    <string name="block_user">Block User</string>
+    <string name="are_you_sure_you_want_to_remove_this_user_from_the_group">Are you sure you want to remove this user from the group?</string>
+    <string name="member">member</string>
+    <string name="follower">follower</string>
+    <string name="follower_profile">Follower</string>
+    <string name="unable_to_follow_group">Unable to follow group</string>
+    <string name="unable_to_unfollow_group">Unable to unfollow group</string>
+    <string name="unblock_user_option">UNBLOCK USER</string>
+    <string name="group_followers">Group Followers</string>
+    <string name="search_for_followers">search for followers</string>
+    <string name="unable_to_send_invite_to_follow_group">Unable to invite user to follow group</string>
+    <string name="invite_to_follow_group_sent">Invite to follow group sent</string>
+    <string name="unable_to_block_user_from_group">Unable to block user from group</string>
+    <string name="you_have_blocked_this_user_from_the_group">You have blocked this user from the group.</string>
+    <string name="unable_to_remove_user_from_group">Unable to remove user from group</string>
+    <string name="user_has_been_removed_from_group">User has been removed from group</string>
+    <string name="invited_you_to_follow_group">Invited you to follow group</string>
+    <string name="search_for_groups">search for groups</string>
+    <string name="private_group">Private</string>
+    <string name="blog_group">Blog</string>
+    <string name="discussion_group">Discussion</string>
+    <string name="empty_string" />
+    <string name="unable_to_leave_group">Unable to leave group</string>
+    <string name="unable_to_get_group_followers">Unable to get group followers</string>
+    <string name="unable_to_unblock_user">Unable to unblock user</string>
+    <string name="you_have_unblocked_this_user_from_the_group">You have unblocked this user from the group</string>
+    <string name="unable_to_post_to_group_blocked">Unable to post to group, blocked</string>
+    <string name="unable_to_post_comment_blocked">Unable to post comment, blocked</string>
+    <string name="unblock_user">Unblock User</string>
+    <string name="are_you_sure_you_want_to_unblock_this_user">Are you sure you want to unblock this user?</string>
+    <string name="unable_to_update_post_blocked">Unable to update post, blocked</string>
+    <string name="unable_to_update_comment_blocked">Unable to update comment, blocked</string>
+    <string name="emergency_logout_toast_text">Your session is invalid. Please login again.</string>
+    <string name="unable_to_leave_or_delete_group">Unable to leave or delete group</string>
+    <string name="public_group_button_text">PUBLIC</string>
+    <string name="private_group_button_text">PRIVATE</string>
+    <string name="discussion_group_button_text">DISCUSSION</string>
+    <string name="blog_group_button_text">BLOG</string>
+    <string name="creating_group">Creating group...</string>
+    <string name="updating_group">Updating group...</string>
+    <string name="unable_to_delete_group">Unable to delete group</string>
+    <string name="are_you_sure_you_want_to_unfollow_the_group">Are you sure you want to unfollow the group?</string>
+    <string name="unfollow_group">Unfollow Group</string>
+    <string name="event_starting">Event Starting</string>
+    <string name="event_created">Event Created</string>
+    <string name="streaming_started">Streaming has Starting</string>
+    <string name="context_menu_post">New Post</string>
+    <string name="context_menu_stream">Livestream</string>
+    <string name="context_menu_cancel">Cancel</string>
+
+    <!--######################################### NEW Strings #####################################################-->
+
+    <string name="go">go</string>
+    <string name="search_hashtags">search hashtags</string>
+    <string name="no_posts_were_found_for_that_hash_tag">No posts were found for that hash tag</string>
+    <string name="unable_to_get_hash_tag_results">Unable to get hash tag results</string>
+    <string name="subscriptions">Subscriptions</string>
+    <string name="add_friends">Add Friends</string>
+    <string name="search_businesses">Search Businesses</string>
+    <string name="invite_followers">Invite Followers</string>
+    <string name="invite_members">Invite Members</string>
+    <string name="search_groups">Search Groups</string>
+    <string name="discover">Discover</string>
+    <string name="an_error_occurred_trying_to_start_your_gallery">An error occurred trying to start your gallery</string>
+    <string name="the_hash_tag_searched_for_was_not_found">The hash tag searched for was not found</string>
+    <string name="restore">Restore</string>
+    <string name="subscription_restored_successfully">Subscription restored successfully!</string>
+    <string name="unable_to_restore_subscription">Unable to restore subscription</string>
+    <string name="restoring_subscription">Restoring subscription...</string>
+    <string name="restore_subscription">Restore Subscription</string>
+    <string name="restore_subscription_description">Do you want to restore your subscription based off information from Google?</string>
+    <string name="search_users_error">Unable to search for users to tag</string>
+    <string name="select_file">Select File</string>
+    <string name="updating_user_avatar">Updating user avatar...</string>
+    <string name="hash_tags">Hash Tags</string>
+    <string name="users">Users</string>
+    <string name="page">"Page "</string>
+    <string name="tags">Tags</string>
+    <string name="invites">Invites</string>
+    <string name="posts">Posts</string>
+    <string name="cancel_subscription_notice">When purchasing a new subscription, if you already have a current subscription please click on the \'current subscription\' link so that you may cancel it through the Google Play Store.</string>
+    <string name="cancel_subscription_title">Notice For Current Subscription Owners</string>
+    <string name="continue_to_purchase">Continue To Purchase</string>
+    <string name="go_back">Go Back</string>
+    <string name="search_users">search users</string>
+    <string name="question_mark">(?)</string>
+    <string name="discover_hash_tags">Tags</string>
+    <string name="discover_people">People</string>
+    <string name="discover_groups">Groups</string>
+    <string name="discover_businesses">Businesses</string>
+    <string name="discover_live_stream">Livestreams</string>
+    <string name="live_text">LIVE</string>
+    <string name="cant_get_live_list">Can\'t get live stream events</string>
+    <string name="helper_messages_title">Messages</string>
+    <string name="helper_messages_description">Enable or disable receiving push notifications for new messages</string>
+    <string name="helper_invites_title">Invites</string>
+    <string name="helper_invites_description">Enable or disable receiving push notifications for new group invites</string>
+    <string name="helper_posts_title">Posts</string>
+    <string name="helper_posts_description">Enable or disable receiving push notifications for new comments on your posts</string>
+    <string name="helper_following_title">Following</string>
+    <string name="helper_following_description">Enable or disable receiving push notifications for new posts from businesses or groups you\'re following</string>
+    <string name="helper_followers_title">Followers</string>
+    <string name="helper_followers_description">Enable or disable receiving push notifications for when someone follows you</string>
+    <string name="helper_tags_title">Tags</string>
+    <string name="helper_tags_description">Enable or disable receiving push notifications for when someone tags you in a post or comment</string>
+    <string name="could_not_follow_business">Could not follow business</string>
+    <string name="could_not_unfollow_business">Could not unfollow business</string>
+    <string name="you_have_no_businesses">You have no businesses</string>
+    <string name="tagged_you_in_a_post">Tagged you in a post</string>
+    <string name="tagged_you_in_a_comment">Tagged you in a comment</string>
+    <string name="made_a_new_business_post">Made a new business post</string>
+    <string name="abort">Abort</string>
+    <string name="abort_business_details_confirmation">Are you sure you want to abort providing your business details?</string>
+    <string name="sign_up_business_notice">This is a business account -- further account setup is required</string>
+    <string name="please_enter_a_valid_email_address">Please enter a valid email address</string>
+    <string name="please_use_only_letters_and_numbers_for_your_username">Please use only letters and numbers for your username</string>
+    <string name="you_cannot_restore_your_account_using_someone_elses_google_credentials">You cannot restore your account using someone else\'s Google credentials</string>
+    <string name="register_as_a_business">Register for a business account</string>
+    <string name="please_enter_in_a_username_that_is_between_two_and_twenty_characters">Please enter in a username that is between 2 and 20 characters</string>
+    <string name="search_to_discover">search to discover</string>
+    <string name="news">News</string>
+    <string name="unable_to_load_rss_feed">Unable to load RSS Feed</string>
+    <string name="unable_to_get_news_soruces">Unable to get news sources</string>
+    <string name="no_news_sources_return_from_server">No news sources returned from server</string>
+    <string name="search_the_news">search the news</string>
+    <string name="birthday">Birthday</string>
+    <string name="please_enter_in_a_birthday">Please enter in a birthday</string>
+    <string name="you_must_have_a_birthday_entered_and_be_over_eighteen_to_register_a_business">You must have a birthday entered and be over 18 to register a business.</string>
+    <string name="you_must_be_over_eighteen_to_register_a_business">You must be over eighteen to register a business</string>
+    <string name="app_version">App version: %s</string>
+
+    <!-- Streaming messages -->
+    <string name="status_connecting">Connecting...</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_disconnecting">Disconnecting...</string>
+    <string name="button_dismiss">Dismiss</string>
+    <string name="event_start_stream_not_live">This event has already started, but the stream is not live. Please try again later.</string>
+    <string name="event_not_start">This event has not started yet. Please try again later.</string>
+
+    <!-- Streaming parameters -->
+
+    <string name="wz_live_port_number_default_value" translatable="false">1935</string>
+    <string name="wz_live_app_name_default_value" translatable="false">live</string>
+    <string name="wz_live_stream_name_default_value" translatable="false">myStream</string>
+    <string name="wz_video_enabled_default_value" translatable="false">true</string>
+    <string name="wz_video_size_default_value" translatable="false">4</string>
+    <string name="wz_video_framerate_default_value" translatable="false">30</string>
+    <string name="wz_video_keyframe_interval_default_value" translatable="false">10</string>
+    <string name="wz_video_bitrate_default_value" translatable="false">1500</string>
+    <string name="wz_video_profile_level_default_value" translatable="false">1</string>
+    <string name="wz_video_letterbox_portrait_default_value" translatable="false">false</string>
+    <string name="wz_video_captured_video_rotates_default_value" translatable="false">true</string>
+    <string name="wz_video_resize_to_aspect_default_value" translatable="false">false</string>
+    <string name="wz_video_use_abr_default_value" translatable="false">false</string>
+    <string name="wz_audio_enabled_default_value" translatable="false">true</string>
+    <string name="wz_audio_samplerate_default_value" translatable="false">44100</string>
+    <string name="wz_audio_bitrate_default_value" translatable="false">64000</string>
+    <string name="wz_audio_stereo_default_value" translatable="false">true</string>
+    <string name="title_activity_video_player">VideoPlayerActivity</string>
+
+    <string name="title_activity_event_player">EventPlayerActivity</string>
+    <string name="contacts_permission_not_granted">The contacts list can not be obtained if the permission is not granted</string>
+    <string name="text_terms">"By singing up to Conx2share you agree to our \nPrivacy Policy &amp; Terms of Service"</string>
+    <string name="title_policy">Privacy Policy</string>
+    <string name="title_term">Terms of Service</string>
+
+    <!-- Say No -->
+    <string name="chat_toggler_annonymously">Chat Anonymously</string>
+    <string name="chat_send_btn">Send</string>
+    <string name="say_no_menu_hint">Say No</string>
+    <string name="default_first_message">How can we help you?</string>
+    <string name="report_dialog_label">Thank you for your report. A counselor has been alerted</string>
+    <string name="report_dialog_start_new">Report Another Incident</string>
+    <string name="report_dialog_go_to_home_page">Return To Conx2share</string>
+    <string name="say_no_switch_anonymity_mode_error">Cannot switch anonymous mode to display your identity</string>
+    <string name="say_no_switch_anonymity_title">Exit Anonymous Mode?</string>
+    <string name="say_no_switch_anonymity_warning_text">Are you sure you want to exit anonymous mode?
+        The counsellor will be able to see your name and profile picture.</string>
+    <string name="say_no_chat_leave_confirmation_message">Are you sure you want to exit? Your chat will end. You can start another chat later if you would like.</string>
+    <string name="say_no_chat_leave_confirmation_continue">Continue</string>
+
+    <string name="say_no_type_chooser_header">What would you like to do?</string>
+    <string name="say_no_type_chooser_chat_title">START CHAT</string>
+    <string name="say_no_type_chooser_chat_description">Start a text chat with your local counselor, share pictures and videos. You can leave the chat whenever you want.</string>
+    <string name="say_no_type_chooser_report_title">SEND REPORT</string>
+    <string name="say_no_type_chooser_report_description">Select this options to send a quick report to your local counselor, attach a picture or a video.</string>
+
+    <string name="say_no_anonymity_chooser_header">Prefer to stay anonymous?</string>
+    <string name="say_no_anonymity_chooser_anonymous_title">STAY ANONYMOUS</string>
+    <string name="say_no_anonymity_chooser_anonymous_description">Your name and photo will not be visible for the counsellor. This can be turned off during a chat.</string>
+    <string name="say_no_anonymity_chooser_non_anonymous_title">DISPLAY MY IDENTITY</string>
+    <string name="say_no_anonymity_chooser_non_anonymous_description">Counsellor will be able to see your name and your profile picture along with other information.</string>
+
+    <!-- Say No Sign in -->
+    <string name="say_no_notification_dialog_button">Return to Conx2share</string>
+    <string name="say_no_sign_in_label">Say No Sign Up</string>
+    <string name="say_no_sign_in_empty">Use search to find \n and select your school.</string>
+    <string name="say_no_sign_in_no_result">Oops! Seems like we couldn’t\nfind your school. </string>
+    <string name="say_no_sign_in_confirmation_dialog">Would you like to join this group?</string>
+    <string name="say_no_sign_in_request_sent">Your request has been sent successfully</string>
+    <string name="say_no_sign_in_request_failed">Cannot request to join this group.</string>
+    <string name="say_no_sign_in_home_btn">Go to Home</string>
+    <string name="say_no_sign_in_info_menu_item">Info</string>
+    <string name="say_no_sign_in_search_hint">Type the name of your school</string>
+    <string name="say_no_sign_in_info_dialog_title">What is</string>
+    <string name="say_no_sign_in_info_dialog_btn">Got it!</string>
+    <string name="say_no_sign_in_info_dialog_text">The Say NO! program was created as a part of the Conx2share Foundation as an Anti-Bullying and Anti-Drug Abuse program.\n\n
+    Being a Say NO! member enables you to report bullying  or drug abuse incidents in a click.\n\n
+    The Say NO! live chat allows you to chat live with a counselor if you are in need of help or wanting to report you peers being bullied.\n\n
+    Join your school group or office peers by becoming a Say NO! member</string>
+    <string name="say_no_invitation_sent">Your request is still pending.\nYou will receive a notification as soon as it’s approved.</string>
+    <string name="say_no_invitation_declined">Your request to join to Say NO! group was declined.</string>
+    <string name="say_no_invitation_send_another_request">Send another request</string>
+
+    <!-- Say No Into -->
+    <string name="say_no_intro_1_title">WE DESERVE TO FEEL SAFE</string>
+    <string name="say_no_intro_1_text">Report bullying or drug abuse incidents in\na few clicks. They will be immediately\n addressed by your local counsellors.</string>
+    <string name="say_no_intro_2_title">HELP IS ONE CLICK AWAY</string>
+    <string name="say_no_intro_2_text">Need help or advice? The Say NO! live chat\n allows you to chat with a counsellor and\n attach pictures or videos. </string>
+    <string name="say_no_intro_3_title">SPEAK UP WITH NO RISK</string>
+    <string name="say_no_intro_3_text">We give you an option to stay anonymous\n if you don’t feel like sharing your name and\n profile picture with us.</string>
+    <string name="say_no_skip">Skip and never show again</string>
+    <string name="say_no_got_it">Got it!</string>
+    <string name="say_no_next">Next</string>
+
+    <!-- Chat -->
+    <string name="chat_input_hint">Write a message</string>
+    <string name="cant_send_audio_record">Can\'t sent audio message</string>
+    <string name="record_message_length">2:00</string>
+    <string name="zero_play_length">0:00</string>
+    <string name="cant_play_audio_msg">Can\'t play audio message</string>
+    <string name="no_previos_msg">No previous messages</string>
+    <string name="type_friends_email_text">Type your friend\'s email</string>
+    <string name="stream_description_hint">Description</string>
+    <string name="stream_as_title">Stream as</string>
+    <string name="link_was_copyed">Link was copied</string>
+    <string name="what_you_want_copy_title">Select link to copy</string>
+
+
+    <!--  Streaming  -->
+    <string name="stream_as_no_event">No Event</string>
+    <string name="stream_as_associated_event">Associated Event</string>
+    <string name="associated_event">Associated event</string>
+    <string name="streaming_no_upcoming_event">No Upcoming Events</string>
+    <string name="cant_start_audio_record">Can\\\'t start audio record.</string>
+    <string name="new_event_time_title">Time</string>
+    <string name="new_event_date_title">Date</string>
+    <string name="new_event_description_hint"><font size="12">Description</font></string>
+    <string name="new_event_event_location_hint"><font size="12">Event Location (optional)</font></string>
+    <string name="new_event_name_hint"><font size="12">Event Name</font></string>
+    <string name="create_event_menu_done">Done</string>
+    <string name="new_event_title">New Event</string>
+    <string name="friends_congrats_text">Congrats! You found your Favorites Bar!</string>
+    <string name="friends_add_description_text">Tap this star to add friends to your\nFavorites Bar for quick access. Try it now!</string>
+    <string name="friend_wasnt_deleted">Friend wasn\'t unfavorited</string>
+
+</resources>

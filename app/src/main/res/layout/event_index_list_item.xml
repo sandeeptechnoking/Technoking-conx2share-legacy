@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/event_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/event_photo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <com.conx2share.conx2share.ui.view.AvenirNextTextView
+        android:id="@+id/event_datetime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingTop="5dp"
+        android:text="02/08/17 - 03:11 PM ET"
+        android:textColor="@color/conx_teal" />
+
+    <com.conx2share.conx2share.ui.view.AvenirNextTextView
+        android:id="@+id/event_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:text="first stream"
+        android:textSize="20sp" />
+
+    <include
+        android:id="@+id/event_options_container"
+        layout="@layout/event_options"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <com.conx2share.conx2share.ui.view.AvenirNextTextView
+        android:id="@+id/event_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="live event"
+        android:textColor="@color/unread_messages_gray" />
+
+</LinearLayout>

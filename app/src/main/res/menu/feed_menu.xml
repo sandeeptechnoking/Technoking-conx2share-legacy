@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/say_no_item"
+        android:title="@string/say_no_menu_hint"
+        app:actionLayout="@layout/view_say_no"
+        app:showAsAction="always" />
+</menu>

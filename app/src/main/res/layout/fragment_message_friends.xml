@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <EditText
+            android:id="@+id/search_for_friends_to_message_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_marginRight="40dp"
+            android:background="@color/white"
+            android:hint="@string/search_for_users_to_chat_with"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:singleLine="true"
+            android:textColor="@color/search_users_text_gray"
+            android:textColorHint="@color/hint_gray" />
+
+        <ListView
+            android:id="@+id/message_friends_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/search_for_friends_to_message_edit_text"
+            android:background="@color/white"/>
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/message_friends_progress_bar"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:indeterminate="true" />
+</RelativeLayout>

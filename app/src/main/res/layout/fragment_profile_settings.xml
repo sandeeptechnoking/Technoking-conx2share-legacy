@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?><!-- TODO - uniform the name placement with group and business profiles, make sure it handles long names well, and make sure that the text displays well on light images -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F3F3">
+
+    <RelativeLayout
+        android:id="@id/main_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/profile_settings_header_background"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/friend_placeholder" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/imagegradient_overlay" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar_back"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/profile_settings_header_background"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:visibility="gone"/>
+
+        <com.conx2share.conx2share.ui.view.AvenirNextTextView
+            android:id="@+id/profile_settings_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/profile_settings_avatar"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/profile_settings_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/friend_placeholder"
+            app:riv_border_color="@color/white"
+            app:riv_border_width="1dp"
+            app:riv_oval="true" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar_avatar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/profile_settings_avatar"
+            android:layout_alignTop="@+id/profile_settings_avatar"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/avatar_change_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/profile_settings_avatar"
+            android:layout_centerHorizontal="true"
+            android:textSize="14sp"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:shadowColor="@color/black_overlay"
+            android:shadowRadius="8"
+            android:layout_marginBottom="16dp"
+            android:text="@string/change"/>
+
+        <Button
+            android:id="@+id/change_profile_photo_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="100dp"
+            android:layout_toRightOf="@id/profile_settings_avatar"
+            android:background="@color/transparent"
+            android:text="@string/change"
+            android:textColor="@color/white" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_settings_avatar"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/about_profile_settings_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/email"
+                        android:textSize="25dp" />
+
+                    <EditText
+                        android:id="@+id/email_settings"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#EEEEEE"
+                        android:padding="10dp"
+                        android:textColor="#ACACAC" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="12dp"
+                        android:text="@string/username"
+                        android:visibility="gone"
+                        android:textSize="25dp" />
+
+                    <EditText
+                        android:id="@+id/username_settings"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#EEEEEE"
+                        android:padding="10dp"
+                        android:visibility="gone"
+                        android:textColor="#ACACAC" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="12dp"
+                        android:text="@string/about"
+                        android:textSize="25dp" />
+
+                    <EditText
+                        android:id="@+id/bio_settings"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="#EEEEEE"
+                        android:gravity="top"
+                        android:minHeight="100dp"
+                        android:padding="10dp"
+                        android:textColor="#ACACAC" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="12dp"
+                        android:text="@string/birthday"
+                        android:textSize="25dp"
+                        android:visibility="gone"/>
+
+                    <EditText
+                        android:id="@+id/birthday"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="#EEEEEE"
+                        android:textCursorDrawable="@null"
+                        android:focusable="false"
+                        android:clickable="true"
+                        android:imeOptions="actionNext"
+                        android:padding="10dp"
+                        android:hint="@string/birthday"
+                        android:singleLine="true"
+                        android:textColor="#ACACAC"
+                        android:visibility="gone"/>
+
+                </LinearLayout>
+
+                <include layout="@layout/fragment_profile_settings_toggle" />
+
+                <TextView
+                    android:id="@+id/change_password_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/change_password"
+                    android:textColor="@color/conx_blue"
+                    android:layout_marginTop="8dp"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/activate_promo_code_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:background="@color/transparent"
+                    android:paddingLeft="15dp"
+                    android:text="@string/activate_promo_code"
+                    android:textAllCaps="false"
+                    android:textColor="@color/conx_blue"
+                    android:textSize="18sp"
+                    android:visibility="gone"/>
+
+                <Button
+                    android:id="@+id/register_as_a_business_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:background="@color/transparent"
+                    android:paddingLeft="15dp"
+                    android:text="@string/register_as_a_business"
+                    android:textAllCaps="false"
+                    android:textColor="@color/hint_gray_pressed"
+                    android:textSize="18sp"
+                    android:clickable="false"
+                    android:enabled="false"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/register_business_birthday_error"
+                    android:text="@string/you_must_have_a_birthday_entered_and_be_over_eighteen_to_register_a_business"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:gravity="center"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/settings_version"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/app_version"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:textColor="@color/profile_unfollow_gray"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </ScrollView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/slide_up_about_panel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha=".9"
+            android:background="@color/black" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageButton
+                android:id="@+id/close_about_screen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/transparent"
+                android:src="@drawable/close_white" />
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/promo_code_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:src="@drawable/logo" />
+
+                <EditText
+                    android:id="@+id/old_password_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/white"
+                    android:hint="@string/old_password"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPassword"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/new_password_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/white"
+                    android:hint="@string/new_password"
+                    android:imeOptions="actionNext"
+                    android:inputType="textPassword"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/confirm_new_password_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/white"
+                    android:hint="@string/confirm_new_password"
+                    android:inputType="textPassword"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/change_password_submit_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/sign_up_selector"
+                    android:text="@string/change_password"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/profile_settings_progress_bar"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:indeterminate="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

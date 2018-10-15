@@ -1,0 +1,1251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="applicationName">"ConX2Share"</string>
+    <string name="labelSignin">"Iniciar Sessão"</string>
+    <string name="labelSignup">"Inscrever-se"</string>
+    <string name="labelEmail">"Email"</string>
+    <string name="labelPassword">"Senha"</string>
+    <string name="labelOr">"ou"</string>
+    <string name="labelUsername">"Nome de Usuário"</string>
+    <string name="labelConfirmPassword">"Confirmar Senha"</string>
+    <string name="labelFirstName">"Primeiro Nome"</string>
+    <string name="labelLastName">"Sobrenome"</string>
+    <string name="blurbTermsAndConditions">"Eu li e concordo com os termos e condições"</string>
+    <string name="statusAuthenticating">"Iniciando em…"</string>
+    <string name="statusUnexpectedError">"Ocorreu um erro inesperado."</string>
+    <string name="statusMessagedMarkedAsViewed">"Mensagem marcada como visualizada"</string>
+    <string name="labelSuccess">"Successo"</string>
+    <string name="statusMessageSent">"Mensagem Enviada"</string>
+    <string name="statusMessageSentFailed">"A mensagem falhou ao enviar"</string>
+    <string name="hintEnterMessageHere">"Digite a mensagem Aqui…"</string>
+    <string name="statusGotSentMessages">"Mensagem Enviada"</string>
+    <string name="hintTypeAMessage">"Digite uma mensagem…"</string>
+    <string name="hintAddTextHere">"Adicione o texto aqui…"</string>
+    <string name="statusFileError">"Erro de Arquivo"</string>
+    <string name="statusCameraError">"Erro de Câmera"</string>
+    <string name="labelAddAttachment">"Adicionar Anexo:"</string>
+    <string name="labelTakeAPhoto">"Tirar uma Foto"</string>
+    <string name="labelTakeAVideo">"Fazer um Vídeo"</string>
+    <string name="labelMessageType">"Tipo de Mensagem:"</string>
+    <string name="labelError">"Erro:"</string>
+
+    <!-- Post Activity -->
+    <string name="labelPost">"Publicação"</string>
+    <string name="titleCreatePost">"Criar uma Publicação"</string>
+    <string name="labelPostTo">"Para:"</string>
+    <string name="labelEveryone">"Todos"</string>
+    <string name="statusPostSuccessful">"Publicado com sucesso"</string>
+    <string name="statusPostFailed">"Falha na Publicação:"</string>
+
+    <!-- Image Upload Dialog -->
+    <string name="titleUploadPhoto">"Subir uma Foto"</string>
+    <string name="promptUploadOrSelectImageQuestion">"Gostaria de tirar uma foto ou fazer upload desde a sua biblioteca?"</string>
+    <string name="promptUploadOrSelectVideoQuestion">"Você gostaria de fazer um vídeo ou fazer upload desde a sua biblioteca?"</string>
+    <string name="labelTakePhoto">"Fazer uma Foto"</string>
+    <string name="labelLibrary">"Biblioteca"</string>
+    <string name="blurbNotYetImplemented">"Ainda não foi implementada."</string>
+
+    <!-- Feed Activity -->
+    <string name="labelDrawerOpen">"Gaveta Aberta"</string>
+    <string name="labelDrawerClose">"Gaveta Fechada"</string>
+    <string name="labelSignout">"Sair"</string>
+    <string name="labelProfilePicture">"Foto do Perfil"</string>
+
+    <!-- Share Dialog -->
+    <string name="labelShareTo">"Compartilhar com..."</string>
+    <string name="labelCancel">"Cancelar"</string>
+
+    <!-- Contacts -->
+    <string name="labelContacts">"Contatos"</string>
+    <string name="statusInviteSuccessful">"Amigos convidados"</string>
+    <string name="statusInviteFailed">"O convite ao amigo Falhou:"</string>
+
+    <!-- Groups -->
+    <string name="titleGroupName">"NOME DO GRUPO"</string>
+    <string name="labelCreateGroup">"GRUPO CRIADO"</string>
+    <string name="blurbGroupNameInvalid">"O grupo deve ter um nome"</string>
+    <string name="blurbGroupImageInvalid">"O grupo deve ter uma imagem"</string>
+    <string name="labelEditGroup">"EDITAR GRUPO"</string>
+    <string name="blurbGroupCreationFail">"O grupo não foi criado com sucesso.  Por favor, tente novamente."</string>
+    <string name="blurbGroupCreationSuccess">"Grupo Criado %s!"</string>
+    <string name="blurbGroupUpdateFail">"O grupo não foi atualizado com sucesso.  Por favor, tente novamente."</string>
+    <string name="blurbGenericErrorMessage">"Ocorreu um erro. Por favor, tente novamente."</string>
+    <string name="statusNoUsersFound">"Nenhum usuário encontrado corresponde aos critérios"</string>
+    <string name="labelMembers">"Membros"</string>
+    <string name="labelSend">"enviar"</string>
+    <string name="statusFailedToTetrieveMessages">"Falha ao recuperar novas mensagens"</string>
+    <string name="questionSaveMessage">"Salvar Mensagem?"</string>
+
+    <!-- Message Friends -->
+    <string name="hintFriendsName">"Primeiro Nome Sobrenome"</string>
+    <string name="blurbErrorLoadingIndex">"Ocorreu um erro ao carregar os seus bate-papos."</string>
+    <string name="titleNewMessage">"Nova Mensagem"</string>
+
+    <!-- Drawer Notifications -->
+    <string name="statusSentYouANewMessage">"Enviou-lhe uma nova mensagem"</string>
+    <string name="statusReadYourMessage">"Leia a sua mensagem"</string>
+    <string name="labelCommentedOnYourPost">"Comentou na sua publicação"</string>
+    <string name="statusInvitedYouToJoin">"Convidou você para unir-se"</string>
+    <string name="statusLoginFailed">"Falha ao entrar. Por favor, verifique a conexão de internet e tente novamente."</string>
+
+    <!-- ######################################### SET 2 STRINGS ##################################################### -->
+    <string name="labelNone">"Nenhum"</string>
+    <string name="label15s">"15s"</string>
+    <string name="label30s">"30s"</string>
+    <string name="label60s">"60s"</string>
+    <string name="label120s">"120s"</string>
+    <string name="labelHome">"Início"</string>
+    <string name="labelMessages">"Mensagens"</string>
+    <string name="labelFriends">"Amigos"</string>
+    <string name="labelGroups">"Grupos"</string>
+    <string name="labelNotifications">"Notificações"</string>
+    <string name="labelSubscriptionsGP">"OBTER PLUS"</string>
+    <string name="labelInvite">"Convidar"</string>
+    <string name="labelStore">"Loja"</string>
+    <string name="labelAbout">"SOBRE"</string>
+    <string name="labelChange">"change"</string>
+    <string name="labelPushMNotifications">"NOTIFICAÇÃO DE ENVIOS"</string>
+    <string name="titleSwitchTitle1">"MUDAR TÍTULO 1"</string>
+    <string name="titleSwitchTitle2">"MUDAR TÍTULO 2"</string>
+
+    <!-- Strings for Async Errors -->
+    <string name="labelRetry">"TENTAR NOVAMENTE"</string>
+    <string name="statusUnableToGatherFriendsToInvite">"Impossível reunir os amigos para convidar"</string>
+    <string name="statusUnableToInviteFriends">"Impossível convidar amigos"</string>
+    <string name="statusUnableToPostToGroup">"Impossível publicar no grupo"</string>
+    <string name="statusUnableToPost">"Impossível publicar"</string>
+    <string name="statusPostAlreadyFlagged">"Impossível etiquetar publicação, você já etiquetou"</string>
+    <string name="statusUnableToFlagPost">"Impossível etiquetar publicação"</string>
+    <string name="statusUnableToGetPost">"Impossível obter publicaçãot"</string>
+    <string name="statusUnableToGetPostComments">"Impossível publicar comentários"</string>
+    <string name="statusUnableToLikePost">"Impossível publicar curtidas"</string>
+    <string name="statusUnableToUnlikePost">"Impossível publicar descurtir"</string>
+    <string name="statusUnableToCreateGroup">"Impossível criar grupo"</string>
+    <string name="statusUnableToUpdateGroup">"Impossível atualizar grupo"</string>
+    <string name="statusUnableToRefreshFeed">"Impossível atualizar feed"</string>
+    <string name="statusUnableToGetPosts">"Impossível obter publicações"</string>
+    <string name="statusUnableToGetUnreadMessages">"Impossível obter mensagens não lidas"</string>
+    <string name="statusUnableToGetFriends">"Impossível obter amigos"</string>
+    <string name="statusUnableToGetGroup">"Impossível obter grupo"</string>
+    <string name="statusUnableToGetGroupPosts">"Impossível obter publicações de grupo"</string>
+    <string name="statusUnableToGetGroupList">"Impossível obter lista de grupos"</string>
+    <string name="statusUnableToRemoveOrDeleteGroup">"Impossível remover ou excluir grupo"</string>
+    <string name="statusUnableToGetChats">"Impossível obter bate-papos"</string>
+    <string name="statusUnableToGetSavedMessages">"Impossível obter mensagens salvas"</string>
+    <string name="statusUnableToUpdateNotificationAsViewed">"Impossível atualizar a notificação como lida"</string>
+    <string name="statusUnableToGetMessage">"Impossível obter mensagem"</string>
+    <string name="statusUnableToFollowUser">"Impossível seguir usuário"</string>
+    <string name="statusUnableToUnfollowUser">"Impossível deixar de seguir usuário"</string>
+    <string name="statusUnableToLoadProfile">"Impossível carregar o perfil"</string>
+    <string name="statusUnableToUpdateAvatar">"Impossível atualizar avatar"</string>
+    <string name="statusUnableToInviteUserToGroup">"Impossível convidar usuário ao grupo"</string>
+    <string name="statusUnableToPurchaseSubscription">"Impossível comprar inscrição"</string>
+    <string name="statusUnableToUpdateUsersProfile">"Impossível atualizar o perfil de usuário"</string>
+    <string name="statusUnableToSendMessage">"Impossível enviar mensagem"</string>
+    <string name="statusUnableToSetExpiration">"Impossível definir a expiração da mensagem"</string>
+    <string name="statusUnableToSaveMessage">"Impossível salvar mensagem"</string>
+    <string name="statusUnableToGetChat">"Impossível obter bate-papo com usuário"</string>
+    <string name="statusUnableToGetSentMessages">"Impossível obter as mensagens enviadas"</string>
+    <string name="statusUnableToGetMissedMessages">"Impossível obter mensagens perdidas"</string>
+    <string name="statusUnableToGetNotifications">"Impossível obter notificações"</string>
+    <string name="statusUnableToAcceptGroupInvite">"Impossível aceitar convite de grupo"</string>
+    <string name="statusUnableToDeclineGroupInvite">"Impossível recusar convite de grupo"</string>
+    <string name="statusUnableToGetMoreNotifications">"Impossível obter mais notificações"</string>
+    <string name="statusUnableToGetFollowingUsers">"Impossível obter os usuários que você segue"</string>
+    <string name="statusUnableToGetFollowers">"Impossível obter seguidores"</string>
+    <string name="statusUnableToGetMessages">"Não é possível obter mensagens"</string>
+    <string name="statusUnableToGoToChat">"Impossível ir ao bate-papo"</string>
+
+    <!-- Search hints -->
+    <string name="hintSearchForUsersToInvite">"procurar pessoas para convidar"</string>
+    <string name="hintSearchFriends">"procurar amigos"</string>
+    <string name="hintSearchForFriends">"procurar por amigos "</string>
+    <string name="hintSearchForMembers">"procurar por membros"</string>
+    <string name="hintSearchForUsersToChatWith">"procurar por usuários para bater papo"</string>
+    <string name="hintSearchContacts">"procurar contatos"</string>
+
+    <!-- Notifications -->
+    <string name="statusNewNotificationReceived">"Uma nova notificação foi recebida"</string>
+    <string name="labelRefresh">"REFRESCAR"</string>
+    <string name="labelViewed">" - lido"</string>
+    <string name="labelAccepted">"aceito"</string>
+    <string name="labelDeclined">"declinado"</string>
+    <string name="titleNotification">"Notificação Conx2Share"</string>
+
+    <!-- Prompt text -->
+    <string name="labelYes">"sim"</string>
+    <string name="labelNo">"não"</string>
+    <string name="labelOk">"OK"</string>
+    <string name="labelExclamation">"!"</string>
+
+    <!-- Subscription Strings -->
+    <string name="statusSubscribedSuccessfully">"Inscrito com Sucesso"</string>
+    <string name="statusFailedToSubscribe">"Falha ao se inscrever"</string>
+    <string name="labelPriceFree">"0"</string>
+    <string name="labelPricePlus">"2.40 / ano"</string>
+    <string name="labelPricePremium">"29.99 / ano"</string>
+    <string name="labelPricePlatinum">"49.99 / anor"</string>
+    <string name="blurbFreeSubscriptionDescription"><![CDATA[Fotos & Vídeos serão eliminados após serem visualizados.]]></string>
+    <string name="titleFreeSubscription">"Grátis"</string>
+    <string name="labelSubscribe">"Inscreva-se!"</string>
+    <string name="labelCurrentSubscription">"inscrição atual"</string>
+    <string name="labelAgo">"atrás"</string>
+    <string name="labelPlus">"Plus"</string>
+    <string name="blurbPlusSubscriptionDescription">"Salve até  5 fotos e 1 vídeo."</string>
+    <string name="titlePremiumSubscription">"Premium"</string>
+    <string name="blurbPremiumSubscriptionDescription"><![CDATA[Cx2share email e 50GB de armazenagem de dados para mensagens, fotos & vídeo.]]></string>
+    <string name="titlePlatinumSubscription">"Platinum"</string>
+    <string name="blurbPlatinumSubscriptionDescription"><![CDATA[Cx2share email e 100GB de armazenagem de dados para mensagens, fotos & vídeos.]]></string>
+
+    <!-- Sharing Strings -->
+    <string name="labelSharedBy">"\" compartilhado por "</string>
+    <string name="blurbViaConx2shareAndroid">" via Conx2share Android"</string>
+    <string name="titleConx2shareForAndroid">"Conx2share para Android"</string>
+    <string name="messagePleaseInstallFacebook">"Por favor, instale o aplicativo do Facebook para compartilhar a sua publicação."</string>
+    <string name="messagePleaseInstallTheTwiiterApp">"Por favor, instale o aplicativo do Twitter para compartilhar a sua publicação."</string>
+
+    <!-- Progress Dialog Strings -->
+    <string name="statusLoadingMessages">"Carregando Mensagens..."</string>
+    <string name="statusGatheringFriends">"Reunindo os amigos..."</string>
+    <string name="statusGatheringMessages">"Reunindo mensagens.."</string>
+    <string name="statusGatheringChats">"Reunindo bate-papos..."</string>
+    <string name="statusGatheringFollowedUsers">"Reunindo os usuários que você segue..."</string>
+    <string name="statusGatheringFollowers">"Reunindo seguidores..."</string>
+    <string name="statusSendingMessage">"Enviando mensagem..."</string>
+    <string name="statusPosting">"Publicando..."</string>
+    <string name="statusGatheringSavedMessages">"Reunindo mensagens salvas..."</string>
+    <string name="statusGatheringChatInformation">"Reunindo informações de bate-papos..."</string>
+
+    <!-- Group Strings -->
+    <string name="labelDeleteGroup">"Excluir grupo"</string>
+    <string name="labelLeaveGroup">"Sair do grupo"</string>
+    <string name="labelDeletedGroup">"Grupo Excluído "</string>
+    <string name="labelLeftGroup">"Grupo da Esquerda "</string>
+    <string name="labelUpdatedGroup">"Grupo Atualizado "</string>
+    <string name="labelGroupOwner">"proprietário do grupo"</string>
+    <string name="labelGroupMembers">"Membros do Grupo"</string>
+    <string name="labelGroupName">"Nome do grupo"</string>
+
+    <!-- Following Strings -->
+    <string name="labelFollowers">"Seguidores"</string>
+    <string name="labelFollowing">"Seguindo"</string>
+    <string name="statusFailedToFollow">"Falha ao seguir. Tente Novamente."</string>
+    <string name="labelUnfollowed">"Deixar de seguir"</string>
+    <string name="labelFollow">"SEGUIR"</string>
+    <string name="labelUnfollow">"Deixar de seguir"</string>
+    <string name="statusFollowedYou">"Seguiu você"</string>
+
+    <!-- SignUp Strings -->
+    <string name="statusYouAreNowSignedUp">"Você já se inscreveu!"</string>
+    <string name="statusFailedToSignUp">"Falha ao se inscrever, por favor, tente novamente."</string>
+    <string name="statusPleaseFillOutAllFields">"Por favor, preencha todos os campos"</string>
+
+    <!-- Image and video strings -->
+    <string name="titleSelectPicture">"Selecione Imagem"</string>
+    <string name="questionUploadFromLibrary">"Você gostaria de fazer um vídeo ou fazer upload desde a sua biblioteca?"</string>
+    <string name="statusErrorUploadingVideo">"Ocorreu um erro ao carregar o seu vídeo"</string>
+    <string name="messageSelectImageError">"Por favor, escolha uma imagem armazenada no seu dispositivo. Isso não inclui imagens em cache de outros aplicativos ou meios de comunicação social."</string>
+    <string name="statusTwitterImageError">"Falha ao carregar imagem e anexar à publicação do twitter."</string>
+    <string name="satusErrorSelectingImage">"Ocorreu um erro ao selecionar a sua imagem"</string>
+    <string name="questionSelectUpload">"O que você gostaria de carregar?"</string>
+    <string name="statusImageDownloadFailed">"Falha ao baixar a imagem"</string>
+    <string name="statusImageNotFound">"A imagem não pode ser encontrada"</string>
+    <string name="labelVideoTake">"Fazer Video"</string>
+    <string name="statusFileExceedsLimit">"Arquivo excede o limite de 10Mb."</string>
+    <string name="questionSelectVideoSource">"Fazer vídeo ou obter um da sua biblioteca?"</string>
+    <string name="questionSelectImageSource">"Fazer uma foto ou obter uma da sua biblioteca?"</string>
+
+    <!-- Fuzzy -->
+    <string name="indicatorMedia">"(mídia)"</string>
+
+    <!-- Fuzzy -->
+    <string name="indicatorPicture">"(foto)"</string>
+
+    <!-- Fuzzy -->
+    <string name="indicatorVideo">"(vídeo)"</string>
+
+    <!-- Fuzzy -->
+    <string name="indicatorAudio">"(áudio)"</string>
+
+    <!-- Post Strings -->
+    <string name="promptFlagContentAsInappropriate">"Gostaria de marcar esta publicação como conteúdo impróprio?"</string>
+    <string name="statusPostFlagged">"Esta publicação foi etiquetada agora"</string>
+    <string name="statusMadeANewPost">"Uma nova publicação feita"</string>
+    <string name="statusMadeANewGroupPost">"Feita uma nova publicação no grupo"</string>
+    <string name="hintEnterYourMessageHere">"Digite aqui a sua mensagem..."</string>
+
+    <!-- Password Strings -->
+    <string name="promptForgotPassword">"Esqueceu a sua Senha?"</string>
+    <string name="hintEnterYourEmail">"Digite seu email."</string>
+    <string name="labelChangePassword">"Alterar a Senha"</string>
+    <string name="statusCantResetPassword">"Não é possível Redefinir a senha"</string>
+    <string name="labelResetPassword">"Redefinir a senha"</string>
+    <string name="statusResetPasswordEmailSent">"O email para redefinir a senha foi enviado"</string>
+    <string name="statusPleaseEnterYourEmailAddress">"Digite o seu endereço de email e tente novamente."</string>
+    <string name="labelConfirmNewPassword">"Confirmar a nova senha"</string>
+    <string name="labelNewPassword">"Nova Senha"</string>
+    <string name="labelOldPassword">"Senha Antiga"</string>
+    <string name="statusUpdatingPassword">"Atualizando senha"</string>
+    <string name="statusOldPasswordIncorrect">"A senha antiga está incorreta."</string>
+    <string name="statusPasswordUpdated">"A senha foi atualizada"</string>
+    <string name="statusPasswordFailedToUpdate">"A senha falhou ao atualizar, por favor, tente novamente"</string>
+    <string name="statusPasswordsDontMatch">"A suas senhas não coincidem"</string>
+    <string name="statusOldPasswordError">"Senha antiga com erro"</string>
+    <string name="statusOldPasswordInvalid">"A senha antiga que você digitou não é válida"</string>
+    <string name="blurbPasswordsDontMatch">"A Nova Senha e a Confirmação de Senha não coincidem. Por favor, tente novamente."</string>
+    <string name="you_password_has_been_updated">"A sua senha foi atualizada"</string>
+    <string name="change_password_error">"Erro"</string>
+
+    <!-- Drawer Items -->
+    <string name="labelDrawerHome">"Início"</string>
+    <string name="labelDrawerMessages">"Mensagens"</string>
+    <string name="labelDrawerFriends">"Amigos"</string>
+    <string name="labelDrawerGroups">"Grupos"</string>
+    <string name="labelDrawerNotifications">"Notificações"</string>
+    <string name="labelDrawerSubscriptions">"Subscrições"</string>
+    <string name="labelDrawerInvite">"Convite"</string>
+    <string name="labelDrawerStore">"Loja"</string>
+    <string name="labelDrawerEshopping">"E-Shopping"</string>
+    <string name="labelDrawerGames">"Games"</string>
+    <string name="labelDrawerBusiness">"Negócio"</string>
+
+    <!-- Other Strings -->
+    <string name="blurbFacebookConnectNotImplemented">"Facebook Connect ainda não foi implementado"</string>
+    <string name="blurbTwiterConnectNotImplemented">"Twitter Connect ainda não foi implementado"</string>
+    <string name="errorNoChatNotFollowed">"Ambos os usuários devem seguir um ao outro para conversart"</string>
+    <string name="errorTryAgain">"Por favor, tente novamente"</string>
+    <string name="statusMessageSaved">"A mensagem está salva."</string>
+    <string name="errorPasswordLength">"A sua senha deve ter pelo menos 8 caracteres"</string>
+    <string name="errorPasswordsNotMatch">"As senhas não coincidem"</string>
+    <string name="errorGenericSignUp">"Ocorreu um erro ao se inscrever."</string>
+    <string name="statusSigningUp">"Inscreva-se..."</string>
+    <string name="blurbSubscriptionLevelTooLow">"você já tem um nível de inscrição mais elevada"</string>
+    <string name="errorPleaseAcceptTerms">"Por favor, aceite os termos e condições."</string>
+
+    <!-- <string name="please_accept_the_terms_of_service">Please accept the terms of service</string> -->
+    <string name="errorUsernameTaken">"Nome de usuário já está sendo utilizado."</string>
+    <string name="blurbNotConnectedToGooglePlay">"Não conectado ao Google Play Store"</string>
+    <string name="blurbComingSoon">"Em breve!"</string>
+    <string name="labelAccept">"aceitar"</string>
+    <string name="labelDecline">"declínio"</string>
+    <string name="hintLeaveAComment">"Deixe um comentário..."</string>
+    <string name="labelZero">"0"</string>
+    <string name="labelOne">"1"</string>
+
+    <!-- ######################################### SET 3 STRINGS ##################################################### -->
+    <string name="statusUnableToGetGroupMembers">"Não foi possível obter os membros atuais do grupo"</string>
+    <string name="statusUnableToLoadWebPage">"Não é possível carregar a página web"</string>
+    <string name="hintEnterText">"Digite o texto"</string>
+    <string name="labelTermsOfService">"Termos de Serviço"</string>
+    <string name="blurbTermsOfServiceAndPrivacyPolicy">"Eu li e concordo com os Termos de Serviço e Política de Privacidade"</string>
+    <string name="labelPrivacyPolicy">"Política de Privacidade"</string>
+    <string name="statusGroupUpdateSuccess">"Grupo Atualizado %s!"</string>
+    <string name="statusRetrievingNotificationsFailed">"Falha na recuperação de notificações. Por favor, tente novamente."</string>
+    <string name="errorGenericMessaging">"Ocorreu um erro durante as mensagens"</string>
+
+    <!-- Message Friends Index -->
+    <string name="labelSaved">"Salvo"</string>
+    <string name="labelCurrent">"Atual"</string>
+
+    <!-- Follow -->
+    <string name="labelFollowed">"Seguiu"</string>
+    <string name="statusUnfollowFailed">"Falha ao deixar de seguir. Tente novamente."</string>
+    <string name="labelStartRecording">"Começar a Gravar"</string>
+    <string name="labelSubmit">"enviar"</string>
+    <string name="errorInvalidUsernameOrPassword">"Nome do usuário ou senha inválida"</string>
+    <string name="statusUnableToUpdateFollowersCount">"Não é possível atualizar contagem de seguidores"</string>
+
+    <!-- Promo Codes -->
+    <string name="labelPromoCode">"Código Promocional (opcional)"</string>
+    <string name="labelActivatePromoCode">"Ativar Código Promocional"</string>
+    <string name="errorInvalidPromoCode">"O código promocional que você digitou é inválido."</string>
+    <string name="blurbInvalidPromoCode">"O código promocional que você digitou é inválido. Introduza um código promocional válido ou limpe o código promocional atual."</string>
+    <string name="hintEnterPromoCode">"Por favor, entre com o seu código promocional..."</string>
+    <string name="blurbAccountSubscriptionUpgradedPlus">"A sua conta foi atualizada para uma Inscrição Plus."</string>
+
+    <!-- ######################################### SET 4 STRINGS ##################################################### -->
+    <string name="statusUnableToCheckPromoCodeValid">"N„o foi possÌvel verificar se o cÛdigo promocional È v·lido"</string>
+    <string name="blurbPromoUpgradePlusDescription">"O cÛdigo promocional que introduziu era v·lido. Se vocÍ era um usu·rio gratuito, a sua conta foi atualizada para uma inscriÁ„o Plus."</string>
+    <string name="statusValidPromoCode">"CÛdigo Promocional V·lido"</string>
+    <string name="statusInvalidPromoCode">"CÛdigo Promocional Inv·lido "</string>
+    <string name="statusUnableUpdateUserToPromoUser">"N„o È possÌvel atualizar o usu·rio para usu·rio promocional"</string>
+    <string name="errorEmailAlreadyUsed">"O email j· foi tomado"</string>
+
+    <!-- ######################################### SET 5 Strings ##################################################### -->
+    <string name="statusUserFavoritingFailed">"Usu·rio como favorito falhou."</string>
+    <string name="statusUserUnfavoritingFailed">"Usu·rio como n„o favorito falhou."</string>
+    <string name="errorGroupNameTaken">"O nome do grupo j· existe."</string>
+    <string name="blurbNewMessageReceivedFrom">"VocÍ recebeu uma nova mensagem"</string>
+    <string name="labelOneM">"1m"</string>
+    <string name="statusUnableToPostComment">"N„o È possÌvel postar um coment·rio"</string>
+    <string name="labelStartChat">"Iniciar Nova ConversaÁ„o"</string>
+    <string name="promptDeleteGroupConfirm">"Tem certeza de que deseja apagar o grupo?"</string>
+    <string name="promptLeaveGroupConfirm">"Tem certeza de que quer deixar o grupo?"</string>
+    <string name="labelExit">"Sair"</string>
+    <string name="labelAttachPhoto">"Por favor, anexar uma foto"</string>
+    <string name="labelAttachVideo">"Por favor, anexar um vÌdeo."</string>
+    <string name="errorEmailBlank">"o Email n„o pode ficar em branco"</string>
+
+    <!-- ######################################### SET 6 Strings ##################################################### -->
+    <string name="errorGroupIsPerminant">"Você não pode deixar ou eliminar o grupo Conx2Share"</string>
+    <string name="labelPromoted">"Promovido"</string>
+    <string name="errorRecordingTooShort">"A gravação não é longa o suficiente."</string>
+    <string name="warningRecordingWillBeTruncated">"Somente os primeiros 2 minutos de gravação serão enviados."</string>
+    <string name="statusUnableToSendAudioMessage">"Não foi possível enviar a mensagem de áudio"</string>
+    <string name="statusUnableToGetBusinessInfo">"Não foi possível carregar informações do Assunto"</string>
+    <string name="statusCouldNotRetrieveYourBusinesses">"Não foi possível recuperar os seus Assuntos"</string>
+    <string name="statusCannotPostToConx2shareGroup">"Você não pode enviar mensagens para o Grupo Conx2share."</string>
+    <string name="hintSearchForBusinesses">"pesquisar por Assuntos"</string>
+    <string name="LabelBusinesses">"Assuntos"</string>
+    <string name="labelBusinessOwner">"dono do Assunto"</string>
+    <string name="labelGroup">"Grupo: "</string>
+    <string name="labelBusiness">"Assunto: "</string>
+    <string name="labelBusinesses">"Empresas"</string>
+    <string name="labelDeletePost">"Apagar Mensagem"</string>
+    <string name="errorDeletePostNotOwner">"Você não é dono desta publicação para apagá-la"</string>
+    <string name="promptDeletePostConfirm">"Tem certeza de que deseja excluir esta publicação?"</string>
+    <string name="statusPostDeleted">"Mensagem excluída"</string>
+    <string name="statusUnableDeletePost">"Não é possível excluir publicação"</string>
+    <string name="labelDeleteComment">"Excluir comentário"</string>
+    <string name="errorDeleteCommentNotOwner">"Você não é dono deste comentário para excluí-lo"</string>
+    <string name="promptDeleteCommentConfirm">"Tem certeza de que deseja excluir este comentário?"</string>
+    <string name="statusCommentDeleted">"Comentário apagado"</string>
+    <string name="statusUnableDeleteComment">"Não é possível excluir comentário"</string>
+    <string name="labelFlagPost">"Marcar Publicação"</string>
+    <string name="errorGenericCommentNotOwner">"Você não pode fazer nada com este comentário, pois você não é o dono"</string>
+    <string name="errorEditPostNotOwner">"Você não é dono desta publicação para editá-la"</string>
+    <string name="labelEditPost">"Editar pubicação"</string>
+    <string name="promptEditPost">"Você quer editar esta publicação?"</string>
+    <string name="lableUpdate">"Atualizar"</string>
+    <string name="statusUnableToUpdatePost">"Não é possível atualizar publicação"</string>
+    <string name="statusPostEdited">"Publicação Editada"</string>
+    <string name="statusUpdatingPost">"Atualizando publicação..."</string>
+    <string name="labelFlagInappropriate">"MARCADO COMO INAPROPRIADO"</string>
+    <string name="errorCannotChangeAudienceEditingPost">"Você não pode mudar o público ao editar uma publicação."</string>
+    <string name="hintEnterCommentHere">"Digite o seu comentário aqui..."</string>
+    <string name="labelUpdate">"Atualizar"</string>
+    <string name="labelEditComment">"Editar comentário"</string>
+    <string name="errorEditCommentNotOwner">"Você não é dono deste comentário para editá-lo."</string>
+    <string name="statusCommentUpdated">"Comentário Atualizado!"</string>
+    <string name="statusUnableUpdateComment">"Não é possível atualizar o comentário"</string>
+    <string name="statusUpdatingComment">"Atualizando comentário..."</string>
+    <string name="errorGenericImageUploadFailed">"Aconteceu um erro ao carregar a sua imagem"</string>
+    <string name="errorGenericFileUploadFailed">"Aconteceu um erro ao carregar o seu arquivo"</string>
+    <string name="labelPhoto">"Foto"</string>
+    <string name="labelVideo">"Vídeo"</string>
+    <string name="labelRemoveFromGroup">"REMOVER DO GRUPO"</string>
+    <string name="errorEditGroupMemberNotOwner">"Você não pode fazer nada com este membro do grupo porque você não é o dono do grupo"</string>
+    <string name="labelRemoveUserFromGroup">"Remover Usuário do grupo"</string>
+    <string name="promptBlockUserFromGroupConfirm">"Tem certeza de que deseja bloquear este usuário do grupo?"</string>
+    <string name="labelBlockUser">"Usuário Bloqueado"</string>
+    <string name="promptRemoveUserFromGroupConfirm">"Tem certeza de que deseja remover este usuário do grupo?"</string>
+    <string name="labelMember">"membro"</string>
+    <string name="labelFollower">"seguidor"</string>
+    <string name="statusUnableFollowGroup">"Incapaz de seguir o grupo"</string>
+    <string name="labelUnableUnfollowGroup">"Incapaz de deixar de seguir o grupo"</string>
+    <string name="labelGroupFollowers">"Seguidores do grupo"</string>
+    <string name="hintSearchForFollowers">"Pesquisar por seguidores"</string>
+    <string name="statusUnableToInviteUserToFollowGroup">"Incapaz de convidar usuário para seguir o grupo"</string>
+    <string name="statusSendInviteToFollowGroup">"Convite para seguir o grupo enviado"</string>
+    <string name="statusUnableToBlockUserFromGroup">"Incapaz de bloquear o usuário do grupo"</string>
+    <string name="statusUserBlockedFromGroup">"Você bloqueou este usuário do grupo."</string>
+    <string name="statusUnableToRemoveUserFromGroup">"Incapaz de remover o usuário do grupo"</string>
+    <string name="statusUserRemovedFromGroup">"Usuário foi removido do grupo"</string>
+    <string name="statusInvitedToFollowGroup">"Convidou você para seguir o grupo"</string>
+    <string name="hintSearchForGroups">"Pesquisa por grupos"</string>
+    <string name="labelPrivate">"Privado"</string>
+    <string name="labelBlog">"Blog"</string>
+    <string name="labelDiscussion">"Discussão"</string>
+    <string name="statusUnableToLeaveGroup">"Não é possivel deixar o grupo"</string>
+    <string name="statusUnableToGetGroupFollowers">"Impossível obter os seguidores do grupo"</string>
+    <string name="statusUnableToUnblockUser">"Não é possível desbloquear usuário"</string>
+    <string name="statusUserUnblockedFromGroup">"Você desbloqueou este usuário do grupo"</string>
+    <string name="statusBlockedUnablePostGroup">"Não é possível publicar no grupo, bloqueado"</string>
+    <string name="statusBlockedUnablePostComment">"Não é possível publicar comentário, bloqueado"</string>
+    <string name="labelUnblockUser">"Desbloquear usuário"</string>
+    <string name="promptUnblockUserConfirm">"Tem certeza de que deseja desbloquear este usuário?"</string>
+    <string name="statusBlockedUnableToUpdatePost">"Não é possível atualizar publicação, bloqueado"</string>
+    <string name="statusBlockedUnableToUpdateComment">"Não é possível atualizar comentário, bloqueado"</string>
+    <string name="bogusEmergencyLogoutToast">"A sessão é inválida. Por favor, entre novamente."</string>
+    <string name="statusUnableToLeaveOrDeleteGroup">"Impossível deixar ou apagar o grupo"</string>
+    <string name="labelPublic">"PÚBLICO"</string>
+    <string name="statusCreatingGroup">"Criando de grupo..."</string>
+    <string name="statusUpdatingGroup">"Atualizando Grupo..."</string>
+    <string name="statusUnableToDeleteGroup">"Atualizando Grupo..."</string>
+    <string name="promptUnfollowGroupConfirm">"Tem certeza de que quer deixar de seguir o grupo?"</string>
+    <string name="labelUnfollowGroup">"Deixar de seguir o Grupo"</string>
+    <string name="labelGo">"Ir"</string>
+    <string name="hintSearchHashtags">"procurar hashtags"</string>
+    <string name="statusNoPostsFoundForHashtag">"Nenhuma entrada encontrada para esta hashtag"</string>
+    <string name="statusUnableToGetHashtagResults">"Impossível obter resultados da hashtag"</string>
+    <string name="labelSubscriptions">"Subscrições"</string>
+    <string name="labelAddFriends">"Adicionar Amigos"</string>
+    <string name="labelSearchBusinesses">"Procurar Empresas"</string>
+    <string name="labelInviteFollowers">"Convidar Seguidores"</string>
+    <string name="labelInviteMembers">"Convidar Membros"</string>
+    <string name="labelSearchGroups">"Procurar Grupos"</string>
+    <string name="labelDiscover">"Descobrir"</string>
+    <string name="bogusAnErrorOccurredTryingToStartYourGallery">"Ocorreu um erro ao tentar iniciar a sua galaria"</string>
+    <string name="statusHashtagNotFound">"A hashtag procurada não foi encontrada"</string>
+    <string name="labelRestore">"Restaurar"</string>
+    <string name="statusSubscriptionRestoredSuccessfully">"Subscrição restaurada com sucesso"</string>
+    <string name="statusUnableToRestoreSubscription">"Impossível restaurar subscrição"</string>
+    <string name="statusRestoringSubscription">"A restaurar subscrição..."</string>
+    <string name="labelRestoreSubscription">"Restaurar Subscrição"</string>
+    <string name="promptRestoreSubscriptionFromGoogleConfirm">"Deseja restaurar a sua subscrição baseadas nas informações da Google?"</string>
+    <string name="statusUnableToSearchUsers">"Impossível procurar utilizadores para marcar"</string>
+    <string name="labelSelectFile">"Selecionar ficheiro"</string>
+    <string name="statusUpdatingUserAvatar">"A atualizar avatar do utilizador..."</string>
+    <string name="labelHashtags">"Hashtags"</string>
+    <string name="lableUsers">"Utilizadores"</string>
+    <string name="labelPage">"Página"</string>
+    <string name="labelTags">"Tags"</string>
+    <string name="labelInvites">"Convites"</string>
+    <string name="labelPosts">"publicações"</string>
+    <string name="messageCancelGoogleSubscriptionNotice">"Quando comprar uma nova subscrição, e se já tiver uma subscrição ativa, clique no link 'subscrição atual' para que possa cancelar a mesma pelo Google Play Store."</string>
+    <string name="titleCancelGoogleSubscription">"Nota Para Detentores da Subscrição Atual"</string>
+    <string name="labelContinueToPurchase">"Continuar para comprar"</string>
+    <string name="labelGoBack">"Voltar"</string>
+    <string name="hintSearchUsers">"procurar utilizadores"</string>
+    <string name="labelUnknownShort">"(?)"</string>
+    <string name="labelUnknown">"Desconhecido"</string>
+    <string name="labelPeople">"Pessoas"</string>
+    <string name="blurbPushNotificationNewMessages">"Ative ou desative as notificações push para novas mensagens"</string>
+    <string name="blurbPushNotificationGroupInvites">"Ative ou desative as notificações push para novos convites para grupos"</string>
+    <string name="blurbPushNotificationNewComments">"Ative ou desative as notificações push para novos comentários nas suas publicações"</string>
+    <string name="blurbPushNotificationFromFollowedGroupsAndBusiness">"Ative ou desative as notificações push para novas publicações em empresas ou grupos que segue"</string>
+    <string name="blurbPushNotificationWhenFollowed">"Ative ou desative as notificações push quando alguem o seguir"</string>
+    <string name="blurbPushNotificationWhenTagged">"Ative ou desative as notificações push para quando alguem o marcar numa publicação ou comentário"</string>
+    <string name="statusUnableToFollowBusiness">"Nao foi possível seguir a empresa"</string>
+    <string name="statusUnableToUnfollowBusiness">"Não foi possível deixar de seguir a empresa"</string>
+    <string name="statusNoBusinesses">"Não tem empresas"</string>
+    <string name="statusTaggedYouPost">"Marcou-o numa publicação"</string>
+    <string name="statusTaggedYouComment">"Marcou-o num comentário"</string>
+    <string name="statusCreatedBusinessPost">"Fez uma nova publicação na empresa"</string>
+    <string name="labelAbort">"Abortar"</string>
+    <string name="promptAbortBusinessDetailsConfirm">"Tem a certeza que deseja abortar o fornecimento de informações da sua empresa?"</string>
+    <string name="blurbSignUpBusinessNotice">"Esta é uma conta empresa -- é necessária uma configuração adicional"</string>
+    <string name="errorEnterValidEmailAddress">"Por favor, introduza um endereço email válido"</string>
+    <string name="errorUsernameLettersAndNumbersOnly">"Por favor, use apenas letras e numeros no seu nome de utilizador"</string>
+    <string name="statusMustRestoreAccountUsingYourGoogleCredentials">"Não pode restaurar a sua conta usando as credenciais de outra conta Google"</string>
+    <string name="blurbRegisterAsBusiness">"Registar conta empresa"</string>
+    <string name="errorEnterUsernameMinimumMaximumChars">"Por favor, introduza um nome de utilizador com 2 a 20 caracteres"</string>
+    <string name="hintSearchToDiscover">"procurar no Descobrir"</string>
+    <string name="labelNews">"Notícias"</string>
+    <string name="statusUnableToLoadRssFeed">"Impossível carregar Feed RSS"</string>
+    <string name="statusUnableToGetNewsSources">"Impossível obter novas fontes"</string>
+    <string name="statusNoNewsSourcesFound">"Nenhuma fonte de noticías foi retornada pelo servidor"</string>
+    <string name="hintSearchTheNews">"procurar notícias"</string>
+    <string name="labelBirthday">"Aniversário"</string>
+    <string name="errorDateOfBirthRequired">"Por favor, introduza uma data de aniversário"</string>
+    <string name="errorBusinessRegistrationDateOfBirthRequired">"Tem de ter uma data de aniversário introduzida, e ter pelo menos 18 anos para registar uma empresa"</string>
+    <string name="errorBusinessRegistrationMinimumAge">"Tem de ter mais de dezoito anos para registar uma empresa"</string>
+    <string name="statusUnableToSearchHashtags">"Impossível encontrar hashtags para usar"</string>
+
+    <!-- Denoted a user initiated operation that was cancelled. e.g. the user tries to take a picture, but then cancels the operation. -->
+    <string name="blurbGenericOperationCanceled">"Operação cancelada"</string>
+    <string name="statusPasswordNotValid">"A palavra-passe introduzida não é válida."</string>
+
+    <!-- Authentication -->
+    <string name="blurbLoginRequested">"Entre na sua conta"</string>
+
+    <!-- Authentication -->
+    <string name="blurbLoginPasswordRequested">"Introduza a palavra-passe desta conta"</string>
+
+    <!-- Selecting a picture of video source, e.g. camera or gallery? -->
+    <string name="titleSelectSource">"Selecionar fonte"</string>
+
+    <!-- Rational for granting security access to the camera. -->
+    <string name="permissionCameraAccessRationale">"É necessário um acesso à câmara para tirar fotografias e vídeos para partilhar"</string>
+
+    <!-- Camera access was denied by the user. -->
+    <string name="permissionCameraAccessDenied">"Acesso à câmara negado"</string>
+
+    <!-- Covers all permission related to including images/videos/media to a post. -->
+    <string name="permissionAttachRationale">"O acesso à câmara e sistema de ficheiros é usado para anexar media às suas mensagens."</string>
+
+    <!-- Permissions used to attach media were denied. -->
+    <string name="permissionAttachAccessDenied">"A app precisa de permissões \"Câmara\" e \"Armazenamento\" para anexos. Uma ou mais dessas permissões foram negadas."</string>
+
+    <!-- Permission to read external storage is denied. -->
+    <string name="permissionReadExternalStorageAccessDenied">"Leitura do armazenamento recusada."</string>
+
+    <!-- Permission to write to external storage is denied. -->
+    <string name="permissionWriteExternalStorageAccessDenied">"Escrita no armazenamento recusada."</string>
+
+    <!-- Why the app needs to read to external storage. -->
+    <string name="permissionReadExternalStorageRational">"É necessário acesso de leitura de ficheiros para partilhar fotos e vídeos."</string>
+
+    <!-- Why the app needs to write to external storage. -->
+    <string name="permissionWriteExternalStorageRational">"É necessário acesso de escrita de ficheiros para partilhar fotos e vídeos."</string>
+
+    <!-- Permission was granted. -->
+    <string name="permissionAttachAccessGranted">"Permissão para anexos aceite. "</string>
+
+    <!-- Common title for all rational dialogs -->
+    <string name="permissionRationalTitle">"Pedido de permissão"</string>
+    <string name="labelSettings">"Definições"</string>
+
+    <!-- RecordAudio is used for voice messaging. -->
+    <string name="permissionRecordAudioAccessRationale">"É necessário permissão de gravação de áudio para as mensagens de voz."</string>
+
+    <!-- RecordAudio permission was rejected. -->
+    <string name="permissionRecordAudioAccessDenied">"Permissão de gravação audio recusada."</string>
+
+    <!-- Why do we need the micropphone -->
+    <string name="permissionMicrophoneRationale">"O acesso ao microfone e sistema de ficheiros é usado para enviar mensagens de voz."</string>
+    <string name="permissionMicrophoneAccessGranted">"Permissão para microfone aceite."</string>
+    <string name="permissionMicrophoneAccessDenied">"Permissão para microfone recusada."</string>
+    <string name="permissionReadContactsAccessRationale">"Dá à aplicação possibilidade de ler os seus contactos."</string>
+    <string name="permissionReadContactsAccessDenied">"Leitura de contactos recusada."</string>
+    <string name="permissionContactRationale">"O acesso aos seus contactos é usado para encontrar e convidar pessoas."</string>
+    <string name="permissionContactAccessGranted">"Acesso aos contactos aceite."</string>
+    <string name="permissionContactAccessDenied">"Acesso aos contactos recusado."</string>
+
+    <!-- Generic empty list content -->
+    <string name="emptyList">"Nada para mostrar"</string>
+
+    <!-- Empty list of groups -->
+    <string name="emptyListGroups">"Nenhum grupo encontrado"</string>
+
+    <!-- Text label used as a placeholder when there is no other data. -->
+    <string name="emptyNoData">"(vazio)"</string>
+
+    <!-- label to show that there is a picture attached, but nothing in the text field. -->
+    <string name="emptyNoDataImage">"(imagem)"</string>
+
+    <!-- label to show that there is a video attached, but nothing in the text field. -->
+    <string name="emptyNoDataVideo">"(vídeo)"</string>
+
+    <!-- label to show that there is audio attached, but nothing in the text field. -->
+    <string name="emptyNoDataAudio">"(audio)"</string>
+
+    <!-- The title of the dialog that informs the user that they don't have network connectivity. -->
+    <string name="dialogNoNetworkTitle">"Sem rede"</string>
+
+    <!-- Telecom Network or Internet Network? -->
+    <!-- The message telling the user that they don't have network connectivity. -->
+    <string name="dialogNoNetworkMessage">"Esta aplicação requer uma ligação à rede para funcionar totalmente. Algumas funcionalidades poderão não funcionar se não existir uma ligação à  rede."</string>
+    <string name="labelPlay">"Jogar"</string>
+    <string name="labelEvent">"Evento"</string>
+    <string name="labelText">"Texto"</string>
+    <string name="labelAudio">"Audio"</string>
+    <string name="labelVerbose">"Verboso"</string>
+    <string name="labelNormal">"Normal"</string>
+
+    <!-- In what context does this appear? -->
+    <string name="labelLogging">"A gravar"</string>
+    <string name="labelLive">"Ao vivo"</string>
+    <string name="labelDelete">"Eliminar"</string>
+    <string name="labelEdit">"Editar"</string>
+    <string name="labelEvents">"Eventos"</string>
+    <string name="labelBoth">"Ambos"</string>
+    <string name="labelOnline">"Online"</string>
+
+    <!-- Context? -->
+    <string name="labelStarting">"A começar"</string>
+
+    <!-- the app was unable to create an event -->
+    <string name="statusErrorUnableToCreateEvent">"Não foi possível criar o evento"</string>
+
+    <!-- The app was unable to update an event -->
+    <string name="statusErrorUnableToUpdateEvent">"Não foi possível atualizar o evento"</string>
+
+    <!-- the app was unable to get an event for the business -->
+    <string name="statusErrorUnableToGetEventsForBusiness">"Não foi possível obter eventos para negócios"</string>
+
+    <!-- the app was unable to get an event for the organization -->
+    <string name="statusErrorUnableToGetEventsForGroup">"Não foi possível obter eventos para o grupo"</string>
+
+    <!-- the app was unable to get livestream events -->
+    <string name="statusErrorUnableToGetLiveStreamEvents">"Não foi possível obter eventos com transmissão ao vivo"</string>
+
+    <!-- the app was unable to delete an event -->
+    <string name="statusErrorUnableToDeleteEvent">"Não foi possível eliminar o evento"</string>
+    <string name="labelMyEvents">"Os meus eventos"</string>
+    <string name="labelEventType">"Tipo de evento"</string>
+    <string name="labelBusinessName">"Nome da empresa"</string>
+    <string name="labelEventDate">"Data do evento"</string>
+    <string name="labelEventEndTime">"Término do evento"</string>
+    <string name="labelEventStartTime">"Início do evento"</string>
+    <string name="labelEventDescription">"Descrição do evento"</string>
+    <string name="labelEventName">"Nome do evento"</string>
+    <string name="labelEventLocation">"Local do evento"</string>
+    <string name="labelLiveStreaming">"Transmissão ao vivo"</string>
+    <string name="labelMyEvent">"O meu evento"</string>
+    <string name="labelDeleteEvent">"Eliminar evento"</string>
+    <string name="labelWatch">"Ver"</string>
+    <string name="labelOffline">"Offline"</string>
+    <string name="promptConfirmDeleteEvent">"Tem a certeza que deseja eliminar o evento?"</string>
+    <string name="errorEventMissingName">"Por favor, introduza o nome do evento"</string>
+    <string name="errorEventMissingDescription">"Por favor, introduza a descrição do evento"</string>
+    <string name="errorEventMissingDate">"Por favor, introduza a data do evento"</string>
+    <string name="errorEventMissingStartTime">"Por favor, introduza o início do evento"</string>
+    <string name="errorEventMissingEndTime">"Por favor, introduza o término do evento"</string>
+    <string name="errorEventEndBeforeStart">"A hora de término não pode ser antes da de início"</string>
+    <string name="errorEventDescriptionLengthOverLimit">"A descrição não pode ter mais de 200 caracteres"</string>
+    <string name="labelDrawerLivestream">"Transmissão ao vivo"</string>
+    <string name="statusErrorUnableToGetEvent">"Não foi possível obter evento"</string>
+    <string name="indicatorOff">"[off]"</string>
+
+    <!-- The device is tool old to support the DRM scheme. -->
+    <string name="statusErrorDrmUnsupportedOldDevice">"O dispositivo é demasiado antigo para reproduzir o conteúdo protegido."</string>
+
+    <!-- The device does not support this DRM scheme -->
+    <string name="statusErrorDrmUnsupportedScheme">"O dispositivo não suporta o esquema DRM requerido"</string>
+
+    <!-- An unknown DRM error -->
+    <string name="statusErrorDrmUnknown">"Ocorreu um erro desconhecido"</string>
+    <string name="labelMaybe">"Talvez"</string>
+    <string name="labelGoing">"Vou"</string>
+    <string name="statusEventIsStarting">"está a começar"</string>
+    <string name="labelAttendees">"Participantes"</string>
+    <string name="labelNoEvents">"Nenhum evento"</string>
+    <string name="labelGoLive">"Ir para ao vivo"</string>
+    <string name="errorGettingStreamInfo">"Ocorreu um erro ao obter as informações da transmissão"</string>
+    <string name="statusErrorUnableToGetBusinessList">"Não foi possível obter a lista de empresas"</string>
+    <string name="errorSpecifyValidGroupOrBusiness">"Tem de especificar um grupo ou empresa válida"</string>
+    <string name="statusEventStreamOffline">"A transmissão do evento está atualmente offline"</string>
+    <string name="infoNoLocationGiven">"Nenhum local fornecido"</string>
+    <string name="optionEnableBackgroundAudio">"Reproduzir em segundo-plano"</string>
+    <string name="promptPickStartTime">"selecionar hora de início"</string>
+    <string name="promptPickEndTime">"selecionar hora de término"</string>
+    <string name="promptPickDate">"selecionar data"</string>
+    <string name="labelCreateEvent">"Criar evento"</string>
+    <string name="statusWaiting">"Em espera\u2026"</string>
+    <string name="labelURL">"URL"</string>
+    <string name="labelVideoBitrate">"Veloc. de transmissão vídeo"</string>
+    <string name="labelAudioBitrate">"Veloc. de transmissão audio"</string>
+    <string name="labelFramesPerSecond">"Frames por segundo"</string>
+    <string name="labelKeyFrameInterval">"Intervalo de frames"</string>
+    <string name="labelSampleRate">"Veloc. de transmissão exemplo"</string>
+    <string name="labelSave">"Guardar"</string>
+    <string name="statusStabilizationOn">"Estabilização LIGADA"</string>
+    <string name="statusFlashOn">"Flash LIGADO"</string>
+    <string name="statusFlashOff">"Flash DESLIGADO"</string>
+    <string name="statusStabilizationOff">"Estabilização DESLIGADA"</string>
+    <string name="statusMuteOn">"Microfone LIGADO"</string>
+    <string name="statusMuteOff">"Microfone DESLIGADO"</string>
+    <string name="permissionLivestreamRationale">"O acesso à câmara e sistema de ficheiros é usado para gravar transmissões ao vivo para posterior transmissão."</string>
+    <string name="permissionLivestreamAccessGranted">"Permissão para transmissão ao vivo concedida. "</string>
+    <string name="permissionLivestreamAccessDenied">"A app requer permissões \"Câmara\", \"Microfone\", e \"Armazenamento\" para fazer transmissões ao vivo. Uma ou várias das permissões foram negadas."</string>
+    <string name="paramLabelReceivedMessage">"%1$s enviou-lhe uma mensagem"</string>
+
+    <!-- A button label that will open Conx2share from an external or partial component. -->
+    <string name="labelAppLaunch">"Abrir Conx2Share"</string>
+
+    <!-- This is a generic parameterized label. The variable string will be replaced with a name or other identifying information. -->
+    <string name="paramLabelNotFound">"%1$s não encontrado"</string>
+
+    <!-- to reply to a message or mail. -->
+    <string name="labelReply">"Responder"</string>
+
+    <!-- a label meaning to display something. to make it visible. -->
+    <string name="labelShow">"Mostrar"</string>
+
+    <!-- Meaning taking an action to see something. -->
+    <string name="labelView">"Ver"</string>
+</resources>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<resources>-->
+
+    <!--<string name="app_name">ConX2Share</string>-->
+    <!--<string name="hello_world">Olá Mundo!</string>-->
+    <!--<string name="sign_in">Iniciar Sessão</string>-->
+    <!--<string name="sign_up">Inscrever-se</string>-->
+    <!--<string name="email">Email</string>-->
+    <!--<string name="password">Senha</string>-->
+    <!--<string name="or">ou</string>-->
+    <!--<string name="username">Nome de Usuário</string>-->
+    <!--<string name="confirm_password">Confirmar Senha</string>-->
+    <!--<string name="first_name">Primeiro Nome</string>-->
+    <!--<string name="last_name">Sobrenome</string>-->
+    <!--<string name="terms_and_conditions">Eu li e concordo com os termos e condições</string>-->
+    <!--<string name="signing_in">Iniciando em&#8230;</string>-->
+    <!--<string name="unexpected_error">Ocorreu um erro inesperado.</string>-->
+    <!--<string name="mark_messaged_viewed">Mensagem marcada como visualizada</string>-->
+    <!--<string name="success">Successo</string>-->
+    <!--<string name="message_sent">Mensagem Enviada</string>-->
+    <!--<string name="message_failed_to_send">A mensagem falhou ao enviar</string>-->
+    <!--<string name="enter_message_here">Digite a mensagem Aqui…</string>-->
+    <!--<string name="got_sent_messages">Mensagem Enviada</string>-->
+    <!--<string name="type_a_message">Digite uma mensagem…</string>-->
+    <!--<string name="add_text_here">Adicione o texto aqui…</string>-->
+    <!--<string name="logging_in">Iniciando Sessão…</string>-->
+    <!--<string name="file_error">Erro de Arquivo</string>-->
+    <!--<string name="camera_error">Erro de Câmera</string>-->
+    <!--<string name="add_attachment">Adicionar Anexo:</string>-->
+    <!--<string name="take_a_photo">Tirar uma Foto</string>-->
+    <!--<string name="take_a_video">Fazer um Vídeo</string>-->
+    <!--<string name="message_type">Tipo de Mensagem:</string>-->
+    <!--<string name="error">Erro:</string>-->
+
+    <!--&lt;!&ndash; Post Activity &ndash;&gt;-->
+    <!--<string name="post">Publicação</string>-->
+    <!--<string name="post_activity_title">Criar uma Publicação</string>-->
+    <!--<string name="post_to">Para:</string>-->
+    <!--<string name="post_everyone">Todos</string>-->
+    <!--<string name="post_successful">Publicado com sucesso</string>-->
+    <!--<string name="post_failed">Falha na Publicação:</string>-->
+
+    <!--&lt;!&ndash; Image Upload Dialog &ndash;&gt;-->
+    <!--<string name="upload_photo_title">Subir uma Foto</string>-->
+    <!--<string name="upload_photo_message">Você gostaria de fazer uma foto ou fazer upload desde a sua biblioteca?</string>-->
+    <!--<string name="take_photo">Fazer uma Foto</string>-->
+    <!--<string name="library">Biblioteca</string>-->
+    <!--<string name="not_yet_implemented">Ainda não foi implementada.</string>-->
+
+    <!--&lt;!&ndash; Feed Activity &ndash;&gt;-->
+    <!--<string name="feed_activity_drawer_toggle_open">Gaveta Aberta</string>-->
+    <!--<string name="feed_activity_drawer_toggle_close">Gaveta Fechada</string>-->
+    <!--<string name="feed_activity_drawer_logout">Sair</string>-->
+    <!--<string name="feed_activity_drawer_header_picture_content_desc">Foto do Perfil</string>-->
+
+    <!--&lt;!&ndash; Share Dialog &ndash;&gt;-->
+    <!--<string name="share_to">Compartilhar com...</string>-->
+    <!--<string name="cancel">Cancelar</string>-->
+    <!--<string name="facebook_app_id">195797437257242</string>-->
+
+    <!--&lt;!&ndash; Contacts &ndash;&gt;-->
+    <!--<string name="contacts">Contatos</string>-->
+    <!--<string name="invite">CONVIDAR</string>-->
+    <!--<string name="invite_successful">Amigos convidados</string>-->
+    <!--<string name="invite_failed">O convite ao amigo Falhou:</string>-->
+
+    <!--&lt;!&ndash;Groups&ndash;&gt;-->
+    <!--<string name="group_name_layout_title">NOME DO GRUPO</string>-->
+    <!--<string name="action_create_group">GRUPO CRIADO</string>-->
+    <!--<string name="invalid_group_name">O grupo deve ter um nome</string>-->
+    <!--<string name="invalid_group_image">O grupo deve ter uma imagem</string>-->
+    <!--<string name="action_edit_group">EDITAR GRUPO</string>-->
+    <!--<string name="group_creation_fail">O grupo não foi criado com sucesso.  Por favor, tente novamente.</string>-->
+    <!--<string name="group_creation_success">"Grupo Criado %s!"</string>-->
+    <!--<string name="group_update_fail">O grupo não foi atualizado com sucesso.  Por favor, tente novamente.</string>-->
+    <!--<string name="post_button_text">Publicar</string>-->
+    <!--<string name="generic_error_message">Ocorreu um erro. Por favor, tente novamente.</string>-->
+    <!--<string name="no_users_found">Nenhum usuário encontrado corresponde aos critérios</string>-->
+    <!--<string name="members">Membros</string>-->
+    <!--<string name="send">enviar</string>-->
+    <!--<string name="failed_to_retrieve_messages">Falha ao recuperar novas mensagens</string>-->
+    <!--<string name="save_message">Salvar Mensagem?</string>-->
+
+    <!--&lt;!&ndash;Message Friends&ndash;&gt;-->
+    <!--<string name="message_friends_name_holder">Primeiro Nome Sobrenome</string>-->
+    <!--<string name="error_loading_index">Ocorreu um erro ao carregar os seus bate-papos.</string>-->
+    <!--<string name="arrow"><![CDATA[>]]></string>-->
+    <!--<string name="message_friends_title">Nova Mensagem</string>-->
+
+    <!--&lt;!&ndash; Drawer Notifications &ndash;&gt;-->
+    <!--<string name="item_count_holder">##</string>-->
+    <!--<string name="sent_you_a_new_message">Enviou-lhe uma nova mensagem</string>-->
+    <!--<string name="read_your_message">Leia a sua mensagem</string>-->
+    <!--<string name="commented_on_your_post">Comentou na sua publicação</string>-->
+    <!--<string name="invited_you_to_join">Convidou você para unir-se</string>-->
+    <!--<string name="login_failed">Falha ao entrar. Por favor, verifique a conexão de internet e tente novamente.</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 2 STRINGS #####################################################&ndash;&gt;-->
+
+    <!--&lt;!&ndash; Timers &ndash;&gt;-->
+    <!--<string-array name="timers">-->
+        <!--<item>Nenhum</item>-->
+        <!--<item>15s</item>-->
+        <!--<item>30s</item>-->
+        <!--<item>60s</item>-->
+        <!--<item>120s</item>-->
+    <!--</string-array>-->
+
+    <!--<string name="home">Início</string>-->
+    <!--<string name="messages">Mensagens</string>-->
+    <!--<string name="friends">Amigos</string>-->
+    <!--<string name="groups">Grupos</string>-->
+    <!--<string name="notifications">Notificações</string>-->
+    <!--<string name="get_plus">OBTER PLUS</string>-->
+    <!--<string name="store">Loja</string>-->
+    <!--<string name="about">SOBRE</string>-->
+    <!--<string name="change">change</string>-->
+    <!--<string name="push_notifications">NOTIFICAÇÃO DE ENVIOS</string>-->
+    <!--<string name="switch_title_1">MUDAR TÍTULO 1</string>-->
+    <!--<string name="switch_title_2">MUDAR TÍTULO 2</string>-->
+    <!--<string name="logout">SAIR</string>-->
+
+    <!--&lt;!&ndash; Strings for Async Errors &ndash;&gt;-->
+    <!--<string name="retry">TENTAR NOVAMENTE</string>-->
+    <!--<string name="unable_to_gather_friends_text">Impossível reunir os amigos para convidar</string>-->
+    <!--<string name="unable_to_invite_friends_text">Impossível convidar amigos</string>-->
+    <!--<string name="unable_to_post_to_group_text">Impossível publicar no grupo</string>-->
+    <!--<string name="unable_to_post_text">Impossível publicar</string>-->
+    <!--<string name="post_already_flagged">Impossível etiquetar publicação, você já etiquetou</string>-->
+    <!--<string name="unable_to_flag_post_text">Impossível etiquetar publicação</string>-->
+    <!--<string name="unable_to_get_post_text">Impossível obter publicaçãot</string>-->
+    <!--<string name="unable_to_get_post_comments_text">Impossível publicar comentários</string>-->
+    <!--<string name="unable_to_like_post_text">Impossível publicar curtidas</string>-->
+    <!--<string name="unable_to_unlike_post_text">Impossível publicar descurtir</string>-->
+    <!--<string name="unable_to_create_group_text">Impossível criar grupo</string>-->
+    <!--<string name="unable_to_update_group_text">Impossível atualizar grupo</string>-->
+    <!--<string name="unable_to_refresh_feed_text">Impossível atualizar feed</string>-->
+    <!--<string name="unable_to_get_posts_text">Impossível obter publicações</string>-->
+    <!--<string name="unable_to_get_unread_messages_text">Impossível obter mensagens não lidas</string>-->
+    <!--<string name="unable_to_get_friends_text">Impossível obter amigos</string>-->
+    <!--<string name="unable_to_get_group_text">Impossível obter grupo</string>-->
+    <!--<string name="unable_to_get_group_posts_text">Impossível obter publicações de grupo</string>-->
+    <!--<string name="unable_to_get_group_list_text">Impossível obter lista de grupos</string>-->
+    <!--<string name="unable_to_remove_or_delete_group_text">Impossível remover ou excluir grupo</string>-->
+    <!--<string name="unable_to_get_chats_text">Impossível obter bate-papos</string>-->
+    <!--<string name="unable_to_get_saved_messages_text">Impossível obter mensagens salvas</string>-->
+    <!--<string name="unable_to_update_notification_as_viewed_text">Impossível atualizar a notificação como lida</string>-->
+    <!--<string name="unable_to_get_message_text">Impossível obter mensagem</string>-->
+    <!--<string name="unable_to_follow_user">Impossível seguir usuário</string>-->
+    <!--<string name="unable_to_unfollow_user_text">Impossível deixar de seguir usuário</string>-->
+    <!--<string name="unable_to_load_profile_text">Impossível carregar o perfil</string>-->
+    <!--<string name="unable_to_update_avatar_text">Impossível atualizar avatar</string>-->
+    <!--<string name="unable_to_invite_user_to_group_text">Impossível convidar usuário ao grupo</string>-->
+    <!--<string name="unable_to_purchase_subscription_text">Impossível comprar inscrição</string>-->
+    <!--<string name="unable_to_update_users_profile_text">Impossível atualizar o perfil de usuário</string>-->
+    <!--<string name="unable_to_send_message_text">Impossível enviar mensagem</string>-->
+    <!--<string name="unable_to_set_expiration_text">Impossível definir a expiração da mensagem</string>-->
+    <!--<string name="unable_to_save_message_text">Impossível salvar mensagem</string>-->
+    <!--<string name="unable_to_get_chat_text">Impossível obter bate-papo com usuário</string>-->
+    <!--<string name="unable_to_get_sent_messages_text">Impossível obter as mensagens enviadas</string>-->
+    <!--<string name="unable_to_get_missed_messages_text">Impossível obter mensagens perdidas</string>-->
+    <!--<string name="unable_to_get_notifications_text">Impossível obter notificações</string>-->
+    <!--<string name="unable_to_accept_group_invite">Impossível aceitar convite de grupo</string>-->
+    <!--<string name="unable_to_decline_group_invite">Impossível recusar convite de grupo</string>-->
+    <!--<string name="unable_to_get_more_notifications">Impossível obter mais notificações</string>-->
+    <!--<string name="unable_to_get_following_users">Impossível obter os usuários que você segue</string>-->
+    <!--<string name="unable_to_get_followers">Impossível obter seguidores</string>-->
+    <!--<string name="unable_to_get_messages_text">Não é possível obter mensagens</string>-->
+    <!--<string name="unable_to_go_to_chat">Impossível ir ao bate-papo</string>-->
+
+    <!--&lt;!&ndash; Search hints &ndash;&gt;-->
+    <!--<string name="search_for_users_to_invite_text">procurar pessoas para convidar</string>-->
+    <!--<string name="search_friends">procurar amigos</string>-->
+    <!--<string name="search_for_friends">procurar por amigos </string>-->
+    <!--<string name="search_for_members">procurar por membros</string>-->
+    <!--<string name="search_for_users_to_chat_with">procurar por usuários para bater papo</string>-->
+    <!--<string name="search_contacts">procurar contatos</string>-->
+
+    <!--&lt;!&ndash; Notifications &ndash;&gt;-->
+    <!--<string name="new_notification_was_received_text">Uma nova notificação foi recebida</string>-->
+    <!--<string name="refresh_text">REFRESCAR</string>-->
+    <!--<string name="viewed">" - lido"</string>-->
+    <!--<string name="accepted">aceito</string>-->
+    <!--<string name="declined">declinado</string>-->
+    <!--<string name="conx2share_notification">Notificação Conx2Share</string>-->
+
+    <!--&lt;!&ndash; Prompt text &ndash;&gt;-->
+    <!--<string name="yes">sim</string>-->
+    <!--<string name="no">não</string>-->
+    <!--<string name="ok">OK</string>-->
+    <!--<string name="Success">Successo</string>-->
+    <!--<string name="exclamation">!</string>-->
+    <!--<string name="error_text">"Erro: "</string>-->
+
+    <!--&lt;!&ndash; Subscription Strings &ndash;&gt;-->
+    <!--<string name="subscribed_successfully_text">Inscrito com Sucesso</string>-->
+    <!--<string name="failed_to_subscribe_text">Falha ao se inscrever</string>-->
+    <!--<string name="free_price">0</string>-->
+    <!--<string name="plus_price">2.40 / ano</string>-->
+    <!--<string name="premium_price">29.99 / ano</string>-->
+    <!--<string name="platinum_price">49.99 / anor</string>-->
+    <!--<string name="free_subscription_description"><![CDATA[Fotos & Vídeos serão eliminados após serem visualizados.]]></string>-->
+    <!--<string name="free_subscription_title">Grátis</string>-->
+    <!--<string name="subscribe">Inscreva-se!</string>-->
+    <!--<string name="current_subscription">inscrição atual</string>-->
+    <!--<string name="ago">atrás</string>-->
+    <!--<string name="plus">Plus</string>-->
+    <!--<string name="plus_subscription_description">Salve até  5 fotos e 1 vídeo.</string>-->
+    <!--<string name="premium_subscription_title">Premium</string>-->
+    <!--<string name="premium_subscription_description"><![CDATA[Cx2share email e 50GB de armazenagem de dados para mensagens, fotos & vídeo.]]></string>-->
+    <!--<string name="platinum_subscription_title">Platinum</string>-->
+    <!--<string name="platinum_subscription_description"><![CDATA[Cx2share email e 100GB de armazenagem de dados para mensagens, fotos & vídeos.]]></string>-->
+
+    <!--&lt;!&ndash; Sharing Strings &ndash;&gt;-->
+    <!--<string name="shared_by_text">"\" compartilhado por "</string>-->
+    <!--<string name="via_conx2share_android_text">" via Conx2Share Android"</string>-->
+    <!--<string name="conx2share_for_android">ConX2Share para Android</string>-->
+    <!--<string name="please_install_facebook">Por favor, instale o aplicativo do Facebook para compartilhar a sua publicação.</string>-->
+    <!--<string name="please_install_the_twiiter_app">Por favor, instale o aplicativo do Twitter para compartilhar a sua publicação.</string>-->
+
+    <!--&lt;!&ndash; Progress Dialog Strings &ndash;&gt;-->
+    <!--<string name="loading_messages">Carregando Mensagens...</string>-->
+    <!--<string name="gathering_friends_text">Reunindo os amigos...</string>-->
+    <!--<string name="gathering_messages_text">Reunindo mensagens..</string>-->
+    <!--<string name="gather_chats_text">Reunindo bate-papos...</string>-->
+    <!--<string name="gathering_following_users_text">Reunindo os usuários que você segue...</string>-->
+    <!--<string name="gathering_followers">Reunindo seguidores...</string>-->
+    <!--<string name="sending_message_text">Enviando mensagem...</string>-->
+    <!--<string name="posting">Publicando...</string>-->
+    <!--<string name="gathering_saved_messages">Reunindo mensagens salvas...</string>-->
+    <!--<string name="gathering_chat_information_text">Reunindo informações de bate-papos...</string>-->
+
+    <!--&lt;!&ndash; Group Strings &ndash;&gt;-->
+    <!--<string name="delete_group_text">Excluir grupo</string>-->
+    <!--<string name="leave_group_text">Sair do grupo</string>-->
+    <!--<string name="deleted_group_text">"Grupo Excluído "</string>-->
+    <!--<string name="left_group_text">"Grupo da Esquerda "</string>-->
+    <!--<string name="updated_group">"Grupo Atualizado "</string>-->
+    <!--<string name="group_owner">proprietário do grupo</string>-->
+    <!--<string name="group_members">Membros do Grupo</string>-->
+    <!--<string name="group_name">Nome do grupo</string>-->
+
+    <!--&lt;!&ndash; Following Strings &ndash;&gt;-->
+    <!--<string name="followers">Seguidores</string>-->
+    <!--<string name="following">Seguindo</string>-->
+    <!--<string name="following_failed_try_again">Falha ao seguir. Tente Novamente.</string>-->
+    <!--<string name="unfollowed">Deixar de seguir</string>-->
+    <!--<string name="follow">SEGUIR</string>-->
+    <!--<string name="unfollow">Deixar de seguir</string>-->
+    <!--<string name="followed_you">Seguiu você</string>-->
+
+    <!--&lt;!&ndash; SignUp Strings &ndash;&gt;-->
+    <!--<string name="you_are_now_signed_up">Você já se inscreveu!</string>-->
+    <!--<string name="failed_to_sign_up">Falha ao se inscrever, por favor, tente novamente.</string>-->
+    <!--<string name="please_fill_out_all_fields_text">Por favor, preencha todos os campos</string>-->
+
+    <!--&lt;!&ndash; Image and video strings &ndash;&gt;-->
+    <!--<string name="select_picture">Selecione Imagem</string>-->
+    <!--<string name="would_you_like_to_upload_a_video_from_your_library">Você gostaria de fazer um vídeo ou fazer upload desde a sua biblioteca?</string>-->
+    <!--<string name="error_occurred_while_loading_your_video">Ocorreu um erro ao carregar o seu vídeo</string>-->
+    <!--<string name="image_null_error">Por favor, escolha uma imagem armazenada no seu dispositivo. Isso não inclui imagens em cache de outros aplicativos ou meios de comunicação social.</string>-->
+    <!--<string name="image_error">Falha ao carregar imagem e anexar à publicação do twitter.</string>-->
+    <!--<string name="error_occurred_when_selecting_your_image">Ocorreu um erro ao selecionar a sua imagem</string>-->
+    <!--<string name="what_upload">O que você gostaria de carregar?</string>-->
+    <!--<string name="image_download_failed">Falha ao baixar a imagem</string>-->
+    <!--<string name="image_could_not_be_found">A imagem não pode ser encontrada</string>-->
+    <!--<string name="take_video">Fazer Video</string>-->
+    <!--<string name="file_exceeds_limit">Arquivo excede o limite de 10Mb.</string>-->
+    <!--<string name="take_a_video_from_your_library_or_get_one_from_your_library">Fazer vídeo ou obter um da sua biblioteca?</string>-->
+    <!--<string name="take_a_picture_or_get_one_from_your_library">Fazer uma foto ou obter uma da sua biblioteca?</string>-->
+    <!--<string name="media">(mídia)</string>-->
+    <!--<string name="picture">(foto)</string>-->
+    <!--<string name="video">(vídeo)</string>-->
+
+    <!--&lt;!&ndash; Post Strings &ndash;&gt;-->
+    <!--<string name="flag_content_as_inappropriate_prompt">Gostaria de marcar esta publicação como conteúdo impróprio?</string>-->
+    <!--<string name="post_flagged">Esta publicação foi etiquetada agora</string>-->
+    <!--<string name="made_a_new_post">Uma nova publicação feita</string>-->
+    <!--<string name="made_a_new_group_post">Feita uma nova publicação no grupo</string>-->
+    <!--<string name="enter_your_message_here">Digite aqui a sua mensagem...</string>-->
+
+    <!--&lt;!&ndash; Password Strings &ndash;&gt;-->
+    <!--<string name="forgot_password">Esqueceu a sua Senha?</string>-->
+    <!--<string name="please_enter_your_email">Digite seu email.</string>-->
+    <!--<string name="change_password">Alterar a Senha</string>-->
+    <!--<string name="cant_reset_password">Não é possível Redefinir a senha</string>-->
+    <!--<string name="reset_password">Redefinir a senha</string>-->
+    <!--<string name="reset_password_email_sent">O email para redefinir a senha foi enviado</string>-->
+    <!--<string name="please_enter_your_email_address">Digite o seu endereço de email e tente novamente.</string>-->
+    <!--<string name="confirm_new_password">Confirmar a nova senha</string>-->
+    <!--<string name="new_password">Nova Senha</string>-->
+    <!--<string name="old_password">Senha Antiga</string>-->
+    <!--<string name="updating_password">Atualizando senha</string>-->
+    <!--<string name="old_password_incorrect">A senha antiga está incorreta.</string>-->
+    <!--<string name="password_updated">A senha foi atualizada</string>-->
+    <!--<string name="password_failed_to_update">A senha falhou ao atualizar, por favor, tente novamente</string>-->
+    <!--<string name="passwords_dont_match">A suas senhas não coincidem</string>-->
+    <!--<string name="old_password_error">Senha antiga com erro</string>-->
+    <!--<string name="the_old_password_you_entered_is_invalid">A senha antiga que você digitou não é válida</string>-->
+    <!--<string name="the_new_password_and_confirm_password_dont_match">A Nova Senha e a Confirmação de Senha não coincidem. Por favor, tente novamente.</string>-->
+    <!--<string name="you_password_has_been_updated">A sua senha foi atualizada</string>-->
+    <!--<string name="change_password_error">Erro</string>-->
+
+    <!--&lt;!&ndash; Drawer Items &ndash;&gt;-->
+    <!--<string name="drawer_home">Início</string>-->
+    <!--<string name="drawer_messages">Mensagens</string>-->
+    <!--<string name="drawer_friends">Amigos</string>-->
+    <!--<string name="drawer_groups">Grupos</string>-->
+    <!--<string name="drawer_notifications">Notificações</string>-->
+    <!--<string name="drawer_plus">CONSIGA PLUS</string>-->
+    <!--<string name="drawer_invite">Convite</string>-->
+    <!--<string name="drawer_store">Loja</string>-->
+    <!--<string name="drawer_eshopping">E-Shopping</string>-->
+    <!--<string name="drawer_games">Games</string>-->
+    <!--<string name="drawer_business">Negócio</string>-->
+
+    <!--&lt;!&ndash; Other Strings &ndash;&gt;-->
+    <!--<string name="facebook_connect_not_implemented_text">Facebook Connect ainda não foi implementado</string>-->
+    <!--<string name="twiiter_connect_not_implemented_yet">Twitter Connect ainda não foi implementado</string>-->
+    <!--<string name="this_user_has_not_followed_you_text">Ambos os usuários devem seguir um ao outro para conversart</string>-->
+    <!--<string name="please_try_again">Por favor, tente novamente</string>-->
+    <!--<string name="message_is_saved">A mensagem está salva.</string>-->
+    <!--<string name="password_length">A sua senha deve ter pelo menos 8 caracteres</string>-->
+    <!--<string name="passwords_do_not_match">As senhas não coincidem</string>-->
+    <!--<string name="sign_up_error">Ocorreu um erro ao se inscrever.</string>-->
+    <!--<string name="signup_dialog">Inscreva-se...</string>-->
+    <!--<string name="you_already_have_a_higher_subscription_level">você já tem um nível de inscrição mais elevada</string>-->
+    <!--<string name="please_accept_terms">Por favor, aceite os termos e condições.</string>-->
+    <!--<string name="user_name_is_taken">Nome de usuário já está sendo utilizado.</string>-->
+    <!--<string name="not_connected_to_the_google_play_store">Não conectado ao Google Play Store</string>-->
+    <!--<string name="coming_soon">Em breve!</string>-->
+    <!--<string name="accept">aceitar</string>-->
+    <!--<string name="decline">declínio</string>-->
+    <!--<string name="leave_a_comment">Deixe um comentário...</string>-->
+
+    <!--<string name="zero">0</string>-->
+    <!--<string name="one">1</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 3 STRINGS #####################################################&ndash;&gt;-->
+
+    <!--<string name="unable_to_get_group_members">Não foi possível obter os membros atuais do grupo</string>-->
+    <!--<string name="unable_to_load_web_page">Não é possível carregar a página web</string>-->
+    <!--<string name="please_enter_text">Digite o texto</string>-->
+
+    <!--<string name="terms_of_service">Termos de Serviço</string>-->
+    <!--<string name="terms_of_service_and_privacy_policy">Eu li e concordo com os Termos de Serviço e Política de Privacidade</string>-->
+    <!--<string name="privacy_policy">Política de Privacidade</string>-->
+
+    <!--<string name="group_update_success">"Grupo Atualizado %s!"</string>-->
+    <!--<string name="retrieving_notifications_failed">Falha na recuperação de notificações. Por favor, tente novamente.</string>-->
+    <!--<string name="messaging_error">Ocorreu um erro durante as mensagens</string>-->
+
+    <!--&lt;!&ndash; Message Friends Index &ndash;&gt;-->
+    <!--<string name="saved_messages_text">Salvo</string>-->
+    <!--<string name="chats_text">Atual</string>-->
+
+    <!--&lt;!&ndash; Follow &ndash;&gt;-->
+    <!--<string name="followed">Seguiu</string>-->
+    <!--<string name="unfollow_failed">Falha ao deixar de seguir. Tente novamente.</string>-->
+    <!--<string name="start_recording">Começar a Gravar</string>-->
+    <!--<string name="submit">enviar</string>-->
+    <!--<string name="invalid_user_name_or_password">Nome do usuário ou senha inválida</string>-->
+    <!--<string name="unable_to_update_followers_count">Não é possível atualizar contagem de seguidores</string>-->
+    <!--<string name="please_accept_the_terms_of_service">Por favor, aceite os termos do serviço</string>-->
+
+    <!--&lt;!&ndash; Promo Codes &ndash;&gt;-->
+    <!--<string name="promo_code_optional">Código Promocional (opcional)</string>-->
+    <!--<string name="activate_promo_code">Ativar Código Promocional</string>-->
+    <!--<string name="the_promo_code_you_entered_is_invalid">O código promocional que você digitou é inválido.</string>-->
+    <!--<string name="the_promo_code_you_entered_is_invalid_sign_up">O código promocional que você digitou é inválido. Introduza um código promocional válido ou limpe o código promocional atual.</string>-->
+    <!--<string name="please_enter_your_promo_code">Por favor, entre com o seu código promocional...</string>-->
+    <!--<string name="your_account_has_been_upgraded_to_a_plus_subscription">A sua conta foi atualizada para uma Inscrição Plus.</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 4 STRINGS #####################################################&ndash;&gt;-->
+
+    <!--<string name="unable_to_check_if_promo_code_is_valid">N„o foi possÌvel verificar se o cÛdigo promocional È v·lido</string>-->
+    <!--<string name="promo_upgrade_description">O cÛdigo promocional que introduziu era v·lido. Se vocÍ era um usu·rio gratuito, a sua conta foi atualizada para uma inscriÁ„o Plus.</string>-->
+    <!--<string name="valid_promo_code">CÛdigo Promocional V·lido</string>-->
+    <!--<string name="invalid_promo_code">CÛdigo Promocional Inv·lido </string>-->
+    <!--<string name="unable_to_update_user_to_promo_user">N„o È possÌvel atualizar o usu·rio para usu·rio promocional</string>-->
+    <!--<string name="email_has_already_been_taken">O email j· foi tomado</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 5 Strings #####################################################&ndash;&gt;-->
+
+    <!--<string name="user_favoriting_failed">Usu·rio como favorito falhou.</string>-->
+    <!--<string name="user_unfavoriting_failed">Usu·rio como n„o favorito falhou.</string>-->
+    <!--<string name="group_name_taken">O nome do grupo j· existe.</string>-->
+    <!--<string name="you_have_received_a_new_message_from">VocÍ recebeu uma nova mensagem</string>-->
+    <!--<string name="one_m">1m</string>-->
+    <!--<string name="unable_to_post_comment_text">N„o È possÌvel postar um coment·rio</string>-->
+    <!--<string name="chats_button_title">Iniciar Nova ConversaÁ„o</string>-->
+    <!--<string name="are_you_sure_you_want_to_delete_the_group">Tem certeza de que deseja apagar o grupo?</string>-->
+    <!--<string name="are_you_sure_you_want_to_leave_the_group">Tem certeza de que quer deixar o grupo?</string>-->
+    <!--<string name="exit">Sair</string>-->
+    <!--<string name="please_attach_photo">Por favor, anexar uma foto</string>-->
+    <!--<string name="please_attach_video">Por favor, anexar um vÌdeo.</string>-->
+    <!--<string name="email_cant_be_blank">o Email n„o pode ficar em branco</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 6 Strings #####################################################&ndash;&gt;-->
+
+    <!--<string name="you_cannot_leave_or_delete_the_conx2share_group">Você não pode deixar ou eliminar o grupo Conx2Share</string>-->
+    <!--<string name="promoted">Promovido</string>-->
+    <!--<string name="audio">(áudio)</string>-->
+    <!--<string name="recording_is_not_long_enough">A gravação não é longa o suficiente.</string>-->
+    <!--<string name="only_the_first_two_mins_will_be_sent">Somente os primeiros 2 minutos de gravação serão enviados.</string>-->
+    <!--<string name="would_you_like_to_take_a_picture_or_upload_from_your_library">Gostaria de tirar uma foto ou fazer upload desde a sua biblioteca?</string>-->
+    <!--<string name="unable_to_send_audio_message">Não foi possível enviar a mensagem de áudio</string>-->
+    <!--<string name="unable_to_get_business_info">Não foi possível carregar informações do Assunto</string>-->
+    <!--<string name="could_not_retrieve_your_businesses">Não foi possível recuperar os seus Assuntos</string>-->
+    <!--<string name="you_cannot_post_to_the_conx2share_group">Você não pode enviar mensagens para o Grupo ConX2share.</string>-->
+    <!--<string name="search_for_businesses">pesquisar por Assuntos</string>-->
+    <!--<string name="drawer_businesses">Assuntos</string>-->
+    <!--<string name="business_owner">dono do Assunto</string>-->
+    <!--<string name="group">"Grupo: "</string>-->
+    <!--<string name="business">"Assunto: "</string>-->
+    <!--<string name="delete_post">Apagar Mensagem</string>-->
+    <!--<string name="you_dont_own_this_post_to_delete_it">Você não é dono desta publicação para apagá-la</string>-->
+    <!--<string name="are_you_sure_you_want_to_delete_this_post">Tem certeza de que deseja excluir esta publicação?</string>-->
+    <!--<string name="post_deleted">Mensagem excluída</string>-->
+    <!--<string name="unable_to_delete_post">Não é possível excluir publicação</string>-->
+    <!--<string name="delete_comment">Excluir comentário</string>-->
+    <!--<string name="you_dont_own_this_comment_to_delete_it">Você não é dono deste comentário para excluí-lo</string>-->
+    <!--<string name="are_you_sure_you_want_to_delete_this_comment">Tem certeza de que deseja excluir este comentário?</string>-->
+    <!--<string name="comment_deleted">Comentário apagado</string>-->
+    <!--<string name="unable_to_delete_comment">Não é possível excluir comentário</string>-->
+    <!--<string name="flag_post">Marcar Publicação</string>-->
+    <!--<string name="cant_do_anything_with_comment_since_you_dont_own_it">Você não pode fazer nada com este comentário, pois você não é o dono</string>-->
+    <!--<string name="you_dont_own_this_post_to_edit_it">Você não é dono desta publicação para editá-la</string>-->
+    <!--<string name="edit_post">Editar pubicação</string>-->
+    <!--<string name="do_you_want_to_edit_this_post">Você quer editar esta publicação?</string>-->
+    <!--<string name="update_post">Atualizar</string>-->
+    <!--<string name="unable_to_edit_post">Não é possível atualizar publicação</string>-->
+    <!--<string name="post_edited">Publicação Editada</string>-->
+    <!--<string name="updating_post">Atualizando publicação...</string>-->
+    <!--<string name="flag_as_inappropriate">MARCADO COMO INAPROPRIADO</string>-->
+    <!--<string name="edit_post_options_menu">EDITAR PUBLICAÇÃO</string>-->
+    <!--<string name="delete_post_options_menu">EXCLUIR PUBLICAÇÃO</string>-->
+    <!--<string name="you_cannot_change_the_audience_when_editing_a_post">Você não pode mudar o público ao editar uma publicação.</string>-->
+    <!--<string name="enter_your_comment_here">Digite o seu comentário aqui...</string>-->
+    <!--<string name="edit_comment_options_menu">EDITAR COMENTÁRIO</string>-->
+    <!--<string name="delete_comment_options_menu">EXCLUIR COMENTÁRIO</string>-->
+    <!--<string name="update">Atualizar</string>-->
+    <!--<string name="edit_comment">Editar comentário</string>-->
+    <!--<string name="you_dont_own_this_comment_to_edit_it">Você não é dono deste comentário para editá-lo.</string>-->
+    <!--<string name="comment_updated">Comentário Atualizado!</string>-->
+    <!--<string name="unable_to_update_post_comment">Não é possível atualizar o comentário</string>-->
+    <!--<string name="updating_comment">Atualizando comentário...</string>-->
+    <!--<string name="something_went_wrong_while_uploading_your_image">Aconteceu um erro ao carregar a sua imagem</string>-->
+    <!--<string name="something_went_wrong_while_uploading_your_file">Aconteceu um erro ao carregar o seu arquivo</string>-->
+    <!--<string name="would_you_like_to_take_a_photo_or_upload_one_from_your_library">Gostaria de tirar uma foto ou fazer upload desde a sua biblioteca?</string>-->
+    <!--<string name="would_you_like_to_take_a_video_or_upload_one_from_your_library">Você gostaria de fazer um vídeo ou fazer upload desde a sua biblioteca?</string>-->
+    <!--<string name="photo_option">Foto</string>-->
+    <!--<string name="video_option">Vídeo</string>-->
+    <!--<string name="block_user_option">BLOQUEAR USUÁRIO</string>-->
+    <!--<string name="remove_from_group_option">REMOVER DO GRUPO</string>-->
+    <!--<string name="you_cant_do_anything_with_this_group_member">Você não pode fazer nada com este membro do grupo porque você não é o dono do grupo</string>-->
+    <!--<string name="remove_user_from_group">Remover Usuário do grupo</string>-->
+    <!--<string name="are_you_sure_you_want_to_block_this_user">Tem certeza de que deseja bloquear este usuário do grupo?</string>-->
+    <!--<string name="block_user">Usuário Bloqueado</string>-->
+    <!--<string name="are_you_sure_you_want_to_remove_this_user_from_the_group">Tem certeza de que deseja remover este usuário do grupo?</string>-->
+    <!--<string name="member">membro</string>-->
+    <!--<string name="follower">seguidor</string>-->
+    <!--<string name="unable_to_follow_group">Incapaz de seguir o grupo</string>-->
+    <!--<string name="unable_to_unfollow_group">Incapaz de deixar de seguir o grupo</string>-->
+    <!--<string name="unblock_user_option">DESBLOQUEAR USUÁRIO</string>-->
+    <!--<string name="group_followers">Seguidores do grupo</string>-->
+    <!--<string name="search_for_followers">Pesquisar por seguidores</string>-->
+    <!--<string name="unable_to_send_invite_to_follow_group">Incapaz de convidar usuário para seguir o grupo</string>-->
+    <!--<string name="invite_to_follow_group_sent">Convite para seguir o grupo enviado</string>-->
+    <!--<string name="unable_to_block_user_from_group">Incapaz de bloquear o usuário do grupo</string>-->
+    <!--<string name="you_have_blocked_this_user_from_the_group">Você bloqueou este usuário do grupo.</string>-->
+    <!--<string name="unable_to_remove_user_from_group">Incapaz de remover o usuário do grupo</string>-->
+    <!--<string name="user_has_been_removed_from_group">Usuário foi removido do grupo</string>-->
+    <!--<string name="invited_you_to_follow_group">Convidou você para seguir o grupo</string>-->
+    <!--<string name="search_for_groups">Pesquisa por grupos</string>-->
+    <!--<string name="private_group">Privado</string>-->
+    <!--<string name="blog_group">Blog</string>-->
+    <!--<string name="discussion_group">Discussão</string>-->
+    <!--<string name="empty_string" />-->
+    <!--<string name="unable_to_leave_group">Não é possivel deixar o grupo</string>-->
+    <!--<string name="unable_to_get_group_followers">Impossível obter os seguidores do grupo</string>-->
+    <!--<string name="unable_to_unblock_user">Não é possível desbloquear usuário</string>-->
+    <!--<string name="you_have_unblocked_this_user_from_the_group">Você desbloqueou este usuário do grupo</string>-->
+    <!--<string name="unable_to_post_to_group_blocked">Não é possível publicar no grupo, bloqueado</string>-->
+    <!--<string name="unable_to_post_comment_blocked">Não é possível publicar comentário, bloqueado</string>-->
+    <!--<string name="unblock_user">Desbloquear usuário</string>-->
+    <!--<string name="are_you_sure_you_want_to_unblock_this_user">Tem certeza de que deseja desbloquear este usuário?</string>-->
+    <!--<string name="unable_to_update_post_blocked">Não é possível atualizar publicação, bloqueado</string>-->
+    <!--<string name="unable_to_update_comment_blocked">Não é possível atualizar comentário, bloqueado</string>-->
+    <!--<string name="emergency_logout_toast_text">A sessão é inválida. Por favor, entre novamente.</string>-->
+    <!--<string name="unable_to_leave_or_delete_group">Impossível deixar ou apagar o grupo</string>-->
+    <!--<string name="public_group_button_text">PÚBLICO</string>-->
+    <!--<string name="private_group_button_text">PRIVADO</string>-->
+    <!--<string name="discussion_group_button_text">DISCUSSÃO</string>-->
+    <!--<string name="blog_group_button_text">BLOG</string>-->
+    <!--<string name="creating_group">Criando de grupo...</string>-->
+    <!--<string name="updating_group">Atualizando Grupo...</string>-->
+    <!--<string name="unable_to_delete_group">Atualizando Grupo...</string>-->
+    <!--<string name="are_you_sure_you_want_to_unfollow_the_group">Tem certeza de que quer deixar de seguir o grupo?</string>-->
+    <!--<string name="unfollow_group">Deixar de seguir o Grupo</string>-->
+
+<!--</resources>-->

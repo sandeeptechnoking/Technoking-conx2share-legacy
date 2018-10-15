@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ProgressBar
+        android:id="@+id/group_profile_progress_bar"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:indeterminate="true" />
+
+    <RelativeLayout
+        android:id="@+id/main_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/include">
+
+        <ImageView
+            android:id="@+id/group_header_background"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/friend_placeholder" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/imagegradient_overlay" />
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/group_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/group_toolbar_up"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/back_button_selector" />
+
+                <ImageView
+                    android:id="@+id/play_button"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="20dp"
+                    android:layout_toStartOf="@+id/group_settings_button"
+                    android:layout_alignWithParentIfMissing="true"
+                    android:src="@drawable/ic_play" />
+
+                <ImageView
+                    android:id="@+id/group_settings_button"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="10dp"
+                    android:src="@drawable/settings_gear"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+        <LinearLayout
+
+            android:id="@+id/group_navigation_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/group_header_background"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/group_follow_unfollow_layout"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@color/profile_unfollow_gray">
+
+                <TextView
+                    android:id="@+id/group_follow_unfollow_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/unfollow"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="@color/gray_lightest"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/about_link"
+                    style="@style/button.tab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/about" />
+
+                <Button
+                    android:id="@+id/event_link"
+                    style="@style/button.tab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="@string/events" />
+
+                <LinearLayout
+                    android:id="@+id/member_count_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/profile_info_border"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/members"
+                        android:textColor="@color/profile_screen_text_gray"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/members_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textColor="@color/profile_screen_text_gray"
+                        android:textSize="23sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/followers_count_layout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/profile_info_border"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/followers"
+                        android:textColor="@color/profile_screen_text_gray"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/followers_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textColor="@color/profile_screen_text_gray"
+                        android:textSize="23sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/group_avatar"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="70dp"
+            android:src="@drawable/friend_placeholder"
+            android:visibility="gone"
+            app:riv_border_color="@color/white"
+            app:riv_border_width="1dp"
+            app:riv_oval="true" />
+
+        <TextView
+            android:id="@+id/group_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/group_status_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@id/group_avatar"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:id="@+id/group_status_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/group_navigation_bar"
+            android:layout_toRightOf="@id/group_avatar"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/group_owner_sign"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="4dp"
+                android:src="@color/conx_blue"
+                android:visibility="gone"
+                app:riv_oval="true" />
+
+            <TextView
+                android:id="@+id/group_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/group_swipe_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/group_navigation_bar"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/group_feed_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:listSelector="@color/transparent"
+                app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+                android:orientation="vertical"
+                android:paddingBottom="100dp" />
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <com.github.clans.fab.FloatingActionMenu
+            android:id="@+id/group_multiple_actions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            app:menu_colorNormal="@color/conx_teal"
+            app:menu_colorPressed="@color/conx_teal">
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/group_livestream_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_start_livestream"
+                app:fab_colorNormal="@color/gray_blue"
+                app:fab_colorPressed="@color/gray_blue"
+                app:fab_size="mini" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/group_post_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_new_post"
+                app:fab_colorNormal="@color/gray_blue"
+                app:fab_colorPressed="@color/gray_blue"
+                app:fab_size="mini" />
+
+        </com.github.clans.fab.FloatingActionMenu>
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/partial_about_slideup_panel" />
+
+</RelativeLayout>

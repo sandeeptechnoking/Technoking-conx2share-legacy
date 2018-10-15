@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/event_root"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+
+
+    <ImageView
+        android:id="@+id/event_photo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true" />
+
+    <ImageButton
+        android:id="@+id/watch_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="150dp"
+        android:layout_alignParentRight="true"
+        android:background="@color/transparent"
+        android:src="@drawable/play_livestream"/>
+
+
+
+
+    <com.conx2share.conx2share.ui.view.AvenirNextTextView
+        android:id="@+id/event_datetime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/event_photo"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingTop="5dp"
+        android:text="02/08/17 - 03:11 PM ET"
+        android:textColor="@color/conx_teal" />
+
+    <com.conx2share.conx2share.ui.view.AvenirNextTextView
+        android:id="@+id/event_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/event_datetime"
+        android:paddingTop="5dp"
+        android:text="first stream"
+        android:textSize="20sp" />
+
+    <com.conx2share.conx2share.ui.view.AvenirNextTextView
+        android:id="@+id/event_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/event_name"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="Barcelona"
+        android:textColor="@color/unread_messages_gray" />
+
+    <include
+        android:id="@+id/event_options_container"
+        layout="@layout/event_options"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/event_location"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/event_user_stats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/event_options_container"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:visibility="gone">
+
+        <com.conx2share.conx2share.ui.view.AvenirNextTextView
+            android:id="@+id/event_going_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Going:"
+            android:textColor="@color/conx_teal" />
+
+        <com.conx2share.conx2share.ui.view.AvenirNextTextView
+            android:id="@+id/event_going_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dp"
+            android:paddingRight="5dp"
+            android:text="1"
+            android:textColor="@color/unread_messages_gray" />
+
+        <com.conx2share.conx2share.ui.view.AvenirNextTextView
+            android:id="@+id/event_maybe_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maybe:"
+            android:textColor="@color/conx_blue" />
+
+        <com.conx2share.conx2share.ui.view.AvenirNextTextView
+            android:id="@+id/event_maybe_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dp"
+            android:paddingRight="5dp"
+            android:text="1"
+            android:textColor="@color/unread_messages_gray" />
+
+        <com.conx2share.conx2share.ui.view.AvenirNextTextView
+            android:id="@+id/event_attendees_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attendees:"
+            android:textColor="@color/black" />
+
+        <com.conx2share.conx2share.ui.view.AvenirNextTextView
+            android:id="@+id/event_attendees_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="2dp"
+            android:paddingRight="5dp"
+            android:text="1"
+            android:textColor="@color/unread_messages_gray" />
+
+    </LinearLayout>
+
+    <com.conx2share.conx2share.ui.view.AvenirNextTextView
+        android:id="@+id/event_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/event_user_stats"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="live event"
+        android:textColor="@color/unread_messages_gray" />
+
+    <ProgressBar
+        android:id="@+id/event_progress"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:indeterminate="true" />
+
+</RelativeLayout>

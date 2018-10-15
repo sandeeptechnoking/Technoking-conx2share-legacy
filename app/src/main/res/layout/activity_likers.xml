@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/likers_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/conx_primary"
+        android:theme="@style/ToolBarStyle">
+
+        <ImageButton
+            android:id="@+id/liker_back"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@color/transparent"
+            android:contentDescription="@string/abc_action_bar_up_description"
+            android:src="@drawable/back_button_selector" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/likers_conx_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:clickable="false"
+                android:src="@drawable/conx2share_logo_small"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/likers_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Likes"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_xlarge" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <fragment
+        android:name="com.conx2share.conx2share.ui.likers.LikersFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:tag="activity_likers" />
+
+</LinearLayout>

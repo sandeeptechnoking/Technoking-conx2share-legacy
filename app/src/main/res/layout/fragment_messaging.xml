@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/messaging_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@color/messaging_toolbar_gray">
+
+        <com.conx2share.conx2share.ui.view.AvenirNextTextView
+            android:id="@+id/messaging_toolbar_title"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <com.conx2share.conx2share.ui.view.AvatarImageView
+            android:id="@+id/messaging_friend_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ga_trackingId">UA-62104005-1</string>
+
+    <integer name="ga_sessionTimeout">300</integer>
+
+    <string name="ga_appName">Conx2Share Staging</string>
+
+    <bool name="ga_debug">true</bool>
+
+    <bool name="ga_autoActivityTracking">true</bool>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+
+    <bool name="ga_dryRun">false</bool>
+
+    <string name="com.conx2share.conx2share.ui.feed.FeedFragment">Main Screen</string>
+</resources>

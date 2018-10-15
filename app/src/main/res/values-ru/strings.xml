@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="applicationName">"ConX2Share"</string>
+    <string name="labelSignin">"Войти"</string>
+    <string name="labelSignup">"Регистрация"</string>
+    <string name="labelEmail">"Эл. почта"</string>
+    <string name="labelPassword">"Пароль"</string>
+    <string name="labelOr">"или"</string>
+    <string name="labelUsername">"Логин"</string>
+    <string name="labelConfirmPassword">"Подтвердите пароль"</string>
+    <string name="labelFirstName">"Имя"</string>
+    <string name="labelLastName">"Фамилия"</string>
+    <string name="blurbTermsAndConditions">"Я прочитал и согласен с правилами и условиями"</string>
+    <string name="statusAuthenticating">"Вход в систему…"</string>
+    <string name="statusUnexpectedError">"Произошла непредвиденная ошибка.."</string>
+    <string name="statusMessagedMarkedAsViewed">"Сообщение отмечено как просмотреное"</string>
+    <string name="labelSuccess">"Успех"</string>
+    <string name="statusMessageSent">"Сообщение отправлено"</string>
+    <string name="statusMessageSentFailed">"Не удалось отправить сообщение"</string>
+    <string name="hintEnterMessageHere">"Введите здесь сообщение…"</string>
+    <string name="statusGotSentMessages">"Отправленные сообщения получены"</string>
+    <string name="hintTypeAMessage">"Напишите сообщение…"</string>
+    <string name="hintAddTextHere">"Добавить текст здесь…"</string>
+    <string name="statusFileError">"Ошибка файла"</string>
+    <string name="statusCameraError">"Ошибка камеры"</string>
+    <string name="labelAddAttachment">"Добавить вложение:"</string>
+    <string name="labelTakeAPhoto">"Сделать фото"</string>
+    <string name="labelTakeAVideo">"Сделать видео"</string>
+    <string name="labelMessageType">"Тип сообщения:"</string>
+    <string name="labelError">"Ошибка:"</string>
+
+    <!-- Post Activity -->
+    <string name="labelPost">"Публикация"</string>
+    <string name="titleCreatePost">"Создать публикацию"</string>
+    <string name="labelPostTo">"Кому:"</string>
+    <string name="labelEveryone">"Всем"</string>
+    <string name="statusPostSuccessful">"Успешная публикация"</string>
+    <string name="statusPostFailed">"Не удалось опубликоватьпубликовать:"</string>
+
+    <!-- Image Upload Dialog -->
+    <string name="titleUploadPhoto">"Загрузить фото"</string>
+    <string name="promptUploadOrSelectImageQuestion">"Вы хотите сделать снимок или загрузить фото из библиотеки?"</string>
+    <string name="promptUploadOrSelectVideoQuestion">"Вы хотите сделать видео или загрузить из библиотеки?"</string>
+    <string name="labelTakePhoto">"Сделать фото"</string>
+    <string name="labelLibrary">"Библиотека"</string>
+    <string name="blurbNotYetImplemented">"Еще не выполнено."</string>
+
+    <!-- Feed Activity -->
+    <string name="labelDrawerOpen">"Открыть секцию"</string>
+    <string name="labelDrawerClose">"Закрыть секцию"</string>
+    <string name="labelSignout">"Выход"</string>
+    <string name="labelProfilePicture">"Фото профиля"</string>
+
+    <!-- Share Dialog -->
+    <string name="labelShareTo">"Поделиться с..."</string>
+    <string name="labelCancel">"Отменить"</string>
+
+    <!-- Contacts -->
+    <string name="labelContacts">"Контакты"</string>
+    <string name="statusInviteSuccessful">"Приглашенные друзья"</string>
+    <string name="statusInviteFailed">"Не удалось пригласить друга:"</string>
+
+    <!-- Groups -->
+    <string name="titleGroupName">"ИМЯ ГРУППЫ"</string>
+    <string name="labelCreateGroup">"СОЗДАТЬ ГРУППУ"</string>
+    <string name="blurbGroupNameInvalid">"Группа должна иметь имя"</string>
+    <string name="blurbGroupImageInvalid">"Группа должна иметь фото"</string>
+    <string name="labelEditGroup">"Редактировать группу"</string>
+    <string name="blurbGroupCreationFail">"Группа не была успешно создана. Повторите попытку."</string>
+    <string name="blurbGroupCreationSuccess">"Созданая группа %s!"</string>
+    <string name="blurbGroupUpdateFail">"Группа не была успешно обновлена. Повторите попытку."</string>
+    <string name="blurbGenericErrorMessage">"Произошла ошибка. Повторите попытку."</string>
+    <string name="statusNoUsersFound">"Не удалось найти пользователей для заданного запроса"</string>
+    <string name="labelMembers">"Члены"</string>
+    <string name="labelSend">"отправить"</string>
+    <string name="statusFailedToTetrieveMessages">"Не удалось восстановить новное сообщение"</string>
+    <string name="questionSaveMessage">"Сохранить сообщение?"</string>
+
+    <!-- Message Friends -->
+    <string name="hintFriendsName">"Имя Фамилия"</string>
+    <string name="blurbErrorLoadingIndex">"Произошла ошибка во время загрузки ваших чатов."</string>
+    <string name="titleNewMessage">"Новое сообщение"</string>
+
+    <!-- Drawer Notifications -->
+    <string name="statusSentYouANewMessage">"Прислал вам новое сообщение"</string>
+    <string name="labelCommentedOnYourPost">"Комментировал вашу публикацию"</string>
+    <string name="statusInvitedYouToJoin">"Пригласил вас присоединиться"</string>
+    <string name="statusLoginFailed">"Не удалось войти. Пожалуйста, проверьте подключение к интернету и повторите попытку."</string>
+
+    <!-- ######################################### SET 2 STRINGS ##################################################### -->
+    <string name="labelNone">"Ни один"</string>
+    <string name="label15s">"15c"</string>
+    <string name="label30s">"30c"</string>
+    <string name="label60s">"60c"</string>
+    <string name="label120s">"120sc"</string>
+    <string name="labelHome">"Главная"</string>
+    <string name="labelMessages">"Сообщения"</string>
+    <string name="labelFriends">"Друзья"</string>
+    <string name="labelGroups">"Группы"</string>
+    <string name="labelNotifications">"Уведомления"</string>
+    <string name="labelSubscriptionsGP">"ПЛЮСУЙТЕ"</string>
+    <string name="labelStore">"Магазин"</string>
+    <string name="labelAbout">"ПРО"</string>
+    <string name="labelChange">"изменить"</string>
+    <string name="labelPushMNotifications">"PUSH-УВЕДОМЛЕНИЯ"</string>
+    <string name="titleSwitchTitle1">"ПЕРЕКЛЮЧИТЬ НАЗВАНИЕ 1"</string>
+    <string name="titleSwitchTitle2">"ПЕРЕКЛЮЧИТЬ НАЗВАНИЕ 2"</string>
+
+    <!-- Strings for Async Errors -->
+    <string name="labelRetry">"ПОВТОР"</string>
+    <string name="statusUnableToGatherFriendsToInvite">"Не удалось собрать друзей для приглашения"</string>
+    <string name="statusUnableToInviteFriends">"Не удалось пригласить друзей"</string>
+    <string name="statusUnableToPostToGroup">"Не удалось опубликовать в группе"</string>
+    <string name="statusUnableToPost">"Не удалось опубликовать"</string>
+    <string name="statusPostAlreadyFlagged">"Не удалось отметить публикацию, вы уже это отметили"</string>
+    <string name="statusUnableToFlagPost">"Не удалось отметить публикацию"</string>
+    <string name="statusUnableToGetPost">"Не удалось получить публикацию"</string>
+    <string name="statusUnableToGetPostComments">"Не удалось получить комментарии к публикации"</string>
+    <string name="statusUnableToLikePost">"Не удалось отметить публикацию как понравившуюся "</string>
+    <string name="statusUnableToUnlikePost">"Не удалось отметить отметку нравится  "</string>
+    <string name="statusUnableToCreateGroup">"Не удалось создать группу "</string>
+    <string name="statusUnableToUpdateGroup">"Не удалось обновить группу"</string>
+    <string name="statusUnableToRefreshFeed">"Не удалось обновить питание"</string>
+    <string name="statusUnableToGetPosts">"Не удалось получить публикации"</string>
+    <string name="statusUnableToGetUnreadMessages">"Не удалось получить непрочитанные сообщения"</string>
+    <string name="statusUnableToGetFriends">"Не удалось получить друзей"</string>
+    <string name="statusUnableToGetGroup">"Hе удалось получить группу"</string>
+    <string name="statusUnableToGetGroupPosts">"Не удалось получить публикации группы"</string>
+    <string name="statusUnableToGetGroupList">"Не удалось получить список группы"</string>
+    <string name="statusUnableToRemoveOrDeleteGroup">"Не удалось удалить группу"</string>
+    <string name="statusUnableToGetChats">"Не удалось получить чаты"</string>
+    <string name="statusUnableToGetSavedMessages">"Не удалось получить сохраненные сообщения"</string>
+    <string name="statusUnableToUpdateNotificationAsViewed">"Не удалось обновить уведомление как просмотренное"</string>
+    <string name="statusUnableToGetMessage">"Не удалось получить сообщение"</string>
+    <string name="statusUnableToFollowUser">"Не удалось фолловить пользователя"</string>
+    <string name="statusUnableToUnfollowUser">"Не удалось отменить фоллование пользователя"</string>
+    <string name="statusUnableToLoadProfile">"Не удалось загрузить профиль"</string>
+    <string name="statusUnableToUpdateAvatar">"Не удалось обновить аватар"</string>
+    <string name="statusUnableToInviteUserToGroup">"Не удалось пригласить пользователя в группу"</string>
+    <string name="statusUnableToPurchaseSubscription">"Не удалось купит подписку"</string>
+    <string name="statusUnableToUpdateUsersProfile">"Не удалось обновить профиль пользователя"</string>
+    <string name="statusUnableToSendMessage">"Не удалось отправить сообщение"</string>
+    <string name="statusUnableToSetExpiration">"Не удалось установить истечение сообщения"</string>
+    <string name="statusUnableToSaveMessage">"Не удалось сохранить сообщение"</string>
+    <string name="statusUnableToGetChat">"Не удалось получить чат с пользователем"</string>
+    <string name="statusUnableToGetSentMessages">"Не удалось получить отправленные сообщения"</string>
+    <string name="statusUnableToGetMissedMessages">"Не удалось получить пропущенные сообщения"</string>
+    <string name="statusUnableToGetNotifications">"Не удалось получить уведомления"</string>
+    <string name="statusUnableToAcceptGroupInvite">"Не удалось принять приглашение группы"</string>
+    <string name="statusUnableToDeclineGroupInvite">"Не удалось отклонить приглашение группы"</string>
+    <string name="statusUnableToGetMoreNotifications">"Не удалось получить больше уведомлений"</string>
+    <string name="statusUnableToGetFollowingUsers">"Не удалось получить пользователей, которых вы фолловите"</string>
+    <string name="statusUnableToGetFollowers">"Не удалось получить фолловеров"</string>
+    <string name="statusUnableToGetMessages">"Не удалось получить сообщения"</string>
+    <string name="statusUnableToGoToChat">"Не удалось перейти в чат"</string>
+
+    <!-- Search hints -->
+    <string name="hintSearchForUsersToInvite">"поиск людей для приглашения"</string>
+    <string name="hintSearchFriends">"поиск друзей"</string>
+    <string name="hintSearchForFriends">"поиск друзей"</string>
+    <string name="hintSearchForMembers">"поиск членов"</string>
+    <string name="hintSearchForUsersToChatWith">"поиск пользователей для чата"</string>
+    <string name="hintSearchContacts">"поиск контрактов"</string>
+
+    <!-- Notifications -->
+    <string name="statusNewNotificationReceived">"Получено новое уведомление  "</string>
+    <string name="labelRefresh">"ОБНОВИТЬ"</string>
+    <string name="labelViewed">" - просмотрено"</string>
+    <string name="labelAccepted">"принято"</string>
+    <string name="labelDeclined">"отклонено"</string>
+    <string name="titleNotification">"Уведомления Conx2Share"</string>
+
+    <!-- Prompt text -->
+    <string name="labelYes">"Да"</string>
+    <string name="labelNo">"Нет"</string>
+    <string name="labelOk">"OK"</string>
+    <string name="labelExclamation">"!"</string>
+
+    <!-- Subscription Strings -->
+    <string name="statusSubscribedSuccessfully">"Успешная подписка"</string>
+    <string name="statusFailedToSubscribe">"Не удалось подписаться"</string>
+    <string name="labelPriceFree">"0"</string>
+    <string name="labelPricePlus">"2.40/в год"</string>
+    <string name="labelPricePremium">"29.99/в год"</string>
+    <string name="labelPricePlatinum">"49.99/в год"</string>
+    <string name="blurbFreeSubscriptionDescription"><![CDATA[Фото и видео будут удалены после просмотра.]]></string>
+    <string name="titleFreeSubscription">"Бесплатно"</string>
+    <string name="labelSubscribe">"Подписаться!"</string>
+    <string name="labelCurrentSubscription">"текущая подписка"</string>
+    <string name="labelAgo">"назад"</string>
+    <string name="labelPlus">"Плюс"</string>
+    <string name="blurbPlusSubscriptionDescription">"Сохраните до 5 фото и 1 видео."</string>
+    <string name="titlePremiumSubscription">"Премиум"</string>
+    <string name="blurbPremiumSubscriptionDescription"><![CDATA[Cx2share сообщения и 50GB для хранения сообщений, фотографий и видео.]]></string>
+    <string name="titlePlatinumSubscription">"Платина"</string>
+    <string name="blurbPlatinumSubscriptionDescription"><![CDATA[Cx2share сообщения и 100GB для хранения сообщений, фотографий и видео.]]></string>
+
+    <!-- Sharing Strings -->
+    <string name="labelSharedBy">"\" опубликовано "</string>
+    <string name="blurbViaConx2shareAndroid">" via Conx2share Android"</string>
+    <string name="titleConx2shareForAndroid">"Conx2share для Android"</string>
+    <string name="messagePleaseInstallFacebook">"Пожалуйста, установите приложение Facebook, чтобы поделиться публикацией."</string>
+    <string name="messagePleaseInstallTheTwiiterApp">"Пожалуйста, установите приложение Twitter, чтобы поделиться публикацией."</string>
+
+    <!-- Progress Dialog Strings -->
+    <string name="statusLoadingMessages">"Загрузка сообщений..."</string>
+    <string name="statusGatheringFriends">"Собрание друзей..."</string>
+    <string name="statusGatheringMessages">"Собрание сообщений..."</string>
+    <string name="statusGatheringChats">"Собирание чатов..."</string>
+    <string name="statusGatheringFollowedUsers">"Собирание пользователей, которых вы фолловите..."</string>
+    <string name="statusGatheringFollowers">"Собирание фолловеров..."</string>
+    <string name="statusSendingMessage">"Отправка сообщения..."</string>
+    <string name="statusPosting">"Опубликование..."</string>
+    <string name="statusGatheringSavedMessages">"Собирание сохраненных сообщений..."</string>
+    <string name="statusGatheringChatInformation">"Собирание данных чата..."</string>
+
+    <!-- Group Strings -->
+    <string name="labelDeleteGroup">"Удалить группу"</string>
+    <string name="labelLeaveGroup">"Покинуть группу"</string>
+    <string name="labelDeletedGroup">"Группа удалена "</string>
+    <string name="labelLeftGroup">"Вы покинули группу "</string>
+    <string name="labelUpdatedGroup">"Группа обновлена "</string>
+    <string name="labelGroupOwner">"владелец группы"</string>
+    <string name="labelGroupMembers">"Участники группы"</string>
+    <string name="labelGroupName">"Имя группы"</string>
+
+    <!-- Following Strings -->
+    <string name="labelFollowers">"Фолловеры"</string>
+    <string name="labelFollowing">"Фолловинг"</string>
+    <string name="statusFailedToFollow">"Фолловинг не удался. Попробуйте еще раз."</string>
+    <string name="labelUnfollowed">"Фолловинг отменен"</string>
+    <string name="labelFollow">"ФОЛЛОВИТЬ"</string>
+    <string name="labelUnfollow">"НЕ ФОЛЛОВИТЬ"</string>
+    <string name="statusFollowedYou">"Наблюдал за вами"</string>
+
+    <!-- SignUp Strings -->
+    <string name="statusYouAreNowSignedUp">"Вы зарегистрированы!"</string>
+    <string name="statusFailedToSignUp">"Не удалось зарегистрироваться, пожалуйста попробуйте еще раз."</string>
+    <string name="statusPleaseFillOutAllFields">"Пожалуйста, заполните все поля"</string>
+
+    <!-- Image and video strings -->
+    <string name="titleSelectPicture">"Выберите изображение"</string>
+    <string name="questionUploadFromLibrary">"Вы хотите сделать видео или загрузить из библиотеки?"</string>
+    <string name="statusErrorUploadingVideo">"Произошла ошибка во время загрузки видео"</string>
+    <string name="messageSelectImageError">"Пожалуйста, выберите изображение, сохраненное на устройстве. Это не включают изображения из других приложений или социальных медия."</string>
+    <string name="statusTwitterImageError">"Не удалось загрузить изображение и приложить к сообщению в Twitter."</string>
+    <string name="satusErrorSelectingImage">"Ошибка при выборе изображения"</string>
+    <string name="questionSelectUpload">"Что бы вы хотели загрузить?"</string>
+    <string name="statusImageDownloadFailed">"Загрузка изображения не удалась"</string>
+    <string name="statusImageNotFound">"Невозможно найти изображение "</string>
+    <string name="labelVideoTake">"Сделать видео"</string>
+    <string name="statusFileExceedsLimit">"Файл превышает ограничение 10Мб."</string>
+    <string name="questionSelectVideoSource">"Изъяти видео или выбрать одно из библиотеки?"</string>
+    <string name="questionSelectImageSource">"Изъяти изображение или выбрать одно из библиотеки?"</string>
+
+    <!-- Fuzzy -->
+    <string name="indicatorMedia">"(медия)"</string>
+
+    <!-- Fuzzy -->
+    <string name="indicatorPicture">"(изображение)"</string>
+
+    <!-- Fuzzy -->
+    <string name="indicatorVideo">"(видео)"</string>
+
+    <!-- Fuzzy -->
+    <string name="indicatorAudio">"(аудио)"</string>
+
+    <!-- Post Strings -->
+    <string name="promptFlagContentAsInappropriate">"Хотите ли вы отметить эту публикацию как неприемлемое содержание?"</string>
+    <string name="statusPostFlagged">"Эта публикация была отмечена"</string>
+    <string name="statusMadeANewPost">"Сделал новую публикацию"</string>
+    <string name="statusMadeANewGroupPost">"Добавил новую публикацию в группу"</string>
+    <string name="hintEnterYourMessageHere">"Введите ваше сообщение здесь..."</string>
+
+    <!-- Password Strings -->
+    <string name="promptForgotPassword">"Забыли пароль?"</string>
+    <string name="hintEnterYourEmail">"Пожалуйста, введите адрес электронной почты."</string>
+    <string name="labelChangePassword">"Изменить пароль"</string>
+    <string name="statusCantResetPassword">"Сброс пароля невозможен"</string>
+    <string name="labelResetPassword">"Сбросить пароль"</string>
+    <string name="statusResetPasswordEmailSent">"Запрос для сброса пароля отправлен на адрес электронной почты"</string>
+    <string name="statusPleaseEnterYourEmailAddress">"Пожалуйста, введите свой адрес электронной почты и повторите попытку."</string>
+    <string name="labelConfirmNewPassword">"Подтвердите новый пароль"</string>
+    <string name="labelNewPassword">"Новый пароль"</string>
+    <string name="labelOldPassword">"Старый пароль"</string>
+    <string name="statusUpdatingPassword">"Обновление пароля"</string>
+    <string name="statusOldPasswordIncorrect">"Старый пароль неверен."</string>
+    <string name="statusPasswordUpdated">"Пароль обновлен"</string>
+    <string name="statusPasswordFailedToUpdate">"Не удалось обновить пароль, попробуйте еще раз"</string>
+    <string name="statusPasswordsDontMatch">"Ваши пароли не совпадают"</string>
+    <string name="statusOldPasswordError">"Ошибка в старом пароле"</string>
+    <string name="statusOldPasswordInvalid">"Старый пароль, который вы ввели не допустим"</string>
+    <string name="blurbPasswordsDontMatch">"Новый пароль и подтверждение пароля не совпадают. Пожалуйста, попробуйте еще раз."</string>
+    <string name="you_password_has_been_updated">"Ваш пароль был обновлен"</string>
+    <string name="change_password_error">"Ошибка"</string>
+
+    <!-- Drawer Items -->
+    <string name="labelDrawerHome">"Главная"</string>
+    <string name="labelDrawerMessages">"Сообщения"</string>
+    <string name="labelDrawerFriends">"Друзья"</string>
+    <string name="labelDrawerGroups">"Группы"</string>
+    <string name="labelDrawerNotifications">"Уведомления"</string>
+    <string name="labelDrawerInvite">"Пригласить"</string>
+    <string name="labelDrawerStore">"Магазин"</string>
+    <string name="labelDrawerEshopping">"E-шоппинг"</string>
+    <string name="labelDrawerGames">"Игры"</string>
+    <string name="labelDrawerBusiness">"Бизнес"</string>
+
+    <!-- Other Strings -->
+    <string name="blurbFacebookConnectNotImplemented">"Соединение через Facebook еще не реализовано"</string>
+    <string name="blurbTwiterConnectNotImplemented">"Соединение через Twitter еще не реализовано"</string>
+    <string name="errorNoChatNotFollowed">"Оба пользователя должны фолловить друг друга, чтобы общаться"</string>
+    <string name="errorTryAgain">"Пожалуйста, попробуйте еще раз"</string>
+    <string name="statusMessageSaved">"Сообщение сохранено."</string>
+    <string name="errorPasswordLength">"Ваш пароль должен быть не менее 8 символов"</string>
+    <string name="errorPasswordsNotMatch">"Пароли не совпадают"</string>
+    <string name="errorGenericSignUp">"Произошла ошибка при регистрации."</string>
+    <string name="statusSigningUp">"Регистрация..."</string>
+    <string name="blurbSubscriptionLevelTooLow">"Вы уже имеете более высокий уровень подписки"</string>
+    <string name="errorPleaseAcceptTerms">"Пожалуйста примите правила и условия."</string>
+
+    <!-- <string name="please_accept_the_terms_of_service">Please accept the terms of service</string> -->
+    <string name="errorUsernameTaken">"Имя пользователя уже занято."</string>
+    <string name="blurbNotConnectedToGooglePlay">"Не подключено к магазине Play Google"</string>
+    <string name="blurbComingSoon">"Скоро!"</string>
+    <string name="labelAccept">"принять"</string>
+    <string name="labelDecline">"отклонить"</string>
+    <string name="hintLeaveAComment">"Оставить комментарий..."</string>
+    <string name="labelZero">"0"</string>
+    <string name="labelOne">"1"</string>
+
+    <!-- ######################################### SET 3 STRINGS ##################################################### -->
+    <string name="statusUnableToGetGroupMembers">"Не удалось получить членов  текущей группы"</string>
+    <string name="statusUnableToLoadWebPage">"Не удалось загрузить веб страницу"</string>
+    <string name="hintEnterText">"Пожалуйста введите текст"</string>
+    <string name="labelTermsOfService">"Условия оказания услуг"</string>
+    <string name="blurbTermsOfServiceAndPrivacyPolicy">"Я прочитал и согласен с условиями оказания услуг и политикой конфиденциальности"</string>
+    <string name="labelPrivacyPolicy">"политика конфиденциальности"</string>
+    <string name="statusGroupUpdateSuccess">"Обновленная группа %s!"</string>
+    <string name="statusRetrievingNotificationsFailed">"Не удалось восстановить уведомления. Пожалуйста, повторите попытку."</string>
+    <string name="errorGenericMessaging">"Произошла ошибка во время обмена сообщениями"</string>
+
+    <!-- Message Friends Index -->
+    <string name="labelSaved">"Сохраненные"</string>
+    <string name="labelCurrent">"Текущие"</string>
+
+    <!-- Follow -->
+    <string name="labelFollowed">"Круги"</string>
+    <string name="statusUnfollowFailed">"Не удалось отменить фолловинг. Повторите попытку."</string>
+    <string name="labelStartRecording">"Начать запись"</string>
+    <string name="labelSubmit">"отправить "</string>
+    <string name="errorInvalidUsernameOrPassword">"Неверный логин или пароль"</string>
+    <string name="statusUnableToUpdateFollowersCount">"Не удалось обновить число фолловеров"</string>
+
+    <!-- Promo Codes -->
+    <string name="labelPromoCode">"Промо код (по желанию)"</string>
+    <string name="labelActivatePromoCode">"Активировать промо код "</string>
+    <string name="errorInvalidPromoCode">"Введенный промо код неверный."</string>
+    <string name="blurbInvalidPromoCode">"Введенный промо код неверный. Введите правильный промо код или удалите текущиий."</string>
+    <string name="hintEnterPromoCode">"Пожалуйста введите промо код..."</string>
+    <string name="blurbAccountSubscriptionUpgradedPlus">"Ваш аккаунт был обновлен до подписки Плюс."</string>
+
+    <!-- ######################################### SET 5 Strings ##################################################### -->
+    <string name="statusUserFavoritingFailed">"Не удалось избрать пользователя."</string>
+    <string name="statusUserUnfavoritingFailed">"Не удалось отменить избранного пользователя."</string>
+    <string name="errorGroupNameTaken">"Название группы уже занято."</string>
+    <string name="blurbNewMessageReceivedFrom">"Вы получили новое сообщение от"</string>
+    <string name="labelOneM">"1м"</string>
+    <string name="statusUnableToPostComment">"Не удалось добавить комментарий"</string>
+    <string name="labelStartChat">"Начать новый чат"</string>
+    <string name="promptDeleteGroupConfirm">"Вы уверены, что хотите удалить группу?"</string>
+    <string name="promptLeaveGroupConfirm">"Вы уверены, что хотите выйти из группы?"</string>
+    <string name="labelExit">"Выход"</string>
+    <string name="labelAttachPhoto">"Пожалуйста, приложите фото"</string>
+    <string name="labelAttachVideo">"Пожалуйста, приложите видео."</string>
+    <string name="errorEmailBlank">"Поле e-mail не может быть пустым"</string>
+
+    <!-- ######################################### SET 6 Strings ##################################################### -->
+    <string name="errorGroupIsPerminant">"Вы не можете покинуть или удалить группу Conx2Share"</string>
+    <string name="labelPromoted">"Выдвинутый"</string>
+    <string name="errorRecordingTooShort">"Запись недостаточно длинная."</string>
+    <string name="warningRecordingWillBeTruncated">"Только первые 2 минуты с начала записи будут отправлены."</string>
+    <string name="statusUnableToSendAudioMessage">"Не удалось отправить аудио сообщение"</string>
+    <string name="statusUnableToGetBusinessInfo">"Не удалось загрузить Бизнес информацию"</string>
+    <string name="statusCouldNotRetrieveYourBusinesses">"Не удалось получить ваш бизнес"</string>
+    <string name="statusCannotPostToConx2shareGroup">"Вы не можете отправлять сообщения в группу Conx2share."</string>
+    <string name="hintSearchForBusinesses">"поиск бизнеса"</string>
+    <string name="LabelBusinesses">"Бизнес"</string>
+    <string name="labelBusinessOwner">"владелец бизнеса"</string>
+    <string name="labelGroup">"Группа: "</string>
+    <string name="labelBusiness">"Бизнес: "</string>
+    <string name="labelDeletePost">"Удалить публикацию"</string>
+    <string name="errorDeletePostNotOwner">"Эта публикация не пренадлежит вам, чтобы удалить его"</string>
+    <string name="promptDeletePostConfirm">"Вы уверены, что хотите удалить эту публикацию?"</string>
+    <string name="statusPostDeleted">"Публикация удалена"</string>
+    <string name="statusUnableDeletePost">"Не удалось удалить публикацию"</string>
+    <string name="labelDeleteComment">"Удалить комментарий"</string>
+    <string name="errorDeleteCommentNotOwner">"Этот комментарий не пренадлежит вам, чтобы удалить его"</string>
+    <string name="promptDeleteCommentConfirm">"Вы уверены, что хотите удалить этот комментарий?"</string>
+    <string name="statusCommentDeleted">"Комментарий удален"</string>
+    <string name="statusUnableDeleteComment">"Не удается удалить комментарий"</string>
+    <string name="labelFlagPost">"Отметить публикацию"</string>
+    <string name="errorGenericCommentNotOwner">"Вы ничего не можете сделать с этим комментарием, так как он не пренадлежит вам"</string>
+    <string name="errorEditPostNotOwner">"Эта публикация не пренадлежит вам, чтобы редактировать ее"</string>
+    <string name="labelEditPost">"Редактировать публикацию"</string>
+    <string name="promptEditPost">"Вы хотите отредактировать эту публикацию?"</string>
+    <string name="lableUpdate">"Обновить"</string>
+    <string name="statusUnableToUpdatePost">"Не удалось обновить публикацию"</string>
+    <string name="statusPostEdited">"Публикация отредактирована"</string>
+    <string name="statusUpdatingPost">"Обновление публикации..."</string>
+    <string name="labelFlagInappropriate">"ПОМЕТИТЬ КАК НЕСООТВЕТСТВУЩУЮ"</string>
+    <string name="errorCannotChangeAudienceEditingPost">"Вы не можете изменить аудиторию при редактировании публикации."</string>
+    <string name="hintEnterCommentHere">"Введите сюда свой комментарий..."</string>
+    <string name="labelUpdate">"Обновить"</string>
+    <string name="labelEditComment">"Редактировать комментарий"</string>
+    <string name="errorEditCommentNotOwner">"Этот комментарий не пренадлежит вам, чтобы редактировать его"</string>
+    <string name="statusCommentUpdated">"Комментарий Обновлен!"</string>
+    <string name="statusUnableUpdateComment">"Не удалось обновить комментарий"</string>
+    <string name="statusUpdatingComment">"Обновление комментария..."</string>
+    <string name="errorGenericImageUploadFailed">"Произошла ошибка при загрузки изображения"</string>
+    <string name="errorGenericFileUploadFailed">"Произошла ошибка при загрузки файла"</string>
+    <string name="labelPhoto">"Фото"</string>
+    <string name="labelVideo">"Видео"</string>
+    <string name="labelRemoveFromGroup">"УДАЛИТЬ ИЗ ГРУППЫ"</string>
+    <string name="errorEditGroupMemberNotOwner">"Вы ничего не можете сделать с этим участником группы, так как группа не пренадлежит"</string>
+    <string name="labelRemoveUserFromGroup">"Удалить Пользователя Из Группы"</string>
+    <string name="promptBlockUserFromGroupConfirm">"Вы уверены, что хотите заблокировать этого пользователя группы?"</string>
+    <string name="labelBlockUser">"Заблокировать Пользователя"</string>
+    <string name="promptRemoveUserFromGroupConfirm">"Вы уверены, что хотите удалить этого пользователя из группы?"</string>
+    <string name="labelMember">"Участник"</string>
+    <string name="labelFollower">"фолловер"</string>
+    <string name="statusUnableFollowGroup">"Не удалось фолловить группу"</string>
+    <string name="labelUnableUnfollowGroup">"Не удалось отменить фолловинг группы"</string>
+    <string name="labelGroupFollowers">"Фолловеры Группы"</string>
+    <string name="hintSearchForFollowers">"Поиск фолловеров"</string>
+    <string name="statusUnableToInviteUserToFollowGroup">"Не удалось пригласить пользователей фолловить группу"</string>
+    <string name="statusSendInviteToFollowGroup">"Запрос фолловить группу отправлен"</string>
+    <string name="statusUnableToBlockUserFromGroup">"Не удалось заблокировать пользователя группы"</string>
+    <string name="statusUserBlockedFromGroup">"Вы заблокировали этого пользователя группы."</string>
+    <string name="statusUnableToRemoveUserFromGroup">"Не удалось удалить пользователя из группы"</string>
+    <string name="statusUserRemovedFromGroup">"Пользователь был удален из группы"</string>
+    <string name="statusInvitedToFollowGroup">"Пригласил вас, чтобы фолловить группу"</string>
+    <string name="hintSearchForGroups">"поиск групп"</string>
+    <string name="labelPrivate">"Частно"</string>
+    <string name="labelBlog">"Блог"</string>
+    <string name="labelDiscussion">"Обсуждение"</string>
+    <string name="statusUnableToLeaveGroup">"Не удалось выйти из группы"</string>
+    <string name="statusUnableToGetGroupFollowers">"Не удалось получить фолловеров группы"</string>
+    <string name="statusUnableToUnblockUser">"Не удалось разблокировать пользователя"</string>
+    <string name="statusUserUnblockedFromGroup">"Вы разблокировали данного участника группы"</string>
+    <string name="statusBlockedUnablePostGroup">"Не удалось опубликовать в группе, заблокировано"</string>
+    <string name="statusBlockedUnablePostComment">"Не удалось добавлять комментарий, заблокировано"</string>
+    <string name="labelUnblockUser">"Разблокировать Пользователя"</string>
+    <string name="promptUnblockUserConfirm">"Вы уверены, что хотите разблокировать этого пользователя?"</string>
+    <string name="statusBlockedUnableToUpdatePost">"Не удалось обновить публикацию, заблокировано"</string>
+    <string name="statusBlockedUnableToUpdateComment">"Не удалось обновить комментарий, заблокировано"</string>
+    <string name="bogusEmergencyLogoutToast">"Ваша сессия недействительна. Пожалуйста, войдите снова."</string>
+    <string name="statusUnableToLeaveOrDeleteGroup">"Не удалось покинуть или удалить группу"</string>
+    <string name="labelPublic">"ПУБЛИЧНО"</string>
+    <string name="statusCreatingGroup">"Создание группы..."</string>
+    <string name="statusUpdatingGroup">"Обновление группу..."</string>
+    <string name="statusUnableToDeleteGroup">"Не удалось удалить группу"</string>
+    <string name="promptUnfollowGroupConfirm">"Вы уверены, что хотите отменить фолловинг группы?"</string>
+    <string name="labelUnfollowGroup">"Отменить фоллофинг группы"</string>
+</resources>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<resources>-->
+
+    <!--<string name="app_name">ConX2Share</string>-->
+    <!--<string name="hello_world">Привет мир!</string>-->
+    <!--<string name="sign_in">Войти</string>-->
+    <!--<string name="sign_up">Регистрация</string>-->
+    <!--<string name="email">Эл. почта</string>-->
+    <!--<string name="password">Пароль</string>-->
+    <!--<string name="or">или</string>-->
+    <!--<string name="username">Логин</string>-->
+    <!--<string name="confirm_password">Подтвердите пароль</string>-->
+    <!--<string name="first_name">Имя</string>-->
+    <!--<string name="last_name">Фамилия</string>-->
+    <!--<string name="terms_and_conditions">Я прочитал и согласен с правилами и условиями</string>-->
+    <!--<string name="signing_in">Вход в систему&#8230;</string>-->
+    <!--<string name="unexpected_error">Произошла непредвиденная ошибка..</string>-->
+    <!--<string name="mark_messaged_viewed">Сообщение отмечено как просмотреное</string>-->
+    <!--<string name="success">Успех</string>-->
+    <!--<string name="message_sent">Сообщение отправлено</string>-->
+    <!--<string name="message_failed_to_send">Не удалось отправить сообщение</string>-->
+    <!--<string name="enter_message_here">Введите здесь сообщение…</string>-->
+    <!--<string name="got_sent_messages">Отправленные сообщения получены</string>-->
+    <!--<string name="type_a_message">Напишите сообщение…</string>-->
+    <!--<string name="add_text_here">Добавить текст здесь…</string>-->
+    <!--<string name="logging_in">Вход в систему…</string>-->
+    <!--<string name="file_error">Ошибка файла</string>-->
+    <!--<string name="camera_error">Ошибка камеры</string>-->
+    <!--<string name="add_attachment">Добавить вложение:</string>-->
+    <!--<string name="take_a_photo">Сделать фото</string>-->
+    <!--<string name="take_a_video">Сделать видео</string>-->
+    <!--<string name="message_type">Тип сообщения:</string>-->
+    <!--<string name="error">Ошибка:</string>-->
+
+    <!--&lt;!&ndash; Post Activity &ndash;&gt;-->
+    <!--<string name="post">Публикация</string>-->
+    <!--<string name="post_activity_title">Создать публикацию</string>-->
+    <!--<string name="post_to">Кому:</string>-->
+    <!--<string name="post_everyone">Всем</string>-->
+    <!--<string name="post_successful">Успешная публикация</string>-->
+    <!--<string name="post_failed">Не удалось опубликоватьпубликовать:</string>-->
+
+    <!--&lt;!&ndash; Image Upload Dialog &ndash;&gt;-->
+    <!--<string name="upload_photo_title">Загрузить фото</string>-->
+    <!--<string name="upload_photo_message">Вы хотите сделать фото или загрузить из вашей библиотеки?</string>-->
+    <!--<string name="take_photo">Сделать фото</string>-->
+    <!--<string name="library">Библиотека</string>-->
+    <!--<string name="not_yet_implemented">Еще не выполнено.</string>-->
+
+    <!--&lt;!&ndash; Feed Activity &ndash;&gt;-->
+    <!--<string name="feed_activity_drawer_toggle_open">Открыть секцию</string>-->
+    <!--<string name="feed_activity_drawer_toggle_close">Закрыть секцию</string>-->
+    <!--<string name="feed_activity_drawer_logout">Выход</string>-->
+    <!--<string name="feed_activity_drawer_header_picture_content_desc">Фото профиля</string>-->
+
+    <!--&lt;!&ndash; Share Dialog &ndash;&gt;-->
+    <!--<string name="share_to">Поделиться с...</string>-->
+    <!--<string name="cancel">Отменить</string>-->
+    <!--<string name="facebook_app_id">195797437257242</string>-->
+
+    <!--&lt;!&ndash; Contacts &ndash;&gt;-->
+    <!--<string name="contacts">Контакты</string>-->
+    <!--<string name="invite">ПРИГЛАСИТЬ</string>-->
+    <!--<string name="invite_successful">Приглашенные друзья</string>-->
+    <!--<string name="invite_failed">Не удалось пригласить друга:</string>-->
+
+    <!--&lt;!&ndash;Groups&ndash;&gt;-->
+    <!--<string name="group_name_layout_title">ИМЯ ГРУППЫ</string>-->
+    <!--<string name="action_create_group">СОЗДАТЬ ГРУППУ</string>-->
+    <!--<string name="invalid_group_name">Группа должна иметь имя</string>-->
+    <!--<string name="invalid_group_image">Группа должна иметь фото</string>-->
+    <!--<string name="action_edit_group">Редактировать группу</string>-->
+    <!--<string name="group_creation_fail">Группа не была успешно создана. Повторите попытку.</string>-->
+    <!--<string name="group_creation_success">"Созданая группа %s!"</string>-->
+    <!--<string name="group_update_fail">Группа не была успешно обновлена. Повторите попытку.</string>-->
+    <!--<string name="post_button_text">ОПУБЛИКОВАТЬ</string>-->
+    <!--<string name="generic_error_message">Произошла ошибка. Повторите попытку.</string>-->
+    <!--<string name="no_users_found">Не удалось найти пользователей для заданного запроса</string>-->
+    <!--<string name="members">Члены</string>-->
+    <!--<string name="send">отправить</string>-->
+    <!--<string name="failed_to_retrieve_messages">Не удалось восстановить новное сообщение</string>-->
+    <!--<string name="save_message">Сохранить сообщение?</string>-->
+
+    <!--&lt;!&ndash;Message Friends&ndash;&gt;-->
+    <!--<string name="message_friends_name_holder">Имя Фамилия</string>-->
+    <!--<string name="error_loading_index">Произошла ошибка во время загрузки ваших чатов.</string>-->
+    <!--<string name="arrow"><![CDATA[>]]></string>-->
+    <!--<string name="message_friends_title">Новое сообщение</string>-->
+
+    <!--&lt;!&ndash; Drawer Notifications &ndash;&gt;-->
+    <!--<string name="item_count_holder">##</string>-->
+    <!--<string name="sent_you_a_new_message">Прислал вам новое сообщение</string>-->
+    <!--<string name="read_your_message">Прочитать ваше сообщение</string>-->
+    <!--<string name="commented_on_your_post">Комментировал вашу публикацию</string>-->
+    <!--<string name="invited_you_to_join">Пригласил вас присоединиться</string>-->
+    <!--<string name="login_failed">Не удалось войти. Пожалуйста, проверьте подключение к интернету и повторите попытку.</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 2 STRINGS #####################################################&ndash;&gt;-->
+
+    <!--&lt;!&ndash; Timers &ndash;&gt;-->
+    <!--<string-array name="timers">-->
+        <!--<item>Ни один</item>-->
+        <!--<item>15с</item>-->
+        <!--<item>30с</item>-->
+        <!--<item>60с</item>-->
+        <!--<item>120sс</item>-->
+    <!--</string-array>-->
+
+    <!--<string name="home">Главная</string>-->
+    <!--<string name="messages">Сообщения</string>-->
+    <!--<string name="friends">Друзья</string>-->
+    <!--<string name="groups">Группы</string>-->
+    <!--<string name="notifications">Уведомления</string>-->
+    <!--<string name="get_plus">ПЛЮСУЙТЕ</string>-->
+    <!--<string name="store">Магазин</string>-->
+    <!--<string name="about">ПРО</string>-->
+    <!--<string name="change">изменить</string>-->
+    <!--<string name="push_notifications">PUSH-УВЕДОМЛЕНИЯ</string>-->
+    <!--<string name="switch_title_1">ПЕРЕКЛЮЧИТЬ НАЗВАНИЕ 1</string>-->
+    <!--<string name="switch_title_2">ПЕРЕКЛЮЧИТЬ НАЗВАНИЕ 2</string>-->
+    <!--<string name="logout">Выход</string>-->
+
+    <!--&lt;!&ndash; Strings for Async Errors &ndash;&gt;-->
+    <!--<string name="retry">ПОВТОР</string>-->
+    <!--<string name="unable_to_gather_friends_text">Не удалось собрать друзей для приглашения</string>-->
+    <!--<string name="unable_to_invite_friends_text">Не удалось пригласить друзей</string>-->
+    <!--<string name="unable_to_post_to_group_text">Не удалось опубликовать в группе</string>-->
+    <!--<string name="unable_to_post_text">Не удалось опубликовать</string>-->
+    <!--<string name="post_already_flagged">Не удалось отметить публикацию, вы уже это отметили</string>-->
+    <!--<string name="unable_to_flag_post_text">Не удалось отметить публикацию</string>-->
+    <!--<string name="unable_to_get_post_text">Не удалось получить публикацию</string>-->
+    <!--<string name="unable_to_get_post_comments_text">Не удалось получить комментарии к публикации</string>-->
+    <!--<string name="unable_to_like_post_text">Не удалось отметить публикацию как понравившуюся </string>-->
+    <!--<string name="unable_to_unlike_post_text">Не удалось отметить отметку нравится  </string>-->
+    <!--<string name="unable_to_create_group_text">Не удалось создать группу </string>-->
+    <!--<string name="unable_to_update_group_text">Не удалось обновить группу</string>-->
+    <!--<string name="unable_to_refresh_feed_text">Не удалось обновить питание</string>-->
+    <!--<string name="unable_to_get_posts_text">Не удалось получить публикации</string>-->
+    <!--<string name="unable_to_get_unread_messages_text">Не удалось получить непрочитанные сообщения</string>-->
+    <!--<string name="unable_to_get_friends_text">Не удалось получить друзей</string>-->
+    <!--<string name="unable_to_get_group_text">Hе удалось получить группу</string>-->
+    <!--<string name="unable_to_get_group_posts_text">Не удалось получить публикации группы</string>-->
+    <!--<string name="unable_to_get_group_list_text">Не удалось получить список группы</string>-->
+    <!--<string name="unable_to_remove_or_delete_group_text">Не удалось удалить группу</string>-->
+    <!--<string name="unable_to_get_chats_text">Не удалось получить чаты</string>-->
+    <!--<string name="unable_to_get_saved_messages_text">Не удалось получить сохраненные сообщения</string>-->
+    <!--<string name="unable_to_update_notification_as_viewed_text">Не удалось обновить уведомление как просмотренное</string>-->
+    <!--<string name="unable_to_get_message_text">Не удалось получить сообщение</string>-->
+    <!--<string name="unable_to_follow_user">Не удалось фолловить пользователя</string>-->
+    <!--<string name="unable_to_unfollow_user_text">Не удалось отменить фоллование пользователя</string>-->
+    <!--<string name="unable_to_load_profile_text">Не удалось загрузить профиль</string>-->
+    <!--<string name="unable_to_update_avatar_text">Не удалось обновить аватар</string>-->
+    <!--<string name="unable_to_invite_user_to_group_text">Не удалось пригласить пользователя в группу</string>-->
+    <!--<string name="unable_to_purchase_subscription_text">Не удалось купит подписку</string>-->
+    <!--<string name="unable_to_update_users_profile_text">Не удалось обновить профиль пользователя</string>-->
+    <!--<string name="unable_to_send_message_text">Не удалось отправить сообщение</string>-->
+    <!--<string name="unable_to_set_expiration_text">Не удалось установить истечение сообщения</string>-->
+    <!--<string name="unable_to_save_message_text">Не удалось сохранить сообщение</string>-->
+    <!--<string name="unable_to_get_chat_text">Не удалось получить чат с пользователем</string>-->
+    <!--<string name="unable_to_get_sent_messages_text">Не удалось получить отправленные сообщения</string>-->
+    <!--<string name="unable_to_get_missed_messages_text">Не удалось получить пропущенные сообщения</string>-->
+    <!--<string name="unable_to_get_notifications_text">Не удалось получить уведомления</string>-->
+    <!--<string name="unable_to_accept_group_invite">Не удалось принять приглашение группы</string>-->
+    <!--<string name="unable_to_decline_group_invite">Не удалось отклонить приглашение группы</string>-->
+    <!--<string name="unable_to_get_more_notifications">Не удалось получить больше уведомлений</string>-->
+    <!--<string name="unable_to_get_following_users">Не удалось получить пользователей, которых вы фолловите</string>-->
+    <!--<string name="unable_to_get_followers">Не удалось получить фолловеров</string>-->
+    <!--<string name="unable_to_get_messages_text">Не удалось получить сообщения</string>-->
+    <!--<string name="unable_to_go_to_chat">Не удалось перейти в чат</string>-->
+
+    <!--&lt;!&ndash; Search hints &ndash;&gt;-->
+    <!--<string name="search_for_users_to_invite_text">поиск людей для приглашения</string>-->
+    <!--<string name="search_friends">поиск друзей</string>-->
+    <!--<string name="search_for_friends">поиск друзей</string>-->
+    <!--<string name="search_for_members">поиск членов</string>-->
+    <!--<string name="search_for_users_to_chat_with">поиск пользователей для чата</string>-->
+    <!--<string name="search_contacts">поиск контрактов</string>-->
+
+    <!--&lt;!&ndash; Notifications &ndash;&gt;-->
+    <!--<string name="new_notification_was_received_text">Получено новое уведомление  </string>-->
+    <!--<string name="refresh_text">ОБНОВИТЬ</string>-->
+    <!--<string name="viewed">" - просмотрено"</string>-->
+    <!--<string name="accepted">принято</string>-->
+    <!--<string name="declined">отклонено</string>-->
+    <!--<string name="conx2share_notification">Уведомления Conx2Share</string>-->
+
+    <!--&lt;!&ndash; Prompt text &ndash;&gt;-->
+    <!--<string name="yes">Да</string>-->
+    <!--<string name="no">Нет</string>-->
+    <!--<string name="ok">OK</string>-->
+    <!--<string name="Success">Успех</string>-->
+    <!--<string name="exclamation">!</string>-->
+    <!--<string name="error_text">"Ошибка: "</string>-->
+
+    <!--&lt;!&ndash; Subscription Strings &ndash;&gt;-->
+    <!--<string name="subscribed_successfully_text">Успешная подписка</string>-->
+    <!--<string name="failed_to_subscribe_text">Не удалось подписаться</string>-->
+    <!--<string name="free_price">0</string>-->
+    <!--<string name="plus_price">2.40/в год</string>-->
+    <!--<string name="premium_price">29.99/в год</string>-->
+    <!--<string name="platinum_price">49.99/в год</string>-->
+    <!--<string name="free_subscription_description"><![CDATA[Фото и видео будут удалены после просмотра.]]></string>-->
+    <!--<string name="free_subscription_title">Бесплатно</string>-->
+    <!--<string name="subscribe">Подписаться!</string>-->
+    <!--<string name="current_subscription">текущая подписка</string>-->
+    <!--<string name="ago">назад</string>-->
+    <!--<string name="plus">Плюс</string>-->
+    <!--<string name="plus_subscription_description">Сохраните до 5 фото и 1 видео.</string>-->
+    <!--<string name="premium_subscription_title">Премиум</string>-->
+    <!--<string name="premium_subscription_description"><![CDATA[Cx2share сообщения и 50GB для хранения сообщений, фотографий и видео.]]></string>-->
+    <!--<string name="platinum_subscription_title">Платина</string>-->
+    <!--<string name="platinum_subscription_description"><![CDATA[Cx2share сообщения и 100GB для хранения сообщений, фотографий и видео.]]></string>-->
+
+    <!--&lt;!&ndash; Sharing Strings &ndash;&gt;-->
+    <!--<string name="shared_by_text">"\" опубликовано "</string>-->
+    <!--<string name="via_conx2share_android_text">" via Conx2Share Android"</string>-->
+    <!--<string name="conx2share_for_android">ConX2Share для Android</string>-->
+    <!--<string name="please_install_facebook">Пожалуйста, установите приложение Facebook, чтобы поделиться публикацией.</string>-->
+    <!--<string name="please_install_the_twiiter_app">Пожалуйста, установите приложение Twitter, чтобы поделиться публикацией.</string>-->
+
+    <!--&lt;!&ndash; Progress Dialog Strings &ndash;&gt;-->
+    <!--<string name="loading_messages">Загрузка сообщений...</string>-->
+    <!--<string name="gathering_friends_text">Собрание друзей...</string>-->
+    <!--<string name="gathering_messages_text">Собрание сообщений...</string>-->
+    <!--<string name="gather_chats_text">Собирание чатов...</string>-->
+    <!--<string name="gathering_following_users_text">Собирание пользователей, которых вы фолловите...</string>-->
+    <!--<string name="gathering_followers">Собирание фолловеров...</string>-->
+    <!--<string name="sending_message_text">Отправка сообщения...</string>-->
+    <!--<string name="posting">Опубликование...</string>-->
+    <!--<string name="gathering_saved_messages">Собирание сохраненных сообщений...</string>-->
+    <!--<string name="gathering_chat_information_text">Собирание данных чата...</string>-->
+
+    <!--&lt;!&ndash; Group Strings &ndash;&gt;-->
+    <!--<string name="delete_group_text">Удалить группу</string>-->
+    <!--<string name="leave_group_text">Покинуть группу</string>-->
+    <!--<string name="deleted_group_text">"Группа удалена "</string>-->
+    <!--<string name="left_group_text">"Вы покинули группу "</string>-->
+    <!--<string name="updated_group">"Группа обновлена "</string>-->
+    <!--<string name="group_owner">владелец группы</string>-->
+    <!--<string name="group_members">Участники группы</string>-->
+    <!--<string name="group_name">Имя группы</string>-->
+
+    <!--&lt;!&ndash; Following Strings &ndash;&gt;-->
+    <!--<string name="followers">Фолловеры</string>-->
+    <!--<string name="following">Фолловинг</string>-->
+    <!--<string name="following_failed_try_again">Фолловинг не удался. Попробуйте еще раз.</string>-->
+    <!--<string name="unfollowed">Фолловинг отменен</string>-->
+    <!--<string name="follow">ФОЛЛОВИТЬ</string>-->
+    <!--<string name="unfollow">НЕ ФОЛЛОВИТЬ</string>-->
+    <!--<string name="followed_you">Наблюдал за вами</string>-->
+
+    <!--&lt;!&ndash; SignUp Strings &ndash;&gt;-->
+    <!--<string name="you_are_now_signed_up">Вы зарегистрированы!</string>-->
+    <!--<string name="failed_to_sign_up">Не удалось зарегистрироваться, пожалуйста попробуйте еще раз.</string>-->
+    <!--<string name="please_fill_out_all_fields_text">Пожалуйста, заполните все поля</string>-->
+
+    <!--&lt;!&ndash; Image and video strings &ndash;&gt;-->
+    <!--<string name="select_picture">Выберите изображение</string>-->
+    <!--<string name="would_you_like_to_upload_a_video_from_your_library">Вы хотите сделать видео или загрузить из библиотеки?</string>-->
+    <!--<string name="error_occurred_while_loading_your_video">Произошла ошибка во время загрузки видео</string>-->
+    <!--<string name="image_null_error">Пожалуйста, выберите изображение, сохраненное на устройстве. Это не включают изображения из других приложений или социальных медия.</string>-->
+    <!--<string name="image_error">Не удалось загрузить изображение и приложить к сообщению в Twitter.</string>-->
+    <!--<string name="error_occurred_when_selecting_your_image">Ошибка при выборе изображения</string>-->
+    <!--<string name="what_upload">Что бы вы хотели загрузить?</string>-->
+    <!--<string name="image_download_failed">Загрузка изображения не удалась</string>-->
+    <!--<string name="image_could_not_be_found">Невозможно найти изображение </string>-->
+    <!--<string name="take_video">Сделать видео</string>-->
+    <!--<string name="file_exceeds_limit">Файл превышает ограничение 10Мб.</string>-->
+    <!--<string name="take_a_video_from_your_library_or_get_one_from_your_library">Изъяти видео или выбрать одно из библиотеки?</string>-->
+    <!--<string name="take_a_picture_or_get_one_from_your_library">Изъяти изображение или выбрать одно из библиотеки?</string>-->
+    <!--<string name="media">(медия)</string>-->
+    <!--<string name="picture">(изображение)</string>-->
+    <!--<string name="video">(видео)</string>-->
+
+    <!--&lt;!&ndash; Post Strings &ndash;&gt;-->
+    <!--<string name="flag_content_as_inappropriate_prompt">Хотите ли вы отметить эту публикацию как неприемлемое содержание?</string>-->
+    <!--<string name="post_flagged">Эта публикация была отмечена</string>-->
+    <!--<string name="made_a_new_post">Сделал новую публикацию</string>-->
+    <!--<string name="made_a_new_group_post">Добавил новую публикацию в группу</string>-->
+    <!--<string name="enter_your_message_here">Введите ваше сообщение здесь...</string>-->
+
+    <!--&lt;!&ndash; Password Strings &ndash;&gt;-->
+    <!--<string name="forgot_password">Забыли пароль?</string>-->
+    <!--<string name="please_enter_your_email">Пожалуйста, введите адрес электронной почты.</string>-->
+    <!--<string name="change_password">Изменить пароль</string>-->
+    <!--<string name="cant_reset_password">Сброс пароля невозможен</string>-->
+    <!--<string name="reset_password">Сбросить пароль</string>-->
+    <!--<string name="reset_password_email_sent">Запрос для сброса пароля отправлен на адрес электронной почты</string>-->
+    <!--<string name="please_enter_your_email_address">Пожалуйста, введите свой адрес электронной почты и повторите попытку.</string>-->
+    <!--<string name="confirm_new_password">Подтвердите новый пароль</string>-->
+    <!--<string name="new_password">Новый пароль</string>-->
+    <!--<string name="old_password">Старый пароль</string>-->
+    <!--<string name="updating_password">Обновление пароля</string>-->
+    <!--<string name="old_password_incorrect">Старый пароль неверен.</string>-->
+    <!--<string name="password_updated">Пароль обновлен</string>-->
+    <!--<string name="password_failed_to_update">Не удалось обновить пароль, попробуйте еще раз</string>-->
+    <!--<string name="passwords_dont_match">Ваши пароли не совпадают</string>-->
+    <!--<string name="old_password_error">Ошибка в старом пароле</string>-->
+    <!--<string name="the_old_password_you_entered_is_invalid">Старый пароль, который вы ввели не допустим</string>-->
+    <!--<string name="the_new_password_and_confirm_password_dont_match">Новый пароль и подтверждение пароля не совпадают. Пожалуйста, попробуйте еще раз.</string>-->
+    <!--<string name="you_password_has_been_updated">Ваш пароль был обновлен</string>-->
+    <!--<string name="change_password_error">Ошибка</string>-->
+
+    <!--&lt;!&ndash; Drawer Items &ndash;&gt;-->
+    <!--<string name="drawer_home">Главная</string>-->
+    <!--<string name="drawer_messages">Сообщения</string>-->
+    <!--<string name="drawer_friends">Друзья</string>-->
+    <!--<string name="drawer_groups">Группы</string>-->
+    <!--<string name="drawer_notifications">Уведомления</string>-->
+    <!--<string name="drawer_plus">ПЛЮСУЙТЕ</string>-->
+    <!--<string name="drawer_invite">Пригласить</string>-->
+    <!--<string name="drawer_store">Магазин</string>-->
+    <!--<string name="drawer_eshopping">E-шоппинг</string>-->
+    <!--<string name="drawer_games">Игры</string>-->
+    <!--<string name="drawer_business">Бизнес</string>-->
+
+    <!--&lt;!&ndash; Other Strings &ndash;&gt;-->
+    <!--<string name="facebook_connect_not_implemented_text">Соединение через Facebook еще не реализовано</string>-->
+    <!--<string name="twiiter_connect_not_implemented_yet">Соединение через Twitter еще не реализовано</string>-->
+    <!--<string name="this_user_has_not_followed_you_text">Оба пользователя должны фолловить друг друга, чтобы общаться</string>-->
+    <!--<string name="please_try_again">Пожалуйста, попробуйте еще раз</string>-->
+    <!--<string name="message_is_saved">Сообщение сохранено.</string>-->
+    <!--<string name="password_length">Ваш пароль должен быть не менее 8 символов</string>-->
+    <!--<string name="passwords_do_not_match">Пароли не совпадают</string>-->
+    <!--<string name="sign_up_error">Произошла ошибка при регистрации.</string>-->
+    <!--<string name="signup_dialog">Регистрация...</string>-->
+    <!--<string name="you_already_have_a_higher_subscription_level">Вы уже имеете более высокий уровень подписки</string>-->
+    <!--<string name="please_accept_terms">Пожалуйста примите правила и условия.</string>-->
+    <!--<string name="user_name_is_taken">Имя пользователя уже занято.</string>-->
+    <!--<string name="not_connected_to_the_google_play_store">Не подключено к магазине Play Google</string>-->
+    <!--<string name="coming_soon">Скоро!</string>-->
+    <!--<string name="accept">принять</string>-->
+    <!--<string name="decline">отклонить</string>-->
+    <!--<string name="leave_a_comment">Оставить комментарий...</string>-->
+
+    <!--<string name="zero">0</string>-->
+    <!--<string name="one">1</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 3 STRINGS #####################################################&ndash;&gt;-->
+
+    <!--<string name="unable_to_get_group_members">Не удалось получить членов  текущей группы</string>-->
+    <!--<string name="unable_to_load_web_page">Не удалось загрузить веб страницу</string>-->
+    <!--<string name="please_enter_text">Пожалуйста введите текст</string>-->
+
+    <!--<string name="terms_of_service">Условия оказания услуг</string>-->
+    <!--<string name="terms_of_service_and_privacy_policy">Я прочитал и согласен с условиями оказания услуг и политикой конфиденциальности</string>-->
+    <!--<string name="privacy_policy">политика конфиденциальности</string>-->
+
+    <!--<string name="group_update_success">"Обновленная группа %s!"</string>-->
+    <!--<string name="retrieving_notifications_failed">Не удалось восстановить уведомления. Пожалуйста, повторите попытку.</string>-->
+    <!--<string name="messaging_error">Произошла ошибка во время обмена сообщениями</string>-->
+
+    <!--&lt;!&ndash; Message Friends Index &ndash;&gt;-->
+    <!--<string name="saved_messages_text">Сохраненные</string>-->
+    <!--<string name="chats_text">Текущие</string>-->
+
+    <!--&lt;!&ndash; Follow &ndash;&gt;-->
+    <!--<string name="followed">Круги</string>-->
+    <!--<string name="unfollow_failed">Не удалось отменить фолловинг. Повторите попытку.</string>-->
+    <!--<string name="start_recording">Начать запись</string>-->
+    <!--<string name="submit">отправить </string>-->
+    <!--<string name="invalid_user_name_or_password">Неверный логин или пароль</string>-->
+    <!--<string name="unable_to_update_followers_count">Не удалось обновить число фолловеров</string>-->
+    <!--<string name="please_accept_the_terms_of_service">Пожалуйста примите условия оказания услуг</string>-->
+
+    <!--&lt;!&ndash; Promo Codes &ndash;&gt;-->
+    <!--<string name="promo_code_optional">Промо код (по желанию)</string>-->
+    <!--<string name="activate_promo_code">Активировать промо код </string>-->
+    <!--<string name="the_promo_code_you_entered_is_invalid">Введенный промо код неверный.</string>-->
+    <!--<string name="the_promo_code_you_entered_is_invalid_sign_up">Введенный промо код неверный. Введите правильный промо код или удалите текущиий.</string>-->
+    <!--<string name="please_enter_your_promo_code">Пожалуйста введите промо код...</string>-->
+    <!--<string name="your_account_has_been_upgraded_to_a_plus_subscription">Ваш аккаунт был обновлен до подписки Плюс.</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 5 Strings #####################################################&ndash;&gt;-->
+
+    <!--<string name="user_favoriting_failed">Не удалось избрать пользователя.</string>-->
+    <!--<string name="user_unfavoriting_failed">Не удалось отменить избранного пользователя.</string>-->
+    <!--<string name="group_name_taken">Название группы уже занято.</string>-->
+    <!--<string name="you_have_received_a_new_message_from">Вы получили новое сообщение от</string>-->
+    <!--<string name="one_m">1м</string>-->
+    <!--<string name="unable_to_post_comment_text">Не удалось добавить комментарий</string>-->
+    <!--<string name="chats_button_title">Начать новый чат</string>-->
+    <!--<string name="are_you_sure_you_want_to_delete_the_group">Вы уверены, что хотите удалить группу?</string>-->
+    <!--<string name="are_you_sure_you_want_to_leave_the_group">Вы уверены, что хотите выйти из группы?</string>-->
+    <!--<string name="exit">Выход</string>-->
+    <!--<string name="please_attach_photo">Пожалуйста, приложите фото</string>-->
+    <!--<string name="please_attach_video">Пожалуйста, приложите видео.</string>-->
+    <!--<string name="email_cant_be_blank">Поле e-mail не может быть пустым</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 6 Strings #####################################################&ndash;&gt;-->
+
+    <!--<string name="you_cannot_leave_or_delete_the_conx2share_group">Вы не можете покинуть или удалить группу Conx2Share</string>-->
+    <!--<string name="promoted">Выдвинутый</string>-->
+    <!--<string name="audio">(аудио)</string>-->
+    <!--<string name="recording_is_not_long_enough">Запись недостаточно длинная.</string>-->
+    <!--<string name="only_the_first_two_mins_will_be_sent">Только первые 2 минуты с начала записи будут отправлены.</string>-->
+    <!--<string name="would_you_like_to_take_a_picture_or_upload_from_your_library">Вы хотите сделать снимок или загрузить из библиотеки?</string>-->
+    <!--<string name="unable_to_send_audio_message">Не удалось отправить аудио сообщение</string>-->
+    <!--<string name="unable_to_get_business_info">Не удалось загрузить Бизнес информацию</string>-->
+    <!--<string name="could_not_retrieve_your_businesses">Не удалось получить ваш бизнес</string>-->
+    <!--<string name="you_cannot_post_to_the_conx2share_group">Вы не можете отправлять сообщения в группу ConX2share.</string>-->
+    <!--<string name="search_for_businesses">поиск бизнеса</string>-->
+    <!--<string name="drawer_businesses">Бизнес</string>-->
+    <!--<string name="business_owner">владелец бизнеса</string>-->
+    <!--<string name="group">"Группа: "</string>-->
+    <!--<string name="business">"Бизнес: "</string>-->
+    <!--<string name="delete_post">Удалить публикацию</string>-->
+    <!--<string name="you_dont_own_this_post_to_delete_it">Эта публикация не пренадлежит вам, чтобы удалить его</string>-->
+    <!--<string name="are_you_sure_you_want_to_delete_this_post">Вы уверены, что хотите удалить эту публикацию?</string>-->
+    <!--<string name="post_deleted">Публикация удалена</string>-->
+    <!--<string name="unable_to_delete_post">Не удалось удалить публикацию</string>-->
+    <!--<string name="delete_comment">Удалить комментарий</string>-->
+    <!--<string name="you_dont_own_this_comment_to_delete_it">Этот комментарий не пренадлежит вам, чтобы удалить его</string>-->
+    <!--<string name="are_you_sure_you_want_to_delete_this_comment">Вы уверены, что хотите удалить этот комментарий?</string>-->
+    <!--<string name="comment_deleted">Комментарий удален</string>-->
+    <!--<string name="unable_to_delete_comment">Не удается удалить комментарий</string>-->
+    <!--<string name="flag_post">Отметить публикацию</string>-->
+    <!--<string name="cant_do_anything_with_comment_since_you_dont_own_it">Вы ничего не можете сделать с этим комментарием, так как он не пренадлежит вам</string>-->
+    <!--<string name="you_dont_own_this_post_to_edit_it">Эта публикация не пренадлежит вам, чтобы редактировать ее</string>-->
+    <!--<string name="edit_post">Редактировать публикацию</string>-->
+    <!--<string name="do_you_want_to_edit_this_post">Вы хотите отредактировать эту публикацию?</string>-->
+    <!--<string name="update_post">Обновить</string>-->
+    <!--<string name="unable_to_edit_post">Не удалось обновить публикацию</string>-->
+    <!--<string name="post_edited">Публикация отредактирована</string>-->
+    <!--<string name="updating_post">Обновление публикации...</string>-->
+    <!--<string name="flag_as_inappropriate">ПОМЕТИТЬ КАК НЕСООТВЕТСТВУЩУЮ</string>-->
+    <!--<string name="edit_post_options_menu">РЕДАКТИРОВАТЬ ПУБЛИКАЦИЮ</string>-->
+    <!--<string name="delete_post_options_menu">УДАЛИТЬ ПУБЛИКАЦИЮ</string>-->
+    <!--<string name="you_cannot_change_the_audience_when_editing_a_post">Вы не можете изменить аудиторию при редактировании публикации.</string>-->
+    <!--<string name="enter_your_comment_here">Введите сюда свой комментарий...</string>-->
+    <!--<string name="edit_comment_options_menu">РЕДАКТИРОВАТЬ КОММЕНТАРИЙ</string>-->
+    <!--<string name="delete_comment_options_menu">УДАЛИТЬ КОММЕНТАРИЙ</string>-->
+    <!--<string name="update">Обновить</string>-->
+    <!--<string name="edit_comment">Редактировать комментарий</string>-->
+    <!--<string name="you_dont_own_this_comment_to_edit_it">Этот комментарий не пренадлежит вам, чтобы редактировать его</string>-->
+    <!--<string name="comment_updated">Комментарий Обновлен!</string>-->
+    <!--<string name="unable_to_update_post_comment">Не удалось обновить комментарий</string>-->
+    <!--<string name="updating_comment">Обновление комментария...</string>-->
+    <!--<string name="something_went_wrong_while_uploading_your_image">Произошла ошибка при загрузки изображения</string>-->
+    <!--<string name="something_went_wrong_while_uploading_your_file">Произошла ошибка при загрузки файла</string>-->
+    <!--<string name="would_you_like_to_take_a_photo_or_upload_one_from_your_library">Вы хотите сделать снимок или загрузить фото из библиотеки?</string>-->
+    <!--<string name="would_you_like_to_take_a_video_or_upload_one_from_your_library">Вы хотите сделать видео или загрузить из библиотеки?</string>-->
+    <!--<string name="photo_option">Фото</string>-->
+    <!--<string name="video_option">Видео</string>-->
+    <!--<string name="block_user_option">ЗАБЛОКИРОВАТЬ ПОЛЬЗОВАТЕЛЯ</string>-->
+    <!--<string name="remove_from_group_option">УДАЛИТЬ ИЗ ГРУППЫ</string>-->
+    <!--<string name="you_cant_do_anything_with_this_group_member">Вы ничего не можете сделать с этим участником группы, так как группа не пренадлежит</string>-->
+    <!--<string name="remove_user_from_group">Удалить Пользователя Из Группы</string>-->
+    <!--<string name="are_you_sure_you_want_to_block_this_user">Вы уверены, что хотите заблокировать этого пользователя группы?</string>-->
+    <!--<string name="block_user">Заблокировать Пользователя</string>-->
+    <!--<string name="are_you_sure_you_want_to_remove_this_user_from_the_group">Вы уверены, что хотите удалить этого пользователя из группы?</string>-->
+    <!--<string name="member">Участник</string>-->
+    <!--<string name="follower">фолловер</string>-->
+    <!--<string name="unable_to_follow_group">Не удалось фолловить группу</string>-->
+    <!--<string name="unable_to_unfollow_group">Не удалось отменить фолловинг группы</string>-->
+    <!--<string name="unblock_user_option">РАЗБЛОКИРОВАТЬ ПОЛЬЗОВАТЕЛЯ</string>-->
+    <!--<string name="group_followers">Фолловеры Группы</string>-->
+    <!--<string name="search_for_followers">Поиск фолловеров</string>-->
+    <!--<string name="unable_to_send_invite_to_follow_group">Не удалось пригласить пользователей фолловить группу</string>-->
+    <!--<string name="invite_to_follow_group_sent">Запрос фолловить группу отправлен</string>-->
+    <!--<string name="unable_to_block_user_from_group">Не удалось заблокировать пользователя группы</string>-->
+    <!--<string name="you_have_blocked_this_user_from_the_group">Вы заблокировали этого пользователя группы.</string>-->
+    <!--<string name="unable_to_remove_user_from_group">Не удалось удалить пользователя из группы</string>-->
+    <!--<string name="user_has_been_removed_from_group">Пользователь был удален из группы</string>-->
+    <!--<string name="invited_you_to_follow_group">Пригласил вас, чтобы фолловить группу</string>-->
+    <!--<string name="search_for_groups">поиск групп</string>-->
+    <!--<string name="private_group">Частно</string>-->
+    <!--<string name="blog_group">Блог</string>-->
+    <!--<string name="discussion_group">Обсуждение</string>-->
+    <!--<string name="empty_string" />-->
+    <!--<string name="unable_to_leave_group">Не удалось выйти из группы</string>-->
+    <!--<string name="unable_to_get_group_followers">Не удалось получить фолловеров группы</string>-->
+    <!--<string name="unable_to_unblock_user">Не удалось разблокировать пользователя</string>-->
+    <!--<string name="you_have_unblocked_this_user_from_the_group">Вы разблокировали данного участника группы</string>-->
+    <!--<string name="unable_to_post_to_group_blocked">Не удалось опубликовать в группе, заблокировано</string>-->
+    <!--<string name="unable_to_post_comment_blocked">Не удалось добавлять комментарий, заблокировано</string>-->
+    <!--<string name="unblock_user">Разблокировать Пользователя</string>-->
+    <!--<string name="are_you_sure_you_want_to_unblock_this_user">Вы уверены, что хотите разблокировать этого пользователя?</string>-->
+    <!--<string name="unable_to_update_post_blocked">Не удалось обновить публикацию, заблокировано</string>-->
+    <!--<string name="unable_to_update_comment_blocked">Не удалось обновить комментарий, заблокировано</string>-->
+    <!--<string name="emergency_logout_toast_text">Ваша сессия недействительна. Пожалуйста, войдите снова.</string>-->
+    <!--<string name="unable_to_leave_or_delete_group">Не удалось покинуть или удалить группу</string>-->
+    <!--<string name="public_group_button_text">ПУБЛИЧНО</string>-->
+    <!--<string name="private_group_button_text">ЧАСТНО</string>-->
+    <!--<string name="discussion_group_button_text">ОБСУЖДЕНИЕ</string>-->
+    <!--<string name="blog_group_button_text">БЛОГ</string>-->
+    <!--<string name="creating_group">Создание группы...</string>-->
+    <!--<string name="updating_group">Обновление группу...</string>-->
+    <!--<string name="unable_to_delete_group">Не удалось удалить группу</string>-->
+    <!--<string name="are_you_sure_you_want_to_unfollow_the_group">Вы уверены, что хотите отменить фолловинг группы?</string>-->
+    <!--<string name="unfollow_group">Отменить фоллофинг группы</string>-->
+
+<!--</resources>-->

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/post_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/transparent">
+
+        <com.conx2share.conx2share.ui.view.AvenirNextTextView
+            android:id="@+id/post_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/post_activity_title"
+            android:textSize="20sp" />
+
+        <com.conx2share.conx2share.ui.view.AvenirNextTextView
+            android:id="@+id/post_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/post"
+            android:textColor="@drawable/post_menu_selector"
+            android:textSize="20sp" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/attachment_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/attachment_selector"
+        android:tint="@color/conx_primary" />
+
+    <LinearLayout
+        android:id="@+id/post_to_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/post_toolbar"
+        android:background="@drawable/transparent_to_grey_gradient"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <com.conx2share.conx2share.ui.view.AvenirNextTextView
+            android:id="@+id/to_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:text="@string/post_to"
+            android:textColor="@color/unread_messages_gray"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/post_receiver_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/transparent" />
+
+        <ImageView
+            android:id="@+id/right_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:src="@drawable/selectarrow" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/post_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/attachment_button"
+        android:layout_below="@id/post_to_layout"
+        android:orientation="vertical">
+
+        <com.linkedin.android.spyglass.ui.RichEditorView
+            android:id="@+id/post_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:autoLink="web"
+            android:background="@color/transparent"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="top"
+            android:hint="@string/enter_message_here"
+            android:maxLength="16383"
+            android:padding="15dp"
+            android:textIsSelectable="true" />
+
+        <!--        <MultiAutoCompleteTextView
+                    android:id="@+id/post_edit_text"
+                    android:background="@color/transparent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:padding="15dp"
+                    android:hint="@string/enter_message_here"
+                    android:maxLength="16383"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />-->
+
+        <RelativeLayout
+            android:id="@+id/preview_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/attachment_preview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:id="@+id/remove_attachment_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/exit_button" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

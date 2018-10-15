@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/post_comment_option_edit"
+        android:icon="@drawable/v_ic_edit_post"
+        android:title="@string/edit_comment_options_menu"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/post_comment_option_delete"
+        android:icon="@drawable/v_ic_delete_post"
+        android:title="@string/delete_comment_options_menu"
+        app:showAsAction="ifRoom|withText" />
+</menu>

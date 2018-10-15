@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.conx2share.conx2share.ui.view.AvenirNextTextView
+            android:id="@+id/subscription_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/conx_teal"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/star_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_star"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <com.conx2share.conx2share.ui.view.AvenirNextTextView
+        android:id="@+id/subscription_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <com.conx2share.conx2share.ui.view.AvenirNextTextView
+            android:id="@+id/subscription_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/conx_blue"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/subscribe_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@color/transparent"
+            android:text="@string/subscribe"
+            android:textAllCaps="false"
+            android:textColor="@color/conx_teal"
+            android:textSize="18sp" />
+
+        <com.conx2share.conx2share.ui.view.AvenirNextTextView
+            android:id="@+id/current_subscription_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:text="@string/current_subscription"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</LinearLayout>

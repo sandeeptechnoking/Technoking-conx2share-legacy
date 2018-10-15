@@ -1,0 +1,1238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="applicationName">"ConX2Share"</string>
+    <string name="labelSignin">"تسجيل الدخول"</string>
+    <string name="labelSignup">"التسجيل"</string>
+    <string name="labelEmail">"إيمايل"</string>
+    <string name="labelPassword">"كلمة السر"</string>
+    <string name="labelOr">"أو"</string>
+    <string name="labelUsername">"إسم المستعمل"</string>
+    <string name="labelConfirmPassword">"تأكيد كلمة السر"</string>
+    <string name="labelFirstName">"الإسم"</string>
+    <string name="labelLastName">"اللقب"</string>
+    <string name="blurbTermsAndConditions">"لقد قرأتُ و وافقتُ على الشروط و الأحكام"</string>
+    <string name="statusAuthenticating">"المصادقة\u2026"</string>
+    <string name="statusUnexpectedError">"لقد طرأ خطأ غير متوقع."</string>
+    <string name="statusMessagedMarkedAsViewed">"رسالة مُعَلَمة على أنها مقروءة"</string>
+    <string name="labelSuccess">"نجاح"</string>
+    <string name="statusMessageSent">"رسالة مبعوثة"</string>
+    <string name="statusMessageSentFailed">"فشل بعث الرسالة"</string>
+    <string name="hintEnterMessageHere">"أدخل الرسالة هنا..."</string>
+    <string name="statusGotSentMessages">"لديك رسالة مبعوثة"</string>
+    <string name="hintTypeAMessage">"أكتب رسالة... "</string>
+    <string name="hintAddTextHere">"أضف نصا أسفله... "</string>
+    <string name="statusFileError">"خطأ في الملف"</string>
+    <string name="statusCameraError">"خطأ في الكاميرا"</string>
+    <string name="labelAddAttachment">"أضف المرفقات : "</string>
+    <string name="labelTakeAPhoto">"إلتقِط صورة"</string>
+    <string name="labelTakeAVideo">"سجل فيديو"</string>
+    <string name="labelMessageType">"نوع الرسالة :"</string>
+    <string name="labelError">"خطأ :"</string>
+
+    <!-- Post Activity -->
+    <string name="labelPost">"نشر"</string>
+    <string name="titleCreatePost">"ضع مشاركة"</string>
+    <string name="labelPostTo">"إلى :"</string>
+    <string name="labelEveryone">"الكل"</string>
+    <string name="statusPostSuccessful">"تمت إضافة المشاركة بنجاح"</string>
+    <string name="statusPostFailed">"إخفاق إضافة المشاركة : "</string>
+
+    <!-- Image Upload Dialog -->
+    <string name="titleUploadPhoto">"تحميل صورة"</string>
+    <string name="promptUploadOrSelectImageQuestion">"هل ترغب في التقاط صورة أم تحميلها من مكتبتك ؟"</string>
+    <string name="promptUploadOrSelectVideoQuestion">"هل ترغب في تسجيل فيديو أم تحميله من مكتبتك ؟"</string>
+    <string name="labelTakePhoto">"إلتقاط صورة"</string>
+    <string name="labelLibrary">"المكتبة"</string>
+    <string name="blurbNotYetImplemented">"لم تُنفَذ بعد."</string>
+
+    <!-- Feed Activity -->
+    <string name="labelDrawerOpen">"فتح الدرج"</string>
+    <string name="labelDrawerClose">"إغلاق الدرج"</string>
+    <string name="labelSignout">"تسجيل الخروج"</string>
+    <string name="labelProfilePicture">"الصورة الشخصية"</string>
+
+    <!-- Share Dialog -->
+    <string name="labelShareTo">"...مشاركتها مع"</string>
+    <string name="labelCancel">"إلغاء"</string>
+
+    <!-- Contacts -->
+    <string name="labelContacts">"جهات الاتصال"</string>
+    <string name="statusInviteSuccessful">"الأصدقاء المدعوون"</string>
+    <string name="statusInviteFailed">"فشل دعوة الأصدقاء :"</string>
+
+    <!-- Groups -->
+    <string name="titleGroupName">"إسم المجموعة"</string>
+    <string name="labelCreateGroup">"إنشاء مجموعة"</string>
+    <string name="blurbGroupNameInvalid">"يجب أن تضع إسما للمجموعة"</string>
+    <string name="blurbGroupImageInvalid">"يجب أن تضع صورة للمجموعة"</string>
+    <string name="labelEditGroup">"تعديل المجموعة"</string>
+    <string name="blurbGroupCreationFail">"لم يتم إنشاء المجموعة بنجاح . يرجى المحاولة مرة أخرى"</string>
+    <string name="blurbGroupCreationSuccess">"تم إنشاء المجموعة بنجاح %s!"</string>
+    <string name="blurbGroupUpdateFail">"لم يتم تحديث المجموعة بنجاح . يرجى المحاولة مرة أخرى"</string>
+    <string name="blurbGenericErrorMessage">"خطأ . حاول مرة أخرى"</string>
+    <string name="statusNoUsersFound">"لم يتم العثور على مستعملين مطابقين للمواصفات"</string>
+    <string name="labelMembers">"الأعضاء"</string>
+    <string name="labelSend">"إرسال"</string>
+    <string name="statusFailedToTetrieveMessages">"فشل الحصول على الرسائل الجديدة"</string>
+    <string name="questionSaveMessage">"حفظ الرسالة ؟"</string>
+
+    <!-- Message Friends -->
+    <string name="hintFriendsName">"الإسم اللقب"</string>
+    <string name="blurbErrorLoadingIndex">"خلل أثناء تحميل الدردشات ."</string>
+    <string name="titleNewMessage">"رسالة جديدة"</string>
+
+    <!-- Drawer Notifications -->
+    <string name="statusSentYouANewMessage">"أرسل إليك رسالة جديدة"</string>
+    <string name="statusReadYourMessage">"اقرأ رسائلك"</string>
+    <string name="labelCommentedOnYourPost">"عَلَّق على مشاركتك"</string>
+    <string name="statusInvitedYouToJoin">"دعاك للإنظمام"</string>
+    <string name="statusLoginFailed">"فشل تسجيل الدخول . يُرجى التحقق من الإتصال بالأنترنت و المحاولة مرة أخرى ."</string>
+
+    <!-- ######################################### SET 2 STRINGS ##################################################### -->
+    <string name="labelNone">"ا شيء"</string>
+    <string name="label15s">"15 ثا"</string>
+    <string name="label30s">"30 ثا"</string>
+    <string name="label60s">"60 ثا"</string>
+    <string name="label120s">"120 ثا"</string>
+    <string name="labelHome">"الرئيسية"</string>
+    <string name="labelMessages">"الرسائل"</string>
+    <string name="labelFriends">"الأصدقاء"</string>
+    <string name="labelGroups">"المجموعات"</string>
+    <string name="labelNotifications">"الإشعارات"</string>
+    <string name="labelSubscriptionsGP">"أُحصل على المزيد"</string>
+    <string name="labelInvite">"دعوة"</string>
+    <string name="labelStore">"المتجر"</string>
+    <string name="labelAbout">"حول"</string>
+    <string name="labelChange">"تغيير"</string>
+    <string name="labelPushMNotifications">"دفع الإشعارات"</string>
+    <string name="titleSwitchTitle1">"تغيير العنوان 1"</string>
+    <string name="titleSwitchTitle2">"تغيير العنوان 2"</string>
+
+    <!-- Strings for Async Errors -->
+    <string name="labelRetry">"إعادة المحاولة"</string>
+    <string name="statusUnableToGatherFriendsToInvite">"غير قادر على جمع الأصدقاء لدعوتهم"</string>
+    <string name="statusUnableToInviteFriends">"غير قادر على دعوة أصدقاء"</string>
+    <string name="statusUnableToPostToGroup">"غير قادر على الرد في المجموعة"</string>
+    <string name="statusUnableToPost">"غير قادر على الرد"</string>
+    <string name="statusPostAlreadyFlagged">"غير قادر على تعيين المشاركة ، لقد سبق و أن عينتها من قبل"</string>
+    <string name="statusUnableToFlagPost">"غير قادر على تعيين المشاركة"</string>
+    <string name="statusUnableToGetPost">"غير قادر على الوصول إلى الرد"</string>
+    <string name="statusUnableToGetPostComments">"غير قادر على الوصول إلى التعليقات حول المشاركة"</string>
+    <string name="statusUnableToLikePost">"غير قادر على الإعجاب بالمشاركة"</string>
+    <string name="statusUnableToUnlikePost">"غير قادر على إزالة الإعجاب المشاركة"</string>
+    <string name="statusUnableToCreateGroup">"غير قادر على إنشاء المجموعة"</string>
+    <string name="statusUnableToUpdateGroup">"غير قادر على تحديث المجموعة"</string>
+    <string name="statusUnableToRefreshFeed">"غير قادر على تحيين المجموعة"</string>
+    <string name="statusUnableToGetPosts">"غير قادر على الوصول إلى الردود"</string>
+    <string name="statusUnableToGetUnreadMessages">"غير قادر على الوصول إلى الرسائل غير المقروءة"</string>
+    <string name="statusUnableToGetFriends">"غير قادر على الوصول إلى الأصدقاء"</string>
+    <string name="statusUnableToGetGroup">"غير قادر على الوصول إلى المجموعة"</string>
+    <string name="statusUnableToGetGroupPosts">"غير قادر على الوصول إلى مشاركات المجموعة"</string>
+    <string name="statusUnableToGetGroupList">"غير قادر على الوصول إلى قائمة المجموعة"</string>
+    <string name="statusUnableToRemoveOrDeleteGroup">"غير قادر على إزالة أو حذف المجموعة"</string>
+    <string name="statusUnableToGetChats">"غير قادر على الوصول إلى الدردشة"</string>
+    <string name="statusUnableToGetSavedMessages">"غير قادر على الوصول إلى الرسائل المحفوظة"</string>
+    <string name="statusUnableToUpdateNotificationAsViewed">"غير قادر على تحديث الإشعار كما تمت رؤيته"</string>
+    <string name="statusUnableToGetMessage">"غير قادر على الوصول إلى الرسائل"</string>
+    <string name="statusUnableToFollowUser">"غير قادر على متابعة المستخدم"</string>
+    <string name="statusUnableToUnfollowUser">"غير قادر على إزالة متابعة المستخدم"</string>
+    <string name="statusUnableToLoadProfile">"غير قادر على تحميل صفحة المعلومات الشخصية"</string>
+    <string name="statusUnableToUpdateAvatar">"غير قادر على تحديث الصورة الشخصية"</string>
+    <string name="statusUnableToInviteUserToGroup">"غير قادر على دعوة المستخدم للمجموعة"</string>
+    <string name="statusUnableToPurchaseSubscription">"غير قادر على شراء الإشتراك"</string>
+    <string name="statusUnableToUpdateUsersProfile">"غير قادر على تحديث الصفحة الشخصية للمستخدم"</string>
+    <string name="statusUnableToSendMessage">"غير قادر على إرسال الرسالة"</string>
+    <string name="statusUnableToSetExpiration">"غير قادر على تحديد مدة انقضاء صلاحية الرسالة"</string>
+    <string name="statusUnableToSaveMessage">"غير قادر على حفظ الرسالة"</string>
+    <string name="statusUnableToGetChat">"غير قادر على الدردشة مع المستخدم"</string>
+    <string name="statusUnableToGetSentMessages">"غير قادر على الوصول إلى الرسائل المبعوثة"</string>
+    <string name="statusUnableToGetMissedMessages">"غير قادر على الوصول إلى الرسائل التي فاتتك"</string>
+    <string name="statusUnableToGetNotifications">"غير قادر على الوصول إلى الإشعارات"</string>
+    <string name="statusUnableToAcceptGroupInvite">"غير قادر على قبول دعوة المجموعة"</string>
+    <string name="statusUnableToDeclineGroupInvite">"غير قادر على رفض دعوة المجموعة"</string>
+    <string name="statusUnableToGetMoreNotifications">"غير قادر على الوصول إلى المزيد من الإشعارات"</string>
+    <string name="statusUnableToGetFollowingUsers">"غير قادر على الوصول إلى المستخدمين الذين تتابعهم"</string>
+    <string name="statusUnableToGetFollowers">"غير قادر على الوصول إلى المتابعين"</string>
+    <string name="statusUnableToGetMessages">"غير قادر على الوصول إلى الرسائل"</string>
+    <string name="statusUnableToGoToChat">"غير قادر على الذهاب إلى الدردشة"</string>
+
+    <!-- Search hints -->
+    <string name="hintSearchForUsersToInvite">"البحث عن أشخاص لدعوتهم"</string>
+    <string name="hintSearchFriends">"البحث عن الأصدقاء"</string>
+    <string name="hintSearchForFriends">"البحث عن أصدقاء"</string>
+    <string name="hintSearchForMembers">"البحث عن أعضاء"</string>
+    <string name="hintSearchForUsersToChatWith">"البحث عن مستخدمين للدردشة معهم"</string>
+    <string name="hintSearchContacts">"البحث عن معارف"</string>
+
+    <!-- Notifications -->
+    <string name="statusNewNotificationReceived">"لقد تلقيت إشعارا جديدا"</string>
+    <string name="labelRefresh">"تحيين"</string>
+    <string name="labelViewed">" - تمت رؤيتها من قبل"</string>
+    <string name="labelAccepted">"مقبولة"</string>
+    <string name="labelDeclined">"مرفوضة"</string>
+    <string name="titleNotification">"إشعار Conx2Share"</string>
+
+    <!-- Prompt text -->
+    <string name="labelYes">"نعم"</string>
+    <string name="labelNo">"لا"</string>
+    <string name="labelOk">"حسناً"</string>
+    <string name="labelExclamation">"!"</string>
+
+    <!-- Subscription Strings -->
+    <string name="statusSubscribedSuccessfully">"لقد تم الإشتراك بنجاح"</string>
+    <string name="statusFailedToSubscribe">"فشل الإشتراك"</string>
+    <string name="labelPriceFree">"0"</string>
+    <string name="labelPricePlus">"2.40 / سنة"</string>
+    <string name="labelPricePremium">"29.99 / سنة"</string>
+    <string name="labelPricePlatinum">"49.99 / سنة"</string>
+    <string name="blurbFreeSubscriptionDescription">"ستحذف الصور و الفيديوهات بعد أن تتم رؤيتها."</string>
+    <string name="titleFreeSubscription">"مجاني"</string>
+    <string name="labelSubscribe">"!إشترك "</string>
+    <string name="labelCurrentSubscription">"الإشتراك الحالي"</string>
+    <string name="labelAgo">"من قبل"</string>
+    <string name="labelPlus">"زائد"</string>
+    <string name="blurbPlusSubscriptionDescription">"إحفظ ما يصل إلى 5 صور و 1 فيديو ."</string>
+    <string name="titlePremiumSubscription">"بريميوم"</string>
+    <string name="blurbPremiumSubscriptionDescription">"بريد Conx2Share الإلكتروني و 50 GB من تخزين البيانات للمراسلة ، الصور و الفيديوهات ."</string>
+    <string name="titlePlatinumSubscription">"بلاتينيوم"</string>
+    <string name="blurbPlatinumSubscriptionDescription">"بريد Conx2Share الإلكتروني و 100 GB من تخزين البيانات للمراسلة ، الصور و الفيديوهات ."</string>
+
+    <!-- Sharing Strings -->
+    <string name="labelSharedBy">"\" تمت المشاركة من طرف "</string>
+    <string name="blurbViaConx2shareAndroid">" عبر Conx2share أندرويد"</string>
+    <string name="titleConx2shareForAndroid">"نسخة Conx2share للأندرويد"</string>
+    <string name="messagePleaseInstallFacebook">"يرجى تنصيب تطبيق الفيس بوك حتى تتمكن من مشاركة منشوراتك."</string>
+    <string name="messagePleaseInstallTheTwiiterApp">"يرجى تنصيب تطبيق تويتر حتى تتمكن من مشاركة منشوراتك."</string>
+
+    <!-- Progress Dialog Strings -->
+    <string name="statusLoadingMessages">"تحميل الرسائل ..."</string>
+    <string name="statusGatheringFriends">"تجميع الأصدقاء ..."</string>
+    <string name="statusGatheringMessages">"تجميع الرسائل ..."</string>
+    <string name="statusGatheringChats">"تجميع الدردشات ..."</string>
+    <string name="statusGatheringFollowedUsers">"تجميع المستخدمين الذين تتابعهم ..."</string>
+    <string name="statusGatheringFollowers">"تجميع المتابِعين ..."</string>
+    <string name="statusSendingMessage">"إرسال الرسالة ..."</string>
+    <string name="statusPosting">"إدخال المشاركة ..."</string>
+    <string name="statusGatheringSavedMessages">"تجميع الرسائل المحفوظة ..."</string>
+    <string name="statusGatheringChatInformation">"تجميع معلومات الدردشة ..."</string>
+
+    <!-- Group Strings -->
+    <string name="labelDeleteGroup">"حذف المجموعة"</string>
+    <string name="labelLeaveGroup">"مغادرة المجموعة"</string>
+    <string name="labelDeletedGroup">"مجموعة محذوفة "</string>
+    <string name="labelLeftGroup">"مجموعة تمت مغادرتها "</string>
+    <string name="labelUpdatedGroup">"مجموعة مُحدَّثَة "</string>
+    <string name="labelGroupOwner">"مالك المجموعة"</string>
+    <string name="labelGroupMembers">"أعضاء المجموعة"</string>
+    <string name="labelGroupName">"إسم المجموعة"</string>
+
+    <!-- Following Strings -->
+    <string name="labelFollowers">"المتابعون"</string>
+    <string name="labelFollowing">"المتابعة"</string>
+    <string name="statusFailedToFollow">"لقد فشلت المتابعة . يرجى المحاولة مرة أخرى ."</string>
+    <string name="labelUnfollowed">"غير مُتابَع"</string>
+    <string name="labelFollow">"المتابعة"</string>
+    <string name="labelUnfollow">"إزالة المتابعة"</string>
+    <string name="statusFollowedYou">"متابع لك"</string>
+
+    <!-- SignUp Strings -->
+    <string name="statusYouAreNowSignedUp">"أنت الآن عضو مسَجَّل !"</string>
+    <string name="statusFailedToSignUp">"فشل عملية التسجيل ، يرجى المحاولة مرة أخرى ."</string>
+    <string name="statusPleaseFillOutAllFields">"يرجى ملء كل الحقول المطلوبة"</string>
+
+    <!-- Image and video strings -->
+    <string name="titleSelectPicture">"اختر صورة"</string>
+    <string name="questionUploadFromLibrary">"هل تريد تسجيل فيديو أم تحميله من مكتبتك ؟"</string>
+    <string name="statusErrorUploadingVideo">"حدث خطأ أثناء تحميل الفيديو الخاص بك"</string>
+    <string name="messageSelectImageError">"يرجى اختيار صورة مخزنة على جهازك . وهذا لا يشمل الصور المخبأة من تطبيقات أخرى أو وسائل إعلام اجتماعية."</string>
+    <string name="statusTwitterImageError">"فشل تحميل الصورة و ارفاقها بمشاركة تويتر ."</string>
+    <string name="satusErrorSelectingImage">"حدث خطأ أثناء اختيار صورتك"</string>
+    <string name="questionSelectUpload">"مالذي تريد تحميله ؟"</string>
+    <string name="statusImageDownloadFailed">"فشل تنزيل الصورة"</string>
+    <string name="statusImageNotFound">"لا يمكن إيجاد الصورة"</string>
+    <string name="labelVideoTake">"تسجيل فيديو"</string>
+    <string name="statusFileExceedsLimit">"تجاوز الملف حد ال 10Mb ."</string>
+    <string name="questionSelectVideoSource">"تسجيل فيديو أم الحصول عليه من مكتبتك ؟"</string>
+    <string name="questionSelectImageSource">"التقاط صورة أم الحصول عليها من مكتبتك ؟"</string>
+    <string name="indicatorMedia">"(ميديا)"</string>
+    <string name="indicatorPicture">"(صورة)"</string>
+    <string name="indicatorVideo">"(فيديو)"</string>
+    <string name="indicatorAudio">"(الصوت) "</string>
+
+    <!-- Post Strings -->
+    <string name="promptFlagContentAsInappropriate">"هل تريد تعيين هذه المشاركة لاحتوائها على محتوى غير لائق ؟"</string>
+    <string name="statusPostFlagged">"لقد تم تعيين هذه المشاركة الآن"</string>
+    <string name="statusMadeANewPost">"أنشيء مشاركة جديدة"</string>
+    <string name="statusMadeANewGroupPost">"إنشاء مشاركة جديدة في المجموعة"</string>
+    <string name="hintEnterYourMessageHere">"أدخل رسالتك هنا ..."</string>
+
+    <!-- Password Strings -->
+    <string name="promptForgotPassword">"هل نسيت كلمة السر ؟"</string>
+    <string name="hintEnterYourEmail">"الرجاء إدخال الإيمايل الخاص بك ."</string>
+    <string name="labelChangePassword">"تغيير كلمة السر"</string>
+    <string name="statusCantResetPassword">"تغيير كلمة السر"</string>
+    <string name="labelResetPassword">"إعادة تعيين كلمة السر"</string>
+    <string name="statusResetPasswordEmailSent">"تمت إعادة تعيين كلمة السر و ارسالها إلى بريدك الإلكتروني"</string>
+    <string name="statusPleaseEnterYourEmailAddress">"يرجى إدخال عنوان بريدك الإلكتروني و المحاولة مرة أخرى ."</string>
+    <string name="labelConfirmNewPassword">"تأكيد كلمة السر الجديدة"</string>
+    <string name="labelNewPassword">"كلمة السر الجديدة"</string>
+    <string name="labelOldPassword">"كلمة السر القديمة"</string>
+    <string name="statusUpdatingPassword">"تحديث كلمة السر"</string>
+    <string name="statusOldPasswordIncorrect">"كلمة السر القديمة غير صحيحة ."</string>
+    <string name="statusPasswordUpdated">"تم تحديث كلمة السر"</string>
+    <string name="statusPasswordFailedToUpdate">"فشل تحديث كلمة السر ، يرجى المحاولة مرة أخرى"</string>
+    <string name="statusPasswordsDontMatch">"كلمتا السر الخاصتين بك غير متطابقتين"</string>
+    <string name="statusOldPasswordError">"خطأ في كلمة السر القديمة"</string>
+    <string name="statusOldPasswordInvalid">"كلمة السر القديمة التي أدخلتها غير صحيحة"</string>
+    <string name="blurbPasswordsDontMatch">"كلمة السر الجديدة و تأكيد كلمة السر غير متطابقين . يرجى المحاولة مرة أخرى ."</string>
+    <string name="you_password_has_been_updated">"لم يتم تحديث كلمة السر خاصتك"</string>
+    <string name="change_password_error">"خطأ"</string>
+
+    <!-- Drawer Items -->
+    <string name="labelDrawerHome">"الرئيسية"</string>
+    <string name="labelDrawerMessages">"الرسائل"</string>
+    <string name="labelDrawerFriends">"الأصدقاء"</string>
+    <string name="labelDrawerGroups">"المجموعات"</string>
+    <string name="labelDrawerNotifications">"الإشعارات"</string>
+    <string name="labelDrawerSubscriptions">"الإشتراكات"</string>
+    <string name="labelDrawerInvite">"دعوة"</string>
+    <string name="labelDrawerStore">"المتجر"</string>
+    <string name="labelDrawerEshopping">"التسوق الإلكتروني"</string>
+    <string name="labelDrawerGames">"الألعاب"</string>
+    <string name="labelDrawerBusiness">"العمل"</string>
+
+    <!-- Other Strings -->
+    <string name="blurbFacebookConnectNotImplemented">"لم تتم إضافة الاتصال بالفيس بوك بعد"</string>
+    <string name="blurbTwiterConnectNotImplemented">"لم تتم إضافة الاتصال بتويتر بعد"</string>
+    <string name="errorNoChatNotFollowed">"يجب أن يتابع كل مستخدمِ المستخدمَ الآخر حتى يتمكنا من الدردشة معا"</string>
+    <string name="errorTryAgain">"يرجى المحاولة مرة أخرى"</string>
+    <string name="statusMessageSaved">"تم حفظ الرسالة."</string>
+    <string name="errorPasswordLength">"يجب أن تحتوي كلمة السر على 8 رموز على الأقل"</string>
+    <string name="errorPasswordsNotMatch">"كلمتا السر غير متطابقتين"</string>
+    <string name="errorGenericSignUp">"حدث خطأ أثناء التسجيل ."</string>
+    <string name="statusSigningUp">"التسجيل ..."</string>
+    <string name="blurbSubscriptionLevelTooLow">"لديك اشتراك ذو مستوى عالِ من قبل"</string>
+    <string name="errorPleaseAcceptTerms">"الرجاء الموافقة على الأحكام و الشروط ."</string>
+
+    <!-- <string name="please_accept_the_terms_of_service">Please accept the terms of service</string> -->
+    <string name="errorUsernameTaken">"إسم المستخدم هذا مُسجَّل لدينا من قبل ."</string>
+    <string name="blurbNotConnectedToGooglePlay">"غير متصل بمتجر Google Play"</string>
+    <string name="blurbComingSoon">"عما قريب !"</string>
+    <string name="labelAccept">"القبول"</string>
+    <string name="labelDecline">"الرفض"</string>
+    <string name="hintLeaveAComment">"ضع تعليقا..."</string>
+    <string name="labelZero">"0"</string>
+    <string name="labelOne">"1"</string>
+
+    <!-- ######################################### SET 3 STRINGS ##################################################### -->
+    <string name="statusUnableToGetGroupMembers">"لا يمكنك الوصول إلى أعضاء المجموعة الحاليين ."</string>
+    <string name="statusUnableToLoadWebPage">"لا يمكنك تحميل صفحة الويب"</string>
+    <string name="hintEnterText">"يرجى إدخال النص"</string>
+    <string name="labelTermsOfService">"شروط الخدمة"</string>
+    <string name="blurbTermsOfServiceAndPrivacyPolicy">"لقد قرأتُ و وافقتُ على شروط الخدمة و سياسة الخصوصية ."</string>
+    <string name="labelPrivacyPolicy">"سياسة الخصوصية"</string>
+    <string name="statusGroupUpdateSuccess">"مجموعة مُحَدَّثَة %s!"</string>
+    <string name="statusRetrievingNotificationsFailed">"فشل سحب الإشعارات . يرجى المحاولة مرة أخرى .."</string>
+    <string name="errorGenericMessaging">"لقد حدث خطأ أثناء الإرسال"</string>
+
+    <!-- Message Friends Index -->
+    <string name="labelSaved">"محفوظة"</string>
+    <string name="labelCurrent">"حالي"</string>
+
+    <!-- Follow -->
+    <string name="labelFollowed">"مُتابَع"</string>
+    <string name="statusUnfollowFailed">"فشل إلغاء المتابعة . حاول مجددا ."</string>
+    <string name="labelStartRecording">"بدء التسجيل"</string>
+    <string name="labelSubmit">"إدخال"</string>
+    <string name="errorInvalidUsernameOrPassword">"خطأ في إسم المستخدِم أو كلمة السر"</string>
+    <string name="statusUnableToUpdateFollowersCount">"لا يمكنك تحديث عدد المُتابِعين"</string>
+
+    <!-- Promo Codes -->
+    <string name="labelPromoCode">"الرمز الترويجي (اختياري)"</string>
+    <string name="labelActivatePromoCode">"تفعيل الرمز الترويجي"</string>
+    <string name="errorInvalidPromoCode">"الرمز الترويجي الذي أدخلته خاطيء ."</string>
+    <string name="blurbInvalidPromoCode">"الرمز الترويجي الذي أدخلته خاطيء . أدخل رمزاً ترويجياً صحيحاً أو امسح الرمز الحالي ."</string>
+    <string name="hintEnterPromoCode">"يرجى إدخال رمزك الترويجي ."</string>
+    <string name="blurbAccountSubscriptionUpgradedPlus">"لقد تمت ترقية حسابك إلى إشتراك Plus ."</string>
+
+    <!-- ######################################### SET 4 STRINGS ##################################################### -->
+    <string name="statusUnableToCheckPromoCodeValid">"لا يمكن التحقق من صحة الرمز الترويجي"</string>
+    <string name="blurbPromoUpgradePlusDescription">"The promo code you entered was valid. If you were a free user, your account has been upgraded to a Plus subscription."</string>
+    <string name="statusValidPromoCode">"الرمز الترويجي صحيح"</string>
+    <string name="statusInvalidPromoCode">"الرمز الترويجي خاطيء"</string>
+    <string name="statusUnableUpdateUserToPromoUser">"لا يمكن ترقية المستخدِم إلى حساب مُرَوَّج"</string>
+    <string name="errorEmailAlreadyUsed">"لقد تم أخذ البريد الإلكتروني مُسبقاً"</string>
+
+    <!-- ######################################### SET 5 Strings ##################################################### -->
+    <string name="statusUserFavoritingFailed">"فشل إضافة المستخدم إلى المفضلة ."</string>
+    <string name="statusUserUnfavoritingFailed">"فشل إزالة المستخدم من المفضلة ."</string>
+    <string name="errorGroupNameTaken">"إسم المجموعة مُستعمَل من قبل ."</string>
+    <string name="blurbNewMessageReceivedFrom">"لقد تلقيت رسالك جديدة من طرف"</string>
+    <string name="labelOneM">"1 دقيقة"</string>
+    <string name="statusUnableToPostComment">"لا يمكنك إضافة التعليق"</string>
+    <string name="labelStartChat">"إبدأ دردشة جديدة"</string>
+    <string name="promptDeleteGroupConfirm">"هل أنت متأكد من أنك تريد حذف المجموعة ؟"</string>
+    <string name="promptLeaveGroupConfirm">"هل أنت متأكد من أنك تريد مغادرة المجموعة ؟"</string>
+    <string name="labelExit">"خروج"</string>
+    <string name="labelAttachPhoto">"يرجى إضافة صورة إلى الملحقات"</string>
+    <string name="labelAttachVideo">"يرجى إضافة فيديو غلى الملحقات ."</string>
+    <string name="errorEmailBlank">"لا يمكن ترك الرسالة الإلكترونية فارغة"</string>
+
+    <!-- ######################################### SET 6 Strings ##################################################### -->
+    <string name="errorGroupIsPerminant">"لا يمكنك مغادرة مجموعة Conx2Share أو حذفها"</string>
+    <string name="labelPromoted">"مروَّج"</string>
+    <string name="errorRecordingTooShort">"التسجيل ليس طويلا بما فيه كفاية ."</string>
+    <string name="warningRecordingWillBeTruncated">"سيتم إرسال الدقيقتين الأوليتين من التسجيل فقط ."</string>
+    <string name="statusUnableToSendAudioMessage">"لا يمكنك إرسال رسالة صوتية ."</string>
+    <string name="statusUnableToGetBusinessInfo">"لا يمكنك تحميل المعلومات التجارية ."</string>
+    <string name="statusCouldNotRetrieveYourBusinesses">"لم تتمكن من الولوج إلى أعمالك التجارية ."</string>
+    <string name="statusCannotPostToConx2shareGroup">"لا يمكنك النشر على مجموعة Conx2share ."</string>
+    <string name="hintSearchForBusinesses">"البحث عن شركات تجارية ."</string>
+    <string name="LabelBusinesses">"شركات تجارية"</string>
+    <string name="labelBusinessOwner">"مالك الشركة التجارية    "</string>
+    <string name="labelGroup">" المجموعة :        "</string>
+    <string name="labelBusiness">"الشركة :        "</string>
+    <string name="labelBusinesses">"الأعمال"</string>
+    <string name="labelDeletePost">"حذف المنشور"</string>
+    <string name="errorDeletePostNotOwner">"هذا المنشور ليس ملكا لك حتى تتمكن من حذفه"</string>
+    <string name="promptDeletePostConfirm">"هل أنت متأكد من أنك تريد حذف هذا المنشور ؟"</string>
+    <string name="statusPostDeleted">"تم حذف المنشور بنجاح"</string>
+    <string name="statusUnableDeletePost">"لا يمكنك حذف هذا المنشور"</string>
+    <string name="labelDeleteComment">"حذف التعليق"</string>
+    <string name="errorDeleteCommentNotOwner">"هذا التعليق ليس ملكا لك حتى تتمكن من حذفه"</string>
+    <string name="promptDeleteCommentConfirm">"هل أنت متأكد من أنك تريد حذف هذا التعليق ؟"</string>
+    <string name="statusCommentDeleted">"تم حذف التعليق بنجاح"</string>
+    <string name="statusUnableDeleteComment">"لا يمكنك حذف هذا التعليق"</string>
+    <string name="labelFlagPost">"تعيين المنشور"</string>
+    <string name="errorGenericCommentNotOwner">"لا يمكنك فعل أي شئ بهذا التعليق بما أنه ليس ملكاً لك"</string>
+    <string name="errorEditPostNotOwner">"هذا المنشور ليس ملكا لك حتى تتمكن من تعديله"</string>
+    <string name="labelEditPost">"تعديل المنشور"</string>
+    <string name="promptEditPost">"هل ترغب في تغيير هذا المنشور ؟"</string>
+    <string name="lableUpdate">"تحيين"</string>
+    <string name="statusUnableToUpdatePost">"لا يمكنك تحيين المنشور"</string>
+    <string name="statusPostEdited">"تم تعديل المنشور بنجاح"</string>
+    <string name="statusUpdatingPost">"تحيين المنشور ..."</string>
+    <string name="labelFlagInappropriate">"التبليغ عن محتوى غير لائق"</string>
+    <string name="errorCannotChangeAudienceEditingPost">"لا يمكنك تغيير المتابعة عند تعديل المنشور ."</string>
+    <string name="hintEnterCommentHere">"أدخل تعليقك هنا ..."</string>
+    <string name="labelUpdate">"تحيين"</string>
+    <string name="labelEditComment">"تعديل التعليق"</string>
+    <string name="errorEditCommentNotOwner">"هذا التعليق ليس ملكاً لك حتى تتمكن من عتديله"</string>
+    <string name="statusCommentUpdated">"تم تعديل التعليق بنجاح !"</string>
+    <string name="statusUnableUpdateComment">"لا يمكنك تحيين التعليق"</string>
+    <string name="statusUpdatingComment">"تحيين التعليق ..."</string>
+    <string name="errorGenericImageUploadFailed">"لقد حدث خطأ أثناء تحميلك للصورة"</string>
+    <string name="errorGenericFileUploadFailed">"لقد حدث خطأ أثناء تحميلك للملف"</string>
+    <string name="labelPhoto">"صورة"</string>
+    <string name="labelVideo">"فيديو"</string>
+    <string name="labelRemoveFromGroup">"إزالة من المجموعة"</string>
+    <string name="errorEditGroupMemberNotOwner">"لا يمكنك اتخاذ أي إجراء تُجاه عضو المجموعة هذا بما أنك لست مالكها"</string>
+    <string name="labelRemoveUserFromGroup">"إزالة المستخدم من المجموعة"</string>
+    <string name="promptBlockUserFromGroupConfirm">"هل أنت متأكد من رغبتك في حظر هذا المستخدم من دخول المجموعة ؟"</string>
+    <string name="labelBlockUser">"حظر المستخدم"</string>
+    <string name="promptRemoveUserFromGroupConfirm">"هل أنت متأكد من رغبتك في إزالة هذا المستخدم من المجموعة ؟"</string>
+    <string name="labelMember">"العضو"</string>
+    <string name="labelFollower">"المتابِع"</string>
+    <string name="statusUnableFollowGroup">"لا يمكنك متابعة المجموعة"</string>
+    <string name="labelUnableUnfollowGroup">"لا يمكنك إزالة متابعة المجموعة"</string>
+    <string name="labelGroupFollowers">"متابعو المجموعة"</string>
+    <string name="hintSearchForFollowers">"البحث عن المتابعين"</string>
+    <string name="statusUnableToInviteUserToFollowGroup">"لا يمكنك دعوة المستخدم إلى متابعة المجموعة"</string>
+    <string name="statusSendInviteToFollowGroup">"تم إرسال دعوة لمتابعة المجموعة"</string>
+    <string name="statusUnableToBlockUserFromGroup">"لا يمكنك حظر المستخدم من دخول المجموعة"</string>
+    <string name="statusUserBlockedFromGroup">"لقد حظرت هذا المستخدم من دخول المجموعة ."</string>
+    <string name="statusUnableToRemoveUserFromGroup">"لا يمكنك إزالة المستخدم من المجموعة"</string>
+    <string name="statusUserRemovedFromGroup">"لقد تمت إزالة المستخدم من المجموعة"</string>
+    <string name="statusInvitedToFollowGroup">"دعاك إلى متابعة المجموعة"</string>
+    <string name="hintSearchForGroups">"البحث عن المجموعات"</string>
+    <string name="labelPrivate">"خاصة"</string>
+    <string name="labelBlog">"المدونة"</string>
+    <string name="labelDiscussion">"نقاش"</string>
+    <string name="statusUnableToLeaveGroup">"لا يمكنك مغادرة المجموعة"</string>
+    <string name="statusUnableToGetGroupFollowers">"لا يمكنك الوصول إلى متابعي المجموعة"</string>
+    <string name="statusUnableToUnblockUser">"لا يمكنك إزالة حظر المستخدم"</string>
+    <string name="statusUserUnblockedFromGroup">"لقد أزلت حظر هذا المستخدم عن المجموعة"</string>
+    <string name="statusBlockedUnablePostGroup">"لا يمكنك النشر في المجموعة ، أنت محظور"</string>
+    <string name="statusBlockedUnablePostComment">"لا يمكنك إضافة تعليق في المجموعة ، أنت محظور"</string>
+    <string name="labelUnblockUser">"إزالة الحظر عن المستخدم"</string>
+    <string name="promptUnblockUserConfirm">"هل أنت متأكد من أنك تريد إزالة الحظر عن المستخدم ؟"</string>
+    <string name="statusBlockedUnableToUpdatePost">"لا يمكنك تحديث المنشور ، أنت محظور"</string>
+    <string name="statusBlockedUnableToUpdateComment">"لا يمكنك تحديث التعليق ، أنت محظور"</string>
+    <string name="bogusEmergencyLogoutToast">"جلسة العمل الخاصة بك غير صالحة . يرجى تسجيل الدخول مرة أخرى ."</string>
+    <string name="statusUnableToLeaveOrDeleteGroup">"لا يمكنك مغادرة المجموعة أو حذفها"</string>
+    <string name="labelPublic">"عامة"</string>
+    <string name="statusCreatingGroup">"إنشاء المجموعة ..."</string>
+    <string name="statusUpdatingGroup">"تحديث المجموعة ..."</string>
+    <string name="statusUnableToDeleteGroup">"لا يمكنك حذف المجموعة"</string>
+    <string name="promptUnfollowGroupConfirm">"هل أنت متأكد من أنك تريد إزالة متابعة المجموعة ؟"</string>
+    <string name="labelUnfollowGroup">"إزالة متابعة المجموعة"</string>
+    <string name="labelGo">"ذهاب"</string>
+    <string name="hintSearchHashtags">"البحث عن وسوم"</string>
+    <string name="statusNoPostsFoundForHashtag">"لا يوجد أي منشور حول هذا الوسم"</string>
+    <string name="statusUnableToGetHashtagResults">"لا يمكن الوصول إلى تنائج البحث عن الوسم"</string>
+    <string name="labelSubscriptions">"الإشتراكات"</string>
+    <string name="labelAddFriends">"إضافة أصدقاء"</string>
+    <string name="labelSearchBusinesses">"البحث عن أعمال"</string>
+    <string name="labelInviteFollowers">"دعوة المتابعين"</string>
+    <string name="labelInviteMembers">"دعوة الأعضاء"</string>
+    <string name="labelSearchGroups">"البحث عن مجموعات"</string>
+    <string name="labelDiscover">"اكتشف"</string>
+    <string name="bogusAnErrorOccurredTryingToStartYourGallery">"لقد وقع خطأ عند محاولة الدخول إلى الاستوديو الخاص بك"</string>
+    <string name="statusHashtagNotFound">"الوسم الذي بحثت عنه غير موجود"</string>
+    <string name="labelRestore">"إعادة"</string>
+    <string name="statusSubscriptionRestoredSuccessfully">"لقد تم إعادة الإشتراك بنجاح !"</string>
+    <string name="statusUnableToRestoreSubscription">"من غير الممكن إعادة الاشتراك"</string>
+    <string name="statusRestoringSubscription">"عملية إعادة الإشتراك جارية"</string>
+    <string name="labelRestoreSubscription">"إعادة الإشتراك"</string>
+    <string name="promptRestoreSubscriptionFromGoogleConfirm">"هل تريد إعادة إشتراكك اعتمادا على معلوماتك من حساب جوجل ؟"</string>
+    <string name="statusUnableToSearchUsers">"لا يمكن البحث على مستخدمين لوسمهم"</string>
+    <string name="labelSelectFile">"اختيار الملف"</string>
+    <string name="statusUpdatingUserAvatar">"جاري تحديث الصورة الشخصية للمستخدم..."</string>
+    <string name="labelHashtags">"الوسوم"</string>
+    <string name="lableUsers">"المستخدمون"</string>
+    <string name="labelPage">"الصفحة"</string>
+<string name="labelTags">"الوسوم
+"</string>
+    <string name="labelInvites">"المدعوون"</string>
+    <string name="labelPosts">"المنشورات"</string>
+    <string name="messageCancelGoogleSubscriptionNotice">"عند شراء اشتراك جديد، و إذا كان لديك اشتراك حالي، يرجى الضغط على رابط \"الاشتراك الحالي\" حتى يمكنك إغلاقه من خلال متجر .Google Play"</string>
+    <string name="titleCancelGoogleSubscription">"إخطار لمالكي الإشتراك الحاليين"</string>
+    <string name="labelContinueToPurchase">"مواصلة الشراء"</string>
+    <string name="labelGoBack">"الرجوع"</string>
+    <string name="hintSearchUsers">"البحث عن مستخدمين"</string>
+    <string name="labelUnknownShort">"(؟)"</string>
+    <string name="labelUnknown">"مجهول"</string>
+    <string name="labelPeople">"الأشخاص"</string>
+    <string name="blurbPushNotificationNewMessages">"تمكين أو إزالة الإخطار اللحظي بوصول رسالة جديدة"</string>
+    <string name="blurbPushNotificationGroupInvites">"تمكين أو إزالة الإخطار اللحظي بوصول دعوة جديدة للانضمام إلى مجموعة"</string>
+    <string name="blurbPushNotificationNewComments">"تمكين أو إزالة الإخطار اللحظي بتعليق جديد على منشوراتك"</string>
+    <string name="blurbPushNotificationFromFollowedGroupsAndBusiness">"تمكين أو إزالة الإخطار اللحظي بمنشور جديد في الأعمال أو المجموعات التي تتابعها"</string>
+    <string name="blurbPushNotificationWhenFollowed">"تمكين أو إزالة الإخطار اللحظي بقيام شخص جديد بمتابعتك"</string>
+    <string name="blurbPushNotificationWhenTagged">"تمكين أو إزالة الإخطار اللحظي بوسمك في منشور أو تعليق"</string>
+    <string name="statusUnableToFollowBusiness">"لا يمكن متابعة هذا العمل"</string>
+    <string name="statusUnableToUnfollowBusiness">"لا يمكن إزالة متابعة هذا العمل"</string>
+    <string name="statusNoBusinesses">"لا يوجد لديك أي عمل"</string>
+    <string name="statusTaggedYouPost">"قام بوسمك في منشور"</string>
+    <string name="statusTaggedYouComment">"قام بوسمك في تعليق"</string>
+    <string name="statusCreatedBusinessPost">"قام باضافة منشور عمل جديد"</string>
+    <string name="labelAbort">"إلغاء"</string>
+    <string name="promptAbortBusinessDetailsConfirm">"هل أنت متأكد من أنك تريد إلغاء نشر تفاصيل مشروعك ؟"</string>
+    <string name="blurbSignUpBusinessNotice">"هذا حساب أعمال -- يجب اتباع خطوات أخرى"</string>
+    <string name="errorEnterValidEmailAddress">"يرجى إدخال عنوان بريد إلكتروني صحيح"</string>
+    <string name="errorUsernameLettersAndNumbersOnly">"يرجى استعمال الحروف و الأرقام فقط في اسم المستخدم"</string>
+    <string name="statusMustRestoreAccountUsingYourGoogleCredentials">"لا يمكنك إعادة حسابك باستعمال معلومات حساب جوجل الخاصة بشخص آخر"</string>
+    <string name="blurbRegisterAsBusiness">"التسجيل بحساب أعمال"</string>
+    <string name="errorEnterUsernameMinimumMaximumChars">"الرجاء إدخال إسم مستخدم يتضمن ما بين 2 إلى 20 رمزا"</string>
+    <string name="hintSearchToDiscover">"ابحث لتكتشف"</string>
+    <string name="labelNews">"الأخبار"</string>
+    <string name="statusUnableToLoadRssFeed">"غير ممكن تحميل تغذية RSS"</string>
+    <string name="statusUnableToGetNewsSources">"لا يمكن الوصول إلى مصادر الأخبار"</string>
+    <string name="statusNoNewsSourcesFound">"لا توجد مصادر أخبار واردة من الخادم"</string>
+    <string name="hintSearchTheNews">"البحث عن الأخبار"</string>
+    <string name="labelBirthday">"تاريخ الميلاد"</string>
+    <string name="errorDateOfBirthRequired">"الرجاء إدخال تاريخ الميلاد"</string>
+    <string name="errorBusinessRegistrationDateOfBirthRequired">"يجب إدخال تاريخ الميلاد و أن يكون عمرك فوق 18 سنة للتسجيل في حساب الأعمال"</string>
+    <string name="errorBusinessRegistrationMinimumAge">"يجب  أن يكون عمرك فوق 18 سنة للتسجيل في حساب الأعمال"</string>
+    <string name="statusUnableToSearchHashtags">"غير ممكن البحث عن وسوم لإدماجها"</string>
+
+    <!-- Denoted a user initiated operation that was cancelled. e.g. the user tries to take a picture, but then cancels the operation. -->
+    <string name="blurbGenericOperationCanceled">"عملية ملغاة"</string>
+    <string name="statusPasswordNotValid">"كلمة السر التي أدخلتها غير صحيحة"</string>
+
+    <!-- Authentication -->
+    <string name="blurbLoginRequested">"الدخول إلى حسابك"</string>
+
+    <!-- Authentication -->
+    <string name="blurbLoginPasswordRequested">"أدخل كلمة السر الخاصة بهذا الحساب"</string>
+
+    <!-- Selecting a picture of video source, e.g. camera or gallery? -->
+    <string name="titleSelectSource">"اختر مصدرا"</string>
+
+    <!-- Rational for granting security access to the camera. -->
+    <string name="permissionCameraAccessRationale">"الولوج إلى الكاميرا ضروري لالتقاط صور و فيديوهات حتى تتم مشاركتها"</string>
+
+    <!-- Camera access was denied by the user. -->
+    <string name="permissionCameraAccessDenied">"الولوج إلى الكاميرا مرفوض."</string>
+
+    <!-- Covers all permission related to including images/videos/media to a post. -->
+    <string name="permissionAttachRationale">"يستعمل الولوج إلى الكاميرا و ملفات النظام حتى يتم ربط الأستوديو برسائلك"</string>
+
+    <!-- Permissions used to attach media were denied. -->
+    <string name="permissionAttachAccessDenied">"يحتاج التطبيق إلى تصاريح \"الكاميرا\" و التخزين\" من أخل المرفقات. واحد من هذه التصاريح أو أكثر تم رفضها."</string>
+
+    <!-- Permission to read external storage is denied. -->
+    <string name="permissionReadExternalStorageAccessDenied">"القراءة من المعلومات المخزنة مرفوض."</string>
+
+    <!-- Permission to write to external storage is denied. -->
+    <string name="permissionWriteExternalStorageAccessDenied">"الكتابة في المعلومات المخزنة مرفوض."</string>
+
+    <!-- Why the app needs to read to external storage. -->
+    <string name="permissionReadExternalStorageRational">"الولوج إلى الملفات المقروءة ضروري لمشاركة الصور و الفيديوهات"</string>
+
+    <!-- Why the app needs to write to external storage. -->
+    <string name="permissionWriteExternalStorageRational">"الولوج إلى الملفات المكتوبة ضروري لمشاركة الصور و الفيديوهات"</string>
+
+    <!-- Permission was granted. -->
+    <string name="permissionAttachAccessGranted">"الإذن لولوج المرفقات مسموح."</string>
+
+    <!-- Common title for all rational dialogs -->
+    <string name="permissionRationalTitle">"طلب الإذن"</string>
+    <string name="labelSettings">"الإعدادات"</string>
+
+    <!-- RecordAudio is used for voice messaging. -->
+    <string name="permissionRecordAudioAccessRationale">"تصريح التسجيل الصوتي مطلوب للرسائل الصوتية."</string>
+
+    <!-- RecordAudio permission was rejected. -->
+    <string name="permissionRecordAudioAccessDenied">"تصريح التسجيل الصوتي مرفوض."</string>
+
+    <!-- Why do we need the micropphone -->
+    <string name="permissionMicrophoneRationale">"الولوج إلى الميكروفون و ملف النظام يستعمل لارسال رسائل صوتية."</string>
+    <string name="permissionMicrophoneAccessGranted">"الولوج إلى الميكروفون مسموح."</string>
+    <string name="permissionMicrophoneAccessDenied">"الولوج إلى الميكروفون مرفوض."</string>
+    <string name="permissionReadContactsAccessRationale">"السماح للتطبيق بقراءة قائمة الإتصال."</string>
+    <string name="permissionReadContactsAccessDenied">"التصريح بقراءة قائمة الإتصال مرفوض."</string>
+    <string name="permissionContactRationale">"الولوج إلى قائمة اتصالاتك يهدف إلى إيجاد أشخاص بغرض دعوتهم."</string>
+    <string name="permissionContactAccessGranted">"الولوج إلى قائمة الإتصال مسموح."</string>
+    <string name="permissionContactAccessDenied">"الولوج إلى قائمة الإتصال مرفوض."</string>
+
+    <!-- Generic empty list content -->
+    <string name="emptyList">"لا يوجد أي شئ للعرض."</string>
+
+    <!-- Empty list of groups -->
+    <string name="emptyListGroups">"لا توجد أي مجموعة."</string>
+
+    <!-- Text label used as a placeholder when there is no other data. -->
+    <string name="emptyNoData">"(فارغ)"</string>
+
+    <!-- label to show that there is a picture attached, but nothing in the text field. -->
+    <string name="emptyNoDataImage">"(صورة)"</string>
+
+    <!-- label to show that there is a video attached, but nothing in the text field. -->
+    <string name="emptyNoDataVideo">"(فيديو)"</string>
+
+    <!-- label to show that there is audio attached, but nothing in the text field. -->
+    <string name="emptyNoDataAudio">"(ملف صوتي)"</string>
+
+    <!-- The title of the dialog that informs the user that they don't have network connectivity. -->
+    <string name="dialogNoNetworkTitle">"لا توجد اتصال بالشبكة"</string>
+
+    <!-- The message telling the user that they don't have network connectivity. -->
+    <string name="dialogNoNetworkMessage">"يتطلب هذا التطبيق اتصالا بشبكة الأنترنت حتى يعمل بشكل كامل . قد تتعطل بعض الخواص إذا لم يكن متصلا بها."</string>
+    <string name="labelPlay">"تشغيل"</string>
+    <string name="labelEvent">"حدث"</string>
+    <string name="labelText">"نص"</string>
+    <string name="labelAudio">"صوت"</string>
+    <string name="labelVerbose">"مسهب"</string>
+    <string name="labelNormal">"عادي"</string>
+    <string name="labelLogging">"جاري تسجيل الدخول"</string>
+    <string name="labelLive">"مباشر"</string>
+    <string name="labelDelete">"مسح"</string>
+    <string name="labelEdit">"تعديل"</string>
+    <string name="labelEvents">"الأحداث"</string>
+    <string name="labelBoth">"الإثنين معا"</string>
+    <string name="labelOnline">"متصل"</string>
+    <string name="labelStarting">"جاري البدء"</string>
+
+    <!-- the app was unable to create an event -->
+    <string name="statusErrorUnableToCreateEvent">"لا يمكن إضافة حدث جديد"</string>
+
+    <!-- The app was unable to update an event -->
+    <string name="statusErrorUnableToUpdateEvent">"لا يمكن تحيين الحدث"</string>
+
+    <!-- the app was unable to get an event for the business -->
+    <string name="statusErrorUnableToGetEventsForBusiness">"لا يمكن الوصول إلى الأحداث الخاصة بالأعمال"</string>
+
+    <!-- the app was unable to get an event for the organization -->
+    <string name="statusErrorUnableToGetEventsForGroup">"لا يمكن الوصول إلى الأحداث الخالصة بالمجموعة"</string>
+
+    <!-- the app was unable to get livestream events -->
+    <string name="statusErrorUnableToGetLiveStreamEvents">"لا يمكن الوصول إلى الأحداث المباشرة"</string>
+
+    <!-- the app was unable to delete an event -->
+    <string name="statusErrorUnableToDeleteEvent">"لا يمكن حذف الحدث"</string>
+    <string name="labelMyEvents">"أحداثي"</string>
+    <string name="labelEventType">"نوع الحدث"</string>
+    <string name="labelBusinessName">"إسم العمل"</string>
+    <string name="labelEventDate">"تاريخ الحدث"</string>
+    <string name="labelEventEndTime">"وقت نهاية الحدث"</string>
+    <string name="labelEventStartTime">"وقت بداية الحدث"</string>
+    <string name="labelEventDescription">"توصيف الحدث"</string>
+    <string name="labelEventName">"إسم الحدث"</string>
+    <string name="labelEventLocation">"موقع الحدث"</string>
+    <string name="labelLiveStreaming">"البث المباشر"</string>
+    <string name="labelMyEvent">"حدثي"</string>
+    <string name="labelDeleteEvent">"حذف الحدث"</string>
+    <string name="labelWatch">"المشاهدة"</string>
+    <string name="labelOffline">"غير متصل"</string>
+    <string name="promptConfirmDeleteEvent">"هل أنت متأكد من أنك تريد حذف الحدث ؟"</string>
+    <string name="errorEventMissingName">"يرجى إضافة اسم الحدث."</string>
+    <string name="errorEventMissingDescription">"يرجى إضافة وصف للحدث."</string>
+    <string name="errorEventMissingDate">"يرجى إضافة تاريخ الحدث."</string>
+    <string name="errorEventMissingStartTime">"يرجى إضافة وقت انطلاق الحدث."</string>
+    <string name="errorEventMissingEndTime">"يرجى إضافة وقت نهاية الحدث."</string>
+    <string name="errorEventEndBeforeStart">"وقت نهاية الحدث لا يمكن أن يكون قبل وقت انطلاقه."</string>
+    <string name="errorEventDescriptionLengthOverLimit">"لا يمكن أن يتجاوز الوصف 200 رمز."</string>
+    <string name="labelDrawerLivestream">"البث المباشر"</string>
+    <string name="statusErrorUnableToGetEvent">"لا يمكن الوصول إلى الحدث."</string>
+    <string name="indicatorOff">"[غير متصل]"</string>
+
+    <!-- The device is tool old to support the DRM scheme. -->
+    <string name="statusErrorDrmUnsupportedOldDevice">"هذا الجهاز غير حديث كفاية لتشغيل المحتوى المحمي."</string>
+
+    <!-- The device does not support this DRM scheme -->
+    <string name="statusErrorDrmUnsupportedScheme">"هذا الجهاز لا يدعم مخطط DRM الضروري"</string>
+
+    <!-- An unknown DRM error -->
+    <string name="statusErrorDrmUnknown">"لقد حدث خطأ DRM غير معروف"</string>
+    <string name="labelMaybe">"ربما"</string>
+    <string name="labelGoing">"ذاهب"</string>
+    <string name="statusEventIsStarting">"سيبدأ"</string>
+    <string name="labelAttendees">"المشاركون"</string>
+    <string name="labelNoEvents">"لا أحداث"</string>
+    <string name="labelGoLive">"الذهاب إلى المباشر"</string>
+    <string name="errorGettingStreamInfo">"لقد حدث خطأ عند محاولة الوصول إلى معلومات البث"</string>
+    <string name="statusErrorUnableToGetBusinessList">"لا يمكن الوصول إلى قائمة الأعمال"</string>
+    <string name="errorSpecifyValidGroupOrBusiness">"يجب عليك تحديد مجموعة أو عمل صحيحين"</string>
+    <string name="statusEventStreamOffline">"بث الحدث غير متصل حاليا"</string>
+    <string name="infoNoLocationGiven">"لا يوجد اي موقع"</string>
+    <string name="optionEnableBackgroundAudio">"التشغيل في الخلفية"</string>
+    <string name="promptPickStartTime">"اختيار وقت البداية"</string>
+    <string name="promptPickEndTime">"اختيار وقت النهاية"</string>
+    <string name="promptPickDate">"اختيار التاريخ"</string>
+    <string name="labelCreateEvent">"إضافة حدث"</string>
+    <string name="statusWaiting">"جاري الانتظار/u2026"</string>
+    <string name="labelURL">"الرابط"</string>
+    <string name="labelVideoBitrate">"معدل بث الفيديو"</string>
+    <string name="labelAudioBitrate">"معدل بث الصوت"</string>
+    <string name="labelFramesPerSecond">"صورة في الدقيقة"</string>
+    <string name="labelKeyFrameInterval">"فترة الصور الرئيسية"</string>
+    <string name="labelSampleRate">"معدل العينة"</string>
+    <string name="labelSave">"حفظ"</string>
+    <string name="statusStabilizationOn">"تشغيل الاستقرار"</string>
+    <string name="statusFlashOn">"تشغيل الفلاش"</string>
+    <string name="statusFlashOff">"إطفاء الفلاش"</string>
+    <string name="statusStabilizationOff">"إطفاء الاستقرار"</string>
+    <string name="statusMuteOn">"إطفاء الميكروفون"</string>
+    <string name="statusMuteOff">"تشغيل الميكروفون"</string>
+    <string name="permissionLivestreamRationale">"يسمح الولوج إلى الكاميرا ، الميكروفون ، الذاكرة و شبكة الإنترنت بتسجيل البث المباشر لإذاعته."</string>
+    <string name="permissionLivestreamAccessGranted">"تم اعطاء التصريحات اللازمة للبث المباشر."</string>
+    <string name="permissionLivestreamAccessDenied">"يتطلب التطبيق تصاريح \"الكاميرا\" ، \"الميكروفون\" ، \"التخزين\" و \"الإنترنت\" من أجل البث المباشر. لقد تم رفض أحد هذه التصاريح أو أكثر."</string>
+    <string name="paramLabelReceivedMessage">"%1$s أرسل رسالة إليك."</string>
+
+    <!-- A button label that will open Conx2share from an external or partial component. -->
+    <string name="labelAppLaunch">"فتح Conx2share"</string>
+
+    <!-- This is a generic parameterized label. The variable string will be replaced with a name or other identifying information. -->
+    <string name="paramLabelNotFound">"لم يتم العثور على %1$s"</string>
+
+    <!-- to reply to a message or mail. -->
+    <string name="labelReply">"الرد"</string>
+
+    <!-- a label meaning to display something. to make it visible. -->
+    <string name="labelShow">"عرض"</string>
+
+    <!-- Meaning taking an action to see something. -->
+    <string name="labelView">" معاينة"</string>
+</resources>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<resources>-->
+
+    <!--<string name="app_name">ConX2Share</string>-->
+    <!--<string name="hello_world">!مرحبا </string>-->
+    <!--<string name="sign_in">تسجيل الدخول</string>-->
+    <!--<string name="sign_up">التسجيل</string>-->
+    <!--<string name="email">إيمايل</string>-->
+    <!--<string name="password">كلمة السر</string>-->
+    <!--<string name="or">أو</string>-->
+    <!--<string name="username">إسم المستعمل</string>-->
+    <!--<string name="confirm_password">تأكيد كلمة السر</string>-->
+    <!--<string name="first_name">الإسم</string>-->
+    <!--<string name="last_name">اللقب</string>-->
+    <!--<string name="terms_and_conditions">لقد قرأتُ و وافقتُ على الشروط و الأحكام</string>-->
+    <!--<string name="signing_in">الدخول&#8230;</string>-->
+    <!--<string name="unexpected_error">لقد طرأ خطأ غير متوقع.</string>-->
+    <!--<string name="mark_messaged_viewed">رسالة مُعَلَمة على أنها مقروءة</string>-->
+    <!--<string name="success">نجاح</string>-->
+    <!--<string name="message_sent">رسالة مبعوثة</string>-->
+    <!--<string name="message_failed_to_send">فشل بعث الرسالة</string>-->
+    <!--<string name="enter_message_here">أدخل الرسالة هنا...</string>-->
+    <!--<string name="got_sent_messages">لديك رسالة مبعوثة</string>-->
+    <!--<string name="type_a_message">أكتب رسالة... </string>-->
+    <!--<string name="add_text_here">أضف نصا هنا... </string>-->
+    <!--<string name="logging_in">تسجيل الدخول... </string>-->
+    <!--<string name="file_error">خطأ في الملف</string>-->
+    <!--<string name="camera_error">خطأ في الكاميرا</string>-->
+    <!--<string name="add_attachment">أضف المرفقات : </string>-->
+    <!--<string name="take_a_photo">إلتقِط صورة</string>-->
+    <!--<string name="take_a_video">سجل فيديو</string>-->
+    <!--<string name="message_type">نوع الرسالة :</string>-->
+    <!--<string name="error">خطأ :</string>-->
+
+    <!--&lt;!&ndash; Post Activity &ndash;&gt;-->
+    <!--<string name="post">إدخال</string>-->
+    <!--<string name="post_activity_title">ضع مشاركة</string>-->
+    <!--<string name="post_to">إلى :</string>-->
+    <!--<string name="post_everyone">الكل</string>-->
+    <!--<string name="post_successful">تمت إضافة المشاركة بنجاح</string>-->
+    <!--<string name="post_failed">إخفاق إضافة المشاركة : </string>-->
+
+    <!--&lt;!&ndash; Image Upload Dialog &ndash;&gt;-->
+    <!--<string name="upload_photo_title">تحميل صورة</string>-->
+    <!--<string name="upload_photo_message">هل ترغب في التقاط صورة أم تحميلها من مكتبتك ؟</string>-->
+    <!--<string name="take_photo">إلتقاط صورة</string>-->
+    <!--<string name="library">المكتبة</string>-->
+    <!--<string name="not_yet_implemented">لم تُنفَذ بعد.</string>-->
+
+    <!--&lt;!&ndash; Feed Activity &ndash;&gt;-->
+    <!--<string name="feed_activity_drawer_toggle_open">فتح الدرج</string>-->
+    <!--<string name="feed_activity_drawer_toggle_close">إغلاق الدرج</string>-->
+    <!--<string name="feed_activity_drawer_logout">تسجيل الخروج</string>-->
+    <!--<string name="feed_activity_drawer_header_picture_content_desc">الصورة الشخصية</string>-->
+
+    <!--&lt;!&ndash; Share Dialog &ndash;&gt;-->
+    <!--<string name="share_to">...مشاركتها مع</string>-->
+    <!--<string name="cancel">إلغاء</string>-->
+    <!--<string name="facebook_app_id">195797437257242</string>-->
+
+    <!--&lt;!&ndash; Contacts &ndash;&gt;-->
+    <!--<string name="contacts">المَعارِف</string>-->
+    <!--<string name="invite">دعوة</string>-->
+    <!--<string name="invite_successful">الأصدقاء المدعوون</string>-->
+    <!--<string name="invite_failed">فشل دعوة الأصدقاء :</string>-->
+
+    <!--&lt;!&ndash;Groups&ndash;&gt;-->
+    <!--<string name="group_name_layout_title">إسم المجموعة</string>-->
+    <!--<string name="action_create_group">إنشاء مجموعة</string>-->
+    <!--<string name="invalid_group_name">يجب أن تضع إسما للمجموعة</string>-->
+    <!--<string name="invalid_group_image">يجب أن تضع صورة للمجموعة</string>-->
+    <!--<string name="action_edit_group">تعديل المجموعة</string>-->
+    <!--<string name="group_creation_fail">لم يتم إنشاء المجموعة بنجاح . يرجى المحاولة مرة أخرى</string>-->
+    <!--<string name="group_creation_success">"تم إنشاء المجموعة بنجاح %s!"</string>-->
+    <!--<string name="group_update_fail">لم يتم تحديث المجموعة بنجاح . يرجى المحاولة مرة أخرى</string>-->
+    <!--<string name="post_button_text">إدخال</string>-->
+    <!--<string name="generic_error_message">خطأ . حاول مرة أخرى</string>-->
+    <!--<string name="no_users_found">لم يتم العثور على مستعملين مطابقين للمواصفات</string>-->
+    <!--<string name="members">الأعضاء</string>-->
+    <!--<string name="send">إرسال</string>-->
+    <!--<string name="failed_to_retrieve_messages">فشل الحصول على الرسائل الجديدة</string>-->
+    <!--<string name="save_message">حفظ الرسالة ؟</string>-->
+
+    <!--&lt;!&ndash;Message Friends&ndash;&gt;-->
+    <!--<string name="message_friends_name_holder">الإسم اللقب</string>-->
+    <!--<string name="error_loading_index">خلل أثناء تحميل الدردشات .</string>-->
+    <!--<string name="arrow"><![CDATA[>]]></string>-->
+    <!--<string name="message_friends_title">رسالة جديدة</string>-->
+
+    <!--&lt;!&ndash; Drawer Notifications &ndash;&gt;-->
+    <!--<string name="item_count_holder">##</string>-->
+    <!--<string name="sent_you_a_new_message">أرسل إليك رسالة جديدة</string>-->
+    <!--<string name="read_your_message">إقرأ رسالتك</string>-->
+    <!--<string name="commented_on_your_post">عَلَّق على مشاركتك</string>-->
+    <!--<string name="invited_you_to_join">دعاك للإنظمام</string>-->
+    <!--<string name="login_failed">فشل تسجيل الدخول . يُرجى التحقق من الإتصال بالأنترنت و المحاولة مرة أخرى .</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 2 STRINGS #####################################################&ndash;&gt;-->
+
+    <!--&lt;!&ndash; Timers &ndash;&gt;-->
+    <!--<string-array name="timers">-->
+        <!--<item>لا شيء</item>-->
+        <!--<item>15 ثا</item>-->
+        <!--<item>30 ثا</item>-->
+        <!--<item>60 ثا</item>-->
+        <!--<item>120 ثا</item>-->
+    <!--</string-array>-->
+
+    <!--<string name="home">الرئيسية</string>-->
+    <!--<string name="messages">الرسائل</string>-->
+    <!--<string name="friends">الأصدقاء</string>-->
+    <!--<string name="groups">المجموعات</string>-->
+    <!--<string name="notifications">الإشعارات</string>-->
+    <!--<string name="get_plus">أُحصل على المزيد</string>-->
+    <!--<string name="store">المتجر</string>-->
+    <!--<string name="about">حول</string>-->
+    <!--<string name="change">تغيير</string>-->
+    <!--<string name="push_notifications">دفع الإشعارات</string>-->
+    <!--<string name="switch_title_1">تغيير العنوان 1</string>-->
+    <!--<string name="switch_title_2">تغيير العنوان 2</string>-->
+    <!--<string name="logout">تسجيل الخروج</string>-->
+
+    <!--&lt;!&ndash; Strings for Async Errors &ndash;&gt;-->
+    <!--<string name="retry">إعادة المحاول</string>-->
+    <!--<string name="unable_to_gather_friends_text">غير قادر على جمع الأصدقاء لدعوتهم</string>-->
+    <!--<string name="unable_to_invite_friends_text">غير قادر على دعوة أصدقاء</string>-->
+    <!--<string name="unable_to_post_to_group_text">غير قادر على الرد في المجموعة</string>-->
+    <!--<string name="unable_to_post_text">غير قادر على الرد</string>-->
+    <!--<string name="post_already_flagged">غير قادر على تعيين المشاركة ، لقد سبق و أن عينتها من قبل</string>-->
+    <!--<string name="unable_to_flag_post_text">غير قادر على تعيين المشاركة</string>-->
+    <!--<string name="unable_to_get_post_text">غير قادر على الوصول إلى الرد</string>-->
+    <!--<string name="unable_to_get_post_comments_text">غير قادر على الوصول إلى التعليقات حول المشاركة</string>-->
+    <!--<string name="unable_to_like_post_text">غير قادر على الإعجاب بالمشاركة</string>-->
+    <!--<string name="unable_to_unlike_post_text">غير قادر على إزالة الإعجاب المشاركة</string>-->
+    <!--<string name="unable_to_create_group_text">غير قادر على إنشاء المجموعة</string>-->
+    <!--<string name="unable_to_update_group_text">غير قادر على تحديث المجموعة</string>-->
+    <!--<string name="unable_to_refresh_feed_text">غير قادر على تحيين المجموعة</string>-->
+    <!--<string name="unable_to_get_posts_text">غير قادر على الوصول إلى الردود</string>-->
+    <!--<string name="unable_to_get_unread_messages_text">غير قادر على الوصول إلى الرسائل غير المقروءة</string>-->
+    <!--<string name="unable_to_get_friends_text">غير قادر على الوصول إلى الأصدقاء</string>-->
+    <!--<string name="unable_to_get_group_text">غير قادر على الوصول إلى المجموعة</string>-->
+    <!--<string name="unable_to_get_group_posts_text">غير قادر على الوصول إلى مشاركات المجموعة</string>-->
+    <!--<string name="unable_to_get_group_list_text">غير قادر على الوصول إلى قائمة المجموعة</string>-->
+    <!--<string name="unable_to_remove_or_delete_group_text">غير قادر على إزالة أو حذف المجموعة</string>-->
+    <!--<string name="unable_to_get_chats_text">غير قادر على الوصول إلى الدردشة</string>-->
+    <!--<string name="unable_to_get_saved_messages_text">غير قادر على الوصول إلى الرسائل المحفوظة</string>-->
+    <!--<string name="unable_to_update_notification_as_viewed_text">غير قادر على تحديث الإشعار كما تمت رؤيته</string>-->
+    <!--<string name="unable_to_get_message_text">غير قادر على الوصول إلى الرسائل</string>-->
+    <!--<string name="unable_to_follow_user">غير قادر على متابعة المستخدم</string>-->
+    <!--<string name="unable_to_unfollow_user_text">غير قادر على إزالة متابعة المستخدم</string>-->
+    <!--<string name="unable_to_load_profile_text">غير قادر على تحميل صفحة المعلومات الشخصية</string>-->
+    <!--<string name="unable_to_update_avatar_text">غير قادر على تحديث الصورة الشخصية</string>-->
+    <!--<string name="unable_to_invite_user_to_group_text">غير قادر على دعوة المستخدم للمجموعة</string>-->
+    <!--<string name="unable_to_purchase_subscription_text">غير قادر على شراء الإشتراك</string>-->
+    <!--<string name="unable_to_update_users_profile_text">غير قادر على تحديث الصفحة الشخصية للمستخدم</string>-->
+    <!--<string name="unable_to_send_message_text">غير قادر على إرسال الرسالة</string>-->
+    <!--<string name="unable_to_set_expiration_text">غير قادر على تحديد مدة انقضاء صلاحية الرسالة</string>-->
+    <!--<string name="unable_to_save_message_text">غير قادر على حفظ الرسالة</string>-->
+    <!--<string name="unable_to_get_chat_text">غير قادر على الدردشة مع المستخدم</string>-->
+    <!--<string name="unable_to_get_sent_messages_text">غير قادر على الوصول إلى الرسائل المبعوثة</string>-->
+    <!--<string name="unable_to_get_missed_messages_text">غير قادر على الوصول إلى الرسائل التي فاتتك</string>-->
+    <!--<string name="unable_to_get_notifications_text">غير قادر على الوصول إلى الإشعارات</string>-->
+    <!--<string name="unable_to_accept_group_invite">غير قادر على قبول دعوة المجموعة</string>-->
+    <!--<string name="unable_to_decline_group_invite">غير قادر على رفض دعوة المجموعة</string>-->
+    <!--<string name="unable_to_get_more_notifications">غير قادر على الوصول إلى المزيد من الإشعارات</string>-->
+    <!--<string name="unable_to_get_following_users">غير قادر على الوصول إلى المستخدمين الذين تتابعهم</string>-->
+    <!--<string name="unable_to_get_followers">غير قادر على الوصول إلى المتابعين</string>-->
+    <!--<string name="unable_to_get_messages_text">غير قادر على الوصول إلى الرسائل</string>-->
+    <!--<string name="unable_to_go_to_chat">غير قادر على الذهاب إلى الدردشة</string>-->
+
+    <!--&lt;!&ndash; Search hints &ndash;&gt;-->
+    <!--<string name="search_for_users_to_invite_text">البحث عن أشخاص لدعوتهم</string>-->
+    <!--<string name="search_friends">البحث عن الأصدقاء</string>-->
+    <!--<string name="search_for_friends">البحث عن أصدقاء</string>-->
+    <!--<string name="search_for_members">البحث عن أعضاء</string>-->
+    <!--<string name="search_for_users_to_chat_with">البحث عن مستخدمين للدردشة معهم</string>-->
+    <!--<string name="search_contacts">البحث عن معارف</string>-->
+
+    <!--&lt;!&ndash; Notifications &ndash;&gt;-->
+    <!--<string name="new_notification_was_received_text">لقد تلقيت إشعارا جديدا</string>-->
+    <!--<string name="refresh_text">تحيين</string>-->
+    <!--<string name="viewed">" - تمت رؤيتها من قبل"</string>-->
+    <!--<string name="accepted">مقبولة</string>-->
+    <!--<string name="declined">مرفوضة</string>-->
+    <!--<string name="conx2share_notification">إشعار Conx2Share</string>-->
+
+    <!--&lt;!&ndash; Prompt text &ndash;&gt;-->
+    <!--<string name="yes">نعم</string>-->
+    <!--<string name="no">لا</string>-->
+    <!--<string name="ok">حسناً</string>-->
+    <!--<string name="Success">نجاح</string>-->
+    <!--<string name="exclamation">!</string>-->
+    <!--<string name="error_text">"خطأ : "</string>-->
+
+    <!--&lt;!&ndash; Subscription Strings &ndash;&gt;-->
+    <!--<string name="subscribed_successfully_text">لقد تم الإشتراك بنجاح</string>-->
+    <!--<string name="failed_to_subscribe_text">فشل الإشتراك</string>-->
+    <!--<string name="free_price">0</string>-->
+    <!--<string name="plus_price">2.40 / سنة</string>-->
+    <!--<string name="premium_price">29.99 / سنة</string>-->
+    <!--<string name="platinum_price">49.99 / سنة</string>-->
+    <!--<string name="free_subscription_description"><![CDATA[ستحذف الصور و الفيديوهات بعد أن تتم رؤيتها .]]></string>-->
+    <!--<string name="free_subscription_title">مجاني</string>-->
+    <!--<string name="subscribe">!إشترك </string>-->
+    <!--<string name="current_subscription">الإشتراك الحالي</string>-->
+    <!--<string name="ago">من قبل</string>-->
+    <!--<string name="plus">زائد</string>-->
+    <!--<string name="plus_subscription_description">إحفظ ما يصل إلى 5 صور و 1 فيديو .</string>-->
+    <!--<string name="premium_subscription_title">بريميوم</string>-->
+    <!--<string name="premium_subscription_description"><![CDATA[يد Conx2Share الإلكتروني و 50 GB من تخزين البيانات للمراسلة ، الصور و الفيديوهات .]]></string>-->
+    <!--<string name="platinum_subscription_title">بلاتينيوم</string>-->
+    <!--<string name="platinum_subscription_description"><![CDATA[بريد Conx2Share الإلكتروني و 100 GB من تخزين البيانات للمراسلة ، الصور و الفيديوهات .]]></string>-->
+
+    <!--&lt;!&ndash; Sharing Strings &ndash;&gt;-->
+    <!--<string name="shared_by_text">"\" تمت المشاركة من طرف "</string>-->
+    <!--<string name="via_conx2share_android_text">" عبر Conx2Share أندرويد"</string>-->
+    <!--<string name="conx2share_for_android">نسخة Conx2Share للأندرويد</string>-->
+    <!--<string name="please_install_facebook">يرجى تنصيب تطبيق الفيس بوك حتى تتمكن من مشاركة منشوراتك.</string>-->
+    <!--<string name="please_install_the_twiiter_app">يرجى تنصيب تطبيق تويتر حتى تتمكن من مشاركة منشوراتك.</string>-->
+
+    <!--&lt;!&ndash; Progress Dialog Strings &ndash;&gt;-->
+    <!--<string name="loading_messages">تحميل الرسائل ...</string>-->
+    <!--<string name="gathering_friends_text">تجميع الأصدقاء ...</string>-->
+    <!--<string name="gathering_messages_text">تجميع الرسائل ...</string>-->
+    <!--<string name="gather_chats_text">تجميع الدردشات ...</string>-->
+    <!--<string name="gathering_following_users_text">تجميع المستخدمين الذين تتابعهم ...</string>-->
+    <!--<string name="gathering_followers">تجميع المتابِعين ...</string>-->
+    <!--<string name="sending_message_text">إرسال الرسالة ...</string>-->
+    <!--<string name="posting">إدخال المشاركة ...</string>-->
+    <!--<string name="gathering_saved_messages">تجميع الرسائل المحفوظة ...</string>-->
+    <!--<string name="gathering_chat_information_text">تجميع معلومات الدردشة ...</string>-->
+
+    <!--&lt;!&ndash; Group Strings &ndash;&gt;-->
+    <!--<string name="delete_group_text">حذف المجموعة</string>-->
+    <!--<string name="leave_group_text">مغادرة المجموعة</string>-->
+    <!--<string name="deleted_group_text">"مجموعة محذوفة "</string>-->
+    <!--<string name="left_group_text">"مجموعة تمت مغادرتها "</string>-->
+    <!--<string name="updated_group">"مجموعة مُحدَّثَة "</string>-->
+    <!--<string name="group_owner">مالك المجموعة</string>-->
+    <!--<string name="group_members">أعضاء المجموعة</string>-->
+    <!--<string name="group_name">إسم المجموعة</string>-->
+
+    <!--&lt;!&ndash; Following Strings &ndash;&gt;-->
+    <!--<string name="followers">المتابعون</string>-->
+    <!--<string name="following">المتابعة</string>-->
+    <!--<string name="following_failed_try_again">لقد فشلت المتابعة . يرجى المحاولة مرة أخرى .</string>-->
+    <!--<string name="unfollowed">غير مُتابَع</string>-->
+    <!--<string name="follow">المتابعة</string>-->
+    <!--<string name="unfollow">إزالة المتابعة</string>-->
+    <!--<string name="followed_you">متابع لك</string>-->
+
+    <!--&lt;!&ndash; SignUp Strings &ndash;&gt;-->
+    <!--<string name="you_are_now_signed_up">أنت الآن عضو مسَجَّل !</string>-->
+    <!--<string name="failed_to_sign_up">فشل عملية التسجيل ، يرجى المحاولة مرة أخرى .</string>-->
+    <!--<string name="please_fill_out_all_fields_text">يرجى ملء كل الحقول المطلوبة</string>-->
+
+    <!--&lt;!&ndash; Image and video strings &ndash;&gt;-->
+    <!--<string name="select_picture">اختر صورة</string>-->
+    <!--<string name="would_you_like_to_upload_a_video_from_your_library">هل تريد تسجيل فيديو أم تحميله من مكتبتك ؟</string>-->
+    <!--<string name="error_occurred_while_loading_your_video">حدث خطأ أثناء تحميل الفيديو الخاص بك</string>-->
+    <!--<string name="image_null_error">يرجى اختيار صورة مخزنة على جهازك . وهذا لا يشمل الصور المخبأة من تطبيقات أخرى أو وسائل إعلام اجتماعية.</string>-->
+    <!--<string name="image_error">فشل تحميل الصورة و ارفاقها بمشاركة تويتر .</string>-->
+    <!--<string name="error_occurred_when_selecting_your_image">حدث خطأ أثناء اختيار صورتك</string>-->
+    <!--<string name="what_upload">مالذي تريد تحميله ؟</string>-->
+    <!--<string name="image_download_failed">فشل تنزيل الصورة</string>-->
+    <!--<string name="image_could_not_be_found">لا يمكن إيجاد الصورة</string>-->
+    <!--<string name="take_video">تسجيل فيديو</string>-->
+    <!--<string name="file_exceeds_limit">تجاوز الملف حد ال 10Mb .</string>-->
+    <!--<string name="take_a_video_from_your_library_or_get_one_from_your_library">تسجيل فيديو أم الحصول عليه من مكتبتك ؟</string>-->
+    <!--<string name="take_a_picture_or_get_one_from_your_library">التقاط صورة أم الحصول عليها من مكتبتك ؟</string>-->
+    <!--<string name="media">(وسائل إعلام)</string>-->
+    <!--<string name="picture">(صورة)</string>-->
+    <!--<string name="video">(فيديو)</string>-->
+
+    <!--&lt;!&ndash; Post Strings &ndash;&gt;-->
+    <!--<string name="flag_content_as_inappropriate_prompt">هل تريد تعيين هذه المشاركة لاحتوائها على محتوى غير لائق ؟</string>-->
+    <!--<string name="post_flagged">لقد تم تعيين هذه المشاركة الآن</string>-->
+    <!--<string name="made_a_new_post">أنشيء مشاركة جديدة</string>-->
+    <!--<string name="made_a_new_group_post">إنشاء مشاركة جديدة في المجموعة</string>-->
+    <!--<string name="enter_your_message_here">أدخل رسالتك هنا ...</string>-->
+
+    <!--&lt;!&ndash; Password Strings &ndash;&gt;-->
+    <!--<string name="forgot_password">هل نسيت كلمة السر ؟</string>-->
+    <!--<string name="please_enter_your_email">الرجاء إدخال الإيمايل الخاص بك .</string>-->
+    <!--<string name="cant_reset_password">تغيير كلمة السر</string>-->
+    <!--<string name="reset_password">إعادة تعيين كلمة السر</string>-->
+    <!--<string name="reset_password_email_sent">تمت إعادة تعيين كلمة السر و ارسالها إلى بريدك الإلكتروني</string>-->
+    <!--<string name="please_enter_your_email_address">يرجى إدخال عنوان بريدك الإلكتروني و المحاولة مرة أخرى .</string>-->
+    <!--<string name="confirm_new_password">تأكيد كلمة السر الجديدة</string>-->
+    <!--<string name="new_password">كلمة السر الجديدة</string>-->
+    <!--<string name="old_password">كلمة السر القديمة</string>-->
+    <!--<string name="updating_password">تحديث كلمة السر</string>-->
+    <!--<string name="old_password_incorrect">كلمة السر القديمة غير صحيحة .</string>-->
+    <!--<string name="password_updated">تم تحديث كلمة السر</string>-->
+    <!--<string name="password_failed_to_update">فشل تحديث كلمة السر ، يرجى المحاولة مرة أخرى</string>-->
+    <!--<string name="passwords_dont_match">كلمتا السر الخاصتين بك غير متطابقتين</string>-->
+    <!--<string name="old_password_error">خطأ في كلمة السر القديمة</string>-->
+    <!--<string name="the_old_password_you_entered_is_invalid">كلمة السر القديمة التي أدخلتها غير صحيحة</string>-->
+    <!--<string name="the_new_password_and_confirm_password_dont_match">كلمة السر الجديدة و تأكيد كلمة السر غير متطابقين . يرجى المحاولة مرة أخرى .</string>-->
+    <!--<string name="you_password_has_been_updated">لم يتم تحديث كلمة السر خاصتك</string>-->
+    <!--<string name="change_password_error">خطأ</string>-->
+
+    <!--&lt;!&ndash; Drawer Items &ndash;&gt;-->
+    <!--<string name="drawer_home">الرئيسية</string>-->
+    <!--<string name="drawer_messages">الرسائل</string>-->
+    <!--<string name="drawer_friends">الأصدقاء</string>-->
+    <!--<string name="drawer_groups">المجموعات</string>-->
+    <!--<string name="drawer_notifications">الإشعارات</string>-->
+    <!--<string name="drawer_plus">احصل على المزيد</string>-->
+    <!--<string name="drawer_invite">دعوة</string>-->
+    <!--<string name="drawer_store">المتجر</string>-->
+    <!--<string name="drawer_eshopping">التسوق الإلكتروني</string>-->
+    <!--<string name="drawer_games">الألعاب</string>-->
+    <!--<string name="drawer_business">العمل</string>-->
+
+    <!--&lt;!&ndash; Other Strings &ndash;&gt;-->
+    <!--<string name="facebook_connect_not_implemented_text">لم تتم إضافة الاتصال بالفيس بوك بعد</string>-->
+    <!--<string name="twiiter_connect_not_implemented_yet">لم تتم إضافة الاتصال بتويتر بعد</string>-->
+    <!--<string name="this_user_has_not_followed_you_text">يجب أن يتابع كل مستخدمِ المستخدمَ الآخر حتى يتمكنا من الدردشة معا</string>-->
+    <!--<string name="please_try_again">يرجى المحاولة مرة أخرى</string>-->
+    <!--<string name="message_is_saved">تم حفظ الرسالة.</string>-->
+    <!--<string name="password_length">يجب أن تحتوي كلمة السر على 8 رموز على الأقل</string>-->
+    <!--<string name="passwords_do_not_match">كلمتا السر غير متطابقتين</string>-->
+    <!--<string name="sign_up_error">حدث خطأ أثناء التسجيل .</string>-->
+    <!--<string name="signup_dialog">التسجيل ...</string>-->
+    <!--<string name="you_already_have_a_higher_subscription_level">لديك اشتراك ذو مستوى عالِ من قبل</string>-->
+    <!--<string name="please_accept_terms">الرجاء الموافقة على الأحكام و الشروط .</string>-->
+    <!--<string name="user_name_is_taken">إسم المستخدم هذا مُسجَّل لدينا من قبل .</string>-->
+    <!--<string name="not_connected_to_the_google_play_store">غير متصل بمتجر Google Play</string>-->
+    <!--<string name="coming_soon">عما قريب !</string>-->
+    <!--<string name="accept">القبول</string>-->
+    <!--<string name="decline">الرفض</string>-->
+    <!--<string name="leave_a_comment">ضع تعليقا...</string>-->
+
+    <!--<string name="zero">0</string>-->
+    <!--<string name="one">1</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 3 STRINGS #####################################################&ndash;&gt;-->
+
+    <!--<string name="unable_to_get_group_members">لا يمكنك الوصول إلى أعضاء المجموعة الحاليين .</string>-->
+    <!--<string name="unable_to_load_web_page">لا يمكنك تحميل صفحة الويب</string>-->
+    <!--<string name="please_enter_text">يرجى إدخال النص</string>-->
+
+    <!--<string name="terms_of_service">شروط الخدمة</string>-->
+    <!--<string name="terms_of_service_and_privacy_policy">لقد قرأتُ و وافقتُ على شروط الخدمة و سياسة الخصوصية .</string>-->
+    <!--<string name="privacy_policy">سياسة الخصوصية</string>-->
+
+    <!--<string name="group_update_success">"مجموعة مُحَدَّثَة %s!"</string>-->
+    <!--<string name="retrieving_notifications_failed">فشل سحب الإشعارات . يرجى المحاولة مرة أخرى ..</string>-->
+    <!--<string name="messaging_error">لقد حدث خطأ أثناء الإرسال</string>-->
+
+    <!--&lt;!&ndash; Message Friends Index &ndash;&gt;-->
+    <!--<string name="saved_messages_text">محفوظة</string>-->
+    <!--<string name="chats_text">حالي</string>-->
+
+    <!--&lt;!&ndash; Follow &ndash;&gt;-->
+    <!--<string name="followed">مُتابَع</string>-->
+    <!--<string name="unfollow_failed">فشل إلغاء المتابعة . حاول مجددا .</string>-->
+    <!--<string name="start_recording">بدء التسجيل</string>-->
+    <!--<string name="submit">إدخال</string>-->
+    <!--<string name="invalid_user_name_or_password">خطأ في إسم المستخدِم أو كلمة السر</string>-->
+    <!--<string name="unable_to_update_followers_count">لا يمكنك تحديث عدد المُتابِعين</string>-->
+    <!--<string name="please_accept_the_terms_of_service">يرجى الموافقة على شروط الخدمة</string>-->
+
+    <!--&lt;!&ndash; Promo Codes &ndash;&gt;-->
+    <!--<string name="promo_code_optional">الرمز الترويجي (اختياري)</string>-->
+    <!--<string name="activate_promo_code">تفعيل الرمز الترويجي</string>-->
+    <!--<string name="the_promo_code_you_entered_is_invalid">الرمز الترويجي الذي أدخلته خاطيء .</string>-->
+    <!--<string name="the_promo_code_you_entered_is_invalid_sign_up">الرمز الترويجي الذي أدخلته خاطيء . أدخل رمزاً ترويجياً صحيحاً أو امسح الرمز الحالي .</string>-->
+    <!--<string name="please_enter_your_promo_code">يرجى إدخال رمزك الترويجي .</string>-->
+    <!--<string name="your_account_has_been_upgraded_to_a_plus_subscription">لقد تمت ترقية حسابك إلى إشتراك Plus .</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 4 STRINGS #####################################################&ndash;&gt;-->
+
+    <!--<string name="unable_to_check_if_promo_code_is_valid">لا يمكن التحقق من صحة الرمز الترويجي</string>-->
+    <!--<string name="promo_upgrade_description">The promo code you entered was valid. If you were a free user, your account has been upgraded to a Plus subscription.</string>-->
+    <!--<string name="valid_promo_code">الرمز الترويجي صحيح</string>-->
+    <!--<string name="invalid_promo_code">الرمز الترويجي خاطيء</string>-->
+    <!--<string name="unable_to_update_user_to_promo_user">لا يمكن ترقية المستخدِم إلى حساب مُرَوَّج</string>-->
+    <!--<string name="email_has_already_been_taken">لقد تم أخذ البريد الإلكتروني مُسبقاً</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 5 Strings #####################################################&ndash;&gt;-->
+
+    <!--<string name="user_favoriting_failed">فشل إضافة المستخدم إلى المفضلة .</string>-->
+    <!--<string name="user_unfavoriting_failed">فشل إزالة المستخدم من المفضلة .</string>-->
+    <!--<string name="group_name_taken">إسم المجموعة مُستعمَل من قبل .</string>-->
+    <!--<string name="you_have_received_a_new_message_from">لقد تلقيت رسالك جديدة من طرف</string>-->
+    <!--<string name="one_m">1 دقيقة</string>-->
+    <!--<string name="unable_to_post_comment_text">لا يمكنك إضافة التعليق</string>-->
+    <!--<string name="chats_button_title">إبدأ دردشة جديدة</string>-->
+    <!--<string name="are_you_sure_you_want_to_delete_the_group">هل أنت متأكد من أنك تريد حذف المجموعة ؟</string>-->
+    <!--<string name="are_you_sure_you_want_to_leave_the_group">هل أنت متأكد من أنك تريد مغادرة المجموعة ؟</string>-->
+    <!--<string name="exit">خروج</string>-->
+    <!--<string name="please_attach_photo">يرجى إضافة صورة إلى الملحقات</string>-->
+    <!--<string name="please_attach_video">يرجى إضافة فيديو غلى الملحقات .</string>-->
+    <!--<string name="email_cant_be_blank">لا يمكن ترك الرسالة الإلكترونية فارغة</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 6 Strings #####################################################&ndash;&gt;-->
+
+    <!--<string name="you_cannot_leave_or_delete_the_conx2share_group">لا يمكنك مغادرة مجموعة Conx2Share أو حذفها</string>-->
+    <!--<string name="promoted">مروَّج</string>-->
+    <!--<string name="audio">(الصوت) </string>-->
+    <!--<string name="recording_is_not_long_enough">التسجيل ليس طويلا بما فيه كفاية .</string>-->
+    <!--<string name="only_the_first_two_mins_will_be_sent">سيتم إرسال الدقيقتين الأوليتين من التسجيل فقط .</string>-->
+    <!--<string name="would_you_like_to_take_a_picture_or_upload_from_your_library">هل ترغب في التقاط صورة أو تحميلها من مكتبتك ؟</string>-->
+    <!--<string name="unable_to_send_audio_message">لا يمكنك إرسال رسالة صوتية .</string>-->
+    <!--<string name="unable_to_get_business_info">لا يمكنك تحميل المعلومات التجارية .</string>-->
+    <!--<string name="could_not_retrieve_your_businesses">لم تتمكن من الولوج إلى أعمالك التجارية .</string>-->
+    <!--<string name="you_cannot_post_to_the_conx2share_group">لا يمكنك النشر على مجموعة ConX2share .</string>-->
+    <!--<string name="search_for_businesses">البحث عن شركات تجارية .</string>-->
+    <!--<string name="drawer_businesses">شركات تجارية</string>-->
+    <!--<string name="business_owner">مالك الشركة التجارية    </string>-->
+    <!--<string name="group">" المجموعة :        "</string>-->
+    <!--<string name="business">"الشركة :        "</string>-->
+    <!--<string name="delete_post">حذف المنشور</string>-->
+    <!--<string name="you_dont_own_this_post_to_delete_it">هذا المنشور ليس ملكا لك حتى تتمكن من حذفه</string>-->
+    <!--<string name="are_you_sure_you_want_to_delete_this_post">هل أنت متأكد من أنك تريد حذف هذا المنشور ؟</string>-->
+    <!--<string name="post_deleted">تم حذف المنشور بنجاح</string>-->
+    <!--<string name="unable_to_delete_post">لا يمكنك حذف هذا المنشور</string>-->
+    <!--<string name="delete_comment">حذف التعليق</string>-->
+    <!--<string name="you_dont_own_this_comment_to_delete_it">هذا التعليق ليس ملكا لك حتى تتمكن من حذفه</string>-->
+    <!--<string name="are_you_sure_you_want_to_delete_this_comment">هل أنت متأكد من أنك تريد حذف هذا التعليق ؟</string>-->
+    <!--<string name="comment_deleted">تم حذف التعليق بنجاح</string>-->
+    <!--<string name="unable_to_delete_comment">لا يمكنك حذف هذا التعليق</string>-->
+    <!--<string name="flag_post">تعيين المنشور</string>-->
+    <!--<string name="cant_do_anything_with_comment_since_you_dont_own_it">لا يمكنك فعل أي شئ بهذا التعليق بما أنه ليس ملكاً لك</string>-->
+    <!--<string name="you_dont_own_this_post_to_edit_it">هذا المنشور ليس ملكا لك حتى تتمكن من تعديله</string>-->
+    <!--<string name="edit_post">تعديل المنشور</string>-->
+    <!--<string name="do_you_want_to_edit_this_post">هل ترغب في تغيير هذا المنشور ؟</string>-->
+    <!--<string name="update_post">تحيين</string>-->
+    <!--<string name="unable_to_edit_post">لا يمكنك تحيين المنشور</string>-->
+    <!--<string name="post_edited">تم تعديل المنشور بنجاح</string>-->
+    <!--<string name="updating_post">تحيين المنشور ...</string>-->
+    <!--<string name="flag_as_inappropriate">التبليغ عن محتوى غير لائق</string>-->
+    <!--<string name="edit_post_options_menu">تعديل المنشور</string>-->
+    <!--<string name="delete_post_options_menu">حذف المنشور</string>-->
+    <!--<string name="you_cannot_change_the_audience_when_editing_a_post">لا يمكنك تغيير المتابعة عند تعديل المنشور .</string>-->
+    <!--<string name="enter_your_comment_here">أدخل تعليقك هنا ...</string>-->
+    <!--<string name="edit_comment_options_menu">تعديل التعليق</string>-->
+    <!--<string name="delete_comment_options_menu">حذف التعليق</string>-->
+    <!--<string name="update">تحيين</string>-->
+    <!--<string name="edit_comment">تعديل التعليق</string>-->
+    <!--<string name="you_dont_own_this_comment_to_edit_it">هذا التعليق ليس ملكاً لك حتى تتمكن من عتديله</string>-->
+    <!--<string name="comment_updated">تم تعديل التعليق بنجاح !</string>-->
+    <!--<string name="unable_to_update_post_comment">لا يمكنك تحيين التعليق</string>-->
+    <!--<string name="updating_comment">تحيين التعليق ...</string>-->
+    <!--<string name="something_went_wrong_while_uploading_your_image">لقد حدث خطأ أثناء تحميلك للصورة</string>-->
+    <!--<string name="something_went_wrong_while_uploading_your_file">لقد حدث خطأ أثناء تحميلك للملف</string>-->
+    <!--<string name="would_you_like_to_take_a_photo_or_upload_one_from_your_library">هل ترغب في التقاط صورة أم تحميلها من مكتبتك ؟</string>-->
+    <!--<string name="would_you_like_to_take_a_video_or_upload_one_from_your_library">هل ترغب في تسجيل فيديو أم تحميله من مكتبتك ؟</string>-->
+    <!--<string name="photo_option">صورة</string>-->
+    <!--<string name="video_option">فيديو</string>-->
+    <!--<string name="block_user_option">حظر المستخدم</string>-->
+    <!--<string name="remove_from_group_option">إزالة من المجموعة</string>-->
+    <!--<string name="you_cant_do_anything_with_this_group_member">لا يمكنك اتخاذ أي إجراء تُجاه عضو المجموعة هذا بما أنك لست مالكها</string>-->
+    <!--<string name="remove_user_from_group">إزالة المستخدم من المجموعة</string>-->
+    <!--<string name="are_you_sure_you_want_to_block_this_user">هل أنت متأكد من رغبتك في حظر هذا المستخدم من دخول المجموعة ؟</string>-->
+    <!--<string name="block_user">حظر المستخدم</string>-->
+    <!--<string name="are_you_sure_you_want_to_remove_this_user_from_the_group">هل أنت متأكد من رغبتك في إزالة هذا المستخدم من المجموعة ؟</string>-->
+    <!--<string name="member">العضو</string>-->
+    <!--<string name="follower">المتابِع</string>-->
+    <!--<string name="unable_to_follow_group">لا يمكنك متابعة المجموعة</string>-->
+    <!--<string name="unable_to_unfollow_group">لا يمكنك إزالة متابعة المجموعة</string>-->
+    <!--<string name="unblock_user_option">إزالة الحظر عن المستخدم</string>-->
+    <!--<string name="group_followers">متابعو المجموعة</string>-->
+    <!--<string name="search_for_followers">البحث عن المتابعين</string>-->
+    <!--<string name="unable_to_send_invite_to_follow_group">لا يمكنك دعوة المستخدم إلى متابعة المجموعة</string>-->
+    <!--<string name="invite_to_follow_group_sent">تم إرسال دعوة لمتابعة المجموعة</string>-->
+    <!--<string name="unable_to_block_user_from_group">لا يمكنك حظر المستخدم من دخول المجموعة</string>-->
+    <!--<string name="you_have_blocked_this_user_from_the_group">لقد حظرت هذا المستخدم من دخول المجموعة .</string>-->
+    <!--<string name="unable_to_remove_user_from_group">لا يمكنك إزالة المستخدم من المجموعة</string>-->
+    <!--<string name="user_has_been_removed_from_group">لقد تمت إزالة المستخدم من المجموعة</string>-->
+    <!--<string name="invited_you_to_follow_group">دعاك إلى متابعة المجموعة</string>-->
+    <!--<string name="search_for_groups">البحث عن المجموعات</string>-->
+    <!--<string name="private_group">خاصة</string>-->
+    <!--<string name="blog_group">المدونة</string>-->
+    <!--<string name="discussion_group">نقاش</string>-->
+    <!--<string name="empty_string" />-->
+    <!--<string name="unable_to_leave_group">لا يمكنك مغادرة المجموعة</string>-->
+    <!--<string name="unable_to_get_group_followers">لا يمكنك الوصول إلى متابعي المجموعة</string>-->
+    <!--<string name="unable_to_unblock_user">لا يمكنك إزالة حظر المستخدم</string>-->
+    <!--<string name="you_have_unblocked_this_user_from_the_group">لقد أزلت حظر هذا المستخدم عن المجموعة</string>-->
+    <!--<string name="unable_to_post_to_group_blocked">لا يمكنك النشر في المجموعة ، أنت محظور</string>-->
+    <!--<string name="unable_to_post_comment_blocked">لا يمكنك إضافة تعليق في المجموعة ، أنت محظور</string>-->
+    <!--<string name="unblock_user">إزالة الحظر عن المستخدم</string>-->
+    <!--<string name="are_you_sure_you_want_to_unblock_this_user">هل أنت متأكد من أنك تريد إزالة الحظر عن المستخدم ؟</string>-->
+    <!--<string name="unable_to_update_post_blocked">لا يمكنك تحديث المنشور ، أنت محظور</string>-->
+    <!--<string name="unable_to_update_comment_blocked">لا يمكنك تحديث التعليق ، أنت محظور</string>-->
+    <!--<string name="emergency_logout_toast_text">جلسة العمل الخاصة بك غير صالحة . يرجى تسجيل الدخول مرة أخرى .</string>-->
+    <!--<string name="unable_to_leave_or_delete_group">لا يمكنك مغادرة المجموعة أو حذفها</string>-->
+    <!--<string name="public_group_button_text">عامة</string>-->
+    <!--<string name="private_group_button_text">خاصة</string>-->
+    <!--<string name="discussion_group_button_text">نقاش</string>-->
+    <!--<string name="blog_group_button_text">المدونة</string>-->
+    <!--<string name="creating_group">إنشاء المجموعة ...</string>-->
+    <!--<string name="updating_group">تحديث المجموعة ...</string>-->
+    <!--<string name="unable_to_delete_group">لا يمكنك حذف المجموعة</string>-->
+    <!--<string name="are_you_sure_you_want_to_unfollow_the_group">هل أنت متأكد من أنك تريد إزالة متابعة المجموعة ؟</string>-->
+    <!--<string name="unfollow_group">إزالة متابعة المجموعة</string>-->
+
+<!--</resources>-->

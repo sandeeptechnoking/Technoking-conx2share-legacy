@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="list_item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="list_item.title">
+        <item name="android:textSize">@dimen/font_large</item>
+        <item name="android:textColor">@color/conx_primary</item>
+    </style>
+
+    <style name="list_item.subtitle">
+        <item name="android:textSize">@dimen/font_medium</item>
+        <item name="android:textColor">@color/conx_secondary</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="list_item.date">
+        <item name="android:textSize">@dimen/font_small</item>
+        <item name="android:textColor">@color/unread_messages_gray</item>
+    </style>
+
+    <!-- Say No Styles -->
+    <style name="sayno">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding</item>
+    </style>
+
+    <style name="sayno.send">
+        <item name="android:background">@drawable/sayno_background_send</item>
+        <item name="android:layout_marginRight">@dimen/padding</item>
+        <item name="android:layout_marginLeft">@dimen/padding_double</item>
+    </style>
+
+    <style name="sayno.receive">
+        <item name="android:background">@drawable/sayno_background_receive</item>
+        <item name="android:layout_marginLeft">@dimen/padding</item>
+        <item name="android:layout_marginRight">@dimen/padding_double</item>
+    </style>
+    
+    <style name="toolbar_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/font_xlarge</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="64dp"
+    android:layout_height="58dp"
+    android:layout_marginTop="4dp">
+
+    <com.conx2share.conx2share.ui.view.AvatarImageView
+        android:id="@+id/friend_icon"
+        android:layout_width="@dimen/avatar_size"
+        android:layout_height="@dimen/avatar_size"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp" />
+
+    <TextView
+        android:id="@+id/friend_name"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/friend_icon"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:maxLines="1"
+        android:paddingEnd="2dp"
+        android:paddingStart="2dp"
+        android:singleLine="true"
+        android:textSize="@dimen/font_xsmall"
+        tools:text="Ben Adler"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/unread_message_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/unread_message_badge"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        tools:text="@string/zero" />
+
+</RelativeLayout>

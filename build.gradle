@@ -1,0 +1,32 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven { url "http://repo.metova.com/nexus/content/groups/public" }
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+        classpath 'com.metova.gradle:androidPlugin:1.0.9'
+        classpath 'com.newrelic.agent.android:agent-gradle-plugin:5.10.0'
+        classpath 'com.stanfy.spoon:spoon-gradle-plugin:1.0.2'
+        classpath 'com.google.gms:google-services:4.1.0'
+        classpath 'com.jakewharton:butterknife-gradle-plugin:8.4.0'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven {
+            url "http://repo.metova.com/nexus/content/groups/public"
+            maven { url 'https://www.jitpack.io' }
+        }
+        mavenLocal()
+    }
+}

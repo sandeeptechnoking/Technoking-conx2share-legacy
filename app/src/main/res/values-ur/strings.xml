@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Extra linefeed was removed -->
+    <string name="applicationName">"کون ایکس2شیر"</string>
+    <string name="labelSignin">"سائن ان کریں"</string>
+    <string name="labelSignup">"سائن اپ کریں"</string>
+    <string name="labelEmail">"ای میل"</string>
+    <string name="labelPassword">"پاس ورڈ"</string>
+    <string name="labelOr">"یا"</string>
+
+    <!-- removed linefeed. can we please make sure that they are not added? -->
+    <string name="labelUsername">"صارف کا نام"</string>
+    <string name="labelConfirmPassword">"پاس ورڈ کی توثیق کریں"</string>
+    <string name="labelFirstName">"پہلا نام"</string>
+    <string name="labelLastName">"آخری نام"</string>
+    <string name="blurbTermsAndConditions">"میں نے پڑھا اور شرائط و ضوابط سے اتفاق کیا ہے"</string>
+    <string name="statusAuthenticating">"توثیق..."</string>
+    <string name="statusUnexpectedError">"ایک غیر متوقع خرابی واقع ہوئی ہے"</string>
+    <string name="statusMessagedMarkedAsViewed">"پیغام دیکھا کے طور پر نشان لگا دیا گیا"</string>
+    <string name="labelSuccess">"کامیابی"</string>
+    <string name="statusMessageSent">"پیغام بھیجا"</string>
+    <string name="statusMessageSentFailed">"پیغام بھیجنے میں ناکام رہے"</string>
+    <string name="hintEnterMessageHere">"یہاں پیغام درج کریں \u2026"</string>
+    <string name="statusGotSentMessages">"بھیجے پیغامات موصول  ہوے"</string>
+    <string name="hintTypeAMessage">"ایک پیغام ٹائپ کریں \u2026"</string>
+    <string name="hintAddTextHere">"یہاں متن شامل کریں۔ ۔ ۔"</string>
+    <string name="statusFileError">"فائل خرابی"</string>
+    <string name="statusCameraError">"کیمرے میں خرابی"</string>
+    <string name="labelAddAttachment">"منسلکہ شامل کریں:"</string>
+    <string name="labelTakeAPhoto">"ایک تصویر بناو"</string>
+
+    <!-- Fuzzy -->
+    <string name="labelTakeAVideo">"ایک ویڈیو لے"</string>
+    <string name="labelMessageType">"پیغام کی قسم:"</string>
+    <string name="labelError">"خرابی:"</string>
+
+    <!-- Post Activity -->
+    <string name="labelPost">"پوسٹ"</string>
+    <string name="titleCreatePost">"پوسٹ تخلیق کریں"</string>
+    <string name="labelPostTo">"کرنے کو:"</string>
+    <string name="labelEveryone">"ہر کوئی"</string>
+    <string name="statusPostSuccessful">"پوسٹ کامیاب"</string>
+    <string name="statusPostFailed">"پوسٹ ناکام "</string>
+
+    <!-- Image Upload Dialog -->
+    <string name="titleUploadPhoto">"تصویر اپلوڈ کریں"</string>
+    <string name="promptUploadOrSelectImageQuestion">"کیا آپ ایک تصویر لینا یا اپنی لائبریری سے اپ لوڈ کرنا چاہتے ہیں؟"</string>
+    <string name="promptUploadOrSelectVideoQuestion">"کیا آپ ایک ویڈیو لینا یا اپنی لائبریری سے اپ لوڈ کرنا چاہتے ہیں؟"</string>
+    <string name="labelTakePhoto">"تصویر لیں"</string>
+    <string name="labelLibrary">"لائبریری"</string>
+    <string name="blurbNotYetImplemented">"ابھی تک لاگو نہیں۔"</string>
+
+    <!-- Feed Activity -->
+    <!-- Fuzzy -->
+    <string name="labelDrawerOpen">"دراج کھولیں"</string>
+    <string name="labelDrawerClose">"دراج بند"</string>
+    <string name="labelSignout">"لاگ آوٹ"</string>
+    <string name="labelProfilePicture">"پروفائل تصویر"</string>
+
+    <!-- Share Dialog -->
+    <string name="labelShareTo">"اشتراک کرنے کے لئے \u2026"</string>
+    <string name="labelCancel">"منسوخ"</string>
+
+    <!-- Contacts -->
+    <string name="labelContacts">"رابطے"</string>
+    <string name="statusInviteSuccessful">"دوستوں کو مدعو کیا"</string>
+    <string name="statusInviteFailed">"دوست ناکام مدعو کریں: "</string>
+
+    <!-- Groups -->
+    <string name="titleGroupName">"گروپ کا نام"</string>
+    <string name="labelCreateGroup">"گروپ بنائیں"</string>
+    <string name="blurbGroupNameInvalid">"گروپ کو ایک نام ہونا ضروری ہے"</string>
+    <string name="blurbGroupImageInvalid">"گروپ کی ایک تصویر ہونا ضروری ہے"</string>
+    <string name="labelEditGroup">"گروپ میں ترمیم کریں"</string>
+    <string name="blurbGroupCreationFail">"گروپ کامیابی سے نہیں بنایا گیا. برائے مہربانی دوبارہ کوشش کریں"</string>
+    <string name="blurbGroupCreationSuccess">"گروپ بنانے"</string>
+    <string name="blurbGroupUpdateFail">"گروپ کامیابی سے اپ ڈیٹ نہیں کیا گیا . برائے مہربانی دوبارہ کوشش کریں."</string>
+    <string name="blurbGenericErrorMessage">"ایک خرابی آگئی ہے. برائے مہربانی دوبارہ کوشش کریں."</string>
+    <string name="statusNoUsersFound">"کوئی صارف ملاپ کے معیارنھیں پایا"</string>
+    <string name="labelMembers">"اراکین"</string>
+    <string name="labelSend">"بھیجیں"</string>
+    <string name="statusFailedToTetrieveMessages">"نئے پیغامات کو دوبارہ حاصل کرنے میں ناکام رہتے ہیں"</string>
+    <string name="questionSaveMessage">"پہلا نام آخری نام"</string>
+
+    <!-- Message Friends -->
+    <string name="hintFriendsName">"پہلا نام آخری نام"</string>
+    <string name="blurbErrorLoadingIndex">"لوڈ کرتے وقت ایک خامی پیش آگئی ہے ."</string>
+    <string name="titleNewMessage">"نیا پیغام"</string>
+
+    <!-- Drawer Notifications -->
+    <string name="statusSentYouANewMessage">"آپ کو ایک نیا پیغام بھیجا"</string>
+    <string name="statusReadYourMessage">"آپ کا پیغام پڑھیں"</string>
+    <string name="labelCommentedOnYourPost">"آپ کی اشاعت پر تبصرہ"</string>
+    <string name="statusInvitedYouToJoin">"شامل ہونے کے لئے مدعو"</string>
+
+    <!-- had to remove extra linefeed. -->
+    <string name="statusLoginFailed">"لاگ ان ناکام رہے. انٹرنیٹ کنکشن کی جانچ کریں اور دوبارہ کوشش کریں ."</string>
+
+    <!-- ######################################### SET 2 STRINGS ##################################################### -->
+    <string name="labelNone">"کوئی نھیں"</string>
+    <string name="label15s">"15s"</string>
+    <string name="label30s">"30s"</string>
+    <string name="label60s">"60s"</string>
+    <string name="label120s">"120s"</string>
+    <string name="labelHome">"گھر"</string>
+    <string name="labelMessages">"پیغامات"</string>
+    <string name="labelFriends">"دوست"</string>
+    <string name="labelGroups">"گروپ"</string>
+    <string name="labelNotifications">"نوٹیفیکیشن"</string>
+    <string name="labelSubscriptionsGP">"گیٹ پلس"</string>
+    <string name="labelInvite">"مدعو کریں"</string>
+    <string name="labelStore">"سٹور"</string>
+    <string name="labelAbout">"بارے میں"</string>
+    <string name="labelChange">"تبدیلی"</string>
+    <string name="labelPushMNotifications">"پش اطلاعات"</string>
+    <string name="titleSwitchTitle1">"سوئچ عنوان"</string>
+    <string name="titleSwitchTitle2">"سوئچ عنوان 2"</string>
+
+    <!-- Strings for Async Errors -->
+    <string name="labelRetry">"دوبارہ کوشش کریں"</string>
+    <string name="statusUnableToGatherFriendsToInvite">"مدعو کرنے کے لئے دوستوں کو جمع کرنے کے قابل نہیں"</string>
+    <string name="statusUnableToInviteFriends">"دوستوں کو مدعو کرنے کے قابل نہیں"</string>
+    <string name="statusUnableToPostToGroup">"گروپ میں پوسٹ کرنے سے قاصر"</string>
+    <string name="statusUnableToPost">"پوسٹ کرنے سے قاصر"</string>
+    <string name="statusPostAlreadyFlagged">"پرچم پوسٹ کرنے سے قاصر ، آپ پہلے ہی اس مہم کا اختتام ہے"</string>
+    <string name="statusUnableToFlagPost">"پرچم پوسٹ کرنے سے قاصر"</string>
+    <string name="statusUnableToGetPost">"پیغام کو حاصل کرنے کے قابل نہیں"</string>
+    <string name="statusUnableToGetPostComments">"پوسٹ تبصرے حاصل کرنے سے قاصر"</string>
+    <string name="statusUnableToLikePost">"پوسٹ کو پسند کرنے سے قاصر"</string>
+    <string name="statusUnableToUnlikePost">"پوسٹ کو ناپسند کرنے سے قاصر"</string>
+
+    <!-- Fuzzy -->
+    <string name="statusUnableToCreateGroup">"گروپ تخلیق کرنے سے قاصر"</string>
+    <string name="statusUnableToUpdateGroup">"گروپ کو اپ ڈیٹ کرنے سے قاصر"</string>
+    <string name="statusUnableToRefreshFeed">"فیڈ کی تازہ کاری کرنے سے قاصر"</string>
+    <string name="statusUnableToGetPosts">"پیغامات حاصل کرنے کے قابل نہیں"</string>
+    <string name="statusUnableToGetUnreadMessages">"بغیر پڑھے ہوئے پیغامات حاصل کرنے سے قاصر"</string>
+    <string name="statusUnableToGetFriends">"دوستوں کو حاصل کرنے کے قابل نہیں"</string>
+
+    <!-- removed extra linefeed -->
+    <string name="statusUnableToGetGroup">"گروپ حاصل کرنے سے قاصر"</string>
+    <string name="statusUnableToGetGroupPosts">"گروپ پیغامات حاصل کرنے سے قاصر"</string>
+    <string name="statusUnableToGetGroupList">"گروپ کی فہرست حاصل کرنے سے قاصر"</string>
+    <string name="statusUnableToRemoveOrDeleteGroup">"ہٹانے یا گروپ کو خارج کرنے سے قاصر"</string>
+    <string name="statusUnableToGetChats">"چیٹ حاصل کرنے سے قاصر"</string>
+    <string name="statusUnableToGetSavedMessages">"محفوظ کردہ پیغامات حاصل کرنے سے قاصر"</string>
+    <string name="statusUnableToUpdateNotificationAsViewed">"نوٹیفکیشن کو اپ ڈیٹ کرنے کے قابل نہیں دیکھا کے طور پر"</string>
+    <string name="statusUnableToGetMessage">"پیغام حاصل کرنے سے قاصر"</string>
+
+    <!-- removed linefeed -->
+    <string name="statusUnableToFollowUser">"صارف کی پیروی کرنے سے قاصر"</string>
+    <string name="statusUnableToUnfollowUser">"صارف فالو کرنے سے قاصر"</string>
+    <string name="statusUnableToLoadProfile">"پروفائل لوڈ کرنے سے قاصر"</string>
+    <string name="statusUnableToUpdateAvatar">"اوتار کو اپ ڈیٹ کرنے سے قاصر"</string>
+    <string name="statusUnableToInviteUserToGroup">"گروپ کے لئے صارف مدعو کرنے سے قاصر"</string>
+    <string name="statusUnableToPurchaseSubscription">"رکنیت کی خریداری کرنے کے قابل نہیں"</string>
+    <string name="statusUnableToUpdateUsersProfile">"صارف کے پروفائل کی تازہ کاری کرنے سے قاصر"</string>
+    <string name="statusUnableToSendMessage">"پیغام بھیجنے سے قاصر"</string>
+    <string name="statusUnableToSetExpiration">"پیغام میعاد ختم ہونے کی طے کرنے سے قاصر"</string>
+    <string name="statusUnableToSaveMessage">"پیغام محفوظ کرنے میں ناکام"</string>
+    <string name="statusUnableToGetChat">"صارف کے ساتھ حاصل کرنے کے لئے بات چیت کے قابل نہیں"</string>
+    <string name="statusUnableToGetSentMessages">"بھیجے جانے والے پیغامات حاصل کرنے سے قاصر"</string>
+    <string name="statusUnableToGetMissedMessages">"یاد پیغامات حاصل کرنے کے قابل نہیں"</string>
+    <string name="statusUnableToGetNotifications">"اطلاعات حاصل کرنے سے قاصر"</string>
+    <string name="statusUnableToAcceptGroupInvite">"مدعو گروپ قبول کرنے سے قاصر"</string>
+    <string name="statusUnableToDeclineGroupInvite">"مدعو گروپ کو رد کرنے سے قاصر"</string>
+    <string name="statusUnableToGetMoreNotifications">"مزید اطلاعات حاصل کرنے سے قاصر"</string>
+
+    <!-- removed inefeed -->
+    <string name="statusUnableToGetFollowingUsers">"آپ کو مندرجہ ذیل ہیں قاصر حاصل کرنے کے لئے صارفین"</string>
+    <string name="statusUnableToGetFollowers">"پیروکاروں کو حاصل کرنے کے قابل نہیں"</string>
+
+    <!-- Fuzzy -->
+    <string name="statusUnableToGetMessages">"پیغامات حاصل کرنے کے قابل نہیں"</string>
+    <string name="statusUnableToGoToChat">"چیٹ کرنے کے لئے جانے سے قاصر"</string>
+
+    <!-- Search hints -->
+    <string name="hintSearchForUsersToInvite">"لوگوں کو مدعو کرنے کے لئے تلاش"</string>
+    <string name="hintSearchFriends">"تلاش دوستوں"</string>
+    <string name="hintSearchForFriends">"دوستوں کے لئے تلاش کریں"</string>
+    <string name="hintSearchForMembers">"ممبر تلاش کریں"</string>
+    <string name="hintSearchForUsersToChatWith">"صارفین کے ساتھ بات چیت کرنے کے لئے تلاش"</string>
+    <string name="hintSearchContacts">"تلاش رابطے"</string>
+
+    <!-- Notifications -->
+    <string name="statusNewNotificationReceived">"ایک نیا نوٹیفکیشن استقبال کیا"</string>
+    <string name="labelRefresh">"تروتازہ"</string>
+    <string name="labelViewed">"دیکھا"</string>
+
+    <!-- Removed linefeed -->
+    <string name="labelAccepted">"منظور"</string>
+    <string name="labelDeclined">"انکار کر دیا"</string>
+    <string name="titleNotification">"کون ایکس2شیرنوٹیفکیشن"</string>
+
+    <!-- Prompt text -->
+    <string name="labelYes">"جی ہاں"</string>
+    <string name="labelNo">"نہیں"</string>
+    <string name="labelOk">"ٹھیک ہے"</string>
+    <string name="labelExclamation">"!"</string>
+
+    <!-- Subscription Strings -->
+    <string name="statusSubscribedSuccessfully">"کامیابی رکنیت"</string>
+    <string name="statusFailedToSubscribe">"سبسکرائب کرنے میں ناکام"</string>
+    <string name="labelPriceFree">"0"</string>
+    <string name="labelPricePlus">"سال/2.40"</string>
+    <string name="labelPricePremium">"سال/ 29.99"</string>
+    <string name="labelPricePlatinum">"سال/ 49.99"</string>
+    <string name="blurbFreeSubscriptionDescription"><![CDATA[ تصاویر اور ویڈیوز دیکھا جا رہا بعد خارج کر دیا جائے گا . ]]></string>
+    <string name="titleFreeSubscription">"مفت"</string>
+    <string name="labelSubscribe">"سبسکرائب کریں !"</string>
+    <string name="labelCurrentSubscription">"موجودہ رکنیت"</string>
+    <string name="labelAgo">"پہلے"</string>
+    <string name="labelPlus">"پلس"</string>
+    <string name="blurbPlusSubscriptionDescription">"۵ تصاویر اور۱ ویڈیو تک محفوظ ."</string>
+    <string name="titlePremiumSubscription">"پریمیم"</string>
+    <string name="blurbPremiumSubscriptionDescription"><![CDATA[ پیغام رسانی ، تصاویر اور ویڈیو کے لئے ڈیٹا سٹوریج کی  Cx2share ای میل اور 50GB . ]]></string>
+    <string name="titlePlatinumSubscription">"پلاٹینم"</string>
+
+    <!-- Malformed CDATA section in this element caused a compiler fail.
+    We are removing the CDATA tags from the english as they are not required.
+    Please review the content and remove the CDATA section from the Urdu. -->
+    <string name="blurbPlatinumSubscriptionDescription">"klk"</string>
+
+    <!-- Sharing Strings -->
+    <string name="labelSharedBy">"\" کی طرف سے مشترکہ"</string>
+    <string name="blurbViaConx2shareAndroid">"کون ایکس2شیر  کے ذریعے"</string>
+    <string name="titleConx2shareForAndroid">"کون ایکس2شیر  کے ساتھ"</string>
+    <string name="messagePleaseInstallFacebook">"آپ کی پوسٹ کا اشتراک کرنے کے لئے فیس بک اپلی کیشن کو انسٹال کریں ."</string>
+    <string name="messagePleaseInstallTheTwiiterApp">"آپ کی پوسٹ کا اشتراک کرنے کے لئے ٹویٹر اے پی پی انسٹال کریں "</string>
+
+    <!-- Progress Dialog Strings -->
+    <string name="statusLoadingMessages">"لوڈنگ پیغامات \u2026"</string>
+    <string name="statusGatheringFriends">"دوستوں جمع \u2026"</string>
+    <string name="statusGatheringMessages">"پیغامات جمع \u2026"</string>
+    <string name="statusGatheringChats">"چیٹ جمع \u2026"</string>
+    <string name="statusGatheringFollowedUsers">"آپ کو مندرجہ ذیل کر رہے صارفین جمع \u2026"</string>
+    <string name="statusGatheringFollowers">"پیروکاروں جمع \u2026"</string>
+    <string name="statusSendingMessage">"پیغام بھیج رہا ہے \u2026"</string>
+    <string name="statusPosting">"پوسٹنگ..."</string>
+
+    <!-- removed linefeed -->
+    <string name="statusGatheringSavedMessages">"اجتماع پیغامات کو بچا لیا..."</string>
+    <string name="statusGatheringChatInformation">"چیٹ معلومات جمع..."</string>
+
+    <!-- Group Strings -->
+    <string name="labelDeleteGroup">"گروپ کو خارج کریں"</string>
+    <string name="labelLeaveGroup">"گروپ چھوڑ دو"</string>
+    <string name="labelDeletedGroup">"خارج کر دیا گیا گروپ"</string>
+    <string name="labelLeftGroup">"بائیں بازو کی جماعتوں گروپ"</string>
+    <string name="labelUpdatedGroup">"تازہ کاری گروپ"</string>
+    <string name="labelGroupOwner">"گروپ کے مالک"</string>
+    <string name="labelGroupMembers">"گروپ کے ممبران"</string>
+    <string name="labelGroupName">"گرگی"</string>
+
+    <!-- Following Strings -->
+    <string name="labelFollowers">"فالورز"</string>
+    <string name="labelFollowing">"فالونگ"</string>
+    <string name="statusFailedToFollow">"مندرجہ ذیل میں ناکام رہے . دوبارہ کوشش کریں."</string>
+    <string name="labelUnfollowed">"انفالوڈ"</string>
+    <string name="labelFollow">"فالو"</string>
+    <string name="labelUnfollow">"ان فالو"</string>
+    <string name="statusFollowedYou">"تمہیں فالوکیا"</string>
+
+    <!-- SignUp Strings -->
+    <string name="statusYouAreNowSignedUp">"اب آپ سائن اپ کر رہے ہیں!"</string>
+    <string name="statusFailedToSignUp">"سائن اپ کرنے میں ناکام ، دوبارہ کوشش کریں ."</string>
+    <string name="statusPleaseFillOutAllFields">"تمام شعبوں کو بھرنے براہ مہربانی"</string>
+
+    <!-- Image and video strings -->
+    <string name="titleSelectPicture">"منتخب تصویر"</string>
+    <string name="questionUploadFromLibrary">"آپ کو ایک ویڈیو لے یا آپ کی لائبریری سے اپ لوڈ کرنا چاہتے ہیں؟"</string>
+    <string name="statusErrorUploadingVideo">"آپ کی ویڈیو کو لوڈ کرتے وقت ایک خامی پیش آگئی"</string>
+    <string name="messageSelectImageError">"آپ کے آلے پر ذخیرہ ایک تصویر کو منتخب کریں . یہ دیگر درخواستوں یا سماجی ذرائع ابلاغ سے عارضی تصاویر شامل نہیں ہے ."</string>
+    <string name="statusTwitterImageError">"تصویر کو لوڈ اور ٹویٹر پوسٹ سے منسلک کرنے میں ناکام رہے ."</string>
+    <string name="satusErrorSelectingImage">"تصویرکو چننے میں مسلۃ درپیش ھے"</string>
+    <string name="questionSelectUpload">"کیا آپ کو اپ لوڈ کرنا چاہتے ہیں؟"</string>
+
+    <!-- Fuzzy -->
+    <string name="statusImageDownloadFailed">"تصویر ڈاؤن لوڈ ناکام ہوگیا"</string>
+    <string name="statusImageNotFound">"تصویر نہیں مل سکا"</string>
+    <string name="labelVideoTake">"ویڈیو لے"</string>
+    <string name="statusFileExceedsLimit">"فائل 10MB کی حد سے تجاوز ."</string>
+    <string name="questionSelectVideoSource">"ویڈیو کے لے لو یا اپنی لائبریری سے ایک حاصل ؟"</string>
+    <string name="questionSelectImageSource">"تصویر کے لے لو یا اپنی لائبریری سے ایک حاصل ؟"</string>
+
+    <!-- Fuzzy -->
+    <string name="indicatorMedia">"(میڈیا)"</string>
+
+    <!-- Fuzzy -->
+    <string name="indicatorPicture">"(تصویر)"</string>
+
+    <!-- Fuzzy -->
+    <string name="indicatorVideo">"(ویڈیو)"</string>
+    <string name="indicatorAudio">"(آڈیو)"</string>
+
+    <!-- Post Strings -->
+    <string name="promptFlagContentAsInappropriate">"آپ پرچم نامناسب مواد کے لئے اس پوسٹ کو پسند کریں گے؟"</string>
+    <string name="statusPostFlagged">"اس پوسٹ اب جھنڈا لگایا گیا ہے"</string>
+    <string name="statusMadeANewPost">"ایک نیا پیغام دیا"</string>
+    <string name="statusMadeANewGroupPost">"ایک نیا گروپ پوسٹ کر دیا"</string>
+    <string name="hintEnterYourMessageHere">"آپ کا پیغام یہاں درج کریں ..."</string>
+
+    <!-- Password Strings -->
+    <string name="promptForgotPassword">"پاسورڈ بھول گے؟"</string>
+    <string name="hintEnterYourEmail">"آپ کا ای میل درج کریں ."</string>
+    <string name="labelChangePassword">"پاس ورڈ بدلو"</string>
+    <string name="statusCantResetPassword">"پاس ورڈ ری سیٹ کر سکتے ہیں"</string>
+    <string name="labelResetPassword">"پاس ورڈ ری سیٹ کریں"</string>
+    <string name="statusResetPasswordEmailSent">"پاس ورڈ ری سیٹ ای میل بھیجا"</string>
+
+    <!-- removed linefeed. not happy with the sloppy input -->
+    <string name="statusPleaseEnterYourEmailAddress">"آپ کا ای میل ایڈریس درج کریں اور دوبارہ کوشش کریں ."</string>
+    <string name="labelConfirmNewPassword">"ایک نیا گروپ پوسٹ کر دیا"</string>
+    <string name="labelNewPassword">"ایک نیا گروپ پوسٹ کر دیا"</string>
+    <string name="labelOldPassword">"پرانا پاسورڈ"</string>
+    <string name="statusUpdatingPassword">"اپ ڈیٹ پاس ورڈ"</string>
+    <string name="statusOldPasswordIncorrect">"پرانا پاس ورڈ غلط ہے ."</string>
+    <string name="statusPasswordUpdated">"پاس ورڈ تبدیل کر"</string>
+    <string name="statusPasswordFailedToUpdate">"پاس ورڈ کی تازہ کاری کرنے میں ناکام رہے ، دوبارہ کوشش کریں"</string>
+    <string name="statusPasswordsDontMatch">"آپ کے پاس ورڈ مماثل نہیں ہیں"</string>
+    <string name="statusOldPasswordError">"پرانا پاس ورڈ خرابی"</string>
+    <string name="statusOldPasswordInvalid">"اگر آپ نے ابھی پرانا پاس ورڈ درست نہیں ہے"</string>
+    <string name="blurbPasswordsDontMatch">"نیا پاس ورڈ کی توثیق کریں اور پاس ورڈ مماثل نہیں ہیں . برائے مہربانی دوبارہ کوشش کریں."</string>
+    <string name="you_password_has_been_updated">"آپ کا پاس ورڈ تبدیل کر دیا گیا"</string>
+    <string name="change_password_error">"خرابی"</string>
+
+    <!-- Drawer Items -->
+    <string name="labelDrawerHome">"گھر"</string>
+    <string name="labelDrawerMessages">"پیعام"</string>
+    <string name="labelDrawerFriends">"دوست"</string>
+    <string name="labelDrawerGroups">"گروپ"</string>
+    <string name="labelDrawerNotifications">"نوٹیفیکیشن"</string>
+    <string name="labelDrawerSubscriptions">"سبسکرپشنز"</string>
+    <string name="labelDrawerInvite">"مدعو کریں"</string>
+    <string name="labelDrawerStore">"سٹور"</string>
+    <string name="labelDrawerEshopping">"ای خریداری"</string>
+    <string name="labelDrawerGames">"گیمز"</string>
+    <string name="labelDrawerBusiness">"بزنس"</string>
+
+    <!-- Other Strings -->
+    <string name="blurbFacebookConnectNotImplemented">"فیس بک کنیکٹ کے ابھی تک لاگو نہیں"</string>
+    <string name="blurbTwiterConnectNotImplemented">"ٹویٹر کنیکٹ ابھی تک لاگو نہیں"</string>
+    <string name="errorNoChatNotFollowed">"صارفین دونوں بات چیت کے لئے ایک دوسرے پر عمل کرنا ہوگا"</string>
+    <string name="errorTryAgain">"برائے مہربانی دوبارہ کوشش کریں"</string>
+    <string name="statusMessageSaved">"پیغام محفوظ کیا جاتا ہے ."</string>
+    <string name="errorPasswordLength">"آپ کا پاس ورڈ کم از کم 8 حروف کا ہونا ضروری ہے"</string>
+    <string name="errorPasswordsNotMatch">"پاس ورڈ میچ نہیں کرتے"</string>
+    <string name="errorGenericSignUp">"سائن اپ کرتے وقت ایک خامی پیش آگئی ہے ."</string>
+    <string name="statusSigningUp">"سائن اپ \u2026"</string>
+    <string name="blurbSubscriptionLevelTooLow">"آپ نے پہلے ہی ایک اعلی کی رکنیت کی سطح ہے"</string>
+    <string name="errorPleaseAcceptTerms">"شرائط و ضوابط قبول کریں"</string>
+
+    <!-- <string name="please_accept_the_terms_of_service">Please accept the terms of service</string> -->
+    <string name="errorUsernameTaken">"صارف کا نام پہلے ہی لیا جاتا ہے ."</string>
+    <string name="blurbNotConnectedToGooglePlay">"گوگل کھیلیں سٹور سے منسلک نہیں"</string>
+    <string name="blurbComingSoon">"جلد آ رہا ہے!"</string>
+    <string name="labelAccept">"قبول"</string>
+    <string name="labelDecline">"کمی"</string>
+    <string name="hintLeaveAComment">"ایک تبصرہ چھوڑ دو \u2026"</string>
+    <string name="labelZero">"0"</string>
+    <string name="labelOne">"1"</string>
+
+    <!-- ######################################### SET 3 STRINGS ##################################################### -->
+    <string name="statusUnableToGetGroupMembers">"موجودہ گروپ کے اراکین حاصل کرنے سے قاصر"</string>
+    <string name="statusUnableToLoadWebPage">"ویب صفحہ لوڈ کرنے سے قاصر"</string>
+    <string name="hintEnterText">"متن درج کریں"</string>
+    <string name="labelTermsOfService">"سروس کی شرائط"</string>
+    <string name="blurbTermsOfServiceAndPrivacyPolicy">"میں نے پڑھا اور سروس اور پرائیویسی پالیسی کی شرائط سے اتفاق کرتا ہوں"</string>
+    <string name="labelPrivacyPolicy">"رازداری کی پالیسی"</string>
+    <string name="statusGroupUpdateSuccess">" گروپ تازہ ھوگیا %s! !"</string>
+
+    <!-- removed linefeed -->
+    <string name="statusRetrievingNotificationsFailed">"بازیافت اطلاعات ناکام . برائے مہربانی دوبارہ کوشش کریں."</string>
+    <string name="errorGenericMessaging">"ایک خامی پیغام رسانی کے دوران واقع ہوئی ہے"</string>
+
+    <!-- Message Friends Index -->
+    <string name="labelSaved">"محفوظ"</string>
+    <string name="labelCurrent">"موجودہ"</string>
+
+    <!-- Follow -->
+    <string name="labelFollowed">"فالوڈ"</string>
+    <string name="statusUnfollowFailed">"فالو کریں فالونگ ان ناکام . دوبارہ کوشش کریں."</string>
+    <string name="labelStartRecording">"شروع ریکارڈنگ"</string>
+    <string name="labelSubmit">"پیش"</string>
+    <string name="errorInvalidUsernameOrPassword">"غلط صارف نام یا پاس ورڈ"</string>
+    <string name="statusUnableToUpdateFollowersCount">"شمار پیروکاروں کو اپ ڈیٹ کرنے سے قاصر"</string>
+
+    <!-- Promo Codes -->
+    <string name="labelPromoCode">"پرومو کوڈ (اختیاری)"</string>
+    <string name="labelActivatePromoCode">"پرومو کوڈ کو چالو کریں"</string>
+    <string name="errorInvalidPromoCode">"اگر آپ نے ابھی پرومو کوڈ درست نہیں ہے ."</string>
+    <string name="blurbInvalidPromoCode">"اگر آپ نے ابھی پرومو کوڈ درست نہیں ہے . ایک درست پرومو کوڈ درج کریں یا موجودہ پرومو کوڈ صاف ."</string>
+    <string name="hintEnterPromoCode">"آپ کے پرومو کوڈ درج کریں "</string>
+    <string name="blurbAccountSubscriptionUpgradedPlus">"آپ کا اکاؤنٹ ایک پلس رکنیت کے لئے اپ گریڈ کیا گیا ہے ."</string>
+
+    <!-- ######################################### SET 4 STRINGS ##################################################### -->
+    <string name="statusUnableToCheckPromoCodeValid">"پرومو کوڈ درست ہے تو چیک کرنے کے قابل نہیں"</string>
+    <string name="blurbPromoUpgradePlusDescription">"اگر آپ نے ابھی پرومو کوڈ درست تھا . آپ کو ایک مفت صارف تھے تو آپ کا اکاؤنٹ ایک پلس رکنیت کے لئے اپ گریڈ کیا گیا ہے ."</string>
+    <string name="statusValidPromoCode">"درست پرومو کوڈ"</string>
+    <string name="statusInvalidPromoCode">"غلط پرومو کوڈ"</string>
+    <string name="statusUnableUpdateUserToPromoUser">"پرومو صارف کو صارف کو اپ ڈیٹ کرنے سے قاصر"</string>
+    <string name="errorEmailAlreadyUsed">"ای میل کے پاس پہلے سے ہی لیا گیا ہے"</string>
+
+    <!-- ######################################### SET 5 Strings ##################################################### -->
+    <string name="statusUserFavoritingFailed">"صارف ناکام پسند کر ."</string>
+    <string name="statusUserUnfavoritingFailed">"صارف ناپسندی ناکام"</string>
+    <string name="errorGroupNameTaken">"گروپ کا نام پہلے ہی لیا جاتا ہے ."</string>
+    <string name="blurbNewMessageReceivedFrom">"آپ کو ایک نیا پیغام سے موصول ہوئی ہے"</string>
+    <string name="labelOneM">"1ایم"</string>
+    <string name="statusUnableToPostComment">"تبصرہ پوسٹ کرنے کے قابل نہیں"</string>
+    <string name="labelStartChat">"نئے چیٹ شروع کریں"</string>
+    <string name="promptDeleteGroupConfirm">"آپ اس گروپ کو خارج کرنا چاہتے ہیں اس بات کا یقین کر رہے ہیں؟"</string>
+
+    <!-- Fuzzy -->
+    <string name="promptLeaveGroupConfirm">"آپ اس گروپ کو چھوڑنے کے لئے چاہتے ہیں تو آپ اس بات کا یقین کر رہے ہیں؟"</string>
+    <string name="labelExit">"باہر نکلیں"</string>
+    <string name="labelAttachPhoto">"ایک تصویر منسلک کریں"</string>
+    <string name="labelAttachVideo">"ایک ویڈیومنسلک کریں."</string>
+    <string name="errorEmailBlank">"ای میل خالی نہیں ہو سکتا"</string>
+
+    <!-- ######################################### SET 6 Strings ##################################################### -->
+    <string name="errorGroupIsPerminant">"تم چھوڑ دوکون ایکس2شیر یا گروپ کو خارج نہیں کر سکتے ہیں"</string>
+    <string name="labelPromoted">"فروغ"</string>
+    <string name="errorRecordingTooShort">"ریکارڈنگ کافی نہیں ہے ."</string>
+    <string name="warningRecordingWillBeTruncated">"ریکارڈنگ کے صرف پہلے 2 منٹ بھیجا جائے گا ."</string>
+    <string name="statusUnableToSendAudioMessage">"آڈیو پیغام بھیجنے سے قاصر"</string>
+    <string name="statusUnableToGetBusinessInfo">"کاروبار کی معلومات لوڈ کرنے سے قاصر "</string>
+    <string name="statusCouldNotRetrieveYourBusinesses">"آپ کے کاروبار کی بازیافت نہیں ہوسکتی"</string>
+    <string name="statusCannotPostToConx2shareGroup">"تم کون ایکس2شیر گروپ پر پوسٹ نہیں کر سکتے ہیں"</string>
+    <string name="hintSearchForBusinesses">"کاروبار کے لئے تلاش"</string>
+    <string name="LabelBusinesses">"بزنس"</string>
+    <string name="labelBusinessOwner">"کاروبار کے مالک"</string>
+    <string name="labelGroup">"گروپ"</string>
+    <string name="labelBusiness">"بزنس"</string>
+    <string name="labelBusinesses">"بزنزس"</string>
+    <string name="labelDeletePost">"پوسٹ حذف"</string>
+    <string name="errorDeletePostNotOwner">"تم نے اسے خارج کرنے کی اس پوسٹ کے مالک نہیں ہیں"</string>
+    <string name="promptDeletePostConfirm">"آپ اس پوسٹ کو حذف کرنا چاہتے ہیں اس بات کا یقین کر رہے ہیں؟"</string>
+    <string name="statusPostDeleted">"پوسٹ خارج"</string>
+    <string name="statusUnableDeletePost">"پوسٹ حذف کرنے سے قاصر"</string>
+    <string name="labelDeleteComment">"تبصرہ حذف"</string>
+    <string name="errorDeleteCommentNotOwner">"تم نے اسے حذف کرنے کیلئے اس تبصرہ کے مالک نہیں ہیں"</string>
+    <string name="promptDeleteCommentConfirm">"آپ کو اس تبصرے کو ختم کرنا چاہتے ہیں آپ کو اس بات کا یقین کر رہے ہیں؟"</string>
+    <string name="statusCommentDeleted">"تبصرہ حذف"</string>
+    <string name="statusUnableDeleteComment">"تبصرہ حذف کرنے سے قاصر"</string>
+    <string name="labelFlagPost">"فلیگ پوسٹ"</string>
+    <string name="errorGenericCommentNotOwner">"آپ اس کے مالک نہیں ہے کے بعد آپ کو اس تبصرہ کے ساتھ کچھ نہیں کر سکتے"</string>
+    <string name="errorEditPostNotOwner">"آپ اس میں ترمیم کرنے کے لئے اس پوسٹ کے مالک نہیں ہیں"</string>
+    <string name="labelEditPost">"ترمیم کریں"</string>
+    <string name="promptEditPost">"آپ اس پوسٹ میں ترمیم کرنا چاہتے ہیں؟"</string>
+    <string name="lableUpdate">"اپ ڈیٹ کریں"</string>
+    <string name="statusUnableToUpdatePost">"پوسٹ کو اپ ڈیٹ کرنے سے قاصر"</string>
+    <string name="statusPostEdited">"پوسٹ ترمیم"</string>
+    <string name="statusUpdatingPost">"پوسٹ کو اپ ڈیٹ \u2026"</string>
+    <string name="labelFlagInappropriate">"نامناسب کے بطور پرچم"</string>
+    <string name="errorCannotChangeAudienceEditingPost">"ایک پوسٹ میں ترمیم کرتے وقت آپ کو ناظرین تبدیل نہیں کر سکتے ."</string>
+    <string name="hintEnterCommentHere">"اپنا تبصرہ یہاں درج کریں \u2026"</string>
+    <string name="labelUpdate">"اپ ڈیٹ کریں"</string>
+    <string name="labelEditComment">"تبصرے میں ترمیم کریں"</string>
+    <string name="errorEditCommentNotOwner">"آپ اس میں ترمیم کرنے کے لئے اس تبصرے کے مالک نہیں ہیں ."</string>
+    <string name="statusCommentUpdated">"تبصرہ اپ ڈیٹ!"</string>
+    <string name="statusUnableUpdateComment">"تبصرہ کو اپ ڈیٹ کرنے سے قاصر"</string>
+    <string name="statusUpdatingComment">"اپ ڈیٹ تبصرہ \u2026"</string>
+    <string name="errorGenericImageUploadFailed">"آپ کی تصویر اپ لوڈ کرتے وقت کچھ غلط ہو گیا"</string>
+    <string name="errorGenericFileUploadFailed">"آپ کی فائل اپ لوڈ کرتے وقت کچھ غلط ہو گیا"</string>
+    <string name="labelPhoto">"تصویر"</string>
+    <string name="labelVideo">"ویڈیو"</string>
+    <string name="labelRemoveFromGroup">"گروپ سے نکال دیں"</string>
+    <string name="errorEditGroupMemberNotOwner">"آپ گروپ کے مالک نہیں ہیں کے بعد آپ کو اس گروپ کے رکن کے ساتھ کچھ بھی نہیں کر سکتے ہیں"</string>
+    <string name="labelRemoveUserFromGroup">"گروپ سے صارف کو ہٹا دیں"</string>
+    <string name="promptBlockUserFromGroupConfirm">"آپ کے گروپ کی طرف سے اس صارف کو بلاک کرنا چاہتے ہیں اس بات کا یقین کر رہے ہیں؟"</string>
+    <string name="labelBlockUser">"صارف مسدود کریں"</string>
+    <string name="promptRemoveUserFromGroupConfirm">"آپ کے گروپ کی طرف سے اس صارف کو خارج کرنا چاہتے تمہیں یقین ہے؟"</string>
+    <string name="labelMember">"رکن"</string>
+    <string name="labelFollower">"پیروکار"</string>
+    <string name="statusUnableFollowGroup">"گروپ کی پیروی کرنے سے قاصر"</string>
+    <string name="labelUnableUnfollowGroup">"گروپ فالو کرنے سے قاصر"</string>
+    <string name="labelGroupFollowers">"گروپ فالورز"</string>
+    <string name="hintSearchForFollowers">"پیروکاروں کے لئے تلاش"</string>
+    <string name="statusUnableToInviteUserToFollowGroup">"گروپ کی پیروی کرنے کے لئے صارف کو مدعو کرنے سے قاصر"</string>
+    <string name="statusSendInviteToFollowGroup">"گروپ بھیجا پیروی کرنے کے لئے مدعو کریں"</string>
+    <string name="statusUnableToBlockUserFromGroup">"گروپ کی طرف سے صارف کو بلاک کرنے سے قاصر"</string>
+    <string name="statusUserBlockedFromGroup">"آپ گروپ سے اس صارف کو مسدود کردیا ہے ."</string>
+    <string name="statusUnableToRemoveUserFromGroup">"گروپ کی طرف سے صارف کو دور کرنے سے قاصر"</string>
+    <string name="statusUserRemovedFromGroup">"صارف گروپ کی طرف سے ہٹا دیا گیا ہے"</string>
+    <string name="statusInvitedToFollowGroup">"گروپ کی پیروی کرنے کے لئے مدعو"</string>
+    <string name="hintSearchForGroups">"گروپ کے لئے تلاش"</string>
+    <string name="labelPrivate">"خفیہ"</string>
+    <string name="labelBlog">"بلاگ"</string>
+    <string name="labelDiscussion">"گفتگو"</string>
+    <string name="statusUnableToLeaveGroup">"گروپ کو چھوڑنے کے کرنے سے قاصر"</string>
+    <string name="statusUnableToGetGroupFollowers">"گروپ پیروکاروں کو حاصل کرنے کے قابل نہیں"</string>
+    <string name="statusUnableToUnblockUser">"صارف مسدود کریں کرنے سے قاصر"</string>
+    <string name="statusUserUnblockedFromGroup">"آپ گروپ سے اس صارف رکھن ہوگا"</string>
+    <string name="statusBlockedUnablePostGroup">"گروپ میں پوسٹ کرنے سے قاصر ہے ، بلاک"</string>
+    <string name="statusBlockedUnablePostComment">"تبصرہ پوسٹ کرنے کے قابل نہیں ، بلاک"</string>
+    <string name="labelUnblockUser">"صارف کو غیر مسدود"</string>
+    <string name="promptUnblockUserConfirm">"آپ اس صارف کو بلاک کرنا چاہتے ہیں آپ کو اس بات کا یقین کر رہے ہیں؟"</string>
+    <string name="statusBlockedUnableToUpdatePost">"پوسٹ کو اپ ڈیٹ کرنے کے قابل نہیں ، بلاک"</string>
+    <string name="statusBlockedUnableToUpdateComment">"تبصرہ کو اپ ڈیٹ کرنے کے قابل نہیں ، بلاک"</string>
+    <string name="bogusEmergencyLogoutToast">"آپ کے سیشن باطل ہے . دوبارہ لاگ ان کریں."</string>
+    <string name="statusUnableToLeaveOrDeleteGroup">"چھوڑ دو یا گروپ کو خارج کرنے سے قاصر"</string>
+    <string name="labelPublic">"پبلک"</string>
+    <string name="statusCreatingGroup">"گروپ تخلیق ہورہی ہے \u2026"</string>
+    <string name="statusUpdatingGroup">"گروپ کو اپ ڈیٹ \u2026"</string>
+    <string name="statusUnableToDeleteGroup">"گروپ کو خارج کرنے سے قاصر"</string>
+    <string name="promptUnfollowGroupConfirm">"آپ اس گروپ فالو کرنا چاہتے ہیں آپ کو اس بات کا یقین کر رہے ہیں؟"</string>
+    <string name="labelUnfollowGroup">"گروپ ان فولو کریں"</string>
+    <string name="labelGo">"جانا"</string>
+    <string name="hintSearchHashtags">"ھیش ٹیگ تلاش کریں"</string>
+    <string name="statusNoPostsFoundForHashtag">"کوئی کام کا مراسلہ اس ہیش ٹیگ کے لئے پایا گیا"</string>
+    <string name="statusUnableToGetHashtagResults">"ہیش ٹیگ کے نتائج حاصل کرنے سے قاصر"</string>
+    <string name="labelSubscriptions">"سبسکرپشنز"</string>
+    <string name="labelAddFriends">"دوستوں میں شامل کریں"</string>
+    <string name="labelSearchBusinesses">"کاروبار تلاش"</string>
+    <string name="labelInviteFollowers">"فالورز کو مدعو کریں"</string>
+    <string name="labelInviteMembers">"اراکین کو مدعو کریں"</string>
+    <string name="labelSearchGroups">"تلاش گروپس"</string>
+    <string name="labelDiscover">"دریافت"</string>
+    <string name="bogusAnErrorOccurredTryingToStartYourGallery">"ایک غلطی آپ گیلری، نگارخانہ شروع کرنے کی کوشش کر واقع ہوئی"</string>
+    <string name="statusHashtagNotFound">"کے لئے تلاش ہیش ٹیگ نہیں ملا تھا"</string>
+
+    <!-- removed linefeed -->
+    <string name="labelRestore">"بحال"</string>
+    <string name="statusSubscriptionRestoredSuccessfully">"سکریپشن کامیابی بحال!"</string>
+    <string name="statusUnableToRestoreSubscription">"رکنیت بحال کرنے سے قاصر"</string>
+    <string name="statusRestoringSubscription">"رکنیت کی بحالی \u2026"</string>
+    <string name="labelRestoreSubscription">"سکریپشن بحال"</string>
+    <string name="statusUnableToSearchUsers">"\"</string>
+    <string name="labelHashtags">" "</string>
+    <string name="lableUsers">"استعما ل"</string>
+    <string name="labelPage">"پیج"</string>
+    <string name="labelTags">"تاگ"</string>
+    <string name="labelInvites">"فگگف  عربے"</string>
+    <string name="labelPosts">"پوستس"</string>
+    <string name="labelGoBack">"واپس جاو"</string>
+    <string name="labelUnknownShort">"؟"</string>
+    <string name="labelUnknown">"نا معلوم"</string>
+    <string name="labelPeople">"لو گ"</string>
+
+    <!-- removed linefeed and extra space -->
+    <string name="blurbPushNotificationNewMessages">"لو گ"</string>
+    <string name="statusUnableToLoadRssFeed">"unable to "</string>
+
+    <!-- Permissions used to attach media were denied. -->
+    <string name="permissionAttachAccessDenied">"تحع  ایپ نععدس \"چامعرا\"اند \"س"</string>
+
+    <!-- Permission was granted. -->
+    <string name="permissionAttachAccessGranted">"کج  ہیہ  گے   حگے  ےحن  "</string>
+
+    <!-- Common title for all rational dialogs -->
+    <string name="permissionRationalTitle">"طتف  ےحج  چتگ   ءیی  "</string>
+    <string name="labelSettings">"یجیجیی  "</string>
+
+    <!-- RecordAudio is used for voice messaging. -->
+    <string name="permissionRecordAudioAccessRationale">"گفتگو  اتو  ربحبگ   فدفد   بحگحگ   طتفے   ءحجحء دفدر  "</string>
+
+    <!-- RecordAudio permission was rejected. -->
+    <string name="permissionRecordAudioAccessDenied">"جحجےجییءیجحےء   طترتطفگ  حءءحج  "</string>
+
+    <!-- Why do we need the micropphone -->
+    <string name="permissionMicrophoneRationale">"بحنحن  چچف   جحءح   بحگ  بجحجب  چگءگ  نججج  منبےت  سچ  "</string>
+    <string name="permissionMicrophoneAccessGranted">"ےتح چفچ فگ  حگےب شسدفدگد  بحح   "</string>
+    <string name="permissionMicrophoneAccessDenied">"طحگح  چتت   بےےء   فتفت   "</string>
+    <string name="statusMuteOff">"حبگ "</string>
+    <string name="permissionLivestreamRationale">"جگب فدک"</string>
+
+    <!-- to reply to a message or mail. -->
+    <string name="labelReply">"دگب"</string>
+</resources>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<resources>-->
+
+    <!--&lt;!&ndash;######################################### SET 2 STRINGS #####################################################&ndash;&gt;-->
+
+    <!--&lt;!&ndash; Timers &ndash;&gt;-->
+    <!--<string-array name="timers">-->
+        <!--<item>کچھ نھیں</item>-->
+        <!--<item>15s</item>-->
+        <!--<item>30s</item>-->
+        <!--<item>60s</item>-->
+        <!--<item>120s</item>-->
+    <!--</string-array>-->
+
+    <!--<string name="home">ھوم</string>-->
+    <!--<string name="messages">پیعام</string>-->
+    <!--<string name="friends">دوست</string>-->
+    <!--<string name="groups">گروپ</string>-->
+    <!--<string name="notifications">نوٹیفیکیشن</string>-->
+    <!--<string name="get_plus">گیٹ پلس</string>-->
+    <!--<string name="invite">مدعو</string>-->
+    <!--&lt;!&ndash; TODO - get store and logout translated &ndash;&gt;-->
+    <!--<string name="store">Store</string>-->
+    <!--<string name="about">ھمارے بارے میں</string>-->
+    <!--<string name="change">تبدیل کریں</string>-->
+    <!--<string name="push_notifications">پش نوٹیفیکـیشن</string>-->
+    <!--<string name="switch_title_1">عنوان 1پر جایں</string>-->
+    <!--<string name="switch_title_2">عنوان2 پر جایں</string>-->
+    <!--<string name="logout">LOGOUT</string>-->
+
+    <!--&lt;!&ndash; Strings for Async Errors &ndash;&gt;-->
+    <!--<string name="retry">دبارٖہ کوشش کریں</string>-->
+    <!--<string name="unable_to_gather_friends_text">موجودہ دوستوں کو مدعو کرنا ممکن نھیں</string>-->
+    <!--<string name="unable_to_invite_friends_text">دوستوں کو مدعو کرنا ممکن نھیں</string>-->
+    <!--<string name="unable_to_post_to_group_text">گروپ میں پوسٹ کرنا ممکن نھیں</string>-->
+    <!--<string name="unable_to_post_text">پوسٹ کرنا ممکن نھیں</string>-->
+    <!--<string name="post_already_flagged">پوسٹ کو فلیگ کرنا ممکن نھیں، آپ پھلے ھی فلیگ کر چکے ھیں</string>-->
+    <!--<string name="unable_to_flag_post_text">پوسٹ کو فلیگ کرنا ممکن نھیں</string>-->
+    <!--<string name="unable_to_get_post_text">پوسٹ حاصل کرنا ممکن نھیں</string>-->
+    <!--<string name="unable_to_get_post_comments_text">پوسٹ کمینٹ حاصل کرنا ممکن نھیں</string>-->
+    <!--<string name="unable_to_like_post_text">پوسٹ پسند کرنا ممکن نھیں</string>-->
+    <!--<string name="unable_to_unlike_post_text">پوسٹ ناپسند کرنا ممکن نھیں</string>-->
+    <!--<string name="unable_to_create_group_text">گروپ بنانا ممکن نھیں</string>-->
+    <!--<string name="unable_to_update_group_text">گروپ اپ ڈیٹ کرنا ممکن نھیں</string>-->
+    <!--<string name="unable_to_refresh_feed_text">فیڈ کو تازہ کرنا ممکن نھیں</string>-->
+    <!--<string name="unable_to_get_posts_text">بغیر پڑھیں ھوے پیغام حاصل کرنا مممکن نھیں</string>-->
+    <!--<string name="unable_to_get_unread_messages_text">دوست حاصل کرنا ممکن نھیں</string>-->
+    <!--<string name="unable_to_get_friends_text">گروپ حاصل کرنا ممکن نھیں</string>-->
+    <!--<string name="unable_to_get_group_text">گروپ حاصل کرنا ممکن نھیں</string>-->
+    <!--<string name="unable_to_get_group_posts_text">گروپ پوسٹ حاصل کرنا ممکن نھیں</string>-->
+    <!--<string name="unable_to_get_group_list_text">گروپ لسٹ حاصل کرنا ممکن نھیں</string>-->
+    <!--<string name="unable_to_remove_or_delete_group_text">گروپ کو مٹانا یا ھٹانا ممکن نھٖیں</string>-->
+    <!--<string name="unable_to_get_chats_text">بات چیت حاصل کرنا ممکن نھیں</string>-->
+    <!--<string name="unable_to_get_saved_messages_text">محفوظ پیغام حاصل کرنا ممکن نھیں</string>-->
+    <!--<string name="unable_to_update_notification_as_viewed_text">دیکھے ھوے نوٹیفیکیشن کو اپڈیٹ کرنا ممکن نھیں</string>-->
+    <!--<string name="unable_to_get_message_text">پیغام حاصل کرنا مممکن نھیں</string>-->
+    <!--<string name="unable_to_follow_user">یوزر کو فولو کرنا مممکن نھیں</string>-->
+    <!--<string name="unable_to_unfollow_user_text">یوزر کو انفولو کرنا مممکن نھیں</string>-->
+    <!--<string name="unable_to_load_profile_text">پروفاعل لوڈ کرنا مممکن نھیں</string>-->
+    <!--<string name="unable_to_update_avatar_text">اواتار کو اپڈیٹ کرنا مممکن نھیں</string>-->
+    <!--<string name="unable_to_invite_user_to_group_text">یوزر کو گروپ میں مدعوکرنا مممکن نھیں</string>-->
+    <!--<string name="unable_to_purchase_subscription_text">سبسکریپشن خریدنا مممکن نھیں</string>-->
+    <!--<string name="unable_to_update_users_profile_text">یوزر پروفاعل اپ ڈیٹ کرنا ممکن نھیں</string>-->
+    <!--<string name="unable_to_send_message_text">پیغام بھیجنا مممکن نھیں</string>-->
+    <!--<string name="unable_to_set_expiration_text">پیغام کی میعاد مقرر کرنا مممکن نھیں</string>-->
+    <!--<string name="unable_to_save_message_text">پیغام محفوظ کرنا ممکن نھیں</string>-->
+    <!--<string name="unable_to_get_chat_text">یوزر کیساتھ بات چیت حاصل کرنا ممکن نھیں</string>-->
+    <!--<string name="unable_to_get_sent_messages_text">بھیجے ھوے پیغام حاصل کرنا ممکن نھیں</string>-->
+    <!--<string name="unable_to_get_missed_messages_text">بھولے ھوے پیغام حاصل کرنا ممکن نھیں</string>-->
+    <!--<string name="unable_to_get_notifications_text">نوٹیفیکیشن حاصل کرنا ممکن نھیں</string>-->
+    <!--<string name="unable_to_accept_group_invite">گروپ میں دعوت قبول کرنا ممکن نھیں</string>-->
+    <!--<string name="unable_to_decline_group_invite">گروپ میں دعوت قبول نا کرنا ممکن نھیں</string>-->
+    <!--<string name="unable_to_get_more_notifications">مزید نوٹیفیکیشن حاصل کرنا ممکن نھیں</string>-->
+    <!--<string name="unable_to_get_following_users">آپ کے فولو کیے گۓ یوزرز کو حاصل کرنا ممکن نھیں</string>-->
+    <!--<string name="unable_to_get_followers">فولورز حاصل کرنا ممکن نھیں</string>-->
+    <!--<string name="unable_to_get_messages_text">پیغام حاصل کرنا مممکن نھیں</string>-->
+    <!--<string name="unable_to_go_to_chat">بات چیت میں جانا ممکن نھیں</string>-->
+
+    <!--&lt;!&ndash; Search hints &ndash;&gt;-->
+    <!--<string name="search_for_users_to_invite_text">مدعو کیے گۓ لوگوں کو تلاش کریں</string>-->
+    <!--<string name="search_friends">دوستوں کو تلاش کریں</string>-->
+    <!--<string name="search_for_friends">دوستو کیلۓ تلاش کریں</string>-->
+    <!--<string name="search_for_members">ممبرز کو تلاش کریں</string>-->
+    <!--<string name="search_for_users_to_chat_with">بات چیت کیلۓ یوزرز کو تلاش کریں</string>-->
+    <!--<string name="search_contacts">تعلقات تلاش کریں</string>-->
+
+    <!--&lt;!&ndash; Notifications &ndash;&gt;-->
+    <!--<string name="new_notification_was_received_text">ایک نیا نوٹیفیکیشن موٖصول ھوا ھے</string>-->
+    <!--<string name="refresh_text">تازہ کرٖیں</string>-->
+    <!--<string name="viewed">" - دیکھا جا چکا"</string>-->
+    <!--<string name="accepted">قبول ھے</string>-->
+    <!--<string name="declined">قبول نھیں</string>-->
+    <!--<string name="conx2share_notification">کونٖ ایکس2 شیئر نوٹیفیکیشن</string>-->
+
+    <!--&lt;!&ndash; Prompt text &ndash;&gt;-->
+    <!--&lt;!&ndash; TODO - get Error: translated &ndash;&gt;-->
+    <!--<string name="yes">ھاں</string>-->
+    <!--<string name="no">نھیں</string>-->
+    <!--<string name="ok">ٹھیک ھے</string>-->
+    <!--<string name="Success">ھمارے بارے میں</string>-->
+    <!--<string name="exclamation">!</string>-->
+    <!--<string name="error_text">"Error: "</string>-->
+
+    <!--&lt;!&ndash; Subscription Strings &ndash;&gt;-->
+    <!--&lt;!&ndash; TODO - get the bulk of this translated &ndash;&gt;-->
+    <!--<string name="subscribed_successfully_text">سبسکریپشن ھو چکی</string>-->
+    <!--<string name="failed_to_subscribe_text">سبسکریپشن نھیں ھوسکتی</string>-->
+    <!--<string name="free_price">0</string>-->
+    <!--<string name="plus_price">سال/ 2.40</string>-->
+    <!--<string name="premium_price">سال/ 29.99</string>-->
+    <!--<string name="platinum_price">سال/ 49.99</string>-->
+    <!--<string name="free_subscription_description"><![CDATA[Photos & videos will be deleted after being viewed.]]></string>-->
+    <!--<string name="free_subscription_title">Free</string>-->
+    <!--<string name="subscribe">Subscribe!</string>-->
+    <!--<string name="current_subscription">current subscription</string>-->
+    <!--<string name="ago">ago</string>-->
+    <!--<string name="plus">Plus</string>-->
+    <!--<string name="plus_subscription_description">Save up to 5 photos and 1 video.</string>-->
+    <!--<string name="premium_subscription_title">Premium</string>-->
+    <!--<string name="premium_subscription_description"><![CDATA[Cx2share email and 50GB of data storage for messaging, photos & video.]]></string>-->
+    <!--<string name="platinum_subscription_title">Platinum</string>-->
+    <!--<string name="platinum_subscription_description"><![CDATA[Cx2share email and 100GB of data storage for messaging, photos & videos.]]></string>-->
+
+    <!--&lt;!&ndash; Sharing Strings &ndash;&gt;-->
+    <!--<string name="shared_by_text">"\" شیئرکیا گیا"</string>-->
+    <!--<string name="via_conx2share_android_text">" کونٖ ایکس2 شیئر اینڈرایڈ کیساتھ"</string>-->
+    <!--<string name="conx2share_for_android">کونٖ ایکس2 شیئر اینڈرایڈ کیلیے</string>-->
+    <!--<string name="please_install_facebook">براہ مھربانی اپنی پوسٹ شیئرکرنے کیلیے فیس بک ایپ انسٹال کیجیے</string>-->
+    <!--<string name="please_install_the_twiiter_app">براہ مھربانی اپنی پوسٹ شیئرکرنے کیلیے ٹویٹر ایپ انسٹال کیجیے</string>-->
+
+    <!--&lt;!&ndash; Progress Dialog Strings &ndash;&gt;-->
+    <!--&lt;!&ndash; TODO - get loading messages... translated &ndash;&gt;-->
+    <!--<string name="loading_messages">Loading messages...</string>-->
+    <!--<string name="gathering_friends_text">دوست جمع ھو رھے ھیں ۔ ۔ ۔</string>-->
+    <!--<string name="gathering_messages_text">پیغام  جمع ھو رھے ھیں ۔ ۔ ۔</string>-->
+    <!--<string name="gather_chats_text">بات چیت جمع ھو رھے ھیں ۔ ۔ ۔</string>-->
+    <!--<string name="gathering_following_users_text">فولو کیے گیے یوزرز جمع ھو رھے ھیں ۔ ۔ ۔</string>-->
+    <!--<string name="gathering_followers">فولورز جمع ھو رھے ھیں ۔ ۔ ۔</string>-->
+    <!--<string name="sending_message_text">پیغام بھیجا جا رھا ھے ۔ ۔ ۔</string>-->
+    <!--<string name="posting">پوسٹ کی جا رھی ھے ۔ ۔ ۔</string>-->
+    <!--<string name="gathering_saved_messages">محفوظ پیغام جمع ھو رھے ھیں ۔ ۔ ۔</string>-->
+    <!--<string name="gathering_chat_information_text">بات چیت کی معلومات جمع ھو رھی ھے ۔ ۔ ۔</string>-->
+
+    <!--&lt;!&ndash; Group Strings &ndash;&gt;-->
+    <!--<string name="delete_group_text">گروپ ڈیلیٹ کردیں</string>-->
+    <!--<string name="leave_group_text">گروپ چھوڑ دیں</string>-->
+    <!--<string name="deleted_group_text">"گروپ ڈیلیٹ ھو گیا"</string>-->
+    <!--<string name="left_group_text">"گروپ چھوڑ دیا"</string>-->
+    <!--<string name="updated_group">"گروپ اپ ڈیٹ ھو گیا"</string>-->
+    <!--<string name="group_owner">گروپ کا مالک</string>-->
+    <!--<string name="group_members">گروپ ممبرز</string>-->
+    <!--<string name="group_name">گروپ کا نام</string>-->
+
+    <!--&lt;!&ndash; Following Strings &ndash;&gt;-->
+    <!--&lt;!&ndash; TODO - get followed you translated &ndash;&gt;-->
+    <!--<string name="followers">فولورز</string>-->
+    <!--<string name="following">فولونگ</string>-->
+    <!--<string name="following_failed_try_again">فولونگ ناکامیاب۔ دوبارہ کوشش کریں۔</string>-->
+    <!--<string name="unfollowed">ان فولو کر دیا گیا</string>-->
+    <!--<string name="follow">فولو</string>-->
+    <!--<string name="unfollow">ان فولو</string>-->
+    <!--<string name="followed_you">Followed you</string>-->
+
+    <!--&lt;!&ndash; SignUp Strings &ndash;&gt;-->
+    <!--<string name="you_are_now_signed_up">آپ ساعین اپ ھو چکے ھیں!</string>-->
+    <!--<string name="failed_to_sign_up">ساعین اپ ناکامیاب۔ دوبارہ کوشش کریں۔</string>-->
+    <!--<string name="please_fill_out_all_fields_text">براہ مھربانی تمام خانے پر کریں</string>-->
+
+    <!--&lt;!&ndash; Image and video strings &ndash;&gt;-->
+    <!--<string name="select_picture">تصویرچنے</string>-->
+    <!--<string name="would_you_like_to_upload_a_video_from_your_library">کیا آپ لائیبریری سے ویڈیو اپ لوڈ یا لینا چاھتے ھیں؟</string>-->
+    <!--<string name="error_occurred_while_loading_your_video">ویڈیو کی لوڈنگ میں مسٖلہ آرھا ھے</string>-->
+    <!--<string name="image_null_error">براہ مھربانی اپنی ڈیوایس سے تصویر چنے۔ اس میں وہ تصاویر شامل نھیں جہ کسی ایپ یا سوشل میڈیا سے حاصل کی گی ھوں۔</string>-->
+    <!--<string name="image_error">تصویر کی لوڈنگ نا کامیاب رھی اور ٹویٹر کیساتھ منسلک کرنا ممکن نھیں۔</string>-->
+    <!--<string name="error_occurred_when_selecting_your_image">تصویرکو چننے میں مسلۃ درپیش ھے</string>-->
+    <!--<string name="what_upload">آپ کیااپ لوڈ کرنا چاھیں گے؟</string>-->
+    <!--<string name="image_download_failed">تصویر کی ڈاون لوڈنگ ناکامیاب</string>-->
+    <!--<string name="image_could_not_be_found">تصویرمل نھیں سکتی</string>-->
+    <!--<string name="take_video">ویڈیو بنایی</string>-->
+    <!--<string name="file_exceeds_limit">فاعل 10ایم بی کی حد پار کر چکی ھے۔</string>-->
+    <!--<string name="take_a_video_from_your_library_or_get_one_from_your_library">ویڈیو بنایی یا لایبربری سے حاصل کریں؟</string>-->
+    <!--<string name="take_a_picture_or_get_one_from_your_library">تصویربنایی یا لایبربری سے حاصل کریں؟</string>-->
+    <!--<string name="media">(میڈیا)</string>-->
+    <!--<string name="picture">(تصویر)</string>-->
+    <!--<string name="video">(ویڈیو)</string>-->
+
+    <!--&lt;!&ndash; Post Strings &ndash;&gt;-->
+    <!--<string name="flag_content_as_inappropriate_prompt">کیا آپ نامناسب مواد کو فلیگ کرنا چاھیں گیں؟</string>-->
+    <!--<string name="post_flagged">یہ پوسٹ فلیگ ھو چکی ھے</string>-->
+    <!--<string name="made_a_new_post">نُیی پوسٹ کریں</string>-->
+    <!--<string name="made_a_new_group_post">نیا گروپ میں پوسٹ کریں</string>-->
+    <!--<string name="enter_your_message_here">اپنا پیعام یھاں لکھے ۔ ۔ ۔</string>-->
+
+    <!--&lt;!&ndash; Password Strings &ndash;&gt;-->
+    <!--&lt;!&ndash; TODO - get error translated &ndash;&gt;-->
+    <!--<string name="forgot_password">پاسورڈ بھول گیے؟</string>-->
+    <!--<string name="please_enter_your_email">براہ مھربانی اپناپاای میل لکھیے۔</string>-->
+    <!--<string name="change_password">پاسورڈ تبدیل کریں</string>-->
+    <!--<string name="cant_reset_password">پاسورڈ دوبارہ سیٹ کریں</string>-->
+    <!--<string name="reset_password">پاسورڈ دوبارہ سیٹ کریں</string>-->
+    <!--<string name="reset_password_email_sent">پاسورڈ دوبارہ سیٹ کریں میل جا چکی</string>-->
+    <!--<string name="please_enter_your_email_address">براہ مھربانی اپناای میل اڈریس دوبارہ لکھیے اور دوبارہ کوشش کریں۔</string>-->
+    <!--<string name="confirm_new_password">نیاپاسورڈ پخۃکریں</string>-->
+    <!--<string name="new_password">نیاپاسورڈ</string>-->
+    <!--<string name="old_password">پراناپاسورڈ</string>-->
+    <!--<string name="updating_password">پاسورڈ اپڈیٹنگ</string>-->
+    <!--<string name="old_password_incorrect">پراناپاسورڈ درست نھیں۔</string>-->
+    <!--<string name="password_updated">پاسورڈ اپ ڈیٹ ھو چکا</string>-->
+    <!--<string name="password_failed_to_update">پاسورڈ اپ ڈیٹ نا کامیاب، دوبارہ کوشش کریں</string>-->
+    <!--<string name="passwords_dont_match">آپ کا پاسورڈ میچ نھیں کررھا</string>-->
+    <!--<string name="old_password_error">پراناپاسورڈ مسلۃکر رھا</string>-->
+    <!--<string name="the_old_password_you_entered_is_invalid">پراناپاسورڈ جو آپ نے لکھا درست نھیں</string>-->
+    <!--<string name="the_new_password_and_confirm_password_dont_match">نیاپاسورڈاورپخۃپاسورڈ مل نھیں رھا۔دوبارہ کوشش کریں۔</string>-->
+    <!--<string name="you_password_has_been_updated">آپ کا پاسورڈ اپ ڈیٹ ھو چکا ھے</string>-->
+    <!--<string name="change_password_error">Error</string>-->
+
+    <!--&lt;!&ndash; Drawer Items &ndash;&gt;-->
+    <!--&lt;!&ndash; TODO - get store and logout translated &ndash;&gt;-->
+    <!--<string name="drawer_home">ھوم</string>-->
+    <!--<string name="drawer_messages">پیعام</string>-->
+    <!--<string name="drawer_friends">دوست</string>-->
+    <!--<string name="drawer_groups">گروپ</string>-->
+    <!--<string name="drawer_notifications">نوٹیفیکیشن</string>-->
+    <!--<string name="drawer_plus">گیٹ پلس</string>-->
+    <!--<string name="drawer_invite">Invite</string>-->
+    <!--<string name="drawer_store">Store</string>-->
+    <!--<string name="drawer_eshopping">ای شوپنگ</string>-->
+    <!--<string name="drawer_games">گیمز</string>-->
+    <!--<string name="drawer_business">بزنس</string>-->
+
+    <!--&lt;!&ndash; Other Strings &ndash;&gt;-->
+    <!--<string name="facebook_connect_not_implemented_text">فیس بک کنیکٹ ھو گیا پر عمل درآمد نھیں ھوا</string>-->
+    <!--<string name="twiiter_connect_not_implemented_yet">ٹویٹر کنیکٹ ھو گیا پر عمل درآمد نھیں ھوا</string>-->
+    <!--<string name="this_user_has_not_followed_you_text">بات چیت کیلیے دونوں یوزرز کو فولو کرنا ضروری ھے</string>-->
+    <!--<string name="please_try_again">دوبارہ کوشش کریں</string>-->
+    <!--<string name="message_is_saved">پیعام محفوظ ھو چکا۔</string>-->
+    <!--<string name="password_length">پاسورڈ کم از کم 8 ھندسوں کا ھونا چاھیے</string>-->
+    <!--<string name="passwords_do_not_match">پاسورڈ مل نھیں رھا</string>-->
+    <!--<string name="sign_up_error">ساعن اپ میں مسلۃ درپیش ھے۔</string>-->
+    <!--<string name="signup_dialog">ساعن اپ ۔ ۔ ۔</string>-->
+    <!--<string name="you_already_have_a_higher_subscription_level">آپ پھلے ھی سبسکریپشن لیول کے عروج پر ھے</string>-->
+    <!--<string name="please_accept_terms">براہ مھربانی شراءط و ظابط قبول کریں۔</string>-->
+    <!--<string name="user_name_is_taken">یوزر کا نام پھلے ھی استعمال ھو چکا ھے۔</string>-->
+    <!--<string name="not_connected_to_the_google_play_store">گوگل پلے سٹور سے کنیکٹ نھیں</string>-->
+    <!--<string name="coming_soon">جلد آرھا ھے</string>-->
+    <!--<string name="accept">قبول ھے</string>-->
+    <!--<string name="decline">قبول نھیں</string>-->
+    <!--<string name="leave_a_comment">کمینٹ چھوڑیں...</string>-->
+
+    <!--<string name="zero">0</string>-->
+    <!--<string name="one">1</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 3 STRINGS #####################################################&ndash;&gt;-->
+
+    <!--<string name="unable_to_get_group_members">موجودہ گروپ میمبرز حاصل نھیں ھو سکتے</string>-->
+    <!--<string name="unable_to_load_web_page">ویب پیج لوڈ نھیں ھو سکتا</string>-->
+    <!--<string name="please_enter_text">براہ مھربانی ٹیکسٹ لکھیے</string>-->
+
+    <!--<string name="terms_of_service">سروس کی شراٰعط</string>-->
+    <!--<string name="terms_of_service_and_privacy_policy">میں نے شراعط و ظابط اورسروس کی شراٰعط قبول ھیں</string>-->
+    <!--<string name="privacy_policy">خفیہ پولیسی۔</string>-->
+
+    <!--<string name="group_update_success">"گروپ اپ ڈیٹ%s!"</string>-->
+    <!--<string name="retrieving_notifications_failed">نوٹیفیکیشن حاصل کرنے میں ناکامیابی۔</string>-->
+    <!--<string name="messaging_error"> براہ مھربانی دوبارہ کوشش کریں۔</string>-->
+
+    <!--&lt;!&ndash; Message Friends Index &ndash;&gt;-->
+    <!--<string name="saved_messages_text">محفوظ ھو چکا</string>-->
+    <!--<string name="chats_text">موجودہ</string>-->
+
+    <!--&lt;!&ndash; Follow &ndash;&gt;-->
+    <!--<string name="followed">فولو کیا گیا</string>-->
+    <!--<string name="unfollow_failed">ان فولو ناکامیاب۔ دوبارہ کوشش کریں۔</string>-->
+    <!--<string name="start_recording">ریکورڈنگ شروع کریں</string>-->
+    <!--<string name="submit">جمع</string>-->
+    <!--<string name="invalid_user_name_or_password">یوزر نام اور پاس ورڈ درست نھیں</string>-->
+    <!--<string name="unable_to_update_followers_count">فولورز کاونٹ اپ ڈیٹ کرنا ممکن نھیں</string>-->
+    <!--<string name="please_accept_the_terms_of_service"> براہ مھربانی سروس کی شراٰعط قبول کریں</string>-->
+
+    <!--&lt;!&ndash; Promo Codes &ndash;&gt;-->
+    <!--<string name="promo_code_optional"> پرومو کوڈ(ضروری نھیں)</string>-->
+    <!--<string name="activate_promo_code"> پرومو کوڈ چالو کریں</string>-->
+    <!--<string name="the_promo_code_you_entered_is_invalid">جو پرومو کوڈ اپ نے لکھا ھے وہ درست نھیں ھے۔</string>-->
+    <!--<string name="the_promo_code_you_entered_is_invalid_sign_up"> جو پرومو کوڈ اپ نے لکھا ھے وہ درست نھیں ھے۔ درست پرومو کوڈ لکھیےیاپھرمٹاے۔</string>-->
+    <!--<string name="please_enter_your_promo_code"> براہ مھربانی پرومو کوڈ لکھیے۔...</string>-->
+    <!--<string name="your_account_has_been_upgraded_to_a_plus_subscription">۔ آپ کا اکاونٹ پھلے ھی پلس سبسکریپشن پر منتقل ھو چکا ھے۔</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 4 STRINGS #####################################################&ndash;&gt;-->
+
+    <!--<string name="unable_to_check_if_promo_code_is_valid">اگر پرومو کوڈ درست ھے تو چیک ھوسکتا</string>-->
+    <!--<string name="promo_upgrade_description">جو پرومو کووڈ آپ نے لکھا ھے درست ھے۔اگر آپ فری یوزر ھیں تو آپ کا اکاونٹ پھلے ھی پلس سبسکرپشن پر منتقل ھو چکا ھے۔</string>-->
+    <!--<string name="valid_promo_code">درست پرومو کوڈ</string>-->
+    <!--<string name="invalid_promo_code">غلط پرومو کوڈ درست نھیں</string>-->
+    <!--<string name="unable_to_update_user_to_promo_user">پرومو کوڈ یوزر اپ ڈیٹ نھیں ھو سکتے</string>-->
+    <!--<string name="email_has_already_been_taken">ای میل پھلے ھی کوی لے چکا ھے</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 5 Strings #####################################################&ndash;&gt;-->
+
+    <!--<string name="user_favoriting_failed">یوزر کی پسندیدگی ناکامیاب۔</string>-->
+    <!--<string name="user_unfavoriting_failed">یوزر کی ناپسندیدگی ناکامیاب</string>-->
+    <!--<string name="group_name_taken">گروپ کا نام پھلے ھی لے چکا ھے۔</string>-->
+    <!--<string name="you_have_received_a_new_message_from">آپ کو ایک نیا پیعام موصول ھوا ھے</string>-->
+    <!--<string name="one_m">1 ایم</string>-->
+    <!--<string name="unable_to_post_comment_text">پوسٹ پر کمینٹ نھیں ھوسکتا</string>-->
+    <!--<string name="chats_button_title">بات چیت شروع کریں</string>-->
+    <!--<string name="are_you_sure_you_want_to_delete_the_group">کیا آپ گروپ ضایع کرنا چاھتے ھیں؟</string>-->
+    <!--<string name="are_you_sure_you_want_to_leave_the_group"> کیا آپ گروپ چھوڑنا چاھتے ھیں؟</string>-->
+    <!--<string name="exit">بند</string>-->
+    <!--<string name="please_attach_photo">براہ مھربانی تصویر لگا ییں</string>-->
+    <!--<string name="please_attach_video">براہ مھربانی ویڈیو لگاییں</string>-->
+    <!--<string name="email_cant_be_blank">ای میل خالی نھیں رہ سکتی</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 6 Strings #####################################################&ndash;&gt;-->
+
+    <!--<string name="you_cannot_leave_or_delete_the_conx2share_group">ٖآپ کون ایکس2 شیئر کا گروپ چھوڑ یا ضایع نھیں کر سکتے</string>-->
+    <!--<string name="promoted">ترقی دی گی</string>-->
+    <!--<string name="audio">(آڈیو)</string>-->
+    <!--<string name="recording_is_not_long_enough">ریکورڈنگ اتنی بڑس نھیں ھے۔ </string>-->
+    <!--<string name="only_the_first_two_mins_will_be_sent">صرف پھلے دو منٹ کی ریکورڈنگ بھیجی جا سکتی ھے۔</string>-->
+    <!--<string name="would_you_like_to_take_a_picture_or_upload_from_your_library"> کیا آپ لایبریری سے تصویر لینا یا اپ لوڈ کرنا چاھتے ھیں؟</string>-->
+    <!--<string name="unable_to_send_audio_message">آڈیو پیعام نھیں بھیج سکتے</string>-->
+    <!--<string name="unable_to_get_business_info"> بزنس کی معلومات نھیں ھو سکتی</string>-->
+    <!--<string name="could_not_retrieve_your_businesses">آپ کا بزنس حاصل ھوسکتا</string>-->
+    <!--<string name="you_cannot_post_to_the_conx2share_group"> آپ کون ایکس2 شیئر کے گروپ میں پوسٹ نھیں کرسکتے۔</string>-->
+    <!--<string name="search_for_businesses"> بزنس کو تلاش کریں</string>-->
+    <!--<string name="drawer_businesses">بزنس</string>-->
+    <!--<string name="business_owner">بزنس کا مالک</string>-->
+    <!--<string name="group">" :گروپ"</string>-->
+    <!--<string name="business">" :بزنس"</string>-->
+    <!--<string name="delete_post">پوسٹ ڈیلیٹ</string>-->
+    <!--<string name="you_dont_own_this_post_to_delete_it">آپ یہ پوسٹ ڈیلیٹ نھیں کر سکتے</string>-->
+    <!--<string name="are_you_sure_you_want_to_delete_this_post">کیا آپ اس پوسٹ کو ڈیلیٹ کرنا چاھتے ھیں؟</string>-->
+    <!--<string name="post_deleted">پوسٹ ڈیلیٹ ھو چکی</string>-->
+    <!--<string name="unable_to_delete_post">پوسٹ ڈیلیٹ نھیں ھو سکتی</string>-->
+    <!--<string name="delete_comment">کمینٹ ڈیلیٹ</string>-->
+    <!--<string name="you_dont_own_this_comment_to_delete_it">آپ یہ کمینٹ ڈیلیٹ نھیں کر سکتے</string>-->
+    <!--<string name="are_you_sure_you_want_to_delete_this_comment">کیا آپ کمینٹ ڈیلییٹ کرنا چا ھتے ھیں؟</string>-->
+    <!--<string name="comment_deleted">کمینٹ ڈیلیٹ</string>-->
+    <!--<string name="unable_to_delete_comment">کمینٹ ڈیلیٹ نھیں ھو سکتا</string>-->
+    <!--<string name="flag_post">فلیگ پوسٹ</string>-->
+    <!--<string name="cant_do_anything_with_comment_since_you_dont_own_it">اگر یہ کمینٹ آپ کا نھیں تو آپ اس کے ساتھ کچھ نھیں ھو سکتا</string>-->
+    <!--<string name="you_dont_own_this_post_to_edit_it">آپ اس پوسٹ کو ایڈٹ نھیں کر سکتے</string>-->
+    <!--<string name="edit_post">ایڈٹ پوسٹ</string>-->
+    <!--<string name="do_you_want_to_edit_this_post">کیا آپ اس پوسٹ کو ایڈٹ کرنا چا ھتے ھیں؟</string>-->
+    <!--<string name="update_post">اپ ڈیٹ</string>-->
+    <!--<string name="unable_to_edit_post">پوسٹ اپڈیٹ نھیں ھو سکتی</string>-->
+    <!--<string name="post_edited">پوسٹ ایڈیٹد</string>-->
+    <!--<string name="updating_post">پوسٹ اپڈیٹنگ۔۔۔</string>-->
+    <!--<string name="flag_as_inappropriate">فلیگ نامناسب ھے</string>-->
+    <!--<string name="edit_post_options_menu">ایڈٹ پوسٹ</string>-->
+    <!--<string name="delete_post_options_menu">پوسٹ ڈیلیٹ</string>-->
+    <!--<string name="you_cannot_change_the_audience_when_editing_a_post">آپ پوسٹنگ کے وقت آڈینس کو تبدیل نھیں کر سکتے۔</string>-->
+    <!--<string name="enter_your_comment_here">اپنا نام یھاں لکھیں۔ ۔ ۔</string>-->
+    <!--<string name="edit_comment_options_menu">کمینٹ ایڈٹ کریں</string>-->
+    <!--<string name="delete_comment_options_menu">کمینٹ ڈیلیٹ کریں</string>-->
+    <!--<string name="update">اپ ڈیٹ</string>-->
+    <!--<string name="edit_comment">کمینٹ ایڈٹ کریں</string>-->
+    <!--<string name="you_dont_own_this_comment_to_edit_it">آپ اس کمینٹ کو ایڈٹ نھیں کر سکتے</string>-->
+    <!--<string name="comment_updated">کمینٹ اپ ڈیٹ</string>-->
+    <!--<string name="unable_to_update_post_comment">کمینٹ اپڈیٹ نھیں ھوسکتا</string>-->
+    <!--<string name="updating_comment">کمینٹ اپ ڈیٹنگ۔ ۔ ۔</string>-->
+    <!--<string name="something_went_wrong_while_uploading_your_image">تصویر کی اپ لوڈنگ کے درمیان کچھ مسلا درپیش ھے</string>-->
+    <!--<string name="something_went_wrong_while_uploading_your_file">فاعل کی اپ لوڈنگ کے درمیان کچھ مسلا درپیش ھے</string>-->
+    <!--<string name="would_you_like_to_take_a_photo_or_upload_one_from_your_library">کیا آپ اپنی لایبریری سے تصویر لینا یا اپ لوڈ کرنا چاھیں گے؟</string>-->
+    <!--<string name="would_you_like_to_take_a_video_or_upload_one_from_your_library">کیا آپ اپنی لایبریری سے تصویر لینا یا اپ لوڈ کرنا چاھیں گے؟</string>-->
+    <!--<string name="photo_option">تصویر</string>-->
+    <!--<string name="video_option">ویڈیو</string>-->
+    <!--<string name="block_user_option">بلاگ یوزر</string>-->
+    <!--<string name="remove_from_group_option"> گروپ سے ھٹایں</string>-->
+    <!--<string name="you_cant_do_anything_with_this_group_member">آپ اس گروپ ممبر کیساتھ کچھ نھیں کر سکتے جب تک آپ اس گروپ کے مالک نہ ھوں</string>-->
+    <!--<string name="remove_user_from_group"> یوزر کو گروپ سے ھٹایں</string>-->
+    <!--<string name="are_you_sure_you_want_to_block_this_user">آپ کو یقین ھے کہ آپ اس یوزر کو گروپ سے بلاک کرنا چاھتے ھیں؟</string>-->
+    <!--<string name="block_user">بلاک یوزر</string>-->
+    <!--<string name="are_you_sure_you_want_to_remove_this_user_from_the_group">کیا آپ اس یوزر کو گروپ سے ھٹانا چاھتے ھیں؟</string>-->
+    <!--<string name="member">ممبر</string>-->
+    <!--<string name="follower">فولور</string>-->
+    <!--<string name="unable_to_follow_group">گروپ فولو نھیں ھوسکتا</string>-->
+    <!--<string name="unable_to_unfollow_group">گروپ انفولو نھیں ھوسکتا</string>-->
+    <!--<string name="unblock_user_option">ان بلاک یوزر</string>-->
+    <!--<string name="group_followers">گروپ فولورز</string>-->
+    <!--<string name="search_for_followers">فولورز تلاش کریں</string>-->
+    <!--<string name="unable_to_send_invite_to_follow_group"> یوزر کو گروپ فولو کرنے کے لیے مدعو نھیں کر سکتے</string>-->
+    <!--<string name="invite_to_follow_group_sent"> گروپ فولو  بھیجنے کے لیے بلاوا دیں</string>-->
+    <!--<string name="unable_to_block_user_from_group">یوزر گروپ سے بلاک نھیں ھوسکتا</string>-->
+    <!--<string name="you_have_blocked_this_user_from_the_group">آپ نے یوزر کو اس گروپ سے بلاک کر دیا ھے۔</string>-->
+    <!--<string name="unable_to_remove_user_from_group">یوزر گروپ سے ھٹ نھیں سکتا</string>-->
+    <!--<string name="user_has_been_removed_from_group">یوزر گروپ سے ھٹ نھیں سکتا</string>-->
+    <!--<string name="invited_you_to_follow_group">آپ کو گروپ فولو کرنے کے لیے بلایا گیا ھے</string>-->
+    <!--<string name="search_for_groups">گروپ کو تلاش کریں</string>-->
+    <!--<string name="private_group">خفیہ</string>-->
+    <!--<string name="blog_group">بلاگ</string>-->
+    <!--<string name="discussion_group">گفتگو</string>-->
+    <!--<string name="empty_string" />-->
+    <!--<string name="unable_to_leave_group">گروپ چھوڑ نھیں سکتے</string>-->
+    <!--<string name="unable_to_get_group_followers">فولورز حاصل نھیں ھو سکتے</string>-->
+    <!--<string name="unable_to_unblock_user">یوزر کو بلاک نھیں کر سکتے</string>-->
+    <!--<string name="you_have_unblocked_this_user_from_the_group">آپ نے اس یوزر کو گروپ سے ان بلاک کر دیا ھے</string>-->
+    <!--<string name="unable_to_post_to_group_blocked">گروپ میں پوسٹ کرنا ممکن نھیں،بلاکڈ</string>-->
+    <!--<string name="unable_to_post_comment_blocked">کمینٹ پوسٹ کرنا ممکن نھیں،بلاکڈ</string>-->
+    <!--<string name="unblock_user">ان بلاک یوزر</string>-->
+    <!--<string name="are_you_sure_you_want_to_unblock_this_user">کیا آپ یوزر کو ان بلاک کرنا چاھتے ھیں؟</string>-->
+    <!--<string name="unable_to_update_post_blocked">پوسٹ اپڈیٹ کرنا ممکن نھیں،بلاکڈ</string>-->
+    <!--<string name="unable_to_update_comment_blocked">کمینٹ اپڈیٹ کرنا ممکن نھیں،بلاکڈ</string>-->
+    <!--<string name="emergency_logout_toast_text">آپ کا سیشن درست نھیں، براہ مھربانی دوبارہ لوگ ان کریں۔</string>-->
+    <!--<string name="unable_to_leave_or_delete_group">گروپ چھوڑنا یا ڈیلیٹ کرنا ممکن نھیں</string>-->
+    <!--<string name="public_group_button_text">پبلک</string>-->
+    <!--<string name="private_group_button_text">خفیہ</string>-->
+    <!--<string name="discussion_group_button_text">گفتگو</string>-->
+    <!--<string name="blog_group_button_text">بلاگ</string>-->
+    <!--<string name="creating_group">گروپ بن رھا ھے ۔ ۔ ۔</string>-->
+    <!--<string name="updating_group">گروپ اپ ڈیٹنگ...</string>-->
+    <!--<string name="unable_to_delete_group">گروپ ڈیلیٹ نھیں کر سکتے</string>-->
+    <!--<string name="are_you_sure_you_want_to_unfollow_the_group">کیا آپ گروپ کو ان فولو کرنا چاھتے ھیں؟</string>-->
+    <!--<string name="unfollow_group">گروپ ان فولو کریں</string>-->
+
+<!--</resources>-->

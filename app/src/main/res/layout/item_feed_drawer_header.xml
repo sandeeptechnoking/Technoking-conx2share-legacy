@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/item_feed_header_picture"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:padding="2dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/friend_placeholder"
+            app:riv_border_color="@color/conx_teal"
+            app:riv_border_width="1dp"
+            app:riv_oval="true" />
+
+        <ImageButton
+            android:id="@+id/item_feed_header_settings_button"
+            android:layout_width="@dimen/settings_gear_size"
+            android:layout_height="@dimen/settings_gear_size"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="82dp"
+            android:layout_marginStart="82dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/feed_activity_drawer_header_picture_content_desc"
+            android:scaleType="centerInside"
+            android:src="@drawable/settings_gear" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <com.conx2share.conx2share.ui.view.RobotoTextView
+            android:id="@+id/item_feed_header_firstname"
+            style="@style/FeedDrawerTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="2dp"
+            android:maxLines="1"
+            android:text="@string/first_name" />
+
+        <com.conx2share.conx2share.ui.view.RobotoTextView
+            android:id="@+id/item_feed_header_lastname"
+            style="@style/FeedDrawerTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/item_feed_header_firstname"
+            android:layout_alignBaseline="@id/item_feed_header_firstname"
+            android:layout_marginLeft="3dp"
+            android:maxLines="1"
+            android:text="@string/last_name" />
+
+        <com.conx2share.conx2share.ui.view.RobotoTextView
+            android:id="@+id/item_feed_header_handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_feed_header_firstname"
+            android:text="\@handle" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

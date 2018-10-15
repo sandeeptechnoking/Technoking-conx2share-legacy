@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="conx_primary">#1F9BB2</color>
+    <color name="conx_secondary">#9C9C9C</color>
+
+    <color name="warning">#dd4437</color>
+    <color name="float_bt">#da3a5e</color>
+
+    <color name="gray_light_transparent">#e5c9c9c9</color>
+    <color name="gray_lightest">#F2F2F2</color>
+    <color name="gray">#808080</color>
+    <color name="gray_blue">#3b4c5a</color>
+
+    <color name="conx_teal">@color/conx_primary</color>
+    <color name="conx_orange_pressed">#FDa03C</color>
+    <color name="conx_blue">#1A9BFC</color>
+    <color name="feed_gray">#F7F7F7</color>
+    <color name="terms_and_conditions_gray">#D1D2D2</color>
+    <color name="profile_screen_text_gray">#ee414141</color>
+    <color name="search_users_text_gray">#ee414141</color>
+    <color name="messaging_toolbar_gray">#F7F8F7</color>
+    <color name="unread_messages_gray">#ffafb0af</color>
+    <color name="hint_gray">#C3C3C3</color>
+    <color name="hint_gray_pressed">#D3D3D3</color>
+    <color name="add_friends_gray">#F7F7F6</color>
+    <color name="search_users_go_blue">#2684D1</color>
+    <color name="profile_unfollow_gray">#8B8B8B</color>
+    <color name="group_background">#f3f3f3</color>
+    <color name="group_textfield_background">#eeeeee</color>
+    <color name="group_textfield_font">#939393</color>
+    <color name="group_textfield_border">#e0e0e0</color>
+    <color name="group_textfield_titles">@color/gray</color>
+
+    <color name="transparent_black">#99000000</color>
+    <color name="profile_info_gray">#ACACAC</color>
+    <color name="messaging_index_gray">#A5A5A5</color>
+    <color name="mention_unselected">@color/conx_teal</color>
+
+    <!-- Spyglass -->
+    <color name="mention_selected">#0077b5</color>
+    <color name="mention_user_text">#e58422</color>
+    <color name="editor_text">#343434</color>
+
+    <color name="event_going">#249CB0</color>
+    <color name="event_going_pressed">#90CDD7</color>
+    <color name="event_maybe">#049CFB</color>
+    <color name="event_maybe_pressed">#80CEFD</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Streaming -->
+
+    <color name="black_overlay">#66000000</color>
+    <color name="primary_material_dark_1">#931d1d</color>
+    <color name="controlButtonPressed">#80ff8400</color>
+    <color name="multiStateButtonPressed">#80ff8400</color>
+    <color name="multiStateButtonDisabled">#c1636363</color>
+
+    <color name="chat_incoming_message">#9C9C9C</color>
+    <color name="chat_outgoing_message">#2684D1</color>
+
+    <!-- Say No -->
+    <color name="chat_screen_bg">#ECEFF0</color>
+    <color name="say_no_sign_in_empty_text">#a2b2b5</color>
+    <color name="say_no_positive_button">@color/conx_teal</color>
+
+    <color name="say_no_intro_page_background">#d1d7dc</color>
+    <color name="say_no_intro_page_3_primary">#7731d3</color>
+    <color name="say_no_intro_page_2_primary">#317dd3</color>
+    <color name="say_no_intro_page_1_primary">#31c0d3</color>
+    <color name="text_color_dark">#2D363D</color>
+    <color name="text_color_gray">#89949d</color>
+
+    <!-- Livestreaming -->
+    <color name="stream_as_title">#a2b2b5</color>
+    <color name="stream_as_divider_color">#1f000000</color>
+
+</resources>

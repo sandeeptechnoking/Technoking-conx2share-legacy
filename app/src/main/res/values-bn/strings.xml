@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="applicationName">"ConX2Share"</string>
+    <string name="labelSignin">"প্রবেশ করুন"</string>
+    <string name="labelSignup">"নিবন্ধন করুন"</string>
+    <string name="labelEmail">"ইমেইল"</string>
+    <string name="labelPassword">"পাসওয়ার্ড"</string>
+    <string name="labelOr">"অথবা"</string>
+    <string name="labelUsername">"ব্যবহারকারীর নাম"</string>
+    <string name="labelConfirmPassword">"পাসওয়ার্ড নিশ্চিত করুন"</string>
+    <string name="labelFirstName">"প্রথম নাম"</string>
+    <string name="labelLastName">"শেষ নাম"</string>
+    <string name="blurbTermsAndConditions">"আমি শর্তাবলী পড়েছি এবং এর সাথে একমত"</string>
+    <string name="statusAuthenticating">"প্রবেশ করা হচ্ছে…"</string>
+    <string name="statusUnexpectedError">"একটি অপ্রত্যাশিত ত্রুটি ঘটেছে."</string>
+    <string name="statusMessagedMarkedAsViewed">"বার্তা দেখা হয়েছে"</string>
+    <string name="labelSuccess">"সফল হয়েছে"</string>
+    <string name="statusMessageSent">"বার্তা পাঠানো হয়েছে"</string>
+    <string name="statusMessageSentFailed">"বার্তা পাঠাতে ব্যর্থ হয়েছে"</string>
+    <string name="hintEnterMessageHere">"এখানে বার্তা লিখুন..."</string>
+    <string name="statusGotSentMessages">"বার্তা পেয়েছেন"</string>
+    <string name="hintTypeAMessage">"বার্তা লিখুন..."</string>
+    <string name="hintAddTextHere">"এখানে লিখুন..."</string>
+    <string name="statusFileError">"তালিকায় ত্রুটি আছে"</string>
+    <string name="statusCameraError">"ক্যামেরায় ত্রুটি আছে"</string>
+    <string name="labelAddAttachment">"সংযুক্ত করুন:"</string>
+    <string name="labelTakeAPhoto">"একটি ছবি তুলুন"</string>
+    <string name="labelTakeAVideo">"একটি ভিডিও করুন"</string>
+    <string name="labelMessageType">"বার্তার ধরন:"</string>
+    <string name="labelError">"ত্রুটি:"</string>
+
+    <!-- Post Activity -->
+    <string name="labelPost">"পোস্ট"</string>
+    <string name="titleCreatePost">"পোস্ট তৈরি করুন"</string>
+    <string name="labelPostTo">"প্রতি:"</string>
+    <string name="labelEveryone">"সবাইকে"</string>
+    <string name="statusPostSuccessful">"পোস্ট সফল হয়েছে"</string>
+    <string name="statusPostFailed">"পোস্ট ব্যর্থ হয়েছে:"</string>
+
+    <!-- Image Upload Dialog -->
+    <string name="titleUploadPhoto">"ছবি যুক্ত করুন"</string>
+    <string name="promptUploadOrSelectImageQuestion">"আপনি কি একটি ছবি তুলবেন নাকি আপনার লাইব্রেরী থেকে আপলোড করবেন?"</string>
+    <string name="promptUploadOrSelectVideoQuestion">"আপনি কি একটি ভিডিও করবেন নাকি আপনার লাইব্রেরী থেকে আপলোড করবেন?"</string>
+    <string name="labelTakePhoto">"ছবি তুলুন"</string>
+    <string name="labelLibrary">"লাইব্রেরী"</string>
+    <string name="blurbNotYetImplemented">"এখনো শেষ হয়নি."</string>
+
+    <!-- Feed Activity -->
+    <string name="labelDrawerOpen">"ড্রয়ার খোলা"</string>
+    <string name="labelDrawerClose">"ড্রয়ার বন্ধ"</string>
+    <string name="labelSignout">"লগ আউট"</string>
+    <string name="labelProfilePicture">"প্রোফাইলের ছবি"</string>
+
+    <!-- Share Dialog -->
+    <string name="labelShareTo">"শেয়ার করুন..."</string>
+    <string name="labelCancel">"বাতিল করুন"</string>
+
+    <!-- Contacts -->
+    <string name="labelContacts">"সম্পর্কগুলো"</string>
+    <string name="statusInviteSuccessful">"বন্ধুকে আমন্ত্রন সফল হয়েছে"</string>
+    <string name="statusInviteFailed">"বন্ধুকে আমন্ত্রন ব্যর্থ হয়েছে:"</string>
+
+    <!-- Groups -->
+    <string name="titleGroupName">"দলের নাম"</string>
+    <string name="labelCreateGroup">"দল যোগ করুন"</string>
+    <string name="blurbGroupNameInvalid">"দলের একটি নাম থাকতে হবে"</string>
+    <string name="blurbGroupImageInvalid">"দলের একটি ছবি থাকতে হবে"</string>
+    <string name="labelEditGroup">"দল সম্পাদন করুন"</string>
+    <string name="blurbGroupCreationFail">"দল তৈরি হয়নি।দয়া করে আবার চেস্টা করুন."</string>
+    <string name="blurbGroupCreationSuccess">"দল তৈরি হয়েছে %s!"</string>
+    <string name="blurbGroupUpdateFail">"দল সম্পাদন করা হয়নি.দয়া করে আবার চেস্টা করুন."</string>
+    <string name="blurbGenericErrorMessage">"একটি ত্রুটি ঘটেছে দয়া কর আবার চেস্টা করুন."</string>
+    <string name="statusNoUsersFound">"কোন ব্যবহারকারী পাওয়া যায়নি"</string>
+    <string name="labelMembers">"সদস্য"</string>
+    <string name="labelSend">"পাঠান"</string>
+    <string name="statusFailedToTetrieveMessages">"নতুন বার্তা উদ্ধার করা যায়নি"</string>
+    <string name="questionSaveMessage">"বার্তা জমা রাখবেন?"</string>
+
+    <!-- Message Friends -->
+    <string name="hintFriendsName">"প্রথম নাম শেষ নাম"</string>
+    <string name="blurbErrorLoadingIndex">"একটি ত্রুটি আপনার চ্যাটে সমস্যা করেছে."</string>
+    <string name="titleNewMessage">"নতুন বার্তা"</string>
+
+    <!-- Drawer Notifications -->
+    <string name="statusSentYouANewMessage">"আপনাকে নতুন একটি বার্তা পাঠিয়েছে"</string>
+    <string name="labelCommentedOnYourPost">"আপনার পোস্টে মন্তব্য করেছে"</string>
+    <string name="statusInvitedYouToJoin">"আপনাকে আমন্ত্রন জানিয়েছে যোগদানের জন্য"</string>
+    <string name="statusLoginFailed">"প্রবেশ ব্যর্থ হয়েছে দয়া করে আপনার ইন্টারনেট সংযোগ পরীক্ষা করে আবার চেস্টা করুন."</string>
+    <string name="labelInvite">"আমন্ত্রন করুন"</string>
+
+    <!-- Fuzzy -->
+    <string name="indicatorAudio">"(অডিও)"</string>
+
+    <!-- ######################################### SET 3 STRINGS ##################################################### -->
+    <string name="statusUnableToGetGroupMembers">"দলের সদস্যদের তালিকা এই মুহূর্তে পাওয়া যাচ্ছে না।"</string>
+    <string name="statusUnableToLoadWebPage">"ওয়েব পেজ লোড করা যায়নি"</string>
+    <string name="hintEnterText">"দয়া করে লিখুন"</string>
+    <string name="labelTermsOfService">"পরিসেবার শর্তাবলী"</string>
+    <string name="blurbTermsOfServiceAndPrivacyPolicy">"আমি পরিসেবা এবং গোপনীয়তা নীতি এর শর্তাবলী পড়েছি এবং এর সাথে একমত"</string>
+    <string name="labelPrivacyPolicy">"গোপনীয়তা নীতি"</string>
+    <string name="statusGroupUpdateSuccess">"দল হালনাগাদ করা হয়েছে %s!"</string>
+    <string name="statusRetrievingNotificationsFailed">"উদ্ধার বিজ্ঞপ্তি লোড করা যায়নি। দয়া করে আবার চেস্টা করুন।"</string>
+    <string name="errorGenericMessaging">"বার্তা পাঠানোর সময় একটি ত্রুটি ঘটেছে"</string>
+
+    <!-- Message Friends Index -->
+    <string name="labelSaved">"সংরক্ষন"</string>
+    <string name="labelCurrent">"বর্তমান"</string>
+
+    <!-- Follow -->
+    <string name="labelFollowed">"অনুসরন করেছে"</string>
+    <string name="statusUnfollowFailed">"আনফলো করা যায়নি। আবার চেস্টা করুন।"</string>
+    <string name="labelStartRecording">"রেকর্ড করা শুরু করুন"</string>
+    <string name="labelSubmit">"জমা দিন"</string>
+    <string name="errorInvalidUsernameOrPassword">"ব্যবহারকারীর নাম ও পাসওয়ার্ড সঠিক নয়"</string>
+    <string name="statusUnableToUpdateFollowersCount">"অনুসরণকারীদের সংখা হালনাগাদ করা যায়নি"</string>
+
+    <!-- Promo Codes -->
+    <string name="labelPromoCode">"প্রমো কোড (ঐচ্ছিক)"</string>
+    <string name="labelActivatePromoCode">"প্রমো কোড চালু করুন"</string>
+    <string name="errorInvalidPromoCode">"আপনি যে প্রমো কোডটি প্রবেশ করিয়েছেন তা সঠিক নয়।"</string>
+    <string name="blurbInvalidPromoCode">"আপনি যে প্রমো কোডটি প্রবেশ করিয়েছেন তা সঠিক নয়। সঠিক প্রমো কোড প্রবেশ করান অথবা বর্তমান প্রমো কোড মুছে ফেলুন।"</string>
+    <string name="hintEnterPromoCode">"দয়া করে আপনার প্রমো কোড দিন।..."</string>
+    <string name="blurbAccountSubscriptionUpgradedPlus">"আপনার একাউন্ট প্লাস সদস্যপদে উন্নীত হয়েছে।"</string>
+
+    <!-- ######################################### SET 4 STRINGS ##################################################### -->
+    <string name="statusUnableToCheckPromoCodeValid">"প্রমো কোড সঠিক কিনা তা পরীক্ষা করা যায়নি"</string>
+    <string name="blurbPromoUpgradePlusDescription">"আপনি যে প্রমো কোডটি প্রবেশ করিয়েছেন টা সঠিক। আপনি যদি ফ্রী ব্যবহারকারী হয়ে থাকেন তাহলে প্লাস সদস্যপদ লাভ করেছেন।"</string>
+    <string name="statusValidPromoCode">"প্রমো কোড সঠিক"</string>
+    <string name="statusInvalidPromoCode">"প্রমো কোড সঠিক নয়"</string>
+    <string name="statusUnableUpdateUserToPromoUser">"প্রমো ব্যবহারকারীতে উন্নীত করা যায়নি"</string>
+    <string name="errorEmailAlreadyUsed">"ইমেইল ইতিমধ্যে ব্যবহার করা হয়েছে"</string>
+
+    <!-- ######################################### SET 5 Strings ##################################################### -->
+    <string name="statusUserFavoritingFailed">"ব্যবহারকারীকে প্রিয় তালিকায় আনা সম্ভব হয়নি।"</string>
+    <string name="statusUserUnfavoritingFailed">"ব্যবহারকারীকে অপ্রিয় তালিকায় আনা সম্ভব হয়নি"</string>
+    <string name="errorGroupNameTaken">"দলের নাম ইতিমধ্যে নেয়া হয়েছে।"</string>
+    <string name="blurbNewMessageReceivedFrom">"কাছ থেকে আপনি নতুন একটি বার্তা পেয়েছেন"</string>
+    <string name="labelOneM">"১ মিনিট"</string>
+    <string name="statusUnableToPostComment">"মন্তব্য পোস্ট করা যায়নি"</string>
+    <string name="labelStartChat">"নতুন চ্যাট শুরু করুন"</string>
+    <string name="promptDeleteGroupConfirm">"আপনি কি নিশ্চিত দল মুছে ফেলবেন?"</string>
+    <string name="promptLeaveGroupConfirm">"আপনি কি নিশ্চিত দল ত্যাগ করবেন?"</string>
+    <string name="labelExit">"বাহির"</string>
+    <string name="labelAttachPhoto">"দয়া করে একটি ছবি যোগ করুন"</string>
+    <string name="labelAttachVideo">"দয়া করে একটি ভিডিও যোগ করুন।"</string>
+    <string name="errorEmailBlank">"ইমেইল খালি রাখা যাবেনা।"</string>
+
+    <!-- ######################################### SET 6 Strings ##################################################### -->
+    <string name="errorGroupIsPerminant">"আপনি Conx2Share দল ত্যাগ করতে বা মুছে ফেলতে পারবেন না"</string>
+    <string name="labelPromoted">"উন্নীত"</string>
+    <string name="errorRecordingTooShort">"রেকর্ডিং যথেস্ট দীর্ঘ নয়।"</string>
+    <string name="warningRecordingWillBeTruncated">"শুধুমাত্র প্রথম ২ মিনিট রেকডিং পাঠানো হবে।"</string>
+    <string name="statusUnableToSendAudioMessage">"অডিও বার্তা পাঠানো সম্ভব হয়নি"</string>
+    <string name="statusUnableToGetBusinessInfo">"ব্যবসা সংক্রান্ত তথ্য লোড করা সম্ভব হয়নি"</string>
+    <string name="statusCouldNotRetrieveYourBusinesses">"আপনার ব্যবসা সংক্রান্ত তথ্য উদ্ধার করা যায়নি"</string>
+    <string name="statusCannotPostToConx2shareGroup">"আপনি Conx2share গ্রুপে পোস্ট করতে পারবেন না।"</string>
+    <string name="hintSearchForBusinesses">"ব্যবসার জন্য খুঁজুন"</string>
+    <string name="LabelBusinesses">"ব্যবসাগুলো"</string>
+    <string name="labelBusinessOwner">"ব্যবসার মালিক"</string>
+    <string name="labelGroup">"দলঃ "</string>
+    <string name="labelBusiness">"ব্যবসাঃ "</string>
+    <string name="labelDeletePost">"পোস্ট মুছে ফেলুন"</string>
+    <string name="errorDeletePostNotOwner">"এই পোস্টটি আপনার নয়, আপনি এটি মুছে ফেলতে পারবেন না"</string>
+    <string name="promptDeletePostConfirm">"আপনি কি নিশ্চিত পোস্টটি মুছে ফেলবেন?"</string>
+    <string name="statusPostDeleted">"পোস্ট মুছে ফেলা হয়েছে"</string>
+    <string name="statusUnableDeletePost">"পোস্ট মুছে ফেলা যায়নি"</string>
+    <string name="labelDeleteComment">"মন্তব্য মুছে ফেলুন"</string>
+    <string name="errorDeleteCommentNotOwner">"এই মন্তব্যটি আপনার নয়, আপনি এটি মুছে ফেলতে পারবেন না"</string>
+    <string name="promptDeleteCommentConfirm">"আপনি কি নিশ্চিত মন্তব্যটি মুছে ফেলবেন?"</string>
+    <string name="statusCommentDeleted">"মন্তব্য মুছে ফেলা হয়েছে"</string>
+    <string name="statusUnableDeleteComment">"মন্তব্য মুছে ফেলা যায়নি"</string>
+    <string name="labelFlagPost">"পোস্ট চিহ্নিত করুন"</string>
+    <string name="errorGenericCommentNotOwner">"আপনি এই মন্তব্যের কিছুই করতে পারবেন না, এই মন্তব্যটি আপনার না"</string>
+    <string name="errorEditPostNotOwner">"আপনি এই পোস্টটি সম্পাদন করতে পারবেন না, এই পোস্টটি আপনার না"</string>
+    <string name="labelEditPost">"পোস্ট সম্পাদন করুন"</string>
+    <string name="promptEditPost">"আপনি কি এই পোস্টটি সম্পাদন করতে চান?"</string>
+    <string name="lableUpdate">"হালনাগাদ"</string>
+    <string name="statusUnableToUpdatePost">"পোস্ট হালনাগাদ করা যায়নি"</string>
+    <string name="statusPostEdited">"পোস্ট হালনাগাদ করা হয়েছে"</string>
+    <string name="statusUpdatingPost">"পোস্ট হালনাগাদ করা হচ্ছে..."</string>
+    <string name="labelFlagInappropriate">"অপ্রয়োজনীয় হিসেবে চিহ্নিত করুন"</string>
+    <string name="errorCannotChangeAudienceEditingPost">"আপনি পোস্ট সম্পাদন করার সময় দর্শকদের সম্পাদন করতে পারবেন না।"</string>
+    <string name="hintEnterCommentHere">"আপনার মন্তব্য লিখুন..."</string>
+    <string name="labelUpdate">"হালনাগাদ"</string>
+    <string name="labelEditComment">"মন্তব্য সম্পাদন করুন"</string>
+    <string name="errorEditCommentNotOwner">"এই মন্তব্যটি আপনার নয়, আপনি এটি সম্পাদন করতে পারবেন না।"</string>
+    <string name="statusCommentUpdated">"মন্তব্য হালনাগাদ করা হয়েছে!"</string>
+    <string name="statusUnableUpdateComment">"মন্তব্য হালনাগাদ করা যায়নি"</string>
+    <string name="statusUpdatingComment">"মন্তব্য হালনাগাদ করা হচ্ছে..."</string>
+    <string name="errorGenericImageUploadFailed">"আপনার ছবি আপলোডের সময় ত্রুটি ঘটেছে"</string>
+    <string name="errorGenericFileUploadFailed">"আপনার ফাইল আপলোডের সময় ত্রুটি ঘটেছে"</string>
+    <string name="labelPhoto">"ছবি"</string>
+    <string name="labelVideo">"ভিডিও"</string>
+    <string name="labelRemoveFromGroup">"দল থেকে বাদ দিন"</string>
+    <string name="errorEditGroupMemberNotOwner">"আপনি এই দলের সদস্যের কিছুই করতে পারবেন না, আপনি এই দলের মালিক নন"</string>
+    <string name="labelRemoveUserFromGroup">"ব্যবহারকারীকে দল থেকে বাদ দিন"</string>
+    <string name="promptBlockUserFromGroupConfirm">"আপনি কি নিশ্চিত এই ব্যবহারকারীকে দল থেকে ব্লক করবেন?"</string>
+    <string name="labelBlockUser">"ব্যবহারকারী ব্লক করুন"</string>
+    <string name="promptRemoveUserFromGroupConfirm">"আপনি কি নিশ্চিত এই  ব্যবহারকারীকে দল থেকে বাদ দিবেন?"</string>
+    <string name="labelMember">"সদস্য"</string>
+    <string name="labelFollower">"অনুসরণকারী"</string>
+    <string name="statusUnableFollowGroup">"দল অনুসরণ করা যায়নি"</string>
+    <string name="labelUnableUnfollowGroup">"দল ত্যাগ করা যায়নি"</string>
+    <string name="labelGroupFollowers">"দলের অনুসরণকারীরা"</string>
+    <string name="hintSearchForFollowers">"অনুসরণকারীদের খুঁজুন"</string>
+    <string name="statusUnableToInviteUserToFollowGroup">"দল অনুসরণ করার জন্য ব্যবহারকারীকে আমন্ত্রণ জানানো যায়নি"</string>
+    <string name="statusSendInviteToFollowGroup">"দল অনুসরণ করার জন্য আমন্ত্রণ পাঠানো হয়েছে"</string>
+    <string name="statusUnableToBlockUserFromGroup">"ব্যবহারকারীকে দল থেকে ব্লক করা যায়নি"</string>
+    <string name="statusUserBlockedFromGroup">"আপনি এই ব্যবহারকারীকে দল থেকে ব্লক করেছেন।"</string>
+    <string name="statusUnableToRemoveUserFromGroup">"ব্যবহারকারীকে দল থেকে বাদ দেওয়া যায়নি"</string>
+    <string name="statusUserRemovedFromGroup">"ব্যবহারকারীকে দল থেকে বাদ দেওয়া হয়েছে"</string>
+    <string name="statusInvitedToFollowGroup">"আপনাকে একটি দল অনুসরণ করা জন্য আমন্ত্রণ জানিয়েছে"</string>
+    <string name="hintSearchForGroups">"দল খোজ করুন"</string>
+    <string name="labelPrivate">"ব্যক্তিগত"</string>
+    <string name="labelBlog">"ব্লগ"</string>
+    <string name="labelDiscussion">"আলোচনা"</string>
+    <string name="statusUnableToLeaveGroup">"দল ত্যাগ করা যায়নি"</string>
+    <string name="statusUnableToGetGroupFollowers">"দল অনুসরণকারীদের পাওয়া যায়নি"</string>
+    <string name="statusUnableToUnblockUser">"ব্যবহারকারীকে আনব্লক করা যায়নি"</string>
+    <string name="statusUserUnblockedFromGroup">"আপনি এই ব্যবহারকারীকে এই দল থেকে আনব্লক করেছেন"</string>
+    <string name="statusBlockedUnablePostGroup">"দলে পোস্ট করা যায়নি, আপনাকে ব্লক করা হয়েছে"</string>
+    <string name="statusBlockedUnablePostComment">"মন্তব্য পোস্ট করা যায়নি, আপনাকে ব্লক করা হয়েছে"</string>
+    <string name="labelUnblockUser">"বব্যবহারকারীকে আনব্লক করুন"</string>
+    <string name="promptUnblockUserConfirm">"আপনি কি নিশ্চিত এই ব্যবহারকারীকে আনব্লক করবেন?"</string>
+    <string name="statusBlockedUnableToUpdatePost">"পোস্ট হালনাগাদ করা যায়নি, আপনাকে ব্লক করা হয়েছে"</string>
+    <string name="statusBlockedUnableToUpdateComment">"মন্তব্য হালনাগাদ করা যায়নি, আপনাকে ব্লক করা হয়েছে"</string>
+    <string name="bogusEmergencyLogoutToast">"আপনার সেশন সঠিক নয়, দয়া করে আবার প্রবেশ করুন।"</string>
+    <string name="statusUnableToLeaveOrDeleteGroup">"দল ত্যাগ অথবা মুছে ফেলা যায়নি"</string>
+    <string name="labelPublic">"পাবলিক"</string>
+    <string name="statusCreatingGroup">"দল তৈরি হচ্ছে..."</string>
+    <string name="statusUpdatingGroup">"দল হালনাগাদ করা হচ্ছে..."</string>
+    <string name="statusUnableToDeleteGroup">"দল মুছে ফেলা যায়নি"</string>
+    <string name="promptUnfollowGroupConfirm">"আপনি কি নিশ্চিত এই দল অনুসরণ করবেন না?"</string>
+    <string name="labelUnfollowGroup">"আপনাকে একটি দল অনুসরণ করার জন্য আমন্ত্রণ জানিয়েছে"</string>
+</resources>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<resources>-->
+
+    <!--<string name="app_name">ConX2Share</string>-->
+    <!--<string name="hello_world">হ্যালো ওয়ার্ল্ড!</string>-->
+    <!--<string name="sign_in">প্রবেশ করুন</string>-->
+    <!--<string name="sign_up">নিবন্ধন করুন</string>-->
+    <!--<string name="email">ইমেইল</string>-->
+    <!--<string name="password">পাসওয়ার্ড</string>-->
+    <!--<string name="or">অথবা</string>-->
+    <!--<string name="username">ব্যবহারকারীর নাম</string>-->
+    <!--<string name="confirm_password">পাসওয়ার্ড নিশ্চিত করুন</string>-->
+    <!--<string name="first_name">প্রথম নাম</string>-->
+    <!--<string name="last_name">শেষ নাম</string>-->
+    <!--<string name="terms_and_conditions">আমি শর্তাবলী পড়েছি এবং এর সাথে একমত</string>-->
+    <!--<string name="signing_in">প্রবেশ করা হচ্ছে&#8230;</string>-->
+    <!--<string name="unexpected_error">একটি অপ্রত্যাশিত ত্রুটি ঘটেছে.</string>-->
+    <!--<string name="mark_messaged_viewed">বার্তা দেখা হয়েছে</string>-->
+    <!--<string name="success">সফল হয়েছে</string>-->
+    <!--<string name="message_sent">বার্তা পাঠানো হয়েছে</string>-->
+    <!--<string name="message_failed_to_send">বার্তা পাঠাতে ব্যর্থ হয়েছে</string>-->
+    <!--<string name="enter_message_here">এখানে বার্তা লিখুন...</string>-->
+    <!--<string name="got_sent_messages">বার্তা পেয়েছেন</string>-->
+    <!--<string name="type_a_message">বার্তা লিখুন...</string>-->
+    <!--<string name="add_text_here">এখানে লিখুন...</string>-->
+    <!--<string name="logging_in">প্রবেশ করা হচ্ছে...</string>-->
+    <!--<string name="file_error">তালিকায় ত্রুটি আছে</string>-->
+    <!--<string name="camera_error">ক্যামেরায় ত্রুটি আছে</string>-->
+    <!--<string name="add_attachment">সংযুক্ত করুন:</string>-->
+    <!--<string name="take_a_photo">একটি ছবি তুলুন</string>-->
+    <!--<string name="take_a_video">একটি ভিডিও করুন</string>-->
+    <!--<string name="message_type">বার্তার ধরন:</string>-->
+    <!--<string name="error">ত্রুটি:</string>-->
+
+    <!--&lt;!&ndash; Post Activity &ndash;&gt;-->
+    <!--<string name="post">পোস্ট</string>-->
+    <!--<string name="post_activity_title">পোস্ট তৈরি করুন</string>-->
+    <!--<string name="post_to">প্রতি:</string>-->
+    <!--<string name="post_everyone">সবাইকে</string>-->
+    <!--<string name="post_successful">পোস্ট সফল হয়েছে</string>-->
+    <!--<string name="post_failed">পোস্ট ব্যর্থ হয়েছে:</string>-->
+
+    <!--&lt;!&ndash; Image Upload Dialog &ndash;&gt;-->
+    <!--<string name="upload_photo_title">ছবি যুক্ত করুন</string>-->
+    <!--<string name="upload_photo_message">আপনি কি একটি ছবি তুলবেন নাকি আপনার ফটো লাইব্রেরী থেকে যুক্ত করবেন?</string>-->
+    <!--<string name="take_photo">ছবি তুলুন</string>-->
+    <!--<string name="library">লাইব্রেরী</string>-->
+    <!--<string name="not_yet_implemented">এখনো শেষ হয়নি.</string>-->
+
+    <!--&lt;!&ndash; Feed Activity &ndash;&gt;-->
+    <!--<string name="feed_activity_drawer_toggle_open">ড্রয়ার খোলা</string>-->
+    <!--<string name="feed_activity_drawer_toggle_close">ড্রয়ার বন্ধ</string>-->
+    <!--<string name="feed_activity_drawer_logout">লগ আউট</string>-->
+    <!--<string name="feed_activity_drawer_header_picture_content_desc">প্রোফাইলের ছবি</string>-->
+
+    <!--&lt;!&ndash; Share Dialog &ndash;&gt;-->
+    <!--<string name="share_to">শেয়ার করুন...</string>-->
+    <!--<string name="cancel">বাতিল করুন</string>-->
+    <!--<string name="facebook_app_id">195797437257242</string>-->
+
+    <!--&lt;!&ndash; Contacts &ndash;&gt;-->
+    <!--<string name="contacts">সম্পর্কগুলো</string>-->
+    <!--<string name="invite_caps">আমন্ত্রন করুন</string>-->
+    <!--<string name="invite_successful">বন্ধুকে আমন্ত্রন সফল হয়েছে</string>-->
+    <!--<string name="invite_failed">বন্ধুকে আমন্ত্রন ব্যর্থ হয়েছে:</string>-->
+
+    <!--&lt;!&ndash;Groups&ndash;&gt;-->
+    <!--<string name="group_name_layout_title">দলের নাম</string>-->
+    <!--<string name="action_create_group">দল যোগ করুন</string>-->
+    <!--<string name="invalid_group_name">দলের একটি নাম থাকতে হবে</string>-->
+    <!--<string name="invalid_group_image">দলের একটি ছবি থাকতে হবে</string>-->
+    <!--<string name="action_edit_group">দল সম্পাদন করুন</string>-->
+    <!--<string name="group_creation_fail">দল তৈরি হয়নি।দয়া করে আবার চেস্টা করুন.</string>-->
+    <!--<string name="group_creation_success">"দল তৈরি হয়েছে %s!"</string>-->
+    <!--<string name="group_update_fail">দল সম্পাদন করা হয়নি.দয়া করে আবার চেস্টা করুন.</string>-->
+    <!--<string name="post_button_text">পোস্ট</string>-->
+    <!--<string name="generic_error_message">একটি ত্রুটি ঘটেছে দয়া কর আবার চেস্টা করুন.</string>-->
+    <!--<string name="no_users_found">কোন ব্যবহারকারী পাওয়া যায়নি</string>-->
+    <!--<string name="members">সদস্য</string>-->
+    <!--<string name="send">পাঠান</string>-->
+    <!--<string name="failed_to_retrieve_messages">নতুন বার্তা উদ্ধার করা যায়নি</string>-->
+    <!--<string name="save_message">বার্তা জমা রাখবেন?</string>-->
+
+    <!--&lt;!&ndash;Message Friends&ndash;&gt;-->
+    <!--<string name="message_friends_name_holder">প্রথম নাম শেষ নাম</string>-->
+    <!--<string name="error_loading_index">একটি ত্রুটি আপনার চ্যাটে সমস্যা করেছে.</string>-->
+    <!--<string name="arrow"><![CDATA[>]]></string>-->
+    <!--<string name="message_friends_title">নতুন বার্তা</string>-->
+
+    <!--&lt;!&ndash; Drawer Notifications &ndash;&gt;-->
+    <!--<string name="item_count_holder">##</string>-->
+    <!--<string name="sent_you_a_new_message">আপনাকে নতুন একটি বার্তা পাঠিয়েছে</string>-->
+    <!--<string name="read_your_message">আপনার বার্তা পড়ুন</string>-->
+    <!--<string name="commented_on_your_post">আপনার পোস্টে মন্তব্য করেছে</string>-->
+    <!--<string name="invited_you_to_join">আপনাকে আমন্ত্রন জানিয়েছে যোগদানের জন্য</string>-->
+    <!--<string name="login_failed">প্রবেশ ব্যর্থ হয়েছে দয়া করে আপনার ইন্টারনেট সংযোগ পরীক্ষা করে আবার চেস্টা করুন.</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 3 STRINGS #####################################################&ndash;&gt;-->
+
+    <!--<string name="unable_to_get_group_members">দলের সদস্যদের তালিকা এই মুহূর্তে পাওয়া যাচ্ছে না।</string>-->
+    <!--<string name="unable_to_load_web_page">ওয়েব পেজ লোড করা যায়নি</string>-->
+    <!--<string name="please_enter_text">দয়া করে লিখুন</string>-->
+
+    <!--<string name="terms_of_service">পরিসেবার শর্তাবলী</string>-->
+    <!--<string name="terms_of_service_and_privacy_policy">আমি পরিসেবা এবং গোপনীয়তা নীতি এর শর্তাবলী পড়েছি এবং এর সাথে একমত</string>-->
+    <!--<string name="privacy_policy">গোপনীয়তা নীতি</string>-->
+
+    <!--<string name="group_update_success">"দল হালনাগাদ করা হয়েছে %s!"</string>-->
+    <!--<string name="retrieving_notifications_failed">উদ্ধার বিজ্ঞপ্তি লোড করা যায়নি। দয়া করে আবার চেস্টা করুন।</string>-->
+    <!--<string name="messaging_error">বার্তা পাঠানোর সময় একটি ত্রুটি ঘটেছে</string>-->
+
+    <!--&lt;!&ndash; Message Friends Index &ndash;&gt;-->
+    <!--<string name="saved_messages_text">সংরক্ষন</string>-->
+    <!--<string name="chats_text">বর্তমান</string>-->
+
+    <!--&lt;!&ndash; Follow &ndash;&gt;-->
+    <!--<string name="followed">অনুসরন করেছে</string>-->
+    <!--<string name="unfollow_failed">আনফলো করা যায়নি। আবার চেস্টা করুন।</string>-->
+    <!--<string name="start_recording">রেকর্ড করা শুরু করুন</string>-->
+    <!--<string name="submit">জমা দিন</string>-->
+    <!--<string name="invalid_user_name_or_password">ব্যবহারকারীর নাম ও পাসওয়ার্ড সঠিক নয়</string>-->
+    <!--<string name="unable_to_update_followers_count">অনুসরণকারীদের সংখা হালনাগাদ করা যায়নি</string>-->
+    <!--<string name="please_accept_the_terms_of_service">পরিসেবার শর্তাবলী স্বীকার করুন</string>-->
+
+    <!--&lt;!&ndash; Promo Codes &ndash;&gt;-->
+    <!--<string name="promo_code_optional">প্রমো কোড (ঐচ্ছিক)</string>-->
+    <!--<string name="activate_promo_code">প্রমো কোড চালু করুন</string>-->
+    <!--<string name="the_promo_code_you_entered_is_invalid">আপনি যে প্রমো কোডটি প্রবেশ করিয়েছেন তা সঠিক নয়।</string>-->
+    <!--<string name="the_promo_code_you_entered_is_invalid_sign_up">আপনি যে প্রমো কোডটি প্রবেশ করিয়েছেন তা সঠিক নয়। সঠিক প্রমো কোড প্রবেশ করান অথবা বর্তমান প্রমো কোড মুছে ফেলুন।</string>-->
+    <!--<string name="please_enter_your_promo_code">দয়া করে আপনার প্রমো কোড দিন।...</string>-->
+    <!--<string name="your_account_has_been_upgraded_to_a_plus_subscription">আপনার একাউন্ট প্লাস সদস্যপদে উন্নীত হয়েছে।</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 4 STRINGS #####################################################&ndash;&gt;-->
+
+    <!--<string name="unable_to_check_if_promo_code_is_valid">প্রমো কোড সঠিক কিনা তা পরীক্ষা করা যায়নি</string>-->
+    <!--<string name="promo_upgrade_description">আপনি যে প্রমো কোডটি প্রবেশ করিয়েছেন টা সঠিক। আপনি যদি ফ্রী ব্যবহারকারী হয়ে থাকেন তাহলে প্লাস সদস্যপদ লাভ করেছেন।</string>-->
+    <!--<string name="valid_promo_code">প্রমো কোড সঠিক</string>-->
+    <!--<string name="invalid_promo_code">প্রমো কোড সঠিক নয়</string>-->
+    <!--<string name="unable_to_update_user_to_promo_user">প্রমো ব্যবহারকারীতে উন্নীত করা যায়নি</string>-->
+    <!--<string name="email_has_already_been_taken">ইমেইল ইতিমধ্যে ব্যবহার করা হয়েছে</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 5 Strings #####################################################&ndash;&gt;-->
+
+    <!--<string name="user_favoriting_failed">ব্যবহারকারীকে প্রিয় তালিকায় আনা সম্ভব হয়নি।</string>-->
+    <!--<string name="user_unfavoriting_failed">ব্যবহারকারীকে অপ্রিয় তালিকায় আনা সম্ভব হয়নি</string>-->
+    <!--<string name="group_name_taken">দলের নাম ইতিমধ্যে নেয়া হয়েছে।</string>-->
+    <!--<string name="you_have_received_a_new_message_from">কাছ থেকে আপনি নতুন একটি বার্তা পেয়েছেন</string>-->
+    <!--<string name="one_m">১ মিনিট</string>-->
+    <!--<string name="unable_to_post_comment_text">মন্তব্য পোস্ট করা যায়নি</string>-->
+    <!--<string name="chats_button_title">নতুন চ্যাট শুরু করুন</string>-->
+    <!--<string name="are_you_sure_you_want_to_delete_the_group">আপনি কি নিশ্চিত দল মুছে ফেলবেন?</string>-->
+    <!--<string name="are_you_sure_you_want_to_leave_the_group">আপনি কি নিশ্চিত দল ত্যাগ করবেন?</string>-->
+    <!--<string name="exit">বাহির</string>-->
+    <!--<string name="please_attach_photo">দয়া করে একটি ছবি যোগ করুন</string>-->
+    <!--<string name="please_attach_video">দয়া করে একটি ভিডিও যোগ করুন।</string>-->
+    <!--<string name="email_cant_be_blank">ইমেইল খালি রাখা যাবেনা।</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 6 Strings #####################################################&ndash;&gt;-->
+
+    <!--<string name="you_cannot_leave_or_delete_the_conx2share_group">আপনি Conx2Share দল ত্যাগ করতে বা মুছে ফেলতে পারবেন না</string>-->
+    <!--<string name="promoted">উন্নীত</string>-->
+    <!--<string name="audio">(অডিও)</string>-->
+    <!--<string name="recording_is_not_long_enough">রেকর্ডিং যথেস্ট দীর্ঘ নয়।</string>-->
+    <!--<string name="only_the_first_two_mins_will_be_sent">শুধুমাত্র প্রথম ২ মিনিট রেকডিং পাঠানো হবে।</string>-->
+    <!--<string name="would_you_like_to_take_a_picture_or_upload_from_your_library">আপনি কি একটি ছবি তুলতে চান নাকি আপনার লাইব্রেরী থেকে আপলোড করবেন?</string>-->
+    <!--<string name="unable_to_send_audio_message">অডিও বার্তা পাঠানো সম্ভব হয়নি</string>-->
+    <!--<string name="unable_to_get_business_info">ব্যবসা সংক্রান্ত তথ্য লোড করা সম্ভব হয়নি</string>-->
+    <!--<string name="could_not_retrieve_your_businesses">আপনার ব্যবসা সংক্রান্ত তথ্য উদ্ধার করা যায়নি</string>-->
+    <!--<string name="you_cannot_post_to_the_conx2share_group">আপনি ConX2share গ্রুপে পোস্ট করতে পারবেন না।</string>-->
+    <!--<string name="search_for_businesses">ব্যবসার জন্য খুঁজুন</string>-->
+    <!--<string name="drawer_businesses">ব্যবসাগুলো</string>-->
+    <!--<string name="business_owner">ব্যবসার মালিক</string>-->
+    <!--<string name="group">"দলঃ "</string>-->
+    <!--<string name="business">"ব্যবসাঃ "</string>-->
+    <!--<string name="delete_post">পোস্ট মুছে ফেলুন</string>-->
+    <!--<string name="you_dont_own_this_post_to_delete_it">এই পোস্টটি আপনার নয়, আপনি এটি মুছে ফেলতে পারবেন না</string>-->
+    <!--<string name="are_you_sure_you_want_to_delete_this_post">আপনি কি নিশ্চিত পোস্টটি মুছে ফেলবেন?</string>-->
+    <!--<string name="post_deleted">পোস্ট মুছে ফেলা হয়েছে</string>-->
+    <!--<string name="unable_to_delete_post">পোস্ট মুছে ফেলা যায়নি</string>-->
+    <!--<string name="delete_comment">মন্তব্য মুছে ফেলুন</string>-->
+    <!--<string name="you_dont_own_this_comment_to_delete_it">এই মন্তব্যটি আপনার নয়, আপনি এটি মুছে ফেলতে পারবেন না</string>-->
+    <!--<string name="are_you_sure_you_want_to_delete_this_comment">আপনি কি নিশ্চিত মন্তব্যটি মুছে ফেলবেন?</string>-->
+    <!--<string name="comment_deleted">মন্তব্য মুছে ফেলা হয়েছে</string>-->
+    <!--<string name="unable_to_delete_comment">মন্তব্য মুছে ফেলা যায়নি</string>-->
+    <!--<string name="flag_post">পোস্ট চিহ্নিত করুন</string>-->
+    <!--<string name="cant_do_anything_with_comment_since_you_dont_own_it">আপনি এই মন্তব্যের কিছুই করতে পারবেন না, এই মন্তব্যটি আপনার না</string>-->
+    <!--<string name="you_dont_own_this_post_to_edit_it">আপনি এই পোস্টটি সম্পাদন করতে পারবেন না, এই পোস্টটি আপনার না</string>-->
+    <!--<string name="edit_post">পোস্ট সম্পাদন করুন</string>-->
+    <!--<string name="do_you_want_to_edit_this_post">আপনি কি এই পোস্টটি সম্পাদন করতে চান?</string>-->
+    <!--<string name="update_post">হালনাগাদ</string>-->
+    <!--<string name="unable_to_edit_post">পোস্ট হালনাগাদ করা যায়নি</string>-->
+    <!--<string name="post_edited">পোস্ট হালনাগাদ করা হয়েছে</string>-->
+    <!--<string name="updating_post">পোস্ট হালনাগাদ করা হচ্ছে...</string>-->
+    <!--<string name="flag_as_inappropriate">অপ্রয়োজনীয় হিসেবে চিহ্নিত করুন</string>-->
+    <!--<string name="edit_post_options_menu">পোস্ট সম্পাদন করুন</string>-->
+    <!--<string name="delete_post_options_menu">পোস্ট মুছে ফেলুন</string>-->
+    <!--<string name="you_cannot_change_the_audience_when_editing_a_post">আপনি পোস্ট সম্পাদন করার সময় দর্শকদের সম্পাদন করতে পারবেন না।</string>-->
+    <!--<string name="enter_your_comment_here">আপনার মন্তব্য লিখুন...</string>-->
+    <!--<string name="edit_comment_options_menu">মন্তব্য সম্পাদন করুন</string>-->
+    <!--<string name="delete_comment_options_menu">মন্তব্য মুছে ফেলুন</string>-->
+    <!--<string name="update">হালনাগাদ</string>-->
+    <!--<string name="edit_comment">মন্তব্য সম্পাদন করুন</string>-->
+    <!--<string name="you_dont_own_this_comment_to_edit_it">এই মন্তব্যটি আপনার নয়, আপনি এটি সম্পাদন করতে পারবেন না।</string>-->
+    <!--<string name="comment_updated">মন্তব্য হালনাগাদ করা হয়েছে!</string>-->
+    <!--<string name="unable_to_update_post_comment">মন্তব্য হালনাগাদ করা যায়নি</string>-->
+    <!--<string name="updating_comment">মন্তব্য হালনাগাদ করা হচ্ছে...</string>-->
+    <!--<string name="something_went_wrong_while_uploading_your_image">আপনার ছবি আপলোডের সময় ত্রুটি ঘটেছে</string>-->
+    <!--<string name="something_went_wrong_while_uploading_your_file">আপনার ফাইল আপলোডের সময় ত্রুটি ঘটেছে</string>-->
+    <!--<string name="would_you_like_to_take_a_photo_or_upload_one_from_your_library">আপনি কি একটি ছবি তুলবেন নাকি আপনার লাইব্রেরী থেকে আপলোড করবেন?</string>-->
+    <!--<string name="would_you_like_to_take_a_video_or_upload_one_from_your_library">আপনি কি একটি ভিডিও করবেন নাকি আপনার লাইব্রেরী থেকে আপলোড করবেন?</string>-->
+    <!--<string name="photo_option">ছবি</string>-->
+    <!--<string name="video_option">ভিডিও</string>-->
+    <!--<string name="block_user_option">ব্যবহারকারীকে ব্লক করুন</string>-->
+    <!--<string name="remove_from_group_option">দল থেকে বাদ দিন</string>-->
+    <!--<string name="you_cant_do_anything_with_this_group_member">আপনি এই দলের সদস্যের কিছুই করতে পারবেন না, আপনি এই দলের মালিক নন</string>-->
+    <!--<string name="remove_user_from_group">ব্যবহারকারীকে দল থেকে বাদ দিন</string>-->
+    <!--<string name="are_you_sure_you_want_to_block_this_user">আপনি কি নিশ্চিত এই ব্যবহারকারীকে দল থেকে ব্লক করবেন?</string>-->
+    <!--<string name="block_user">ব্যবহারকারী ব্লক করুন</string>-->
+    <!--<string name="are_you_sure_you_want_to_remove_this_user_from_the_group">আপনি কি নিশ্চিত এই  ব্যবহারকারীকে দল থেকে বাদ দিবেন?</string>-->
+    <!--<string name="member">সদস্য</string>-->
+    <!--<string name="follower">অনুসরণকারী</string>-->
+    <!--<string name="unable_to_follow_group">দল অনুসরণ করা যায়নি</string>-->
+    <!--<string name="unable_to_unfollow_group">দল ত্যাগ করা যায়নি</string>-->
+    <!--<string name="unblock_user_option">ব্যবহারকারীকে আনব্লক করুন</string>-->
+    <!--<string name="group_followers">দলের অনুসরণকারীরা</string>-->
+    <!--<string name="search_for_followers">অনুসরণকারীদের খুঁজুন</string>-->
+    <!--<string name="unable_to_send_invite_to_follow_group">দল অনুসরণ করার জন্য ব্যবহারকারীকে আমন্ত্রণ জানানো যায়নি</string>-->
+    <!--<string name="invite_to_follow_group_sent">দল অনুসরণ করার জন্য আমন্ত্রণ পাঠানো হয়েছে</string>-->
+    <!--<string name="unable_to_block_user_from_group">ব্যবহারকারীকে দল থেকে ব্লক করা যায়নি</string>-->
+    <!--<string name="you_have_blocked_this_user_from_the_group">আপনি এই ব্যবহারকারীকে দল থেকে ব্লক করেছেন।</string>-->
+    <!--<string name="unable_to_remove_user_from_group">ব্যবহারকারীকে দল থেকে বাদ দেওয়া যায়নি</string>-->
+    <!--<string name="user_has_been_removed_from_group">ব্যবহারকারীকে দল থেকে বাদ দেওয়া হয়েছে</string>-->
+    <!--<string name="invited_you_to_follow_group">আপনাকে একটি দল অনুসরণ করা জন্য আমন্ত্রণ জানিয়েছে</string>-->
+    <!--<string name="search_for_groups">দল খোজ করুন</string>-->
+    <!--<string name="private_group">ব্যক্তিগত</string>-->
+    <!--<string name="blog_group">ব্লগ</string>-->
+    <!--<string name="discussion_group">আলোচনা</string>-->
+    <!--<string name="empty_string" />-->
+    <!--<string name="unable_to_leave_group">দল ত্যাগ করা যায়নি</string>-->
+    <!--<string name="unable_to_get_group_followers">দল অনুসরণকারীদের পাওয়া যায়নি</string>-->
+    <!--<string name="unable_to_unblock_user">ব্যবহারকারীকে আনব্লক করা যায়নি</string>-->
+    <!--<string name="you_have_unblocked_this_user_from_the_group">আপনি এই ব্যবহারকারীকে এই দল থেকে আনব্লক করেছেন</string>-->
+    <!--<string name="unable_to_post_to_group_blocked">দলে পোস্ট করা যায়নি, আপনাকে ব্লক করা হয়েছে</string>-->
+    <!--<string name="unable_to_post_comment_blocked">মন্তব্য পোস্ট করা যায়নি, আপনাকে ব্লক করা হয়েছে</string>-->
+    <!--<string name="unblock_user">বব্যবহারকারীকে আনব্লক করুন</string>-->
+    <!--<string name="are_you_sure_you_want_to_unblock_this_user">আপনি কি নিশ্চিত এই ব্যবহারকারীকে আনব্লক করবেন?</string>-->
+    <!--<string name="unable_to_update_post_blocked">পোস্ট হালনাগাদ করা যায়নি, আপনাকে ব্লক করা হয়েছে</string>-->
+    <!--<string name="unable_to_update_comment_blocked">মন্তব্য হালনাগাদ করা যায়নি, আপনাকে ব্লক করা হয়েছে</string>-->
+    <!--<string name="emergency_logout_toast_text">আপনার সেশন সঠিক নয়, দয়া করে আবার প্রবেশ করুন।</string>-->
+    <!--<string name="unable_to_leave_or_delete_group">দল ত্যাগ অথবা মুছে ফেলা যায়নি</string>-->
+    <!--<string name="public_group_button_text">পাবলিক</string>-->
+    <!--<string name="private_group_button_text">প্রাইভেট</string>-->
+    <!--<string name="discussion_group_button_text">আলোচনা</string>-->
+    <!--<string name="blog_group_button_text">ব্লগ</string>-->
+    <!--<string name="creating_group">দল তৈরি হচ্ছে...</string>-->
+    <!--<string name="updating_group">দল হালনাগাদ করা হচ্ছে...</string>-->
+    <!--<string name="unable_to_delete_group">দল মুছে ফেলা যায়নি</string>-->
+    <!--<string name="are_you_sure_you_want_to_unfollow_the_group">আপনি কি নিশ্চিত এই দল অনুসরণ করবেন না?</string>-->
+    <!--<string name="unfollow_group">আপনাকে একটি দল অনুসরণ করার জন্য আমন্ত্রণ জানিয়েছে</string>-->
+
+<!--</resources>-->

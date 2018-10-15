@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <import type="java.util.List" />
+
+        <variable
+            name="user"
+            type="com.conx2share.conx2share.network.models.User" />
+
+        <variable
+            name="adapter"
+            type="com.conx2share.conx2share.adapter.DiscoverUsersAdapter" />
+    </data>
+
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/discover_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:clickable="true"
+        android:onClick="@{(theView) -> adapter.onUserClick(theView, user)}">
+
+        <com.conx2share.conx2share.ui.view.AvatarImageView
+            android:id="@+id/discover_user_avatar"
+            android:layout_width="@dimen/avatar_size"
+            android:layout_height="@dimen/avatar_size"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="8dp"
+            app:initView="@{user}" />
+
+        <TextView
+            android:id="@+id/discover_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="6dp"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_toEndOf="@+id/discover_user_avatar"
+            android:textColor="@color/text_color_dark"
+            android:text="@{user.displayName}"
+            tools:text="First and Last name" />
+
+        <TextView
+            android:id="@+id/discover_text_body"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/discover_user_name"
+            android:layout_marginStart="8dp"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_toEndOf="@+id/discover_user_avatar"
+            android:textColor="@color/conx_primary"
+            android:text="@{'@'+user.username}"
+            tools:text=" @Nick name" />
+
+        <TextView
+            android:id="@+id/discover_user_followers"
+            style="@style/list_item.date"
+            android:layout_below="@+id/discover_text_body"
+            android:layout_marginStart="8dp"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_toEndOf="@+id/discover_user_avatar"
+            android:text="@{String.valueOf(user.followers)+' '+@string/followers}"
+            tools:text="315 followers" />
+
+        <ImageView
+            android:id="@+id/discover_user_add_bt"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:onClick="@{() -> adapter.onFollowUserClick(user)}"
+            android:src="@{user.isFollowing ? @drawable/v_ic_account_plus_gray : @drawable/v_ic_account_plus}" />
+
+        <LinearLayout
+            android:id="@+id/discover_user_preview_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/discover_user_followers"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:visibility="@{user.recentPosts.size() > 0 ? View.VISIBLE : View.GONE }"
+            android:weightSum="3"
+            tools:visibility="visible">
+
+            <ImageView
+                android:id="@+id/discover_user_preview_1"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_marginEnd="2dp"
+                android:layout_weight="1"
+                app:imageUrl="@{user.recentPosts[0].imageUrl}"
+                android:onClick="@{() -> adapter.onPostClick(user.recentPosts[0])}"/>
+
+            <ImageView
+                android:id="@+id/discover_user_preview_2"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginStart="2dp"
+                android:layout_weight="1"
+                app:imageUrl="@{user.recentPosts[1].imageUrl}"
+                android:onClick="@{() -> adapter.onPostClick(user.recentPosts[1])}"/>
+
+            <ImageView
+                android:id="@+id/discover_user_preview_3"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="2dp"
+                android:layout_weight="1"
+                app:imageUrl="@{user.recentPosts[2].imageUrl}"
+                android:onClick="@{() -> adapter.onPostClick(user.recentPosts[2])}"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>

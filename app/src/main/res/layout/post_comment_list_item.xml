@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.conx2share.conx2share.ui.view.AvatarImageView
+            android:id="@+id/post_user_avatar"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingEnd="12dp"
+            android:paddingStart="12dp">
+
+            <TextView
+                android:id="@+id/post_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="user name"
+                android:ellipsize="end"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/post_user_handle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                tools:text="\@handle"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/post_comment_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                tools:text="@string/one_m"
+                android:textColor="@color/unread_messages_gray"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/post_comment_option_carrot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@color/transparent"
+                android:padding="8dp"
+                android:visibility="invisible"
+                tools:visibility="visible"
+                android:src="@drawable/edit_carrot_grey" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/comment_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        tools:text="comment text"
+        android:textSize="17sp"
+        android:autoLink="web"
+        android:textIsSelectable="true"/>
+
+</LinearLayout>

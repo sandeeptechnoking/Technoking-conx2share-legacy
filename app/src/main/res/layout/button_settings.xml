@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding_large">
+
+    <ImageView
+        android:id="@+id/settings_button.icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/ic_support"/>
+
+    <TextView
+        android:id="@+id/settings_button.textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_large"
+        android:layout_toRightOf="@id/settings_button.icon"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/font_large"
+        android:text="Setting"/>
+
+</RelativeLayout>

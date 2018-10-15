@@ -1,0 +1,49 @@
+package com.conx2share.conx2share.network.models.param;
+
+import android.location.Location;
+import android.support.annotation.Nullable;
+
+import com.conx2share.conx2share.network.models.ChatStatus;
+import com.google.gson.annotations.SerializedName;
+
+public class SayNoGroup {
+    @SerializedName("is_incident")
+    private boolean isIncident;
+
+    @SerializedName("group_id")
+    private int groupId;
+
+    private ChatStatus status;
+    private Double latitude;
+    private Double longitude;
+
+    public SayNoGroup(boolean isIncident, int groupId, @Nullable Location location, ChatStatus status) {
+        this.isIncident = isIncident;
+        this.groupId = groupId;
+<<<<<<< HEAD
+        this.latitude = location == null ? null : location.getLatitude();
+        this.longitude = location == null ? null : location.getLongitude();
+        this.isAnonymous = isAnonymous;
+=======
+        this.latitude = location == null ? 0d : location.getLatitude();
+        this.longitude = location == null ? 0d : location.getLongitude();
+>>>>>>> 7e71f7d1b855129aabb591709e937a87157f3d32
+        this.status = status;
+    }
+
+    public boolean isIncident() {
+        return isIncident;
+    }
+
+    public void setIncident(boolean incident) {
+        isIncident = incident;
+    }
+
+    public int getGroupId() {
+        return groupId;
+    }
+
+    public void setGroupId(int groupId) {
+        this.groupId = groupId;
+    }
+}

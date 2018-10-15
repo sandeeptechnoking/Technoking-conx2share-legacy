@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:minHeight="250dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="250dp">
+
+            <RelativeLayout
+                android:id="@+id/image_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/media_imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:id="@+id/gradient_imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/imagegradient_overlay" />
+            </RelativeLayout>
+
+            <com.conx2share.conx2share.ui.view.AvenirNextTextView
+                android:id="@+id/age_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:paddingRight="10dp"
+                android:text="@string/one_m"
+                android:textColor="@color/unread_messages_gray"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/video_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/video_orange"
+                android:visibility="gone" />
+
+            <com.conx2share.conx2share.ui.view.AvenirNextTextView
+                android:id="@+id/body_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75dp"
+                android:ellipsize="end"
+                android:paddingBottom="50dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="18sp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:padding="10dp">
+
+                <com.conx2share.conx2share.ui.view.AvenirNextTextView
+                    android:id="@+id/comment_count_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/one"
+                    android:textSize="18sp" />
+
+                <ImageButton
+                    android:id="@+id/post_comment_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/comment_count_textView"
+                    android:background="@color/transparent"
+                    android:src="@drawable/new_comment_selector" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp">
+
+                <com.conx2share.conx2share.ui.view.AvenirNextTextView
+                    android:id="@+id/like_count_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/one"
+                    android:textSize="18sp" />
+
+                <ImageButton
+                    android:id="@+id/post_like_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/like_count_textView"
+                    android:background="@color/transparent"
+                    android:padding="5dp"
+                    android:src="@drawable/like_grey" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:id="@+id/share_imageButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="@color/transparent"
+                    android:padding="5dp"
+                    android:src="@android:drawable/ic_menu_share" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+

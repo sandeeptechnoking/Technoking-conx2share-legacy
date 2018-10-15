@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/item_chat_message_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:background="@drawable/bubble_blue">
+
+        <ImageView
+            android:id="@+id/item_chat_attachment"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            tools:src="@drawable/friend_placeholder"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/item_chat_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="left"
+            android:maxWidth="230dp"
+            android:padding="@dimen/padding_quarter"
+            android:textSize="@dimen/font_small"
+            android:autoLink="web"
+            android:textIsSelectable="true"
+            android:textColorLink="@color/conx_orange_pressed"
+            tools:text="Test message" />
+    </LinearLayout>
+
+    <com.conx2share.conx2share.ui.view.AvatarImageView
+        android:id="@+id/item_chat_avatar"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_alignTop="@id/item_chat_message_container"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/friend_placeholder" />
+
+</RelativeLayout>

@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="applicationName">"ConX2Share"</string>
+    <string name="labelSignin">"Intrare"</string>
+    <string name="labelSignup">"Inregistrare"</string>
+    <string name="labelEmail">"Email"</string>
+    <string name="labelPassword">"Parola"</string>
+    <string name="labelOr">"sau"</string>
+    <string name="labelUsername">"Uitilizator"</string>
+    <string name="labelConfirmPassword">"Confirma parola"</string>
+    <string name="labelFirstName">"Nume"</string>
+    <string name="labelLastName">"Prenume"</string>
+    <string name="blurbTermsAndConditions">"Am citit si sunt de acord cu termenii si conditiile"</string>
+    <string name="statusAuthenticating">"Autentificare…"</string>
+    <string name="statusUnexpectedError">"A aparut o eroare neasteptata."</string>
+    <string name="statusMessagedMarkedAsViewed">"Mesajul a fost marcat ca citit"</string>
+    <string name="labelSuccess">"Succes"</string>
+    <string name="statusMessageSent">"Mesajul a fost trimis"</string>
+    <string name="statusMessageSentFailed">"Nu a reusit expedierea mesajului"</string>
+    <string name="hintEnterMessageHere">"Adauga mesajeul aici…"</string>
+    <string name="statusGotSentMessages">"Mesajul trimis a fost primit"</string>
+    <string name="hintTypeAMessage">"Scrie un mesaj…"</string>
+    <string name="hintAddTextHere">"Adauga textul aici…"</string>
+    <string name="statusFileError">"Eroare de fisier"</string>
+    <string name="statusCameraError">"Eroare de Camera"</string>
+    <string name="labelAddAttachment">"Adauga atasament:"</string>
+    <string name="labelTakeAPhoto">"Faceti o fotografie"</string>
+    <string name="labelTakeAVideo">"Faceti un video"</string>
+    <string name="labelMessageType">"Tip mesaj:"</string>
+    <string name="labelError">"Eroare:"</string>
+
+    <!-- Post Activity -->
+    <string name="labelPost">"Posteaza"</string>
+    <string name="titleCreatePost">"Creeaza o postare"</string>
+    <string name="labelPostTo">"Catre:"</string>
+    <string name="labelEveryone">"Toti"</string>
+    <string name="statusPostSuccessful">"Postare reusita"</string>
+    <string name="statusPostFailed">"Postarea nu a reusit: "</string>
+
+    <!-- Image Upload Dialog -->
+    <string name="titleUploadPhoto">"Incarca fotografie"</string>
+    <string name="promptUploadOrSelectImageQuestion">"Doresti sa faci o fotografie sau sa incarci din biblioteca ta?"</string>
+    <string name="promptUploadOrSelectVideoQuestion">"Doresti sa faci un video sau sa incarci din biblioteca ta?"</string>
+    <string name="labelTakePhoto">"Faceti fotografie"</string>
+    <string name="labelLibrary">"Librarie"</string>
+    <string name="blurbNotYetImplemented">"Inca nu s-a implementat."</string>
+
+    <!-- Feed Activity -->
+    <string name="labelDrawerOpen">"Sertar deschis"</string>
+    <string name="labelDrawerClose">"Sertar inchis"</string>
+    <string name="labelSignout">"Iesire"</string>
+    <string name="labelProfilePicture">"Poza de profil"</string>
+
+    <!-- Share Dialog -->
+    <string name="labelShareTo">"Distribuie pe..."</string>
+    <string name="labelCancel">"Anulare"</string>
+
+    <!-- Contacts -->
+    <string name="labelContacts">"Contacte"</string>
+    <string name="statusInviteSuccessful">"Prieteni invitati"</string>
+    <string name="statusInviteFailed">"Nu a reusit invitarea prietenului: "</string>
+
+    <!-- Groups -->
+    <string name="titleGroupName">"NUMELE GRUPEI"</string>
+    <string name="labelCreateGroup">"CREEAZA GRUPA"</string>
+    <string name="blurbGroupNameInvalid">"Grupa trebuia sa contina nume"</string>
+    <string name="blurbGroupImageInvalid">"Grupa trebuia sa contina imagine"</string>
+    <string name="labelEditGroup">"EDITEAZA GRUPA"</string>
+    <string name="blurbGroupCreationFail">"Nu a reusit crearea grupei.  Incearca din nou."</string>
+    <string name="blurbGroupCreationSuccess">"A fost creata grupa %s!"</string>
+    <string name="blurbGroupUpdateFail">"Nu a reusit actualizarea grupei.  Incearca din nou."</string>
+    <string name="blurbGenericErrorMessage">"A aparut o eroare. Incearca din nou."</string>
+    <string name="statusNoUsersFound">"Niciun utilizator gasit pentru criteriul de potrivire"</string>
+    <string name="labelMembers">"Membri"</string>
+    <string name="labelSend">"trimis"</string>
+    <string name="statusFailedToTetrieveMessages">"Nu a reusit recuperarea mesajelor noi"</string>
+    <string name="questionSaveMessage">"Salveaza mesaj?"</string>
+
+    <!-- Message Friends -->
+    <string name="hintFriendsName">"Nume Prenume"</string>
+    <string name="blurbErrorLoadingIndex">"A aparut o eroare in timpul incarcarii chat-urilor tale."</string>
+    <string name="titleNewMessage">"Mesaj nou"</string>
+
+    <!-- Drawer Notifications -->
+    <string name="statusSentYouANewMessage">"Ti-a trimis un mesaj nou"</string>
+    <string name="labelCommentedOnYourPost">"A comentat postarea ta"</string>
+    <string name="statusInvitedYouToJoin">"Te-a invitat sa te alaturi"</string>
+    <string name="statusLoginFailed">"Autentificarea nu a reusit. Te rugam sa verifici conexiunea la internet si sa incerci din nou."</string>
+
+    <!-- ######################################### SET 2 STRINGS ##################################################### -->
+    <string name="labelNone">"Niciun"</string>
+    <string name="label15s">"15s"</string>
+    <string name="label30s">"30s"</string>
+    <string name="label60s">"60s"</string>
+    <string name="label120s">"120s"</string>
+    <string name="labelHome">"Acasa"</string>
+    <string name="labelMessages">"Mesaje"</string>
+    <string name="labelFriends">"Prieteni"</string>
+    <string name="labelGroups">"GRUPEI"</string>
+    <string name="labelNotifications">"Notificari"</string>
+    <string name="labelSubscriptionsGP">"EXTRA"</string>
+    <string name="labelStore">"Pastrare"</string>
+    <string name="labelAbout">"DESPRE"</string>
+    <string name="labelChange">"schimba"</string>
+    <string name="labelPushMNotifications">"PUSH NOTIFICARI"</string>
+    <string name="titleSwitchTitle1">"SCHIMBA TITLUL 1"</string>
+    <string name="titleSwitchTitle2">"SCHIMBA TITLUL 2"</string>
+
+    <!-- Strings for Async Errors -->
+    <string name="labelRetry">"REPETA"</string>
+    <string name="statusUnableToGatherFriendsToInvite">"Imposibil de adunat prietenii pentru invitatie"</string>
+    <string name="statusUnableToInviteFriends">"Imposibil de invitaț prietenii"</string>
+    <string name="statusUnableToPostToGroup">"Imposibil de a publica în grup"</string>
+    <string name="statusUnableToPost">"Imposibil de postat"</string>
+    <string name="statusPostAlreadyFlagged">"Imposibil de marcat postarea, ai marcat deja aceasta"</string>
+    <string name="statusUnableToFlagPost">"Imposibil de marcat postarea"</string>
+    <string name="statusUnableToGetPost">"Imposibil de obținut postarea"</string>
+    <string name="statusUnableToGetPostComments">"Imposibil de obținut comentariile postarii"</string>
+    <string name="statusUnableToLikePost">"Imposibil de marcat postarea cu like"</string>
+    <string name="statusUnableToUnlikePost">"Imposibil de marcat postarea cu unlike"</string>
+    <string name="statusUnableToCreateGroup">"Imposibil de creat grupul"</string>
+    <string name="statusUnableToUpdateGroup">"Imposibil de actualizat grupul"</string>
+    <string name="statusUnableToRefreshFeed">"Imposibil de reinnoit reteaua de alimentare"</string>
+    <string name="statusUnableToGetPosts">"Imposibil de obținut posturile"</string>
+    <string name="statusUnableToGetUnreadMessages">"Imposibil de obținut mesajele necitite"</string>
+    <string name="statusUnableToGetFriends">"Imposibil de obținut prieteni"</string>
+    <string name="statusUnableToGetGroup">"Imposibil de obținut grupul"</string>
+    <string name="statusUnableToGetGroupPosts">"Imposibil de obținut posturile din grup"</string>
+    <string name="statusUnableToGetGroupList">"Imposibil de obținut lista grupului"</string>
+    <string name="statusUnableToRemoveOrDeleteGroup">"Imposibil de a elimina sau șterge grupul"</string>
+    <string name="statusUnableToGetChats">"Imposibil de obținut chat-urile"</string>
+    <string name="statusUnableToGetSavedMessages">"Imposibil de obținut mesajele salvate"</string>
+    <string name="statusUnableToUpdateNotificationAsViewed">"Imposibil de actualizat notificarea ca vazuta"</string>
+    <string name="statusUnableToGetMessage">"Imposibil de obținut mesajul"</string>
+    <string name="statusUnableToFollowUser">"Imposibil de urmarit utilizatorul"</string>
+    <string name="statusUnableToUnfollowUser">"Imposibil de dezactivat urmărirea utilizatorului"</string>
+    <string name="statusUnableToLoadProfile">"Imposibil de încărcat profilul"</string>
+    <string name="statusUnableToUpdateAvatar">"Imposibil de actualizat avatarul"</string>
+    <string name="statusUnableToInviteUserToGroup">"Imposibil de invitat utilizatorul la grup"</string>
+    <string name="statusUnableToPurchaseSubscription">"Imposibil de achiziționat abonamentul"</string>
+    <string name="statusUnableToUpdateUsersProfile">"Imposibil de actualizat profilul utilizatorului"</string>
+    <string name="statusUnableToSendMessage">"Imposibil de trimis mesajul"</string>
+    <string name="statusUnableToSetExpiration">"Imposibil de setat termenul de expirare a mesajului"</string>
+    <string name="statusUnableToSaveMessage">"Imposibil de salvat mesajul"</string>
+    <string name="statusUnableToGetChat">"Imposibil de obținut chat-ul cu utilizatorul"</string>
+    <string name="statusUnableToGetSentMessages">"Imposibil de obținut mesajele trimise"</string>
+    <string name="statusUnableToGetMissedMessages">"Imposibil de obținut mesajele pierdute"</string>
+    <string name="statusUnableToGetNotifications">"Imposibil de obținut notificarile"</string>
+    <string name="statusUnableToAcceptGroupInvite">"Imposibil de acceptat invitatia grupului"</string>
+    <string name="statusUnableToDeclineGroupInvite">"Imposibil de declinat invitatia grupului"</string>
+    <string name="statusUnableToGetMoreNotifications">"Imposibil de obținut mai multe notificari"</string>
+    <string name="statusUnableToGetFollowingUsers">"Imposibil de obținut utilizatorii, pe care ii urmaresti"</string>
+    <string name="statusUnableToGetFollowers">"Imposibil de obținut followeri"</string>
+    <string name="statusUnableToGetMessages">"Imposibil de obținut mesajele"</string>
+    <string name="statusUnableToGoToChat">"Imposibil de initiat chat-ul"</string>
+
+    <!-- Search hints -->
+    <string name="hintSearchForUsersToInvite">"cauta oameni pentru a-i invita"</string>
+    <string name="hintSearchFriends">"cauta prietenii"</string>
+    <string name="hintSearchForFriends">"cauta prietenii"</string>
+    <string name="hintSearchForMembers">"cauta membrii"</string>
+    <string name="hintSearchForUsersToChatWith">"cauta utilizatori, pentru a discuta cu ei"</string>
+    <string name="hintSearchContacts">"cauta contacte"</string>
+
+    <!-- Notifications -->
+    <string name="statusNewNotificationReceived">"A fost primita o noua notificare"</string>
+    <string name="labelRefresh">"REINNOIRE"</string>
+    <string name="labelViewed">" - vizualizat"</string>
+    <string name="labelAccepted">"acceptat"</string>
+    <string name="labelDeclined">"declinat"</string>
+    <string name="titleNotification">"Notificarea Conx2Share"</string>
+
+    <!-- Prompt text -->
+    <string name="labelYes">"DA"</string>
+    <string name="labelNo">"NU"</string>
+    <string name="labelOk">"OK"</string>
+    <string name="labelExclamation">"!"</string>
+
+    <!-- Subscription Strings -->
+    <string name="statusSubscribedSuccessfully">"Abonat cu succes"</string>
+    <string name="statusFailedToSubscribe">"Imposibil de abonat"</string>
+    <string name="labelPriceFree">"0"</string>
+    <string name="labelPricePlus">"2.40/an"</string>
+    <string name="labelPricePremium">"29.99/an"</string>
+    <string name="labelPricePlatinum">"49.99/an"</string>
+    <string name="blurbFreeSubscriptionDescription"><![CDATA[Pozele si video-urile vor fi eliminate dupa vizualizare.]]></string>
+    <string name="titleFreeSubscription">"Gratis"</string>
+    <string name="labelSubscribe">"Aboneaza-te!"</string>
+    <string name="labelCurrentSubscription">"abonare curenta"</string>
+    <string name="labelAgo">"in urma"</string>
+    <string name="labelPlus">"Plus"</string>
+    <string name="blurbPlusSubscriptionDescription">"Salveaza pina la 5 poze si 1 videou."</string>
+    <string name="titlePremiumSubscription">"Premium"</string>
+    <string name="blurbPremiumSubscriptionDescription"><![CDATA[Cx2share email si 50GB pentru pastrarea mesajelor, pozelor si video-urilor.]]></string>
+    <string name="titlePlatinumSubscription">"Platinum"</string>
+    <string name="blurbPlatinumSubscriptionDescription"><![CDATA[Cx2share email si 100GB pentru pastrarea mesajelor, pozelor si video-urilor.]]></string>
+
+    <!-- Sharing Strings -->
+    <string name="labelSharedBy">"\" postat de catre "</string>
+    <string name="blurbViaConx2shareAndroid">" prin Conx2share Android"</string>
+    <string name="titleConx2shareForAndroid">"Conx2share pentru Android"</string>
+    <string name="messagePleaseInstallFacebook">"Te rugam sa instalezi aplicatia Facebook pentru a posta mesajul tau."</string>
+    <string name="messagePleaseInstallTheTwiiterApp">"Te rugam sa instalezi aplicatia Twitter pentru a posta mesajul tau."</string>
+
+    <!-- Progress Dialog Strings -->
+    <string name="statusLoadingMessages">"Incarcarea mesajelor..."</string>
+    <string name="statusGatheringFriends">"Colectarea prietenilor..."</string>
+    <string name="statusGatheringMessages">"Colectarea mesajelor..."</string>
+    <string name="statusGatheringChats">"Colectarea chat-urilor..."</string>
+    <string name="statusGatheringFollowedUsers">"Colectarea utilizatorilor, pe care ii urmaresti..."</string>
+    <string name="statusGatheringFollowers">"Colectarea followerilor..."</string>
+    <string name="statusSendingMessage">"Expedierea mesajului..."</string>
+    <string name="statusPosting">"Postare..."</string>
+    <string name="statusGatheringSavedMessages">"Colectarea mesajelor salvate..."</string>
+    <string name="statusGatheringChatInformation">"Colectarea informației chat-ului..."</string>
+
+    <!-- Group Strings -->
+    <string name="labelDeleteGroup">"Sterge grupul"</string>
+    <string name="labelLeaveGroup">"Iesire din grup"</string>
+    <string name="labelDeletedGroup">"Grupul a fost sters "</string>
+    <string name="labelLeftGroup">"Ai iesit din grup "</string>
+    <string name="labelUpdatedGroup">"Grupul a fost actualizat "</string>
+    <string name="labelGroupOwner">"proprietarul grupului"</string>
+    <string name="labelGroupMembers">"Membrii grupului"</string>
+    <string name="labelGroupName">"Numele grupului"</string>
+
+    <!-- Following Strings -->
+    <string name="labelFollowers">"Followeri"</string>
+    <string name="labelFollowing">"Following"</string>
+    <string name="statusFailedToFollow">"Following esuat. Incearca din nou."</string>
+    <string name="labelUnfollowed">"Following dezactivat"</string>
+    <string name="labelFollow">"URMARESTE"</string>
+    <string name="labelUnfollow">"ANULEAZA URMARIREA"</string>
+    <string name="statusFollowedYou">"Te-a urmarit"</string>
+
+    <!-- SignUp Strings -->
+    <string name="statusYouAreNowSignedUp">"Acum esti inregistrat!"</string>
+    <string name="statusFailedToSignUp">"Inregistrarea nu a reusit, te rugam sa incerci din nou."</string>
+    <string name="statusPleaseFillOutAllFields">"Te rugam sa completezi toate campurile"</string>
+
+    <!-- Image and video strings -->
+    <string name="titleSelectPicture">"Alege imaginea"</string>
+    <string name="questionUploadFromLibrary">"Doresti sa faci un videou sau sa incarci din biblioteca ta?"</string>
+    <string name="statusErrorUploadingVideo">"A aparut o eroare la incarcarea video-ului"</string>
+    <string name="messageSelectImageError">"Te rugam sa alegi o imagine stocata pe dispozitiv. Aceasta nu include imaginile din alte aplicatii sau mass-media sociale."</string>
+    <string name="statusTwitterImageError">"Nu a reusit incarcarea imaginii si atasarea acesteea la postul de pe Twitter."</string>
+    <string name="satusErrorSelectingImage">"A aparut o eroare la selectarea imaginii"</string>
+    <string name="questionSelectUpload">"Ce ti-ar placea sa incarci?"</string>
+    <string name="statusImageDownloadFailed">"Descarcarea imaginii a esuat"</string>
+    <string name="statusImageNotFound">"Imaginea nu a putut fi gasita"</string>
+    <string name="labelVideoTake">"Executa un video"</string>
+    <string name="statusFileExceedsLimit">"Fisierul depaseste limita 10Mb."</string>
+    <string name="questionSelectVideoSource">"Elimina video-ul sau alege unul din biblioteca ta?"</string>
+    <string name="questionSelectImageSource">"Elimina imaginea sau alege una din biblioteca ta?"</string>
+
+    <!-- Fuzzy -->
+    <string name="indicatorMedia">"(media)"</string>
+
+    <!-- Fuzzy -->
+    <string name="indicatorPicture">"(imagine)"</string>
+
+    <!-- Fuzzy -->
+    <string name="indicatorVideo">"(video)"</string>
+
+    <!-- Fuzzy -->
+    <string name="indicatorAudio">"(audio)"</string>
+
+    <!-- Post Strings -->
+    <string name="promptFlagContentAsInappropriate">"Doresti sa marchezi aceasta postare pentru continut nepotrivit?"</string>
+    <string name="statusPostFlagged">"Aceasta postare a fost marcata"</string>
+    <string name="statusMadeANewPost">"A facut o noua postare"</string>
+    <string name="statusMadeANewGroupPost">"A facut o postare noua in grup"</string>
+    <string name="hintEnterYourMessageHere">"Introdu mesajul aici..."</string>
+
+    <!-- Password Strings -->
+    <string name="promptForgotPassword">"Ai uitat parola?"</string>
+    <string name="hintEnterYourEmail">"Te rugam sa introduci adresa de email."</string>
+    <string name="labelChangePassword">"Schimba parola"</string>
+    <string name="statusCantResetPassword">"Imposibil de resetat parola"</string>
+    <string name="labelResetPassword">"Reseta parola"</string>
+    <string name="statusResetPasswordEmailSent">"E-mail de resetare a parolei trimis"</string>
+    <string name="statusPleaseEnterYourEmailAddress">"Te rugam sa introduci adresa ta de email si sa incerci din nou."</string>
+    <string name="labelConfirmNewPassword">"Confirma parola noua"</string>
+    <string name="labelNewPassword">"Parola noua"</string>
+    <string name="labelOldPassword">"Parola veche"</string>
+    <string name="statusUpdatingPassword">"Actualizarea parolei"</string>
+    <string name="statusOldPasswordIncorrect">"Parola veche este incorecta."</string>
+    <string name="statusPasswordUpdated">"Parola a fost actualizata"</string>
+    <string name="statusPasswordFailedToUpdate">"Nu a reusit actualizarea parolei, te rugam sa incerci din nou"</string>
+    <string name="statusPasswordsDontMatch">"Parolele nu se potrivesc"</string>
+    <string name="statusOldPasswordError">"Eroarea parolei vechi"</string>
+    <string name="statusOldPasswordInvalid">"Parola vechi introdusa nu este valida"</string>
+    <string name="blurbPasswordsDontMatch">"Noua parola si confirmarea parolei nu se potrivesc. Te rugam sa incerci din nou."</string>
+    <string name="you_password_has_been_updated">"Parola ta a fost actualizata"</string>
+    <string name="change_password_error">"Eroare"</string>
+
+    <!-- Drawer Items -->
+    <string name="labelDrawerHome">"Acasa"</string>
+    <string name="labelDrawerMessages">"Mesaje"</string>
+    <string name="labelDrawerFriends">"Prieteni"</string>
+    <string name="labelDrawerGroups">"Grupuri"</string>
+    <string name="labelDrawerNotifications">"Notificari"</string>
+    <string name="labelDrawerInvite">"Invita"</string>
+    <string name="labelDrawerStore">"Pastrare"</string>
+    <string name="labelDrawerEshopping">"E-Shopping"</string>
+    <string name="labelDrawerGames">"Jocuri"</string>
+    <string name="labelDrawerBusiness">"Business"</string>
+
+    <!-- Other Strings -->
+    <string name="blurbFacebookConnectNotImplemented">"Conectarea prin Facebook inca nu a fost pusa in aplicare"</string>
+    <string name="blurbTwiterConnectNotImplemented">"Conectarea prin Twitter inca nu a fost pusa in aplicare"</string>
+    <string name="errorNoChatNotFollowed">"Ambii utilizatori trebuie sa se urmareasca reciproc, pentru a initia un chat"</string>
+    <string name="errorTryAgain">"Te rugam sa incerci din nou"</string>
+    <string name="statusMessageSaved">"Mesajul este salvat."</string>
+    <string name="errorPasswordLength">"Parola trebuie sa fie de cel putin 8 caractere"</string>
+    <string name="errorPasswordsNotMatch">"Parolele nu se potrivesc"</string>
+    <string name="errorGenericSignUp">"A aparut o eroare in timpul inregistrarii."</string>
+    <string name="statusSigningUp">"Inregistrare..."</string>
+    <string name="blurbSubscriptionLevelTooLow">"Ai deja un nivel superior de abonament"</string>
+    <string name="errorPleaseAcceptTerms">"Te rugam sa accepti termenii si conditiile."</string>
+
+    <!-- <string name="please_accept_the_terms_of_service">Please accept the terms of service</string> -->
+    <string name="errorUsernameTaken">"Numele de utilizator este deja luat."</string>
+    <string name="blurbNotConnectedToGooglePlay">"Nu este conectat la magazinul Google Play"</string>
+    <string name="blurbComingSoon">"In curand!"</string>
+    <string name="labelAccept">"accepta"</string>
+    <string name="labelDecline">"declina"</string>
+    <string name="hintLeaveAComment">"Lasa un comentariu..."</string>
+    <string name="labelZero">"0"</string>
+    <string name="labelOne">"1"</string>
+
+    <!-- ######################################### SET 3 STRINGS ##################################################### -->
+    <string name="statusUnableToGetGroupMembers">"Imposibil de obținut membrii grupului curent"</string>
+    <string name="statusUnableToLoadWebPage">"Imposibil de încărcat pagina web"</string>
+    <string name="hintEnterText">"Te rugăm să introduci textul"</string>
+    <string name="labelTermsOfService">"termeni de ulizare"</string>
+    <string name="blurbTermsOfServiceAndPrivacyPolicy">"Am citit și sunt de acord cu termenii de utilizare și politica de confidențialitate"</string>
+    <string name="labelPrivacyPolicy">"politica de confidențialitate"</string>
+    <string name="statusGroupUpdateSuccess">"Grupul a fost reînnoit %s!"</string>
+    <string name="statusRetrievingNotificationsFailed">"Nu a reușit recuperarea notificărilor. Incerca din nou. "</string>
+    <string name="errorGenericMessaging">"A apărut o eraore în timpul expedierii mesajelor"</string>
+
+    <!-- Message Friends Index -->
+    <string name="labelSaved">"Salvat"</string>
+    <string name="labelCurrent">"Curent"</string>
+
+    <!-- Follow -->
+    <string name="labelFollowed">"Cercuri"</string>
+    <string name="statusUnfollowFailed">"Nu a reușit anularea following-ului. Incerca din nou. "</string>
+    <string name="labelStartRecording">"Începe înregistrarea"</string>
+    <string name="labelSubmit">"trimite"</string>
+    <string name="errorInvalidUsernameOrPassword">"Numele de utilizator sau parola nevalidă"</string>
+    <string name="statusUnableToUpdateFollowersCount">"Imposibil de actualizat numărul followeri-lor"</string>
+
+    <!-- Promo Codes -->
+    <string name="labelPromoCode">"Cod promo (opțional)"</string>
+    <string name="labelActivatePromoCode">"Activează codul promo"</string>
+    <string name="errorInvalidPromoCode">"Codul promo introdus nu este valid."</string>
+    <string name="blurbInvalidPromoCode">"Codul promo introdus nu este valid.Introduceți un cod promo valid sau ștergeți codul curent. "</string>
+    <string name="hintEnterPromoCode">"Te rugăm să introduci codul promo..."</string>
+    <string name="blurbAccountSubscriptionUpgradedPlus">"Abonamentul dvs. a fost schimbat la Plus. "</string>
+
+    <!-- ######################################### SET 4 STRINGS ##################################################### -->
+    <string name="statusUnableToCheckPromoCodeValid">"Imposibil de verificat dacă codul promo este valabil"</string>
+    <string name="blurbPromoUpgradePlusDescription">"Codul promo introdus este valabil. Dacă contul dvs. este gratuit, acesta a fost actualizat la abonament Plus."</string>
+    <string name="statusValidPromoCode">"Cod Promo Valid "</string>
+    <string name="statusInvalidPromoCode">"Cod Promo Nevalid"</string>
+    <string name="statusUnableUpdateUserToPromoUser">"Imposibil de actualizat contul la utilizator promo"</string>
+    <string name="errorEmailAlreadyUsed">"Adresa de e-mail este deja luată"</string>
+
+    <!-- ######################################### SET 5 Strings ##################################################### -->
+    <string name="statusUserFavoritingFailed">"nu a reușit preferentierea utilizatorului."</string>
+    <string name="statusUserUnfavoritingFailed">"Anularea referentierii utilizatorului esuat"</string>
+    <string name="errorGroupNameTaken">"Numele grupului este deja luat."</string>
+    <string name="blurbNewMessageReceivedFrom">"Ai primit un nou mesaj de la"</string>
+    <string name="labelOneM">"1m"</string>
+    <string name="statusUnableToPostComment">"Nu a reusit postarea comentariului"</string>
+    <string name="labelStartChat">"Incepe un chat nou"</string>
+    <string name="promptDeleteGroupConfirm">"Esti sigur ca doresti sa stergi grupul?"</string>
+    <string name="promptLeaveGroupConfirm">"Esti sigur ca doresti sa parasesti grupul?"</string>
+    <string name="labelExit">"Iesire"</string>
+    <string name="labelAttachPhoto">"Te rugam sa atasezi o fotografie"</string>
+    <string name="labelAttachVideo">"Te rugam sa atasezi un vide."</string>
+    <string name="errorEmailBlank">"E-mail nu poate fi necompletat"</string>
+
+    <!-- ######################################### SET 6 Strings ##################################################### -->
+    <string name="errorGroupIsPerminant">"Nu poti iesi sau sterge grupul Conx2Share"</string>
+    <string name="labelPromoted">"Promovat"</string>
+    <string name="errorRecordingTooShort">"Inregistrarea nu este suficient de lunga."</string>
+    <string name="warningRecordingWillBeTruncated">"Doar primele 2 minute ale inregistrarii vor fi trimise."</string>
+    <string name="statusUnableToSendAudioMessage">"Imposibil de trimis mesajul audio"</string>
+    <string name="statusUnableToGetBusinessInfo">"Imposibil de incarcat informatiile de afaceri"</string>
+    <string name="statusCouldNotRetrieveYourBusinesses">"Afacerile dvs. nu au putut fi restabilite"</string>
+    <string name="statusCannotPostToConx2shareGroup">"Nu poti posta in grupul Conx2share."</string>
+    <string name="hintSearchForBusinesses">"cauta afaceri"</string>
+    <string name="LabelBusinesses">"Afaceri"</string>
+    <string name="labelBusinessOwner">"Patron"</string>
+    <string name="labelGroup">"Grupul: "</string>
+    <string name="labelBusiness">"Afaceri: "</string>
+    <string name="labelDeletePost">"Sterge postarea"</string>
+    <string name="errorDeletePostNotOwner">"Aceasta postare nu-ti apartine, pentru a o sterge"</string>
+    <string name="promptDeletePostConfirm">"Esti sigur ca doresti sa stergi aceasta postare?"</string>
+    <string name="statusPostDeleted">"Postarea a fost stearsa"</string>
+    <string name="statusUnableDeletePost">"Imposibil de sters postarea"</string>
+    <string name="labelDeleteComment">"Sterge comentariul"</string>
+    <string name="errorDeleteCommentNotOwner">"Aceast comentariu nu-ti apartine, pentru a-l sterge"</string>
+    <string name="promptDeleteCommentConfirm">"Esti sigur ca doresti sa stergi aceast comentariu?"</string>
+    <string name="statusCommentDeleted">"Comentariul a fost sters"</string>
+    <string name="statusUnableDeleteComment">"Imposibil de sters comentariul"</string>
+    <string name="labelFlagPost">"Marcheaza Postarea"</string>
+    <string name="errorGenericCommentNotOwner">"Nu poti face nimic cu acest comentariu, deoarece nu-ti apartine"</string>
+    <string name="errorEditPostNotOwner">"Aceasta postare nu-ti apartine, pentru a o redacta"</string>
+    <string name="labelEditPost">"Redacteaza Postarea"</string>
+    <string name="promptEditPost">"Vrei sa redactezi aceasta postare?"</string>
+    <string name="lableUpdate">"Actualizeaza"</string>
+    <string name="statusUnableToUpdatePost">"Imposibil de actualizat postarea"</string>
+    <string name="statusPostEdited">"Postarea a fost redactata"</string>
+    <string name="statusUpdatingPost">"Actualizarea postarii..."</string>
+    <string name="labelFlagInappropriate">"MARCHEAZA CA MATERIAL NEPOTRIVIT"</string>
+    <string name="errorCannotChangeAudienceEditingPost">"Nu poti modifica publicul redactand postarea."</string>
+    <string name="hintEnterCommentHere">"Introdu comentariul tau aici..."</string>
+    <string name="labelUpdate">"Actualizeaza"</string>
+    <string name="labelEditComment">"Redacteaza Comentariul"</string>
+    <string name="errorEditCommentNotOwner">"Acest comentariu nu-ti apartine, pentru a-l redacta."</string>
+    <string name="statusCommentUpdated">"Comentariul a fost actualizat!"</string>
+    <string name="statusUnableUpdateComment">"Imposibil de actualizat comentariul"</string>
+    <string name="statusUpdatingComment">"Actualizarea comentariului..."</string>
+    <string name="errorGenericImageUploadFailed">"A aparut o eroare la incarcarea imaginii"</string>
+    <string name="errorGenericFileUploadFailed">"A aparut o eroare la incarcarea fisierului"</string>
+    <string name="labelPhoto">"Fotografie"</string>
+    <string name="labelVideo">"Video"</string>
+    <string name="labelRemoveFromGroup">"ELIMINA DIN GRUP"</string>
+    <string name="errorEditGroupMemberNotOwner">"Nu poti face nimic cu acest membru al grupului, deoarece acest grup nu iti apartine"</string>
+    <string name="labelRemoveUserFromGroup">"Elimina utilizatorul din grup"</string>
+    <string name="promptBlockUserFromGroupConfirm">"Esti sigur ca doresti sa blochezi acest utilizator din grup?"</string>
+    <string name="labelBlockUser">"Blocare utilizator"</string>
+    <string name="promptRemoveUserFromGroupConfirm">"Esti sigur ca doresti sa elimini acest utilizator din grup?"</string>
+    <string name="labelMember">"membru"</string>
+    <string name="labelFollower">"follower"</string>
+    <string name="statusUnableFollowGroup">"Imposibil de urmat grupul"</string>
+    <string name="labelUnableUnfollowGroup">"Imposibil de anulat urmarirea grupului"</string>
+    <string name="labelGroupFollowers">"Followerii Grupului"</string>
+    <string name="hintSearchForFollowers">"cautarea followerilor"</string>
+    <string name="statusUnableToInviteUserToFollowGroup">"Imposibil de invitat utilizatorul sa urmeze grupul"</string>
+    <string name="statusSendInviteToFollowGroup">"Invitatia pentru urmarirea grupului a fost trimisa"</string>
+    <string name="statusUnableToBlockUserFromGroup">"Imposibil de  blocat utilizatorul din grup"</string>
+    <string name="statusUserBlockedFromGroup">"Ai blocat acest utilizator din grup"</string>
+    <string name="statusUnableToRemoveUserFromGroup">"Imposibil de eliminat utilizatorul din grup"</string>
+    <string name="statusUserRemovedFromGroup">"Utilizatorul a fost eliminat din grup"</string>
+    <string name="statusInvitedToFollowGroup">"Te-a invitat sa urmezi grupul"</string>
+    <string name="hintSearchForGroups">"cautarea grupurilor"</string>
+    <string name="labelPrivate">"Privat"</string>
+    <string name="labelBlog">"Blog"</string>
+    <string name="labelDiscussion">"Discutie"</string>
+    <string name="statusUnableToLeaveGroup">"Imposibil de parasit grupul"</string>
+    <string name="statusUnableToGetGroupFollowers">"Imposibil de obtinut followerii grupului"</string>
+    <string name="statusUnableToUnblockUser">"Imposibil de deblocat utilizatorul"</string>
+    <string name="statusUserUnblockedFromGroup">"Ai deblocat acest utilizator din grup"</string>
+    <string name="statusBlockedUnablePostGroup">"Imposibil de postat in grup, blocat"</string>
+    <string name="statusBlockedUnablePostComment">"Imposibil de postat comentarii, blocat"</string>
+    <string name="labelUnblockUser">"Deblocheaza utilizatorul"</string>
+    <string name="promptUnblockUserConfirm">"Esti sigur ca doresti sa deblochezi acest utilizator?"</string>
+    <string name="statusBlockedUnableToUpdatePost">"Imposibil de actualizat postarea, blocat"</string>
+    <string name="statusBlockedUnableToUpdateComment">"Imposibil de actualizat comentariul, blocat"</string>
+    <string name="bogusEmergencyLogoutToast">"Sesiunea ta este nevalida. Te rugam sa te loghezi din nou."</string>
+    <string name="statusUnableToLeaveOrDeleteGroup">"Imposibil de parasit sau sters grupul"</string>
+    <string name="labelPublic">"PUBLIC"</string>
+    <string name="statusCreatingGroup">"Crearea grupului..."</string>
+    <string name="statusUpdatingGroup">"Actualizarea grupului..."</string>
+    <string name="statusUnableToDeleteGroup">"Imposibil de sters grupul"</string>
+    <string name="promptUnfollowGroupConfirm">"Esti sigur ca doresti sa anulezi urmarirea grupului?"</string>
+    <string name="labelUnfollowGroup">"Anuleaza urmarirea grupului"</string>
+</resources>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<resources>-->
+
+    <!--<string name="app_name">ConX2Share</string>-->
+    <!--<string name="hello_world">Salut, Lume!</string>-->
+    <!--<string name="sign_in">Intrare</string>-->
+    <!--<string name="sign_up">Inregistrare</string>-->
+    <!--<string name="email">Email</string>-->
+    <!--<string name="password">Parola</string>-->
+    <!--<string name="or">sau</string>-->
+    <!--<string name="username">Uitilizator</string>-->
+    <!--<string name="confirm_password">Confirma parola</string>-->
+    <!--<string name="first_name">Nume</string>-->
+    <!--<string name="last_name">Prenume</string>-->
+    <!--<string name="terms_and_conditions">Am citit si sunt de acord cu termenii si conditiile</string>-->
+    <!--<string name="signing_in">Autentificare&#8230;</string>-->
+    <!--<string name="unexpected_error">A aparut o eroare neasteptata.</string>-->
+    <!--<string name="mark_messaged_viewed">Mesajul a fost marcat ca citit</string>-->
+    <!--<string name="success">Succes</string>-->
+    <!--<string name="message_sent">Mesajul a fost trimis</string>-->
+    <!--<string name="message_failed_to_send">Nu a reusit expedierea mesajului</string>-->
+    <!--<string name="enter_message_here">Adauga mesajeul aici…</string>-->
+    <!--<string name="got_sent_messages">Mesajul trimis a fost primit</string>-->
+    <!--<string name="type_a_message">Scrie un mesaj…</string>-->
+    <!--<string name="add_text_here">Adauga textul aici…</string>-->
+    <!--<string name="logging_in">Autentificare…</string>-->
+    <!--<string name="file_error">Eroare de fisier</string>-->
+    <!--<string name="camera_error">Eroare de Camera</string>-->
+    <!--<string name="add_attachment">Adauga atasament:</string>-->
+    <!--<string name="take_a_photo">Faceti o fotografie</string>-->
+    <!--<string name="take_a_video">Faceti un video</string>-->
+    <!--<string name="message_type">Tip mesaj:</string>-->
+    <!--<string name="error">Eroare:</string>-->
+
+    <!--&lt;!&ndash; Post Activity &ndash;&gt;-->
+    <!--<string name="post">Posteaza</string>-->
+    <!--<string name="post_activity_title">Creeaza o postare</string>-->
+    <!--<string name="post_to">Catre:</string>-->
+    <!--<string name="post_everyone">Toti</string>-->
+    <!--<string name="post_successful">Postare reusita</string>-->
+    <!--<string name="post_failed">Postarea nu a reusit: </string>-->
+
+    <!--&lt;!&ndash; Image Upload Dialog &ndash;&gt;-->
+    <!--<string name="upload_photo_title">Incarca fotografie</string>-->
+    <!--<string name="upload_photo_message">Doresti sa faci o fotografie sau sa descarci din libraria ta?</string>-->
+    <!--<string name="take_photo">Faceti fotografie</string>-->
+    <!--<string name="library">Librarie</string>-->
+    <!--<string name="not_yet_implemented">Inca nu s-a implementat.</string>-->
+
+    <!--&lt;!&ndash; Feed Activity &ndash;&gt;-->
+    <!--<string name="feed_activity_drawer_toggle_open">Sertar deschis</string>-->
+    <!--<string name="feed_activity_drawer_toggle_close">Sertar inchis</string>-->
+    <!--<string name="feed_activity_drawer_logout">Iesire</string>-->
+    <!--<string name="feed_activity_drawer_header_picture_content_desc">Poza de profil</string>-->
+
+    <!--&lt;!&ndash; Share Dialog &ndash;&gt;-->
+    <!--<string name="share_to">Distribuie pe...</string>-->
+    <!--<string name="cancel">Anulare</string>-->
+    <!--<string name="facebook_app_id">195797437257242</string>-->
+
+    <!--&lt;!&ndash; Contacts &ndash;&gt;-->
+    <!--<string name="contacts">Contacte</string>-->
+    <!--<string name="invite">INVITA</string>-->
+    <!--<string name="invite_successful">Prieteni invitati</string>-->
+    <!--<string name="invite_failed">Nu a reusit invitarea prietenului: </string>-->
+
+    <!--&lt;!&ndash;Groups&ndash;&gt;-->
+    <!--<string name="group_name_layout_title">NUMELE GRUPEI</string>-->
+    <!--<string name="action_create_group">CREEAZA GRUPA</string>-->
+    <!--<string name="invalid_group_name">Grupa trebuia sa contina nume</string>-->
+    <!--<string name="invalid_group_image">Grupa trebuia sa contina imagine</string>-->
+    <!--<string name="action_edit_group">EDITEAZA GRUPA</string>-->
+    <!--<string name="group_creation_fail">Nu a reusit crearea grupei.  Incearca din nou.</string>-->
+    <!--<string name="group_creation_success">"A fost creata grupa %s!"</string>-->
+    <!--<string name="group_update_fail">Nu a reusit actualizarea grupei.  Incearca din nou.</string>-->
+    <!--<string name="post_button_text">POSTARE</string>-->
+    <!--<string name="generic_error_message">A aparut o eroare. Incearca din nou.</string>-->
+    <!--<string name="no_users_found">Niciun utilizator gasit pentru criteriul de potrivire</string>-->
+    <!--<string name="members">Membri</string>-->
+    <!--<string name="send">trimis</string>-->
+    <!--<string name="failed_to_retrieve_messages">Nu a reusit recuperarea mesajelor noi</string>-->
+    <!--<string name="save_message">Salveaza mesaj?</string>-->
+
+    <!--&lt;!&ndash;Message Friends&ndash;&gt;-->
+    <!--<string name="message_friends_name_holder">Nume Prenume</string>-->
+    <!--<string name="error_loading_index">A aparut o eroare in timpul incarcarii chat-urilor tale.</string>-->
+    <!--<string name="arrow"><![CDATA[>]]></string>-->
+    <!--<string name="message_friends_title">Mesaj nou</string>-->
+
+    <!--&lt;!&ndash; Drawer Notifications &ndash;&gt;-->
+    <!--<string name="item_count_holder">##</string>-->
+    <!--<string name="sent_you_a_new_message">Ti-a trimis un mesaj nou</string>-->
+    <!--<string name="read_your_message">Citeste mesajul tau</string>-->
+    <!--<string name="commented_on_your_post">A comentat postarea ta</string>-->
+    <!--<string name="invited_you_to_join">Te-a invitat sa te alaturi</string>-->
+    <!--<string name="login_failed">Autentificarea nu a reusit. Te rugam sa verifici conexiunea la internet si sa incerci din nou.</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 2 STRINGS #####################################################&ndash;&gt;-->
+
+    <!--&lt;!&ndash; Timers &ndash;&gt;-->
+    <!--<string-array name="timers">-->
+        <!--<item>Niciun</item>-->
+        <!--<item>15s</item>-->
+        <!--<item>30s</item>-->
+        <!--<item>60s</item>-->
+        <!--<item>120s</item>-->
+    <!--</string-array>-->
+
+    <!--<string name="home">Acasa</string>-->
+    <!--<string name="messages">Mesaje</string>-->
+    <!--<string name="friends">Prieteni</string>-->
+    <!--<string name="groups">GRUPEI</string>-->
+    <!--<string name="notifications">Notificari</string>-->
+    <!--<string name="get_plus">EXTRA</string>-->
+    <!--<string name="store">Pastrare</string>-->
+    <!--<string name="about">DESPRE</string>-->
+    <!--<string name="change">schimba</string>-->
+    <!--<string name="push_notifications">PUSH NOTIFICARI</string>-->
+    <!--<string name="switch_title_1">SCHIMBA TITLUL 1</string>-->
+    <!--<string name="switch_title_2">SCHIMBA TITLUL 2</string>-->
+    <!--<string name="logout">IESIRE</string>-->
+
+    <!--&lt;!&ndash; Strings for Async Errors &ndash;&gt;-->
+    <!--<string name="retry">REPETA</string>-->
+    <!--<string name="unable_to_gather_friends_text">Imposibil de adunat prietenii pentru invitatie</string>-->
+    <!--<string name="unable_to_invite_friends_text">Imposibil de invitaț prietenii</string>-->
+    <!--<string name="unable_to_post_to_group_text">Imposibil de a publica în grup</string>-->
+    <!--<string name="unable_to_post_text">Imposibil de postat</string>-->
+    <!--<string name="post_already_flagged">Imposibil de marcat postarea, ai marcat deja aceasta</string>-->
+    <!--<string name="unable_to_flag_post_text">Imposibil de marcat postarea</string>-->
+    <!--<string name="unable_to_get_post_text">Imposibil de obținut postarea</string>-->
+    <!--<string name="unable_to_get_post_comments_text">Imposibil de obținut comentariile postarii</string>-->
+    <!--<string name="unable_to_like_post_text">Imposibil de marcat postarea cu "like"</string>-->
+    <!--<string name="unable_to_unlike_post_text">Imposibil de marcat postarea cu "unlike"</string>-->
+    <!--<string name="unable_to_create_group_text">Imposibil de creat grupul</string>-->
+    <!--<string name="unable_to_update_group_text">Imposibil de actualizat grupul</string>-->
+    <!--<string name="unable_to_refresh_feed_text">Imposibil de reinnoit reteaua de alimentare</string>-->
+    <!--<string name="unable_to_get_posts_text">Imposibil de obținut posturile</string>-->
+    <!--<string name="unable_to_get_unread_messages_text">Imposibil de obținut mesajele necitite</string>-->
+    <!--<string name="unable_to_get_friends_text">Imposibil de obținut prieteni</string>-->
+    <!--<string name="unable_to_get_group_text">Imposibil de obținut grupul</string>-->
+    <!--<string name="unable_to_get_group_posts_text">Imposibil de obținut posturile din grup</string>-->
+    <!--<string name="unable_to_get_group_list_text">Imposibil de obținut lista grupului</string>-->
+    <!--<string name="unable_to_remove_or_delete_group_text">Imposibil de a elimina sau șterge grupul</string>-->
+    <!--<string name="unable_to_get_chats_text">Imposibil de obținut chat-urile</string>-->
+    <!--<string name="unable_to_get_saved_messages_text">Imposibil de obținut mesajele salvate</string>-->
+    <!--<string name="unable_to_update_notification_as_viewed_text">Imposibil de actualizat notificarea ca vazuta</string>-->
+    <!--<string name="unable_to_get_message_text">Imposibil de obținut mesajul</string>-->
+    <!--<string name="unable_to_follow_user">Imposibil de urmarit utilizatorul</string>-->
+    <!--<string name="unable_to_unfollow_user_text">Imposibil de dezactivat urmărirea utilizatorului</string>-->
+    <!--<string name="unable_to_load_profile_text">Imposibil de încărcat profilul</string>-->
+    <!--<string name="unable_to_update_avatar_text">Imposibil de actualizat avatarul</string>-->
+    <!--<string name="unable_to_invite_user_to_group_text">Imposibil de invitat utilizatorul la grup</string>-->
+    <!--<string name="unable_to_purchase_subscription_text">Imposibil de achiziționat abonamentul</string>-->
+    <!--<string name="unable_to_update_users_profile_text">Imposibil de actualizat profilul utilizatorului</string>-->
+    <!--<string name="unable_to_send_message_text">Imposibil de trimis mesajul</string>-->
+    <!--<string name="unable_to_set_expiration_text">Imposibil de setat termenul de expirare a mesajului</string>-->
+    <!--<string name="unable_to_save_message_text">Imposibil de salvat mesajul</string>-->
+    <!--<string name="unable_to_get_chat_text">Imposibil de obținut chat-ul cu utilizatorul</string>-->
+    <!--<string name="unable_to_get_sent_messages_text">Imposibil de obținut mesajele trimise</string>-->
+    <!--<string name="unable_to_get_missed_messages_text">Imposibil de obținut mesajele pierdute</string>-->
+    <!--<string name="unable_to_get_notifications_text">Imposibil de obținut notificarile</string>-->
+    <!--<string name="unable_to_accept_group_invite">Imposibil de acceptat invitatia grupului</string>-->
+    <!--<string name="unable_to_decline_group_invite">Imposibil de declinat invitatia grupului</string>-->
+    <!--<string name="unable_to_get_more_notifications">Imposibil de obținut mai multe notificari</string>-->
+    <!--<string name="unable_to_get_following_users">Imposibil de obținut utilizatorii, pe care ii urmaresti</string>-->
+    <!--<string name="unable_to_get_followers">Imposibil de obținut followeri</string>-->
+    <!--<string name="unable_to_get_messages_text">Imposibil de obținut mesajele</string>-->
+    <!--<string name="unable_to_go_to_chat">Imposibil de initiat chat-ul</string>-->
+
+    <!--&lt;!&ndash; Search hints &ndash;&gt;-->
+    <!--<string name="search_for_users_to_invite_text">cauta oameni pentru a-i invita</string>-->
+    <!--<string name="search_friends">cauta prietenii</string>-->
+    <!--<string name="search_for_friends">cauta prietenii</string>-->
+    <!--<string name="search_for_members">cauta membrii</string>-->
+    <!--<string name="search_for_users_to_chat_with">cauta utilizatori, pentru a discuta cu ei</string>-->
+    <!--<string name="search_contacts">cauta contacte</string>-->
+
+    <!--&lt;!&ndash; Notifications &ndash;&gt;-->
+    <!--<string name="new_notification_was_received_text">A fost primita o noua notificare</string>-->
+    <!--<string name="refresh_text">REINNOIRE</string>-->
+    <!--<string name="viewed">" - vizualizat"</string>-->
+    <!--<string name="accepted">acceptat</string>-->
+    <!--<string name="declined">declinat</string>-->
+    <!--<string name="conx2share_notification">Notificarea Conx2Share</string>-->
+
+    <!--&lt;!&ndash; Prompt text &ndash;&gt;-->
+    <!--<string name="yes">DA</string>-->
+    <!--<string name="no">NU</string>-->
+    <!--<string name="ok">OK</string>-->
+    <!--<string name="Success">Succes</string>-->
+    <!--<string name="exclamation">!</string>-->
+    <!--<string name="error_text">"Eroare: "</string>-->
+
+    <!--&lt;!&ndash; Subscription Strings &ndash;&gt;-->
+    <!--<string name="subscribed_successfully_text">Abonat cu succes</string>-->
+    <!--<string name="failed_to_subscribe_text">Imposibil de abonat</string>-->
+    <!--<string name="free_price">0</string>-->
+    <!--<string name="plus_price">2.40/an</string>-->
+    <!--<string name="premium_price">29.99/an</string>-->
+    <!--<string name="platinum_price">49.99/an</string>-->
+    <!--<string name="free_subscription_description"><![CDATA[Pozele si video-urile vor fi eliminate dupa vizualizare.]]></string>-->
+    <!--<string name="free_subscription_title">Gratis</string>-->
+    <!--<string name="subscribe">Aboneaza-te!</string>-->
+    <!--<string name="current_subscription">abonare curenta</string>-->
+    <!--<string name="ago">in urma</string>-->
+    <!--<string name="plus">Plus</string>-->
+    <!--<string name="plus_subscription_description">Salveaza pina la 5 poze si 1 videou.</string>-->
+    <!--<string name="premium_subscription_title">Premium</string>-->
+    <!--<string name="premium_subscription_description"><![CDATA[Cx2share email si 50GB pentru pastrarea mesajelor, pozelor si video-urilor.]]></string>-->
+    <!--<string name="platinum_subscription_title">Platinum</string>-->
+    <!--<string name="platinum_subscription_description"><![CDATA[Cx2share email si 100GB pentru pastrarea mesajelor, pozelor si video-urilor.]]></string>-->
+
+    <!--&lt;!&ndash; Sharing Strings &ndash;&gt;-->
+    <!--<string name="shared_by_text">"\" postat de catre "</string>-->
+    <!--<string name="via_conx2share_android_text">" prin Conx2Share Android"</string>-->
+    <!--<string name="conx2share_for_android">ConX2Share pentru Android</string>-->
+    <!--<string name="please_install_facebook">Te rugam sa instalezi aplicatia Facebook pentru a posta mesajul tau.</string>-->
+    <!--<string name="please_install_the_twiiter_app">Te rugam sa instalezi aplicatia Twitter pentru a posta mesajul tau.</string>-->
+
+    <!--&lt;!&ndash; Progress Dialog Strings &ndash;&gt;-->
+    <!--<string name="loading_messages">Incarcarea mesajelor...</string>-->
+    <!--<string name="gathering_friends_text">Colectarea prietenilor...</string>-->
+    <!--<string name="gathering_messages_text">Colectarea mesajelor...</string>-->
+    <!--<string name="gather_chats_text">Colectarea chat-urilor...</string>-->
+    <!--<string name="gathering_following_users_text">Colectarea utilizatorilor, pe care ii urmaresti...</string>-->
+    <!--<string name="gathering_followers">Colectarea followerilor...</string>-->
+    <!--<string name="sending_message_text">Expedierea mesajului...</string>-->
+    <!--<string name="posting">Postare...</string>-->
+    <!--<string name="gathering_saved_messages">Colectarea mesajelor salvate...</string>-->
+    <!--<string name="gathering_chat_information_text">Colectarea informației chat-ului...</string>-->
+
+    <!--&lt;!&ndash; Group Strings &ndash;&gt;-->
+    <!--<string name="delete_group_text">Sterge grupul</string>-->
+    <!--<string name="leave_group_text">Iesire din grup</string>-->
+    <!--<string name="deleted_group_text">"Grupul a fost sters "</string>-->
+    <!--<string name="left_group_text">"Ai iesit din grup "</string>-->
+    <!--<string name="updated_group">"Grupul a fost actualizat "</string>-->
+    <!--<string name="group_owner">proprietarul grupului</string>-->
+    <!--<string name="group_members">Membrii grupului</string>-->
+    <!--<string name="group_name">Numele grupului</string>-->
+
+    <!--&lt;!&ndash; Following Strings &ndash;&gt;-->
+    <!--<string name="followers">Followeri</string>-->
+    <!--<string name="following">Following</string>-->
+    <!--<string name="following_failed_try_again">Following esuat. Incearca din nou.</string>-->
+    <!--<string name="unfollowed">Following dezactivat</string>-->
+    <!--<string name="follow">URMARESTE</string>-->
+    <!--<string name="unfollow">ANULEAZA URMARIREA</string>-->
+    <!--<string name="followed_you">Te-a urmarit</string>-->
+
+    <!--&lt;!&ndash; SignUp Strings &ndash;&gt;-->
+    <!--<string name="you_are_now_signed_up">Acum esti inregistrat!</string>-->
+    <!--<string name="failed_to_sign_up">Inregistrarea nu a reusit, te rugam sa incerci din nou.</string>-->
+    <!--<string name="please_fill_out_all_fields_text">Te rugam sa completezi toate campurile</string>-->
+
+    <!--&lt;!&ndash; Image and video strings &ndash;&gt;-->
+    <!--<string name="select_picture">Alege imaginea</string>-->
+    <!--<string name="would_you_like_to_upload_a_video_from_your_library">Doresti sa faci un videou sau sa incarci din biblioteca ta?</string>-->
+    <!--<string name="error_occurred_while_loading_your_video">A aparut o eroare la incarcarea video-ului</string>-->
+    <!--<string name="image_null_error">Te rugam sa alegi o imagine stocata pe dispozitiv. Aceasta nu include imaginile din alte aplicatii sau mass-media sociale.</string>-->
+    <!--<string name="image_error">Nu a reusit incarcarea imaginii si atasarea acesteea la postul de pe Twitter.</string>-->
+    <!--<string name="error_occurred_when_selecting_your_image">A aparut o eroare la selectarea imaginii</string>-->
+    <!--<string name="what_upload">Ce ti-ar placea sa incarci?</string>-->
+    <!--<string name="image_download_failed">Descarcarea imaginii a esuat</string>-->
+    <!--<string name="image_could_not_be_found">Imaginea nu a putut fi gasita</string>-->
+    <!--<string name="take_video">Executa un video</string>-->
+    <!--<string name="file_exceeds_limit">Fisierul depaseste limita 10Mb.</string>-->
+    <!--<string name="take_a_video_from_your_library_or_get_one_from_your_library">Elimina video-ul sau alege unul din biblioteca ta?</string>-->
+    <!--<string name="take_a_picture_or_get_one_from_your_library">Elimina imaginea sau alege una din biblioteca ta?</string>-->
+    <!--<string name="media">(media)</string>-->
+    <!--<string name="picture">(imagine)</string>-->
+    <!--<string name="video">(video)</string>-->
+
+    <!--&lt;!&ndash; Post Strings &ndash;&gt;-->
+    <!--<string name="flag_content_as_inappropriate_prompt">Doresti sa marchezi aceasta postare pentru continut nepotrivit?</string>-->
+    <!--<string name="post_flagged">Aceasta postare a fost marcata</string>-->
+    <!--<string name="made_a_new_post">A facut o noua postare</string>-->
+    <!--<string name="made_a_new_group_post">A facut o postare noua in grup</string>-->
+    <!--<string name="enter_your_message_here">Introdu mesajul aici...</string>-->
+
+    <!--&lt;!&ndash; Password Strings &ndash;&gt;-->
+    <!--<string name="forgot_password">Ai uitat parola?</string>-->
+    <!--<string name="please_enter_your_email">Te rugam sa introduci adresa de email.</string>-->
+    <!--<string name="change_password">Schimba parola</string>-->
+    <!--<string name="cant_reset_password">Imposibil de resetat parola</string>-->
+    <!--<string name="reset_password">Reseta parola</string>-->
+    <!--<string name="reset_password_email_sent">E-mail de resetare a parolei trimis</string>-->
+    <!--<string name="please_enter_your_email_address">Te rugam sa introduci adresa ta de email si sa incerci din nou.</string>-->
+    <!--<string name="confirm_new_password">Confirma parola noua</string>-->
+    <!--<string name="new_password">Parola noua</string>-->
+    <!--<string name="old_password">Parola veche</string>-->
+    <!--<string name="updating_password">Actualizarea parolei</string>-->
+    <!--<string name="old_password_incorrect">Parola veche este incorecta.</string>-->
+    <!--<string name="password_updated">Parola a fost actualizata</string>-->
+    <!--<string name="password_failed_to_update">Nu a reusit actualizarea parolei, te rugam sa incerci din nou</string>-->
+    <!--<string name="passwords_dont_match">Parolele nu se potrivesc</string>-->
+    <!--<string name="old_password_error">Eroarea parolei vechi</string>-->
+    <!--<string name="the_old_password_you_entered_is_invalid">Parola vechi introdusa nu este valida</string>-->
+    <!--<string name="the_new_password_and_confirm_password_dont_match">Noua parola si confirmarea parolei nu se potrivesc. Te rugam sa incerci din nou.</string>-->
+    <!--<string name="you_password_has_been_updated">Parola ta a fost actualizata</string>-->
+    <!--<string name="change_password_error">Eroare</string>-->
+
+    <!--&lt;!&ndash; Drawer Items &ndash;&gt;-->
+    <!--<string name="drawer_home">Acasa</string>-->
+    <!--<string name="drawer_messages">Mesaje</string>-->
+    <!--<string name="drawer_friends">Prieteni</string>-->
+    <!--<string name="drawer_groups">Grupuri</string>-->
+    <!--<string name="drawer_notifications">Notificari</string>-->
+    <!--<string name="drawer_plus">EXTRA</string>-->
+    <!--<string name="drawer_invite">Invita</string>-->
+    <!--<string name="drawer_store">Pastrare</string>-->
+    <!--<string name="drawer_eshopping">E-Shopping</string>-->
+    <!--<string name="drawer_games">Jocuri</string>-->
+    <!--<string name="drawer_business">Business</string>-->
+
+    <!--&lt;!&ndash; Other Strings &ndash;&gt;-->
+    <!--<string name="facebook_connect_not_implemented_text">Conectarea prin Facebook inca nu a fost pusa in aplicare</string>-->
+    <!--<string name="twiiter_connect_not_implemented_yet">Conectarea prin Twitter inca nu a fost pusa in aplicare</string>-->
+    <!--<string name="this_user_has_not_followed_you_text">Ambii utilizatori trebuie sa se urmareasca reciproc, pentru a initia un chat</string>-->
+    <!--<string name="please_try_again">Te rugam sa incerci din nou</string>-->
+    <!--<string name="message_is_saved">Mesajul este salvat.</string>-->
+    <!--<string name="password_length">Parola trebuie sa fie de cel putin 8 caractere</string>-->
+    <!--<string name="passwords_do_not_match">Parolele nu se potrivesc</string>-->
+    <!--<string name="sign_up_error">A aparut o eroare in timpul inregistrarii.</string>-->
+    <!--<string name="signup_dialog">Inregistrare...</string>-->
+    <!--<string name="you_already_have_a_higher_subscription_level">Ai deja un nivel superior de abonament</string>-->
+    <!--<string name="please_accept_terms">Te rugam sa accepti termenii si conditiile.</string>-->
+    <!--<string name="user_name_is_taken">Numele de utilizator este deja luat.</string>-->
+    <!--<string name="not_connected_to_the_google_play_store">Nu este conectat la magazinul Google Play</string>-->
+    <!--<string name="coming_soon">In curand!</string>-->
+    <!--<string name="accept">accepta</string>-->
+    <!--<string name="decline">declina</string>-->
+    <!--<string name="leave_a_comment">Lasa un comentariu...</string>-->
+
+    <!--<string name="zero">0</string>-->
+    <!--<string name="one">1</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 3 STRINGS #####################################################&ndash;&gt;-->
+
+    <!--<string name="unable_to_get_group_members">Imposibil de obținut membrii grupului curent</string>-->
+    <!--<string name="unable_to_load_web_page">Imposibil de încărcat pagina web</string>-->
+    <!--<string name="please_enter_text">Te rugăm să introduci textul</string>-->
+
+    <!--<string name="terms_of_service">termeni de ulizare</string>-->
+    <!--<string name="terms_of_service_and_privacy_policy">Am citit și sunt de acord cu termenii de utilizare și politica de confidențialitate</string>-->
+    <!--<string name="privacy_policy">politica de confidențialitate</string>-->
+
+    <!--<string name="group_update_success">"Grupul a fost reînnoit %s!"</string>-->
+    <!--<string name="retrieving_notifications_failed">Nu a reușit recuperarea notificărilor. Incerca din nou. </string>-->
+    <!--<string name="messaging_error">A apărut o eraore în timpul expedierii mesajelor</string>-->
+
+    <!--&lt;!&ndash; Message Friends Index &ndash;&gt;-->
+    <!--<string name="saved_messages_text">Salvat</string>-->
+    <!--<string name="chats_text">Curent</string>-->
+
+    <!--&lt;!&ndash; Follow &ndash;&gt;-->
+    <!--<string name="followed">Cercuri</string>-->
+    <!--<string name="unfollow_failed">Nu a reușit anularea following-ului. Incerca din nou. </string>-->
+    <!--<string name="start_recording">Începe înregistrarea</string>-->
+    <!--<string name="submit">trimite</string>-->
+    <!--<string name="invalid_user_name_or_password">Numele de utilizator sau parola nevalidă</string>-->
+    <!--<string name="unable_to_update_followers_count">Imposibil de actualizat numărul followeri-lor</string>-->
+    <!--<string name="please_accept_the_terms_of_service">Vă rugăm să acceptați termenii de serviciu</string>-->
+
+    <!--&lt;!&ndash; Promo Codes &ndash;&gt;-->
+    <!--<string name="promo_code_optional">Cod promo (opțional)</string>-->
+    <!--<string name="activate_promo_code">Activează codul promo</string>-->
+    <!--<string name="the_promo_code_you_entered_is_invalid">Codul promo introdus nu este valid.</string>-->
+    <!--<string name="the_promo_code_you_entered_is_invalid_sign_up">Codul promo introdus nu este valid.Introduceți un cod promo valid sau ștergeți codul curent. </string>-->
+    <!--<string name="please_enter_your_promo_code">Te rugăm să introduci codul promo...</string>-->
+    <!--<string name="your_account_has_been_upgraded_to_a_plus_subscription">Abonamentul dvs. a fost schimbat la Plus. </string>-->
+
+    <!--&lt;!&ndash;######################################### SET 4 STRINGS #####################################################&ndash;&gt;-->
+
+    <!--<string name="unable_to_check_if_promo_code_is_valid">Imposibil de verificat dacă codul promo este valabil</string>-->
+    <!--<string name="promo_upgrade_description">Codul promo introdus este valabil. Dacă contul dvs. este gratuit, acesta a fost actualizat la abonament Plus.</string>-->
+    <!--<string name="valid_promo_code">Cod Promo Valid </string>-->
+    <!--<string name="invalid_promo_code">Cod Promo Nevalid</string>-->
+    <!--<string name="unable_to_update_user_to_promo_user">Imposibil de actualizat contul la utilizator promo</string>-->
+    <!--<string name="email_has_already_been_taken">Adresa de e-mail este deja luată</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 5 Strings #####################################################&ndash;&gt;-->
+
+    <!--<string name="user_favoriting_failed">nu a reușit preferentierea utilizatorului.</string>-->
+    <!--<string name="user_unfavoriting_failed">Anularea referentierii utilizatorului esuat</string>-->
+    <!--<string name="group_name_taken">Numele grupului este deja luat.</string>-->
+    <!--<string name="you_have_received_a_new_message_from">Ai primit un nou mesaj de la</string>-->
+    <!--<string name="one_m">1m</string>-->
+    <!--<string name="unable_to_post_comment_text">Nu a reusit postarea comentariului</string>-->
+    <!--<string name="chats_button_title">Incepe un chat nou</string>-->
+    <!--<string name="are_you_sure_you_want_to_delete_the_group">Esti sigur ca doresti sa stergi grupul?</string>-->
+    <!--<string name="are_you_sure_you_want_to_leave_the_group">Esti sigur ca doresti sa parasesti grupul?</string>-->
+    <!--<string name="exit">Iesire</string>-->
+    <!--<string name="please_attach_photo">Te rugam sa atasezi o fotografie</string>-->
+    <!--<string name="please_attach_video">Te rugam sa atasezi un vide.</string>-->
+    <!--<string name="email_cant_be_blank">E-mail nu poate fi necompletat</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 6 Strings #####################################################&ndash;&gt;-->
+
+    <!--<string name="you_cannot_leave_or_delete_the_conx2share_group">Nu poti iesi sau sterge grupul Conx2Share</string>-->
+    <!--<string name="promoted">Promovat</string>-->
+    <!--<string name="audio">(audio)</string>-->
+    <!--<string name="recording_is_not_long_enough">Inregistrarea nu este suficient de lunga.</string>-->
+    <!--<string name="only_the_first_two_mins_will_be_sent">Doar primele 2 minute ale inregistrarii vor fi trimise.</string>-->
+    <!--<string name="would_you_like_to_take_a_picture_or_upload_from_your_library">Doresti sa faci o fotografie sau sa incarci din biblioteca?</string>-->
+    <!--<string name="unable_to_send_audio_message">Imposibil de trimis mesajul audio</string>-->
+    <!--<string name="unable_to_get_business_info">Imposibil de incarcat informatiile de afaceri</string>-->
+    <!--<string name="could_not_retrieve_your_businesses">Afacerile dvs. nu au putut fi restabilite</string>-->
+    <!--<string name="you_cannot_post_to_the_conx2share_group">Nu poti posta in grupul ConX2share.</string>-->
+    <!--<string name="search_for_businesses">cauta afaceri</string>-->
+    <!--<string name="drawer_businesses">Afaceri</string>-->
+    <!--<string name="business_owner">Patron</string>-->
+    <!--<string name="group">"Grupul: "</string>-->
+    <!--<string name="business">"Afaceri: "</string>-->
+    <!--<string name="delete_post">Sterge postarea</string>-->
+    <!--<string name="you_dont_own_this_post_to_delete_it">Aceasta postare nu-ti apartine, pentru a o sterge</string>-->
+    <!--<string name="are_you_sure_you_want_to_delete_this_post">Esti sigur ca doresti sa stergi aceasta postare?</string>-->
+    <!--<string name="post_deleted">Postarea a fost stearsa</string>-->
+    <!--<string name="unable_to_delete_post">Imposibil de sters postarea</string>-->
+    <!--<string name="delete_comment">Sterge comentariul</string>-->
+    <!--<string name="you_dont_own_this_comment_to_delete_it">Aceast comentariu nu-ti apartine, pentru a-l sterge</string>-->
+    <!--<string name="are_you_sure_you_want_to_delete_this_comment">Esti sigur ca doresti sa stergi aceast comentariu?</string>-->
+    <!--<string name="comment_deleted">Comentariul a fost sters</string>-->
+    <!--<string name="unable_to_delete_comment">Imposibil de sters comentariul</string>-->
+    <!--<string name="flag_post">Marcheaza Postarea</string>-->
+    <!--<string name="cant_do_anything_with_comment_since_you_dont_own_it">Nu poti face nimic cu acest comentariu, deoarece nu-ti apartine</string>-->
+    <!--<string name="you_dont_own_this_post_to_edit_it">Aceasta postare nu-ti apartine, pentru a o redacta</string>-->
+    <!--<string name="edit_post">Redacteaza Postarea</string>-->
+    <!--<string name="do_you_want_to_edit_this_post">Vrei sa redactezi aceasta postare?</string>-->
+    <!--<string name="update_post">Actualizeaza</string>-->
+    <!--<string name="unable_to_edit_post">Imposibil de actualizat postarea</string>-->
+    <!--<string name="post_edited">Postarea a fost redactata</string>-->
+    <!--<string name="updating_post">Actualizarea postarii...</string>-->
+    <!--<string name="flag_as_inappropriate">MARCHEAZA CA MATERIAL NEPOTRIVIT</string>-->
+    <!--<string name="edit_post_options_menu">REDACTEAZA POSTAREA</string>-->
+    <!--<string name="delete_post_options_menu">STERGE POSTAREA</string>-->
+    <!--<string name="you_cannot_change_the_audience_when_editing_a_post">Nu poti modifica publicul redactand postarea.</string>-->
+    <!--<string name="enter_your_comment_here">Introdu comentariul tau aici...</string>-->
+    <!--<string name="edit_comment_options_menu">REDACTEAZA COMENTARIUL</string>-->
+    <!--<string name="delete_comment_options_menu">STERGE COMENTARIUL</string>-->
+    <!--<string name="update">Actualizeaza</string>-->
+    <!--<string name="edit_comment">Redacteaza Comentariul</string>-->
+    <!--<string name="you_dont_own_this_comment_to_edit_it">Acest comentariu nu-ti apartine, pentru a-l redacta.</string>-->
+    <!--<string name="comment_updated">Comentariul a fost actualizat!</string>-->
+    <!--<string name="unable_to_update_post_comment">Imposibil de actualizat comentariul</string>-->
+    <!--<string name="updating_comment">Actualizarea comentariului...</string>-->
+    <!--<string name="something_went_wrong_while_uploading_your_image">A aparut o eroare la incarcarea imaginii</string>-->
+    <!--<string name="something_went_wrong_while_uploading_your_file">A aparut o eroare la incarcarea fisierului</string>-->
+    <!--<string name="would_you_like_to_take_a_photo_or_upload_one_from_your_library">Doresti sa faci o fotografie sau sa incarci din biblioteca ta?</string>-->
+    <!--<string name="would_you_like_to_take_a_video_or_upload_one_from_your_library">Doresti sa faci un video sau sa incarci din biblioteca ta?</string>-->
+    <!--<string name="photo_option">Fotografie</string>-->
+    <!--<string name="video_option">Video</string>-->
+    <!--<string name="block_user_option">BLOCHEAZA UTILIZATORUL</string>-->
+    <!--<string name="remove_from_group_option">ELIMINA DIN GRUP</string>-->
+    <!--<string name="you_cant_do_anything_with_this_group_member">Nu poti face nimic cu acest membru al grupului, deoarece acest grup nu iti apartine</string>-->
+    <!--<string name="remove_user_from_group">Elimina utilizatorul din grup</string>-->
+    <!--<string name="are_you_sure_you_want_to_block_this_user">Esti sigur ca doresti sa blochezi acest utilizator din grup?</string>-->
+    <!--<string name="block_user">Blocare utilizator</string>-->
+    <!--<string name="are_you_sure_you_want_to_remove_this_user_from_the_group">Esti sigur ca doresti sa elimini acest utilizator din grup?</string>-->
+    <!--<string name="member">membru</string>-->
+    <!--<string name="follower">follower</string>-->
+    <!--<string name="unable_to_follow_group">Imposibil de urmat grupul</string>-->
+    <!--<string name="unable_to_unfollow_group">Imposibil de anulat urmarirea grupului</string>-->
+    <!--<string name="unblock_user_option">DEBLOCHEAZA UTILIZATORUL</string>-->
+    <!--<string name="group_followers">Followerii Grupului</string>-->
+    <!--<string name="search_for_followers">cautarea followerilor</string>-->
+    <!--<string name="unable_to_send_invite_to_follow_group">Imposibil de invitat utilizatorul sa urmeze grupul</string>-->
+    <!--<string name="invite_to_follow_group_sent">Invitatia pentru urmarirea grupului a fost trimisa</string>-->
+    <!--<string name="unable_to_block_user_from_group">Imposibil de  blocat utilizatorul din grup</string>-->
+    <!--<string name="you_have_blocked_this_user_from_the_group">Ai blocat acest utilizator din grup</string>-->
+    <!--<string name="unable_to_remove_user_from_group">Imposibil de eliminat utilizatorul din grup</string>-->
+    <!--<string name="user_has_been_removed_from_group">Utilizatorul a fost eliminat din grup</string>-->
+    <!--<string name="invited_you_to_follow_group">Te-a invitat sa urmezi grupul</string>-->
+    <!--<string name="search_for_groups">cautarea grupurilor</string>-->
+    <!--<string name="private_group">Privat</string>-->
+    <!--<string name="blog_group">Blog</string>-->
+    <!--<string name="discussion_group">Discutie</string>-->
+    <!--<string name="empty_string" />-->
+    <!--<string name="unable_to_leave_group">Imposibil de parasit grupul</string>-->
+    <!--<string name="unable_to_get_group_followers">Imposibil de obtinut followerii grupului</string>-->
+    <!--<string name="unable_to_unblock_user">Imposibil de deblocat utilizatorul</string>-->
+    <!--<string name="you_have_unblocked_this_user_from_the_group">Ai deblocat acest utilizator din grup</string>-->
+    <!--<string name="unable_to_post_to_group_blocked">Imposibil de postat in grup, blocat</string>-->
+    <!--<string name="unable_to_post_comment_blocked">Imposibil de postat comentarii, blocat</string>-->
+    <!--<string name="unblock_user">Deblocheaza utilizatorul</string>-->
+    <!--<string name="are_you_sure_you_want_to_unblock_this_user">Esti sigur ca doresti sa deblochezi acest utilizator?</string>-->
+    <!--<string name="unable_to_update_post_blocked">Imposibil de actualizat postarea, blocat</string>-->
+    <!--<string name="unable_to_update_comment_blocked">Imposibil de actualizat comentariul, blocat</string>-->
+    <!--<string name="emergency_logout_toast_text">Sesiunea ta este nevalida. Te rugam sa te loghezi din nou.</string>-->
+    <!--<string name="unable_to_leave_or_delete_group">Imposibil de parasit sau sters grupul</string>-->
+    <!--<string name="public_group_button_text">PUBLIC</string>-->
+    <!--<string name="private_group_button_text">PRIVAT</string>-->
+    <!--<string name="discussion_group_button_text">DISCUTIE</string>-->
+    <!--<string name="blog_group_button_text">BLOG</string>-->
+    <!--<string name="creating_group">Crearea grupului...</string>-->
+    <!--<string name="updating_group">Actualizarea grupului...</string>-->
+    <!--<string name="unable_to_delete_group">Imposibil de sters grupul</string>-->
+    <!--<string name="are_you_sure_you_want_to_unfollow_the_group">Esti sigur ca doresti sa anulezi urmarirea grupului?</string>-->
+    <!--<string name="unfollow_group">Anuleaza urmarirea grupului</string>-->
+
+<!--</resources>-->

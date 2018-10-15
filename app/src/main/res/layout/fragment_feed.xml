@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/feed_fragment_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/feed_gray">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/friends_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:expanded="false">
+
+            <RelativeLayout
+                android:id="@+id/friends_list_add_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/chat_screen_bg"
+                android:minHeight="16dp"
+                app:layout_scrollFlags="scroll|enterAlways|exitUntilCollapsed">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/friend_recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:orientation="horizontal"
+                    app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+                    tools:listitem="@layout/friend_icon" />
+
+                <ImageView
+                    android:id="@+id/add_friend_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:padding="6dp"
+                    android:src="@drawable/v_ic_star_plus"
+                    android:visibility="gone"
+                    tools:visibility="visible" />
+
+                <RelativeLayout
+                    android:id="@+id/friends_add_description_rl"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="4dp"
+                    android:visibility="gone"
+                    tools:visibility="visible">
+
+                    <ImageView
+                        android:id="@+id/star_friend_left_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:paddingStart="8dp"
+                        android:paddingEnd="16dp"
+                        android:src="@drawable/v_ic_star_plus" />
+
+                    <TextView
+                        android:id="@+id/friends_congrats_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/star_friend_left_iv"
+                        android:text="@string/friends_congrats_text"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/friends_add_description_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/friends_congrats_tv"
+                        android:layout_toEndOf="@+id/star_friend_left_iv"
+                        android:text="@string/friends_add_description_text" />
+
+                    <ImageView
+                        android:id="@+id/friends_add_dismiss_bt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:padding="8dp"
+                        android:layout_toEndOf="@+id/friends_add_description_tv"
+                        android:layout_alignParentEnd="true"
+                        android:src="@drawable/v_btn_dismiss" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shadow" />
+
+            <android.support.v4.widget.SwipeRefreshLayout
+                android:id="@+id/swipe_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/feed_list_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:clipToPadding="false"
+                    android:listSelector="@color/transparent"
+                    android:orientation="vertical"
+                    android:paddingBottom="100dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:scrollbars="none"
+                    app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                    tools:listitem="@layout/post_text_list_item" />
+
+            </android.support.v4.widget.SwipeRefreshLayout>
+
+        </RelativeLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/multiple_actions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        app:menu_colorNormal="@color/conx_teal"
+        app:menu_colorPressed="@color/conx_teal">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/livestream_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_start_livestream"
+            app:fab_colorNormal="@color/gray_blue"
+            app:fab_colorPressed="@color/gray_blue"
+            app:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/post_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_new_post"
+            app:fab_colorNormal="@color/gray_blue"
+            app:fab_colorPressed="@color/gray_blue"
+            app:fab_size="mini" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+    <ProgressBar
+        android:id="@+id/feed_progress_bar"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:indeterminate="true" />
+
+</RelativeLayout>

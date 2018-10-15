@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:minHeight="250dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="250dp"
+            android:visibility="visible">
+
+            <RelativeLayout
+                android:id="@+id/image_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/media_post_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:id="@+id/photo_gradient"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/imagegradient_overlay" />
+            </RelativeLayout>
+
+            <com.conx2share.conx2share.ui.view.AvenirNextTextView
+                android:id="@+id/post_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="17dp"
+                android:textAllCaps="false"
+                android:textColor="@color/conx_teal"
+                android:textSize="19sp" />
+
+            <RelativeLayout
+                android:id="@+id/time_stamp_and_options_holder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true">
+
+                <TextView
+                    android:id="@+id/post_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="10dp"
+                    android:text="@string/one_m"
+                    android:textColor="@color/unread_messages_gray"
+                    android:textSize="16dp" />
+
+                <ImageButton
+                    android:id="@+id/post_options_carrot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_toRightOf="@+id/post_date"
+                    android:background="@color/transparent"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="10dp"
+                    android:src="@drawable/edit_carrot_grey" />
+            </RelativeLayout>
+
+
+            <ImageView
+                android:id="@+id/video_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="56dp"
+                android:layout_below="@+id/time_stamp_and_options_holder"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/video_orange"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/post_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75dp"
+                android:ellipsize="end"
+                android:maxLines="6"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="50dp"
+                android:textSize="18sp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:padding="10dp">
+
+                <com.conx2share.conx2share.ui.view.AvenirNextTextView
+                    android:id="@+id/post_comment_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/one"
+                    android:textSize="18sp" />
+
+                <ImageButton
+                    android:id="@+id/post_comment_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/post_comment_count"
+                    android:background="@color/transparent"
+                    android:src="@drawable/new_comment_selector" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp">
+
+                <com.conx2share.conx2share.ui.view.AvenirNextTextView
+                    android:id="@+id/post_like_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/one"
+                    android:textSize="18sp" />
+
+                <ImageButton
+                    android:id="@+id/post_like_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@id/post_like_count"
+                    android:background="@color/transparent"
+                    android:padding="5dp"
+                    android:src="@drawable/like_grey" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:id="@+id/share_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:background="@color/transparent"
+                    android:padding="5dp"
+                    android:src="@android:drawable/ic_menu_share" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <com.conx2share.conx2share.ui.view.AvatarImageView
+        android:id="@+id/post_user_avatar"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="10dp" />
+
+</RelativeLayout>
+
+
+

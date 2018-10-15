@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/add_friends_gray"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/search_for_groups_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_marginRight="40dp"
+            android:background="@color/white"
+            android:hint="@string/search_for_groups"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:singleLine="true"
+            android:textColor="@color/search_users_text_gray"
+            android:textColorHint="@color/hint_gray" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/search_groups_list_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:dividerHeight="0dp"
+        android:listSelector="@color/transparent"
+        android:transcriptMode="alwaysScroll"/>
+
+</LinearLayout>

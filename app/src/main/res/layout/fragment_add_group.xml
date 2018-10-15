@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F3F3">
+
+
+    <ImageView
+        android:id="@+id/header_background_imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/friend_placeholder" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/imagegradient_overlay" />
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/edit_group_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/black_to_transparent_gradient">
+
+        <ImageView
+            android:id="@+id/toolbar_up"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/back_button_selector" />
+
+        <TextView
+            android:id="@+id/name_textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/avatar"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/edit_group_toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/friend_placeholder"
+        app:riv_border_color="@color/white"
+        app:riv_border_width="1dp"
+        app:riv_oval="true" />
+
+    <Button
+        android:id="@+id/change_photo_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_toRightOf="@id/avatar"
+        android:background="@color/transparent"
+        android:text="@string/change"
+        android:textColor="@color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/avatar"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/group_name_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <com.conx2share.conx2share.ui.view.AvenirNextTextView
+                    style="@style/GroupItemTitle"
+                    android:text="@string/group_name_layout_title" />
+
+                <EditText
+                    android:id="@+id/group_name_editText"
+                    style="@style/GroupEditText"
+                    android:layout_height="40dp"
+                    android:singleLine="true" />
+
+                <com.conx2share.conx2share.ui.view.AvenirNextTextView
+                    style="@style/GroupItemTitle"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/about" />
+
+                <EditText
+                    android:id="@+id/group_about_editText"
+                    style="@style/GroupEditText"
+                    android:layout_height="120dp"
+                    android:gravity="top|start"
+                    android:maxLength="255" />
+
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/group_restriction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/conx_teal"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <RadioButton
+                    android:id="@+id/group_public"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/group_button_selector"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="PUBLIC"
+                    android:textColor="@color/group_text_selector"
+                    android:textSize="25dp" />
+
+                <RadioButton
+                    android:id="@+id/group_private"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/group_button_selector"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="PRIVATE"
+                    android:textColor="@color/group_text_selector"
+                    android:textSize="25dp" />
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/group_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/conx_teal"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <RadioButton
+                    android:id="@+id/group_blog"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/group_button_selector"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="@string/blog_group_button_text"
+                    android:textColor="@color/group_text_selector"
+                    android:textSize="25dp" />
+
+                <RadioButton
+                    android:id="@+id/group_discussion"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/group_button_selector"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="@string/discussion_group_button_text"
+                    android:textColor="@color/group_text_selector"
+                    android:textSize="25dp" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/group_button_unpressed"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/public_group_button_text"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/private_group_button_text"
+                    android:textSize="25dp"
+
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/delete_group_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/padding_half"
+                android:layout_marginTop="@dimen/padding_half"
+                android:text="@string/delete_group_text"
+                android:textColor="@color/primary_material_dark_1"
+                android:textSize="22sp"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

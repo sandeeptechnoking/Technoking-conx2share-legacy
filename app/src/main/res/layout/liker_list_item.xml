@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/liker_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <com.conx2share.conx2share.ui.view.AvatarImageView
+        android:id="@+id/liker_avatar"
+        android:layout_width="@dimen/avatar_size"
+        android:layout_height="@dimen/avatar_size"
+        android:layout_margin="5dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/liker_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/conx_teal"
+        android:textSize="@dimen/font_large"
+        app:layout_constraintLeft_toRightOf="@+id/liker_avatar"
+        tools:text="Jessica Jones Junior" />
+
+    <TextView
+        android:id="@+id/liker_username"
+        style="@style/list_item.subtitle"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/gray"
+        app:layout_constraintLeft_toRightOf="@+id/liker_avatar"
+        app:layout_constraintTop_toBottomOf="@+id/liker_name"
+        tools:text=" @jess333" />
+
+    <TextView
+        android:id="@+id/liker_time"
+        style="@style/list_item.date"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/liker_name"
+        tools:text="02/15/17 2:53 am" />
+</android.support.constraint.ConstraintLayout>

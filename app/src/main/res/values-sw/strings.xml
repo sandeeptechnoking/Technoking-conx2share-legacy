@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="applicationName">"ConX2Share"</string>
+    <string name="labelSignin">"Ingia"</string>
+    <string name="labelSignup">"Jisajili"</string>
+    <string name="labelEmail">"Barua Pepe"</string>
+    <string name="labelPassword">"Neno la Kificho"</string>
+    <string name="labelOr">"au"</string>
+    <string name="labelUsername">"Jina la Mtumiaji"</string>
+    <string name="labelConfirmPassword">"Thibitisha Neno la Kificho"</string>
+    <string name="labelFirstName">"Jina la Kwanza"</string>
+    <string name="labelLastName">"Jina la Mwisho"</string>
+    <string name="blurbTermsAndConditions">"Mimi nimesoma na kukubaliana na masharti na sheria"</string>
+    <string name="statusAuthenticating">"Inaingia Katika…"</string>
+    <string name="statusUnexpectedError">"Hitilafu isiyotarajiwa imetokea."</string>
+    <string name="statusMessagedMarkedAsViewed">"Ujumbe umewekwa alama ya kutazamwa "</string>
+    <string name="labelSuccess">"mafanikio"</string>
+    <string name="statusMessageSent">"Ujumbe umetumwa"</string>
+    <string name="statusMessageSentFailed">"Ujumbe umeshindwa kutuma"</string>
+    <string name="hintEnterMessageHere">"Ingiza Ujumbe Hapa…"</string>
+    <string name="statusGotSentMessages">"pata ujumbe uliotumwa"</string>
+    <string name="hintTypeAMessage">"Chapa ujumbe…"</string>
+    <string name="hintAddTextHere">"Kuongeza maandishi hapa…"</string>
+    <string name="statusFileError">"Hitilafu la faili"</string>
+    <string name="statusCameraError">"Hitilafu ya Kamera"</string>
+    <string name="labelAddAttachment">"Ongeza Kiungo:"</string>
+    <string name="labelTakeAPhoto">"Chukua Picha"</string>
+    <string name="labelTakeAVideo">"Chukua Video"</string>
+    <string name="labelMessageType">"Aina ya Ujumbe:"</string>
+    <string name="labelError">"Hitilafu:"</string>
+
+    <!-- Post Activity -->
+    <string name="labelPost">"Chapisho"</string>
+    <string name="titleCreatePost">"Tengeneza Chapisho"</string>
+    <string name="labelPostTo">"Kwa:"</string>
+    <string name="labelEveryone">"Kila mtu"</string>
+    <string name="statusPostSuccessful">"Chapisho limefaulu"</string>
+    <string name="statusPostFailed">"Chapisho limeshindwa:"</string>
+
+    <!-- Image Upload Dialog -->
+    <string name="titleUploadPhoto">"Pakia Picha"</string>
+    <string name="labelTakePhoto">"Chukua Picha"</string>
+    <string name="labelLibrary">"Maktaba"</string>
+    <string name="blurbNotYetImplemented">"Bado haijatekelezwa."</string>
+
+    <!-- Feed Activity -->
+    <string name="labelDrawerOpen">"Droo Wazi"</string>
+    <string name="labelDrawerClose">"Droo Funga"</string>
+    <string name="labelSignout">"Ondoka"</string>
+    <string name="labelProfilePicture">"Picha ya Profaili"</string>
+
+    <!-- Share Dialog -->
+    <string name="labelShareTo">"Shiriki na..."</string>
+    <string name="labelCancel">"Futa"</string>
+
+    <!-- Contacts -->
+    <string name="labelContacts">"Anwani"</string>
+    <string name="statusInviteSuccessful">"Marafiki wamealikwa"</string>
+
+    <!-- Groups -->
+    <string name="titleGroupName">"JINA LA KIKUNDI"</string>
+    <string name="labelCreateGroup">"TENGENEZA KIKUNDI"</string>
+    <string name="blurbGroupNameInvalid">"Kundi lazima liwe na jina"</string>
+    <string name="blurbGroupImageInvalid">"Kundi lazima liwe na picha"</string>
+    <string name="labelEditGroup">"HARIRI KUNDI"</string>
+    <string name="blurbGroupCreationFail">"Kundi halikufanikiwa kuundwa. Tafadhali Jaribu tena."</string>
+    <string name="blurbGroupCreationSuccess">"Kundi Limetengenezwa %s!"</string>
+    <string name="blurbGroupUpdateFail">"Kundi halikufanikiwa kusasishwa. Tafadhali Jaribu tena."</string>
+    <string name="blurbGenericErrorMessage">"Hitilafu imetokea. Tafadhali jaribu tena."</string>
+    <string name="statusNoUsersFound">"Hakuna watumiaji walipatikana kwa vigezo vinavyolingana"</string>
+    <string name="labelMembers">"Wanachama"</string>
+    <string name="labelSend">"tuma"</string>
+    <string name="statusFailedToTetrieveMessages">"Kushindwa kuepua ujumbe mpya"</string>
+    <string name="questionSaveMessage">"Hifadhi Ujumbe?"</string>
+
+    <!-- Message Friends -->
+    <string name="hintFriendsName">"Jina la Kwanza Jina la Mwisho"</string>
+    <string name="blurbErrorLoadingIndex">"Hitilafu limetokea kupakia gumzo zako."</string>
+    <string name="titleNewMessage">"Ujumbe Mpya"</string>
+
+    <!-- Drawer Notifications -->
+    <string name="statusSentYouANewMessage">"Amekutumia ujumbe mpya"</string>
+    <string name="labelCommentedOnYourPost">"Alitoa maoni juu ya chapisho lako"</string>
+    <string name="statusInvitedYouToJoin">"Amekualika ujiunge"</string>
+    <string name="statusLoginFailed">"meshindwa Kungia. Tafadhali angalia muunganisho na ujaribu tena."</string>
+
+    <!-- ######################################### SET 2 STRINGS ##################################################### -->
+    <string name="labelNone">"Hakuna"</string>
+    <string name="label15s">"Sekunde 15"</string>
+    <string name="label30s">"Sekunde 30"</string>
+    <string name="label60s">"Sekunde 60"</string>
+    <string name="label120s">"Sekunde 120"</string>
+    <string name="labelHome">"NYUMBANI"</string>
+    <string name="labelMessages">"JUMBE"</string>
+    <string name="labelFriends">"MARAFIKI"</string>
+    <string name="labelGroups">"VIKUNDI"</string>
+    <string name="labelNotifications">"ARAFA"</string>
+    <string name="labelSubscriptionsGP">"PATA PAMOJA"</string>
+    <string name="labelStore">"Hifadhi"</string>
+    <string name="labelAbout">"KUHUSU"</string>
+    <string name="labelChange">"Mabadiliko"</string>
+    <string name="labelPushMNotifications">"ARAFA ZA MSUKUMO"</string>
+    <string name="titleSwitchTitle1">"BADILI KICHWA 1"</string>
+    <string name="titleSwitchTitle2">"BADILI KICHWA 2"</string>
+
+    <!-- Strings for Async Errors -->
+    <string name="labelRetry">"JARIBU TENA"</string>
+    <string name="statusUnableToGatherFriendsToInvite">"Haiwezekani Kukusanya marakifi wa kualika"</string>
+    <string name="statusUnableToInviteFriends">"Haiwezekani kualika Marafiki"</string>
+    <string name="statusUnableToPostToGroup">"Haiwezekani kuchapisha kwa kikundi"</string>
+    <string name="statusUnableToPost">"Haiwezekani kuchapisha"</string>
+    <string name="statusPostAlreadyFlagged">"Haiwezekani kuashiria ujumbe, umeuashiria tayari"</string>
+    <string name="statusUnableToFlagPost">"Haiwezekani kuashiria chapisho"</string>
+    <string name="statusUnableToGetPost">"Haiwezekani kupata chapisho"</string>
+    <string name="statusUnableToGetPostComments">"Haiwezekani kupata maoni ya chapisho"</string>
+    <string name="statusUnableToLikePost">"Haiwezekani kupendekeza chapisho"</string>
+    <string name="statusUnableToUnlikePost">"Haiwezekani kutopendekeza chapisho"</string>
+    <string name="statusUnableToCreateGroup">"Haiwezekani kuunda kikundi"</string>
+    <string name="statusUnableToUpdateGroup">"Haiwezekani kufahamisha kikundi"</string>
+    <string name="statusUnableToRefreshFeed">"Haiwezekani kufanyisha upya vipasho"</string>
+    <string name="statusUnableToGetPosts">"Haiwezekani kupata chapisho"</string>
+    <string name="statusUnableToGetUnreadMessages">"Haiwezekani kupata jumbe ambazo hazijasomwa"</string>
+    <string name="statusUnableToGetFriends">"Haiwezekani kupata marafiki"</string>
+    <string name="statusUnableToGetGroup">"Haiwezekani kupata kikundi"</string>
+    <string name="statusUnableToGetGroupPosts">"Haiwezekani kupata chapisho za kikundi"</string>
+    <string name="statusUnableToGetGroupList">"Haiwezekani kupata orodha ya kikundi"</string>
+    <string name="statusUnableToRemoveOrDeleteGroup">"Haiwezekani kuondoa au kufuta kikundi"</string>
+    <string name="statusUnableToGetChats">"Haiwezekani kupata maongezi"</string>
+    <string name="statusUnableToGetSavedMessages">"Haiwezekani kupata jumbe zilizohifadhiwa"</string>
+    <string name="statusUnableToUpdateNotificationAsViewed">"Haiwezekani kusasisha arafa kama vile zimetazamwa"</string>
+    <string name="statusUnableToGetMessage">"Haiwezekani kupata ujumbe"</string>
+    <string name="statusUnableToFollowUser">"Haiwezekani kufuata mtumiaji"</string>
+    <string name="statusUnableToUnfollowUser">"Haiwezekani kutofuata mtumiaji"</string>
+    <string name="statusUnableToLoadProfile">"Haiwezekani kufungua profaili"</string>
+    <string name="statusUnableToUpdateAvatar">"Haiwezekani kusasisha umbo"</string>
+    <string name="statusUnableToInviteUserToGroup">"Haiwezekani kualika mtumiaji kwa kikundi"</string>
+    <string name="statusUnableToPurchaseSubscription">"Haiwezekani kununua michango"</string>
+    <string name="statusUnableToUpdateUsersProfile">"Haiwezekani kusasisha profaili ya mtumiaji"</string>
+    <string name="statusUnableToSendMessage">"Haiwezekani kutuma ujumbe"</string>
+    <string name="statusUnableToSetExpiration">"Haiwezekani kuweka wakati ujumbe utaisha"</string>
+    <string name="statusUnableToSaveMessage">"Haiwezekani kuhifadhi ujumbe"</string>
+    <string name="statusUnableToGetChat">"Haiwezekani kupata kuzungumza na mtumiaji"</string>
+    <string name="statusUnableToGetSentMessages">"Haiwezekani kupata jumbe zilizotumwa"</string>
+    <string name="statusUnableToGetMissedMessages">"Haiwezekani kupata jumbe zilizokoswa"</string>
+    <string name="statusUnableToGetNotifications">"Haiwezekani kupata arafa"</string>
+    <string name="statusUnableToAcceptGroupInvite">"Haiwezekani kukubali  mwaliko wa kikundi "</string>
+    <string name="statusUnableToDeclineGroupInvite">"Haiwezekani kukataa  mwaliko wa kikundi "</string>
+    <string name="statusUnableToGetMoreNotifications">"Haiwezekani kupata arafa zaidi"</string>
+    <string name="statusUnableToGetFollowingUsers">"Haiwezekani kupata watumiaji unaofuata"</string>
+    <string name="statusUnableToGetFollowers">"Haiwezekani kupata watumiaji"</string>
+    <string name="statusUnableToGetMessages">"Haiwezekani kupata jumbe"</string>
+    <string name="statusUnableToGoToChat">"Haiwezekani kuenda kwa maongezi"</string>
+
+    <!-- Search hints -->
+    <string name="hintSearchForUsersToInvite">"Tafuta watu wa kualika"</string>
+    <string name="hintSearchFriends">"tafuta marafiki"</string>
+    <string name="hintSearchForFriends">"Tafuta marafiki"</string>
+    <string name="hintSearchForMembers">"Tafuta mshiriki"</string>
+    <string name="hintSearchForUsersToChatWith">"tafuta watumiaji wa kuzungumza nao"</string>
+    <string name="hintSearchContacts">"Tafuta anwani za mawasiliano"</string>
+
+    <!-- Notifications -->
+    <string name="statusNewNotificationReceived">"Arafa mpya ilipokelewa"</string>
+    <string name="labelRefresh">"FANYIZA UPYA"</string>
+    <string name="labelViewed">" - Ilitazamwa"</string>
+    <string name="labelAccepted">"Ilikubalika"</string>
+    <string name="labelDeclined">"Ilikataliwa"</string>
+    <string name="titleNotification">"Arafa ya Conx2Share"</string>
+
+    <!-- Prompt text -->
+    <string name="labelYes">"Ndiyo"</string>
+    <string name="labelNo">"Hapana"</string>
+    <string name="labelOk">"SAWA"</string>
+    <string name="labelExclamation">"!"</string>
+
+    <!-- Subscription Strings -->
+    <string name="statusSubscribedSuccessfully">"Umefaulu Kujiunga"</string>
+    <string name="statusFailedToSubscribe">"Haukufaulu kujiunga"</string>
+    <string name="labelPriceFree">"0"</string>
+    <string name="labelPricePlus">"2.40/mwaka"</string>
+    <string name="labelPricePremium">"29.99/mwaka"</string>
+    <string name="labelPricePlatinum">"49.99/mwaka"</string>
+    <string name="blurbFreeSubscriptionDescription"><![CDATA[Picha na video zitafutwa baada ya kutazamwa.]]></string>
+    <string name="titleFreeSubscription">"Bure"</string>
+    <string name="labelSubscribe">"Jiunge!"</string>
+    <string name="labelCurrentSubscription">"usajili wa sasa"</string>
+    <string name="labelAgo">"iliyopita"</string>
+    <string name="labelPlus">"Pamoja na"</string>
+    <string name="blurbPlusSubscriptionDescription">"Okoa hadi picha 5 na video 1."</string>
+    <string name="titlePremiumSubscription">"Ya malipo"</string>
+    <string name="blurbPremiumSubscriptionDescription"><![CDATA[Barua pepe ya Cx2share na 50GB ya kuhifadhi data kwa ajili ya ujumbe, picha na video.]]></string>
+    <string name="titlePlatinumSubscription">"Platinamu"</string>
+    <string name="blurbPlatinumSubscriptionDescription"><![CDATA[Barua pepe ya Cx2share na 100GB ya kuhifadhi data kwa ajili ya ujumbe, picha na video.]]></string>
+
+    <!-- Sharing Strings -->
+    <string name="labelSharedBy">"\" Imeshirikiwa na "</string>
+    <string name="blurbViaConx2shareAndroid">" kupitia Conx2share Android"</string>
+    <string name="titleConx2shareForAndroid">" Conx2share ya Android"</string>
+    <string name="messagePleaseInstallFacebook">"Tafadhali  weka programu ya Facebook ili kushiriki chapisho lako."</string>
+    <string name="messagePleaseInstallTheTwiiterApp">"Tafadhali  weka programu ya Twitter ili kushiriki chapisho lako."</string>
+
+    <!-- Progress Dialog Strings -->
+    <string name="statusLoadingMessages">"Ujumbe Unapakia..."</string>
+    <string name="statusGatheringFriends">"Kukusanya marafiki..."</string>
+    <string name="statusGatheringMessages">"Kukusanya ujumbe..."</string>
+    <string name="statusGatheringChats">"Kukusanya mazungumzo..."</string>
+    <string name="statusGatheringFollowedUsers">"Kukusanya watumiaji unaofuata..."</string>
+    <string name="statusGatheringFollowers">"Kukusanya wafuasi..."</string>
+    <string name="statusSendingMessage">"Kutuma ujumbe…"</string>
+    <string name="statusPosting">"Inatuma Chapisho..."</string>
+    <string name="statusGatheringSavedMessages">"Kukusanya jumbe zilizohifadhiwa"</string>
+    <string name="statusGatheringChatInformation">"Kukusanya taarifa za maongezi..."</string>
+
+    <!-- Group Strings -->
+    <string name="labelDeleteGroup">"Futa Kikundi"</string>
+    <string name="labelLeaveGroup">"Toka kwa Kikundi"</string>
+    <string name="labelDeletedGroup">"Kikundi kimefutwa "</string>
+    <string name="labelLeftGroup">"Kikundi kimeondokwa "</string>
+    <string name="labelUpdatedGroup">"Kikundi kimesasishwa "</string>
+    <string name="labelGroupOwner">"mwenye kikundi"</string>
+    <string name="labelGroupMembers">"Kikundi cha Wanachama"</string>
+    <string name="labelGroupName">"Jina ya Kikundi"</string>
+
+    <!-- Following Strings -->
+    <string name="labelFollowers">"wafuasi"</string>
+    <string name="labelFollowing">"kufuatia"</string>
+    <string name="statusFailedToFollow">"Kufuatia kumeshindwa. Jaribu tena."</string>
+    <string name="labelUnfollowed">"Kuacha kufuatwa"</string>
+    <string name="labelFollow">"FUATA"</string>
+    <string name="labelUnfollow">"ACHA KUFUATA"</string>
+    <string name="statusFollowedYou">"Alikufuata"</string>
+
+    <!-- SignUp Strings -->
+    <string name="statusYouAreNowSignedUp">"Sasa umesajiliwa!"</string>
+    <string name="statusFailedToSignUp">"Kusajiliwa kumeshindwa, tafadhali jaribu tena."</string>
+    <string name="statusPleaseFillOutAllFields">"Tafadhali jaza pengo zote"</string>
+
+    <!-- Image and video strings -->
+    <string name="titleSelectPicture">"Chagua picha"</string>
+    <string name="questionUploadFromLibrary">"Je, ungependa kuchukua video au kupakia kutoka kwa maktaba yako?"</string>
+    <string name="statusErrorUploadingVideo">"Hitilafu ilitokea wakati wa kufungua video yako"</string>
+    <string name="messageSelectImageError">"Tafadhali chagua picha iliyohifadhiwa kwenye kifaa chako. Hii sio pamoja na picha zilizofichwa kutoka kwa vifaa vingine au vyombo vya habari vya kijamii."</string>
+    <string name="statusTwitterImageError">"Picha imeshindwa kufungua na kuambatanisha na chapisho la Twitter."</string>
+    <string name="satusErrorSelectingImage">"Hitilafu lilitokea wakati wa kuchagua picha yako"</string>
+    <string name="questionSelectUpload">"Ungependa kupakia nini?"</string>
+    <string name="statusImageDownloadFailed">"Picha ilishindwa kufungua"</string>
+    <string name="statusImageNotFound">"picha haikuweza kupatikana"</string>
+    <string name="labelVideoTake">"Chukua Video"</string>
+    <string name="statusFileExceedsLimit">"Faili inazidi kikomo cha 10MB."</string>
+    <string name="questionSelectVideoSource">"Chukua video au pata moja kutoka kwa maktaba yako?"</string>
+    <string name="questionSelectImageSource">"Chukua picha au pata moja kutoka kwa maktaba yako?"</string>
+
+    <!-- Fuzzy -->
+    <string name="indicatorMedia">"(Vyombo vya habari)"</string>
+
+    <!-- Fuzzy -->
+    <string name="indicatorPicture">"(picha)"</string>
+
+    <!-- Fuzzy -->
+    <string name="indicatorVideo">"(video)"</string>
+
+    <!-- Fuzzy -->
+    <string name="indicatorAudio">"Ya kusikiliza"</string>
+
+    <!-- Post Strings -->
+    <string name="promptFlagContentAsInappropriate">"Je, ungependa kuashiria chapisho hili kwa ajili ya maudhui yasiyofaa?"</string>
+    <string name="statusPostFlagged">"Ujumbe huu sasa umeashiriwa"</string>
+    <string name="statusMadeANewPost">"Chapisho mpya limetengenezwa"</string>
+    <string name="statusMadeANewGroupPost">"Alitengeneza chapisho mpya la kikundi"</string>
+    <string name="hintEnterYourMessageHere">"Ingiza ujumbe wako hapa..."</string>
+
+    <!-- Password Strings -->
+    <string name="promptForgotPassword">"Ulisahau neno la kificho?"</string>
+    <string name="hintEnterYourEmail">"Tafadhali weka barua pepe yako."</string>
+    <string name="labelChangePassword">"Badilisha neno la kificho"</string>
+    <string name="statusCantResetPassword">"Huwezi weka upya neno la kificho"</string>
+    <string name="labelResetPassword">"Weka upya neno la kificho"</string>
+    <string name="statusResetPasswordEmailSent">"Barua pepe ya kuweka upya neno la kificho imetumwa"</string>
+    <string name="statusPleaseEnterYourEmailAddress">"Tafadhali ingiza anwani yako ya barua pepe na ujaribu tena."</string>
+    <string name="labelConfirmNewPassword">"Thibitisha Neno la kificho Mpya"</string>
+    <string name="labelNewPassword">"Neno la kificho Mpya"</string>
+    <string name="labelOldPassword">"Neno la kificho la kale"</string>
+    <string name="statusUpdatingPassword">"Neno la kificho linasasishwa"</string>
+    <string name="statusOldPasswordIncorrect">"Neno la kificho la kale sio sahihi."</string>
+    <string name="statusPasswordUpdated">"Neno la kificho limesasishwa"</string>
+    <string name="statusPasswordFailedToUpdate">"Neno la kificho lilishindwa kusasisha, tafadhali jaribu tena"</string>
+    <string name="statusPasswordsDontMatch">"Maneno yako ya kificho hayalingani"</string>
+    <string name="statusOldPasswordError">"Neno la kificho la kale lina Hitilafu"</string>
+    <string name="statusOldPasswordInvalid">"Neno la kificho la kale uliloingiza sio batili"</string>
+    <string name="blurbPasswordsDontMatch">"Neno mpya la kificho na neno la kificho la kuthibitisha hayalingani. Tafadhali jaribu tena."</string>
+    <string name="you_password_has_been_updated">"Neno lako la kificho limesasishwa"</string>
+    <string name="change_password_error">"Error"</string>
+
+    <!-- Drawer Items -->
+    <string name="labelDrawerHome">"Nyumbani"</string>
+    <string name="labelDrawerMessages">"Ujumbe"</string>
+    <string name="labelDrawerFriends">"Marafiki"</string>
+    <string name="labelDrawerGroups">"Vikundi"</string>
+    <string name="labelDrawerNotifications">"Arafa"</string>
+    <string name="labelDrawerInvite">"Alika"</string>
+    <string name="labelDrawerStore">"Hifadhi"</string>
+    <string name="labelDrawerEshopping">"E-duka"</string>
+    <string name="labelDrawerGames">"Michezo"</string>
+    <string name="labelDrawerBusiness">"Biashara"</string>
+
+    <!-- Other Strings -->
+    <string name="blurbFacebookConnectNotImplemented">"Kuunganishwa kwa Facebook bado hakujatekelezwa"</string>
+    <string name="blurbTwiterConnectNotImplemented">"Kuunganishwa kwa Twitter bado hakujatekelezwa"</string>
+    <string name="errorNoChatNotFollowed">"Watumiaji wote wawili lazima wafuatane ili kuzungumza"</string>
+    <string name="errorTryAgain">"Tafadhali jaribu tena"</string>
+    <string name="statusMessageSaved">"Ujumbe umehifadhiwa."</string>
+    <string name="errorPasswordLength">"Neno lako la kificho lazima liwe na angalau tarakimu 8"</string>
+    <string name="errorPasswordsNotMatch">"Maneno ya kificho hayalingani"</string>
+    <string name="errorGenericSignUp">"Hitilafu limetokea wakati wa kujiandikisha."</string>
+    <string name="statusSigningUp">"Inajiandikisha..."</string>
+    <string name="blurbSubscriptionLevelTooLow">"Tayari uko na kiwango cha juu cha michango"</string>
+    <string name="errorPleaseAcceptTerms">"Tafadhali kubali sheria na masharti."</string>
+
+    <!-- <string name="please_accept_the_terms_of_service">Please accept the terms of service</string> -->
+    <string name="errorUsernameTaken">"Jina la mtumiaji tayari limechukuliwa"</string>
+    <string name="blurbNotConnectedToGooglePlay">"Haijashikamana na Google Play Store"</string>
+    <string name="blurbComingSoon">"Inakuja hivi karibuni!"</string>
+    <string name="labelAccept">"Kubali"</string>
+    <string name="labelDecline">"kataa"</string>
+    <string name="hintLeaveAComment">"Acha Maoni..."</string>
+    <string name="labelZero">"0"</string>
+    <string name="labelOne">"1"</string>
+
+    <!-- ######################################### SET 3 STRINGS ##################################################### -->
+    <string name="statusUnableToGetGroupMembers">"Haiwezi kupata wanakikundi  wa sasa"</string>
+    <string name="statusUnableToLoadWebPage">"Haiwezi kupakia ukurasa wa mtandao"</string>
+    <string name="hintEnterText">"Tafadhali ingiza maandishi"</string>
+    <string name="labelTermsOfService">"masharti ya huduma"</string>
+    <string name="blurbTermsOfServiceAndPrivacyPolicy">"Nimesoma na kukubaliana na masharti ya huduma na sera ya faragha"</string>
+    <string name="labelPrivacyPolicy">"sera ya faragha"</string>
+    <string name="statusGroupUpdateSuccess">"Kundi Limesasishwa %s!"</string>
+    <string name="statusRetrievingNotificationsFailed">"Kuepua arafa kumeshindwa. Tafadhali jaribu tena."</string>
+    <string name="errorGenericMessaging">"Hitilafu limetokea wakati wa kutuma ujumbe"</string>
+
+    <!-- Message Friends Index -->
+    <string name="labelSaved">"Imehifadhiwa"</string>
+    <string name="labelCurrent">"Ya sasa"</string>
+
+    <!-- Follow -->
+    <string name="labelFollowed">"Fuatiwa"</string>
+    <string name="statusUnfollowFailed">"Imeshindwa kuacha kufuata. Jaribu tena."</string>
+    <string name="labelStartRecording">"Anza kurekodi"</string>
+    <string name="labelSubmit">"wasilisha"</string>
+    <string name="errorInvalidUsernameOrPassword">"Jina la mtumiaji au neno la kificho ni batili"</string>
+    <string name="statusUnableToUpdateFollowersCount">"Haikuweza kusasisha hesabu ya wafuasi"</string>
+
+    <!-- Promo Codes -->
+    <string name="labelPromoCode">"Kificho Kweza (ya hiari)"</string>
+    <string name="labelActivatePromoCode">"Amilisha Kificho Kweza"</string>
+    <string name="errorInvalidPromoCode">"Kificho kweza ulichoingiza ni batili."</string>
+    <string name="blurbInvalidPromoCode">"Kificho kweza ulichoingiza ni batili. Ingiza kificho kweza halali code promo toa kificho kweza cha sasa. "</string>
+    <string name="hintEnterPromoCode">"Tafadhali ingiza kificho kweza chako..."</string>
+    <string name="blurbAccountSubscriptionUpgradedPlus">"Akaunti yako imesasishwa kwa Usajili wa Pamoja Na."</string>
+
+    <!-- ######################################### SET 4 STRINGS ##################################################### -->
+    <string name="statusUnableToCheckPromoCodeValid">"Haiwezekani kuangalia kama Kificho kweza ni halali"</string>
+    <string name="blurbPromoUpgradePlusDescription">"Kificho kweza ulichoingiza kilikuwa halali. Kama ungekuwa mtumiaji wa huru, akaunti yako imesasishwa kwa usajili wa Pamoja na."</string>
+    <string name="statusValidPromoCode">"Kificho Kweza Halali"</string>
+    <string name="statusInvalidPromoCode">"Kificho Kweza sio Halali"</string>
+    <string name="statusUnableUpdateUserToPromoUser">"Haikuweza kusasisha  mtumiaji kuwa mtumaji kweza"</string>
+    <string name="errorEmailAlreadyUsed">"Barua pepe tayari imechukuliwa"</string>
+
+    <!-- ######################################### SET 5 Strings ##################################################### -->
+    <string name="statusUserFavoritingFailed">"Ilishindwa kupendelea mtumiaji "</string>
+    <string name="statusUserUnfavoritingFailed">"Ilishindwa kuacha kupendelea mtumiaji"</string>
+    <string name="errorGroupNameTaken">"Jina la kikundi tayari limechukuliwa."</string>
+    <string name="blurbNewMessageReceivedFrom">"Umepokea ujumbe mpya kutoka kwa"</string>
+    <string name="labelOneM">"1m"</string>
+    <string name="statusUnableToPostComment">"Haiwezekani kuchapisha maoni"</string>
+    <string name="labelStartChat">"Anza Mazungumzo Mapya"</string>
+    <string name="promptDeleteGroupConfirm">"Je, una uhakika unataka kufuta kikundi?"</string>
+    <string name="promptLeaveGroupConfirm">"Je, una uhakika unataka kuondoka kwenye kundi?"</string>
+    <string name="labelExit">"Toka"</string>
+    <string name="labelAttachPhoto">"Tafadhali ambatanisha picha"</string>
+    <string name="labelAttachVideo">"Tafadhali ambatanisha video."</string>
+    <string name="errorEmailBlank">"Barua pepe haiwezi kuwa tupu"</string>
+
+    <!-- ######################################### SET 6 Strings ##################################################### -->
+    <string name="errorGroupIsPerminant">"Huwezi kuondoka au kufuta kundi  cha Conx2Share"</string>
+    <string name="labelPromoted">"Imekwezwa"</string>
+    <string name="errorRecordingTooShort">"Rekodi haina urefu wa kutosha"</string>
+    <string name="warningRecordingWillBeTruncated">"Nakala za dakika mbili za kwanza pekee ndizo zitakazotumwa"</string>
+    <string name="statusUnableToSendAudioMessage">"Huwezi  kutuma jumbe za kusikiliza"</string>
+    <string name="statusUnableToGetBusinessInfo">"Haiwezi  kupakia habari  za biashara"</string>
+    <string name="statusCouldNotRetrieveYourBusinesses">"Haikuweza  kuepua biashara zako"</string>
+    <string name="statusCannotPostToConx2shareGroup">"Huwezi  kuchapisha  kwa kikundi cha Conx2share"</string>
+    <string name="hintSearchForBusinesses">"Tafuta biashara"</string>
+    <string name="LabelBusinesses">"Biashara"</string>
+    <string name="labelBusinessOwner">"Mwenye biashara"</string>
+    <string name="labelGroup">"kikundi: "</string>
+    <string name="labelBusiness">"Biashara: "</string>
+    <string name="labelDeletePost">"Futa chapisho"</string>
+    <string name="errorDeletePostNotOwner">"Haumiliki hii chapisho ndio uifute"</string>
+    <string name="promptDeletePostConfirm">"Je, una hakika unataka kufuta chapisho hii?"</string>
+    <string name="statusPostDeleted">"Chapisho Limefutwa"</string>
+    <string name="statusUnableDeletePost">"Huwezi kufuta chapisho"</string>
+    <string name="labelDeleteComment">"Futa Maoni"</string>
+    <string name="errorDeleteCommentNotOwner">"Haumiliki maoni haya ili kuyafuta"</string>
+    <string name="promptDeleteCommentConfirm">"Je, una hakika unataka kufuta  maoni haya?"</string>
+    <string name="statusCommentDeleted">"Maoni yamefutwa"</string>
+    <string name="statusUnableDeleteComment">"Haikuweza kufuta maoni"</string>
+    <string name="labelFlagPost">"Weka chapisho alama"</string>
+    <string name="errorGenericCommentNotOwner">"Huwezi kufanya chochote kwa maoni haya kwa vile hauimiliki"</string>
+    <string name="errorEditPostNotOwner">"Haumiliki chapisho hili ili kuihariri"</string>
+    <string name="labelEditPost">"Hariri Chapisho"</string>
+    <string name="promptEditPost">"Je, unataka kuhariri chapisho hili?"</string>
+    <string name="lableUpdate">"Sasisha"</string>
+    <string name="statusUnableToUpdatePost">"Haikuweza kusasisha baada"</string>
+    <string name="statusPostEdited">"Chapisho limehaririwa"</string>
+    <string name="statusUpdatingPost">"Chapisho linasasisha..."</string>
+    <string name="labelFlagInappropriate">"Weka alama ya kuonyesha haifai"</string>
+    <string name="errorCannotChangeAudienceEditingPost">"Uwezi kubadilisha hadhira wakati unapohariri chapisho"</string>
+    <string name="hintEnterCommentHere">"Ingiza maoni yako hapa"</string>
+    <string name="labelUpdate">"Sasisha"</string>
+    <string name="labelEditComment">"Hariri Maoni"</string>
+    <string name="errorEditCommentNotOwner">"Haumiliki maoni haya kuyahariri"</string>
+    <string name="statusCommentUpdated">"Maoni Yamesasishwa"</string>
+    <string name="statusUnableUpdateComment">"Imeshindwa kusasisha maoni"</string>
+    <string name="statusUpdatingComment">"Updating comment..."</string>
+    <string name="labelVideo">"Video"</string>
+    <string name="labelRemoveFromGroup">"Ondoa Kutoka kwa kikundi"</string>
+    <string name="errorEditGroupMemberNotOwner">"Huwezi  kufanya chochote na mwanakikundi huyu kwa vile sio mwenye kikundi"</string>
+    <string name="labelRemoveUserFromGroup">"Ondoa Mtumiaji kutoka kwenye kikundi"</string>
+    <string name="promptBlockUserFromGroupConfirm">"Unahakika unataka kuzuia mtumiaji huyu kutoka kwenye kikundi?"</string>
+    <string name="labelBlockUser">"Zuia Mtumiaji"</string>
+    <string name="promptRemoveUserFromGroupConfirm">"Una hakika unataka kuondoa mtumiaji huyu kutoka kwenye kikundi?"</string>
+    <string name="labelMember">"Mwanachama"</string>
+    <string name="labelFollower">"Mfuasi"</string>
+    <string name="statusUnableFollowGroup">"Umeshindwa kufuata kikundi"</string>
+    <string name="labelUnableUnfollowGroup">"Imeshindwa kuacha kufuata kikundi"</string>
+    <string name="labelGroupFollowers">"Wafuasi wa chama"</string>
+    <string name="hintSearchForFollowers">"Tafuta wafuasi"</string>
+    <string name="statusUnableToInviteUserToFollowGroup">"Imeshindwa kualika mtumiaji ili afuate kikundi"</string>
+    <string name="statusSendInviteToFollowGroup">"Mwaliko ili kufuata kikundi umetumwa"</string>
+    <string name="statusUnableToBlockUserFromGroup">"Imeshindwa kuzuia mtumiaji kutoka kwa kikundi"</string>
+    <string name="statusUserBlockedFromGroup">"Umezuia mtumiaji huyu kutoka kwa kikundi."</string>
+    <string name="statusUnableToRemoveUserFromGroup">"Imeshindwa kuondoa mtumiaji kutoka kwa kikundi"</string>
+    <string name="statusUserRemovedFromGroup">"Mtumiaji ameondolewa kutoka kwa kikundi"</string>
+    <string name="statusInvitedToFollowGroup">"Umealikwa kufuata kikundi"</string>
+    <string name="hintSearchForGroups">"tafuta vikundi"</string>
+    <string name="labelPrivate">"Binafsi"</string>
+    <string name="labelBlog">"blogi"</string>
+    <string name="labelDiscussion">"Majadiliano"</string>
+    <string name="statusUnableToLeaveGroup">"Imeshindwa kuacha kikundi"</string>
+    <string name="statusUnableToGetGroupFollowers">"Imeshindwa kupata wafuasi wa kikundi"</string>
+    <string name="statusUnableToUnblockUser">"Imeshindwa kuacha kuzuilia watumiaji"</string>
+    <string name="statusUserUnblockedFromGroup">"Umeacha kuzuilia mtumiaji huyu kutoka kwa kikundi"</string>
+    <string name="statusBlockedUnablePostGroup">"Imeshindwa kuchapisha kwenye kikundi, imezuiwa"</string>
+    <string name="statusBlockedUnablePostComment">"Imeshindwa kuchapisha maoni, imezuiwa"</string>
+    <string name="labelUnblockUser">"Acha kuzuia mtumiaji"</string>
+    <string name="promptUnblockUserConfirm">"Je, una hakika unataka kuacha kuzuia mtumiaji?"</string>
+    <string name="statusBlockedUnableToUpdatePost">"Imeshindwa kusasisha chapisho, imezuiwa"</string>
+    <string name="statusBlockedUnableToUpdateComment">"Imeshindwa kusasisha maono, imezuiwa"</string>
+    <string name="bogusEmergencyLogoutToast">"Kipindi chako ni batili. Tafadhali ingia tena."</string>
+    <string name="statusUnableToLeaveOrDeleteGroup">"Imeshindwa kuacha au kufuta kikundi"</string>
+    <string name="labelPublic">"Umma"</string>
+    <string name="statusCreatingGroup">"Inaunda kikundi..."</string>
+    <string name="statusUpdatingGroup">"Inasasisha kikundi..."</string>
+    <string name="statusUnableToDeleteGroup">"Imeshindwa kufuta kikundi"</string>
+    <string name="promptUnfollowGroupConfirm">"Je una hakika unataka kuacha kufuata kikundi?"</string>
+    <string name="labelUnfollowGroup">"Acha kufuata kikundi"</string>
+</resources>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<resources>-->
+
+    <!--<string name="app_name">ConX2Share</string>-->
+    <!--<string name="hello_world">Habari Ulimwengu!</string>-->
+    <!--<string name="sign_in">Ingia</string>-->
+    <!--<string name="sign_up">Jisajili</string>-->
+    <!--<string name="email">Barua Pepe</string>-->
+    <!--<string name="password">Neno la Kificho</string>-->
+    <!--<string name="or">au</string>-->
+    <!--<string name="username">Jina la Mtumiaji</string>-->
+    <!--<string name="confirm_password">Thibitisha Neno la Kificho</string>-->
+    <!--<string name="first_name">Jina la Kwanza</string>-->
+    <!--<string name="last_name">Jina la Mwisho</string>-->
+    <!--<string name="terms_and_conditions">Mimi nimesoma na kukubaliana na masharti na sheria</string>-->
+    <!--<string name="signing_in">Inaingia Katika&#8230;</string>-->
+    <!--<string name="unexpected_error">Hitilafu isiyotarajiwa imetokea.</string>-->
+    <!--<string name="mark_messaged_viewed">Ujumbe umewekwa alama ya kutazamwa </string>-->
+    <!--<string name="success">mafanikio</string>-->
+    <!--<string name="message_sent">Ujumbe umetumwa</string>-->
+    <!--<string name="message_failed_to_send">Ujumbe umeshindwa kutuma</string>-->
+    <!--<string name="enter_message_here">Ingiza Ujumbe Hapa…</string>-->
+    <!--<string name="got_sent_messages">pata ujumbe uliotumwa</string>-->
+    <!--<string name="type_a_message">Chapa ujumbe…</string>-->
+    <!--<string name="add_text_here">Kuongeza maandishi hapa…</string>-->
+    <!--<string name="logging_in">ingia katika…</string>-->
+    <!--<string name="file_error">Hitilafu la faili</string>-->
+    <!--<string name="camera_error">Hitilafu ya Kamera</string>-->
+    <!--<string name="add_attachment">Ongeza Kiungo:</string>-->
+    <!--<string name="take_a_photo">Chukua Picha</string>-->
+    <!--<string name="take_a_video">Chukua Video</string>-->
+    <!--<string name="message_type">Aina ya Ujumbe:</string>-->
+    <!--<string name="error">Hitilafu:</string>-->
+
+    <!--&lt;!&ndash; Post Activity &ndash;&gt;-->
+    <!--<string name="post">Chapisho</string>-->
+    <!--<string name="post_activity_title">Tengeneza Chapisho</string>-->
+    <!--<string name="post_to">Kwa:</string>-->
+    <!--<string name="post_everyone">Kila mtu</string>-->
+    <!--<string name="post_successful">Chapisho limefaulu</string>-->
+    <!--<string name="post_failed">Chapisho limeshindwa:</string>-->
+
+    <!--&lt;!&ndash; Image Upload Dialog &ndash;&gt;-->
+    <!--<string name="upload_photo_title">Pakia Picha</string>-->
+    <!--<string name="upload_photo_message">Je, ungependa kuchukua picha au kupakia kutoka kwa maktaba yako?</string>-->
+    <!--<string name="take_photo">Chukua Picha</string>-->
+    <!--<string name="library">Maktaba</string>-->
+    <!--<string name="not_yet_implemented">Bado haijatekelezwa.</string>-->
+
+    <!--&lt;!&ndash; Feed Activity &ndash;&gt;-->
+    <!--<string name="feed_activity_drawer_toggle_open">Droo Wazi</string>-->
+    <!--<string name="feed_activity_drawer_toggle_close">Droo Funga</string>-->
+    <!--<string name="feed_activity_drawer_logout">Ondoka</string>-->
+    <!--<string name="feed_activity_drawer_header_picture_content_desc">Picha ya Profaili</string>-->
+
+    <!--&lt;!&ndash; Share Dialog &ndash;&gt;-->
+    <!--<string name="share_to">Shiriki na...</string>-->
+    <!--<string name="cancel">Futa</string>-->
+    <!--<string name="facebook_app_id">195797437257242</string>-->
+
+    <!--&lt;!&ndash; Contacts &ndash;&gt;-->
+    <!--<string name="contacts">Anwani</string>-->
+    <!--<string name="invite">ALIKA</string>-->
+    <!--<string name="invite_successful">Marafiki wamealikwa</string>-->
+    <!--<string name="invite_failed"/>-->
+
+    <!--&lt;!&ndash;Groups&ndash;&gt;-->
+    <!--<string name="group_name_layout_title">JINA LA KIKUNDI</string>-->
+    <!--<string name="action_create_group">TENGENEZA KIKUNDI</string>-->
+    <!--<string name="invalid_group_name">Kundi lazima liwe na jina</string>-->
+    <!--<string name="invalid_group_image">Kundi lazima liwe na picha</string>-->
+    <!--<string name="action_edit_group">HARIRI KUNDI</string>-->
+    <!--<string name="group_creation_fail">Kundi halikufanikiwa kuundwa. Tafadhali Jaribu tena.</string>-->
+    <!--<string name="group_creation_success">"Kundi Limetengenezwa %s!"</string>-->
+    <!--<string name="group_update_fail">Kundi halikufanikiwa kusasishwa. Tafadhali Jaribu tena.</string>-->
+    <!--<string name="post_button_text">CHAPISHO</string>-->
+    <!--<string name="generic_error_message">Hitilafu imetokea. Tafadhali jaribu tena.</string>-->
+    <!--<string name="no_users_found">Hakuna watumiaji walipatikana kwa vigezo vinavyolingana</string>-->
+    <!--<string name="members">Wanachama</string>-->
+    <!--<string name="send">tuma</string>-->
+    <!--<string name="failed_to_retrieve_messages">Kushindwa kuepua ujumbe mpya</string>-->
+    <!--<string name="save_message">Hifadhi Ujumbe?</string>-->
+
+    <!--&lt;!&ndash;Message Friends&ndash;&gt;-->
+    <!--<string name="message_friends_name_holder">Jina la Kwanza Jina la Mwisho</string>-->
+    <!--<string name="error_loading_index">Hitilafu limetokea kupakia gumzo zako.</string>-->
+    <!--<string name="arrow"><![CDATA[>]]></string>-->
+    <!--<string name="message_friends_title">Ujumbe Mpya</string>-->
+
+    <!--&lt;!&ndash; Drawer Notifications &ndash;&gt;-->
+    <!--<string name="item_count_holder">##</string>-->
+    <!--<string name="sent_you_a_new_message">Amekutumia ujumbe mpya</string>-->
+    <!--<string name="read_your_message">Soma ujumbe wako</string>-->
+    <!--<string name="commented_on_your_post">Alitoa maoni juu ya chapisho lako</string>-->
+    <!--<string name="invited_you_to_join">Amekualika ujiunge</string>-->
+    <!--<string name="login_failed">meshindwa Kungia. Tafadhali angalia muunganisho na ujaribu tena.</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 2 STRINGS #####################################################&ndash;&gt;-->
+
+    <!--&lt;!&ndash; Timers &ndash;&gt;-->
+    <!--<string-array name="timers">-->
+        <!--<item>Hakuna</item>-->
+        <!--<item>Sekunde 15</item>-->
+        <!--<item>Sekunde 30</item>-->
+        <!--<item>Sekunde 60</item>-->
+        <!--<item>Sekunde 120</item>-->
+    <!--</string-array>-->
+
+    <!--<string name="home">NYUMBANI</string>-->
+    <!--<string name="messages">JUMBE</string>-->
+    <!--<string name="friends">MARAFIKI</string>-->
+    <!--<string name="groups">VIKUNDI</string>-->
+    <!--<string name="notifications">ARAFA</string>-->
+    <!--<string name="get_plus">PATA PAMOJA</string>-->
+    <!--<string name="store">Hifadhi</string>-->
+    <!--<string name="about">KUHUSU</string>-->
+    <!--<string name="change">Mabadiliko</string>-->
+    <!--<string name="push_notifications">ARAFA ZA MSUKUMO</string>-->
+    <!--<string name="switch_title_1">BADILI KICHWA 1</string>-->
+    <!--<string name="switch_title_2">BADILI KICHWA 2</string>-->
+    <!--<string name="logout">TOKA KATIKA</string>-->
+
+    <!--&lt;!&ndash; Strings for Async Errors &ndash;&gt;-->
+    <!--<string name="retry">JARIBU TENA</string>-->
+    <!--<string name="unable_to_gather_friends_text">Haiwezekani Kukusanya marakifi wa kualika</string>-->
+    <!--<string name="unable_to_invite_friends_text">Haiwezekani kualika Marafiki</string>-->
+    <!--<string name="unable_to_post_to_group_text">Haiwezekani kuchapisha kwa kikundi</string>-->
+    <!--<string name="unable_to_post_text">Haiwezekani kuchapisha</string>-->
+    <!--<string name="post_already_flagged">Haiwezekani kuashiria ujumbe, umeuashiria tayari</string>-->
+    <!--<string name="unable_to_flag_post_text">Haiwezekani kuashiria chapisho</string>-->
+    <!--<string name="unable_to_get_post_text">Haiwezekani kupata chapisho</string>-->
+    <!--<string name="unable_to_get_post_comments_text">Haiwezekani kupata maoni ya chapisho</string>-->
+    <!--<string name="unable_to_like_post_text">Haiwezekani kupendekeza chapisho</string>-->
+    <!--<string name="unable_to_unlike_post_text">Haiwezekani kutopendekeza chapisho</string>-->
+    <!--<string name="unable_to_create_group_text">Haiwezekani kuunda kikundi</string>-->
+    <!--<string name="unable_to_update_group_text">Haiwezekani kufahamisha kikundi</string>-->
+    <!--<string name="unable_to_refresh_feed_text">Haiwezekani kufanyisha upya vipasho</string>-->
+    <!--<string name="unable_to_get_posts_text">Haiwezekani kupata chapisho</string>-->
+    <!--<string name="unable_to_get_unread_messages_text">Haiwezekani kupata jumbe ambazo hazijasomwa</string>-->
+    <!--<string name="unable_to_get_friends_text">Haiwezekani kupata marafiki</string>-->
+    <!--<string name="unable_to_get_group_text">Haiwezekani kupata kikundi</string>-->
+    <!--<string name="unable_to_get_group_posts_text">Haiwezekani kupata chapisho za kikundi</string>-->
+    <!--<string name="unable_to_get_group_list_text">Haiwezekani kupata orodha ya kikundi</string>-->
+    <!--<string name="unable_to_remove_or_delete_group_text">Haiwezekani kuondoa au kufuta kikundi</string>-->
+    <!--<string name="unable_to_get_chats_text">Haiwezekani kupata maongezi</string>-->
+    <!--<string name="unable_to_get_saved_messages_text">Haiwezekani kupata jumbe zilizohifadhiwa</string>-->
+    <!--<string name="unable_to_update_notification_as_viewed_text">Haiwezekani kusasisha arafa kama vile zimetazamwa</string>-->
+    <!--<string name="unable_to_get_message_text">Haiwezekani kupata ujumbe</string>-->
+    <!--<string name="unable_to_follow_user">Haiwezekani kufuata mtumiaji</string>-->
+    <!--<string name="unable_to_unfollow_user_text">Haiwezekani kutofuata mtumiaji</string>-->
+    <!--<string name="unable_to_load_profile_text">Haiwezekani kufungua profaili</string>-->
+    <!--<string name="unable_to_update_avatar_text">Haiwezekani kusasisha umbo</string>-->
+    <!--<string name="unable_to_invite_user_to_group_text">Haiwezekani kualika mtumiaji kwa kikundi</string>-->
+    <!--<string name="unable_to_purchase_subscription_text">Haiwezekani kununua michango</string>-->
+    <!--<string name="unable_to_update_users_profile_text">Haiwezekani kusasisha profaili ya mtumiaji</string>-->
+    <!--<string name="unable_to_send_message_text">Haiwezekani kutuma ujumbe</string>-->
+    <!--<string name="unable_to_set_expiration_text">Haiwezekani kuweka wakati ujumbe utaisha</string>-->
+    <!--<string name="unable_to_save_message_text">Haiwezekani kuhifadhi ujumbe</string>-->
+    <!--<string name="unable_to_get_chat_text">Haiwezekani kupata kuzungumza na mtumiaji</string>-->
+    <!--<string name="unable_to_get_sent_messages_text">Haiwezekani kupata jumbe zilizotumwa</string>-->
+    <!--<string name="unable_to_get_missed_messages_text">Haiwezekani kupata jumbe zilizokoswa</string>-->
+    <!--<string name="unable_to_get_notifications_text">Haiwezekani kupata arafa</string>-->
+    <!--<string name="unable_to_accept_group_invite">Haiwezekani kukubali  mwaliko wa kikundi </string>-->
+    <!--<string name="unable_to_decline_group_invite">Haiwezekani kukataa  mwaliko wa kikundi </string>-->
+    <!--<string name="unable_to_get_more_notifications">Haiwezekani kupata arafa zaidi</string>-->
+    <!--<string name="unable_to_get_following_users">Haiwezekani kupata watumiaji unaofuata</string>-->
+    <!--<string name="unable_to_get_followers">Haiwezekani kupata watumiaji</string>-->
+    <!--<string name="unable_to_get_messages_text">Haiwezekani kupata jumbe</string>-->
+    <!--<string name="unable_to_go_to_chat">Haiwezekani kuenda kwa maongezi</string>-->
+
+    <!--&lt;!&ndash; Search hints &ndash;&gt;-->
+    <!--<string name="search_for_users_to_invite_text">Tafuta watu wa kualika</string>-->
+    <!--<string name="search_friends">tafuta marafiki</string>-->
+    <!--<string name="search_for_friends">Tafuta marafiki</string>-->
+    <!--<string name="search_for_members">Tafuta mshiriki</string>-->
+    <!--<string name="search_for_users_to_chat_with">tafuta watumiaji wa kuzungumza nao</string>-->
+    <!--<string name="search_contacts">Tafuta anwani za mawasiliano</string>-->
+
+    <!--&lt;!&ndash; Notifications &ndash;&gt;-->
+    <!--<string name="new_notification_was_received_text">Arafa mpya ilipokelewa</string>-->
+    <!--<string name="refresh_text">FANYIZA UPYA</string>-->
+    <!--<string name="viewed">" - Ilitazamwa"</string>-->
+    <!--<string name="accepted">Ilikubalika</string>-->
+    <!--<string name="declined">Ilikataliwa</string>-->
+    <!--<string name="conx2share_notification">Arafa ya Conx2Share</string>-->
+
+    <!--&lt;!&ndash; Prompt text &ndash;&gt;-->
+    <!--<string name="yes">Ndiyo</string>-->
+    <!--<string name="no">Hapana</string>-->
+    <!--<string name="ok">SAWA</string>-->
+    <!--<string name="Success">mafanikio</string>-->
+    <!--<string name="exclamation">!</string>-->
+    <!--<string name="error_text">Hitilafu:</string>-->
+
+    <!--&lt;!&ndash; Subscription Strings &ndash;&gt;-->
+    <!--<string name="subscribed_successfully_text">Umefaulu Kujiunga</string>-->
+    <!--<string name="failed_to_subscribe_text">Haukufaulu kujiunga</string>-->
+    <!--<string name="free_price">0</string>-->
+    <!--<string name="plus_price">2.40/mwaka</string>-->
+    <!--<string name="premium_price">29.99/mwaka</string>-->
+    <!--<string name="platinum_price">49.99/mwaka</string>-->
+    <!--<string name="free_subscription_description"><![CDATA[Picha na video zitafutwa baada ya kutazamwa.]]></string>-->
+    <!--<string name="free_subscription_title">Bure</string>-->
+    <!--<string name="subscribe">Jiunge!</string>-->
+    <!--<string name="current_subscription">usajili wa sasa</string>-->
+    <!--<string name="ago">iliyopita</string>-->
+    <!--<string name="plus">Pamoja na</string>-->
+    <!--<string name="plus_subscription_description">Okoa hadi picha 5 na video 1.</string>-->
+    <!--<string name="premium_subscription_title">Ya malipo</string>-->
+    <!--<string name="premium_subscription_description"><![CDATA[Barua pepe ya Cx2share na 50GB ya kuhifadhi data kwa ajili ya ujumbe, picha na video.]]></string>-->
+    <!--<string name="platinum_subscription_title">Platinamu</string>-->
+    <!--<string name="platinum_subscription_description"><![CDATA[Barua pepe ya Cx2share na 100GB ya kuhifadhi data kwa ajili ya ujumbe, picha na video.]]></string>-->
+
+    <!--&lt;!&ndash; Sharing Strings &ndash;&gt;-->
+    <!--<string name="shared_by_text">"\" Imeshirikiwa na "</string>-->
+    <!--<string name="via_conx2share_android_text">" kupitia Conx2Share Android"</string>-->
+    <!--<string name="conx2share_for_android"> Conx2Share ya Android</string>-->
+    <!--<string name="please_install_facebook">Tafadhali  weka programu ya Facebook ili kushiriki chapisho lako.</string>-->
+    <!--<string name="please_install_the_twiiter_app">Tafadhali  weka programu ya Twitter ili kushiriki chapisho lako.</string>-->
+
+    <!--&lt;!&ndash; Progress Dialog Strings &ndash;&gt;-->
+    <!--<string name="loading_messages">Ujumbe Unapakia...</string>-->
+    <!--<string name="gathering_friends_text">Kukusanya marafiki...</string>-->
+    <!--<string name="gathering_messages_text">Kukusanya ujumbe...</string>-->
+    <!--<string name="gather_chats_text">Kukusanya mazungumzo...</string>-->
+    <!--<string name="gathering_following_users_text">Kukusanya watumiaji unaofuata...</string>-->
+    <!--<string name="gathering_followers">Kukusanya wafuasi...</string>-->
+    <!--<string name="sending_message_text">Kutuma ujumbe…</string>-->
+    <!--<string name="posting">Inatuma Chapisho...</string>-->
+    <!--<string name="gathering_saved_messages">Kukusanya jumbe zilizohifadhiwa</string>-->
+    <!--<string name="gathering_chat_information_text">Kukusanya taarifa za maongezi...</string>-->
+
+    <!--&lt;!&ndash; Group Strings &ndash;&gt;-->
+    <!--<string name="delete_group_text">Futa Kikundi</string>-->
+    <!--<string name="leave_group_text">Toka kwa Kikundi</string>-->
+    <!--<string name="deleted_group_text">"Kikundi kimefutwa "</string>-->
+    <!--<string name="left_group_text">"Kikundi kimeondokwa "</string>-->
+    <!--<string name="updated_group">"Kikundi kimesasishwa "</string>-->
+    <!--<string name="group_owner">mwenye kikundi</string>-->
+    <!--<string name="group_members">Kikundi cha Wanachama</string>-->
+    <!--<string name="group_name">Jina ya Kikundi</string>-->
+
+    <!--&lt;!&ndash; Following Strings &ndash;&gt;-->
+    <!--<string name="followers">wafuasi</string>-->
+    <!--<string name="following">kufuatia</string>-->
+    <!--<string name="following_failed_try_again">Kufuatia kumeshindwa. Jaribu tena.</string>-->
+    <!--<string name="unfollowed">Kuacha kufuatwa</string>-->
+    <!--<string name="follow">FUATA</string>-->
+    <!--<string name="unfollow">ACHA KUFUATA</string>-->
+    <!--<string name="followed_you">Alikufuata</string>-->
+
+    <!--&lt;!&ndash; SignUp Strings &ndash;&gt;-->
+    <!--<string name="you_are_now_signed_up">Sasa umesajiliwa!</string>-->
+    <!--<string name="failed_to_sign_up">Kusajiliwa kumeshindwa, tafadhali jaribu tena.</string>-->
+    <!--<string name="please_fill_out_all_fields_text">Tafadhali jaza pengo zote</string>-->
+
+    <!--&lt;!&ndash; Image and video strings &ndash;&gt;-->
+    <!--<string name="select_picture">Chagua picha</string>-->
+    <!--<string name="would_you_like_to_upload_a_video_from_your_library">Je, ungependa kuchukua video au kupakia kutoka kwa maktaba yako?</string>-->
+    <!--<string name="error_occurred_while_loading_your_video">Hitilafu ilitokea wakati wa kufungua video yako</string>-->
+    <!--<string name="image_null_error">Tafadhali chagua picha iliyohifadhiwa kwenye kifaa chako. Hii sio pamoja na picha zilizofichwa kutoka kwa vifaa vingine au vyombo vya habari vya kijamii.</string>-->
+    <!--<string name="image_error">Picha imeshindwa kufungua na kuambatanisha na chapisho la Twitter.</string>-->
+    <!--<string name="error_occurred_when_selecting_your_image">Hitilafu lilitokea wakati wa kuchagua picha yako</string>-->
+    <!--<string name="what_upload">Ungependa kupakia nini?</string>-->
+    <!--<string name="image_download_failed">Picha ilishindwa kufungua</string>-->
+    <!--<string name="image_could_not_be_found">picha haikuweza kupatikana</string>-->
+    <!--<string name="take_video">Chukua Video</string>-->
+    <!--<string name="file_exceeds_limit">Faili inazidi kikomo cha 10MB.</string>-->
+    <!--<string name="take_a_video_from_your_library_or_get_one_from_your_library">Chukua video au pata moja kutoka kwa maktaba yako?</string>-->
+    <!--<string name="take_a_picture_or_get_one_from_your_library">Chukua picha au pata moja kutoka kwa maktaba yako?</string>-->
+    <!--<string name="media">(Vyombo vya habari)</string>-->
+    <!--<string name="picture">(picha)</string>-->
+    <!--<string name="video">(video)</string>-->
+
+    <!--&lt;!&ndash; Post Strings &ndash;&gt;-->
+    <!--<string name="flag_content_as_inappropriate_prompt">Je, ungependa kuashiria chapisho hili kwa ajili ya maudhui yasiyofaa?</string>-->
+    <!--<string name="post_flagged">Ujumbe huu sasa umeashiriwa</string>-->
+    <!--<string name="made_a_new_post">Chapisho mpya limetengenezwa</string>-->
+    <!--<string name="made_a_new_group_post">Alitengeneza chapisho mpya la kikundi</string>-->
+    <!--<string name="enter_your_message_here">Ingiza ujumbe wako hapa...</string>-->
+
+    <!--&lt;!&ndash; Password Strings &ndash;&gt;-->
+    <!--<string name="forgot_password">Ulisahau neno la kificho?</string>-->
+    <!--<string name="please_enter_your_email">Tafadhali weka barua pepe yako.</string>-->
+    <!--<string name="change_password">Badilisha neno la kificho</string>-->
+    <!--<string name="cant_reset_password">Huwezi weka upya neno la kificho</string>-->
+    <!--<string name="reset_password">Weka upya neno la kificho</string>-->
+    <!--<string name="reset_password_email_sent">Barua pepe ya kuweka upya neno la kificho imetumwa</string>-->
+    <!--<string name="please_enter_your_email_address">Tafadhali ingiza anwani yako ya barua pepe na ujaribu tena.</string>-->
+    <!--<string name="confirm_new_password">Thibitisha Neno la kificho Mpya</string>-->
+    <!--<string name="new_password">Neno la kificho Mpya</string>-->
+    <!--<string name="old_password">Neno la kificho la kale</string>-->
+    <!--<string name="updating_password">Neno la kificho linasasishwa</string>-->
+    <!--<string name="old_password_incorrect">Neno la kificho la kale sio sahihi.</string>-->
+    <!--<string name="password_updated">Neno la kificho limesasishwa</string>-->
+    <!--<string name="password_failed_to_update">Neno la kificho lilishindwa kusasisha, tafadhali jaribu tena</string>-->
+    <!--<string name="passwords_dont_match">Maneno yako ya kificho hayalingani</string>-->
+    <!--<string name="old_password_error">Neno la kificho la kale lina Hitilafu</string>-->
+    <!--<string name="the_old_password_you_entered_is_invalid">Neno la kificho la kale uliloingiza sio batili</string>-->
+    <!--<string name="the_new_password_and_confirm_password_dont_match">Neno mpya la kificho na neno la kificho la kuthibitisha hayalingani. Tafadhali jaribu tena.</string>-->
+    <!--<string name="you_password_has_been_updated">Neno lako la kificho limesasishwa</string>-->
+    <!--<string name="change_password_error">Error</string>-->
+
+    <!--&lt;!&ndash; Drawer Items &ndash;&gt;-->
+    <!--<string name="drawer_home">Nyumbani</string>-->
+    <!--<string name="drawer_messages">Ujumbe</string>-->
+    <!--<string name="drawer_friends">Marafiki</string>-->
+    <!--<string name="drawer_groups">Vikundi</string>-->
+    <!--<string name="drawer_notifications">Arafa</string>-->
+    <!--<string name="drawer_plus">PATA PAMOJA</string>-->
+    <!--<string name="drawer_invite">Alika</string>-->
+    <!--<string name="drawer_store">Hifadhi</string>-->
+    <!--<string name="drawer_eshopping">E-duka</string>-->
+    <!--<string name="drawer_games">Michezo</string>-->
+    <!--<string name="drawer_business">Biashara</string>-->
+
+    <!--&lt;!&ndash; Other Strings &ndash;&gt;-->
+    <!--<string name="facebook_connect_not_implemented_text">Kuunganishwa kwa Facebook bado hakujatekelezwa</string>-->
+    <!--<string name="twiiter_connect_not_implemented_yet">Kuunganishwa kwa Twitter bado hakujatekelezwa</string>-->
+    <!--<string name="this_user_has_not_followed_you_text">Watumiaji wote wawili lazima wafuatane ili kuzungumza</string>-->
+    <!--<string name="please_try_again">Tafadhali jaribu tena</string>-->
+    <!--<string name="message_is_saved">Ujumbe umehifadhiwa.</string>-->
+    <!--<string name="password_length">Neno lako la kificho lazima liwe na angalau tarakimu 8</string>-->
+    <!--<string name="passwords_do_not_match">Maneno ya kificho hayalingani</string>-->
+    <!--<string name="sign_up_error">Hitilafu limetokea wakati wa kujiandikisha.</string>-->
+    <!--<string name="signup_dialog">Inajiandikisha...</string>-->
+    <!--<string name="you_already_have_a_higher_subscription_level">Tayari uko na kiwango cha juu cha michango</string>-->
+    <!--<string name="please_accept_terms">Tafadhali kubali sheria na masharti.</string>-->
+    <!--<string name="user_name_is_taken">Jina la mtumiaji tayari limechukuliwa</string>-->
+    <!--<string name="not_connected_to_the_google_play_store">Haijashikamana na Google Play Store</string>-->
+    <!--<string name="coming_soon">Inakuja hivi karibuni!</string>-->
+    <!--<string name="accept">Kubali</string>-->
+    <!--<string name="decline">kataa</string>-->
+    <!--<string name="leave_a_comment">Acha Maoni...</string>-->
+
+    <!--<string name="zero">0</string>-->
+    <!--<string name="one">1</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 3 STRINGS #####################################################&ndash;&gt;-->
+
+    <!--<string name="unable_to_get_group_members">Haiwezi kupata wanakikundi  wa sasa</string>-->
+    <!--<string name="unable_to_load_web_page">Haiwezi kupakia ukurasa wa mtandao</string>-->
+    <!--<string name="please_enter_text">Tafadhali ingiza maandishi</string>-->
+
+    <!--<string name="terms_of_service">masharti ya huduma</string>-->
+    <!--<string name="terms_of_service_and_privacy_policy">Nimesoma na kukubaliana na masharti ya huduma na sera ya faragha</string>-->
+    <!--<string name="privacy_policy">sera ya faragha</string>-->
+
+    <!--<string name="group_update_success">"Kundi Limesasishwa %s!"</string>-->
+    <!--<string name="retrieving_notifications_failed">Kuepua arafa kumeshindwa. Tafadhali jaribu tena.</string>-->
+    <!--<string name="messaging_error">Hitilafu limetokea wakati wa kutuma ujumbe</string>-->
+
+    <!--&lt;!&ndash; Message Friends Index &ndash;&gt;-->
+    <!--<string name="saved_messages_text">Imehifadhiwa</string>-->
+    <!--<string name="chats_text">Ya sasa</string>-->
+
+    <!--&lt;!&ndash; Follow &ndash;&gt;-->
+    <!--<string name="followed">Fuatiwa</string>-->
+    <!--<string name="unfollow_failed">Imeshindwa kuacha kufuata. Jaribu tena.</string>-->
+    <!--<string name="start_recording">Anza kurekodi</string>-->
+    <!--<string name="submit">wasilisha</string>-->
+    <!--<string name="invalid_user_name_or_password">Jina la mtumiaji au neno la kificho ni batili</string>-->
+    <!--<string name="unable_to_update_followers_count">Haikuweza kusasisha hesabu ya wafuasi</string>-->
+    <!--<string name="please_accept_the_terms_of_service">Tafadhali kubali masharti ya huduma</string>-->
+
+    <!--&lt;!&ndash; Promo Codes &ndash;&gt;-->
+    <!--<string name="promo_code_optional">Kificho Kweza (ya hiari)</string>-->
+    <!--<string name="activate_promo_code">Amilisha Kificho Kweza</string>-->
+    <!--<string name="the_promo_code_you_entered_is_invalid">Kificho kweza ulichoingiza ni batili.</string>-->
+    <!--<string name="the_promo_code_you_entered_is_invalid_sign_up">Kificho kweza ulichoingiza ni batili. Ingiza kificho kweza halali code promo toa kificho kweza cha sasa. </string>-->
+    <!--<string name="please_enter_your_promo_code">Tafadhali ingiza kificho kweza chako...</string>-->
+    <!--<string name="your_account_has_been_upgraded_to_a_plus_subscription">Akaunti yako imesasishwa kwa Usajili wa Pamoja Na.</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 4 STRINGS #####################################################&ndash;&gt;-->
+
+    <!--<string name="unable_to_check_if_promo_code_is_valid">Haiwezekani kuangalia kama Kificho kweza ni halali</string>-->
+    <!--<string name="promo_upgrade_description">Kificho kweza ulichoingiza kilikuwa halali. Kama ungekuwa mtumiaji wa huru, akaunti yako imesasishwa kwa usajili wa Pamoja na.</string>-->
+    <!--<string name="valid_promo_code">Kificho Kweza Halali</string>-->
+    <!--<string name="invalid_promo_code">Kificho Kweza sio Halali</string>-->
+    <!--<string name="unable_to_update_user_to_promo_user">Haikuweza kusasisha  mtumiaji kuwa mtumaji kweza</string>-->
+    <!--<string name="email_has_already_been_taken">Barua pepe tayari imechukuliwa</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 5 Strings #####################################################&ndash;&gt;-->
+
+    <!--<string name="user_favoriting_failed">Ilishindwa kupendelea mtumiaji </string>-->
+    <!--<string name="user_unfavoriting_failed">Ilishindwa kuacha kupendelea mtumiaji</string>-->
+    <!--<string name="group_name_taken">Jina la kikundi tayari limechukuliwa.</string>-->
+    <!--<string name="you_have_received_a_new_message_from">Umepokea ujumbe mpya kutoka kwa</string>-->
+    <!--<string name="one_m">1m</string>-->
+    <!--<string name="unable_to_post_comment_text">Haiwezekani kuchapisha maoni</string>-->
+    <!--<string name="chats_button_title">Anza Mazungumzo Mapya</string>-->
+    <!--<string name="are_you_sure_you_want_to_delete_the_group">Je, una uhakika unataka kufuta kikundi?</string>-->
+    <!--<string name="are_you_sure_you_want_to_leave_the_group">Je, una uhakika unataka kuondoka kwenye kundi?</string>-->
+    <!--<string name="exit">Toka</string>-->
+    <!--<string name="please_attach_photo">Tafadhali ambatanisha picha</string>-->
+    <!--<string name="please_attach_video">Tafadhali ambatanisha video.</string>-->
+    <!--<string name="email_cant_be_blank">Barua pepe haiwezi kuwa tupu</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 6 Strings #####################################################&ndash;&gt;-->
+
+    <!--<string name="you_cannot_leave_or_delete_the_conx2share_group">Huwezi kuondoka au kufuta kundi  cha Conx2Share</string>-->
+    <!--<string name="promoted">Imekwezwa</string>-->
+    <!--<string name="audio">Ya kusikiliza</string>-->
+    <!--<string name="recording_is_not_long_enough">Rekodi haina urefu wa kutosha</string>-->
+    <!--<string name="only_the_first_two_mins_will_be_sent">Nakala za dakika mbili za kwanza pekee ndizo zitakazotumwa</string>-->
+    <!--<string name="would_you_like_to_take_a_picture_or_upload_from_your_library">Ungependa kupiga picha au kupakia kutoka kwa maktaba yako?</string>-->
+    <!--<string name="unable_to_send_audio_message">Huwezi  kutuma jumbe za kusikiliza</string>-->
+    <!--<string name="unable_to_get_business_info">Haiwezi  kupakia habari  za biashara</string>-->
+    <!--<string name="could_not_retrieve_your_businesses">Haikuweza  kuepua biashara zako</string>-->
+    <!--<string name="you_cannot_post_to_the_conx2share_group">Huwezi  kuchapisha  kwa kikundi cha conX2share</string>-->
+    <!--<string name="search_for_businesses">Tafuta biashara</string>-->
+    <!--<string name="drawer_businesses">Biashara</string>-->
+    <!--<string name="business_owner">Mwenye biashara</string>-->
+    <!--<string name="group">"kikundi: "</string>-->
+    <!--<string name="business">"Biashara: "</string>-->
+    <!--<string name="delete_post">Futa chapisho</string>-->
+    <!--<string name="you_dont_own_this_post_to_delete_it">Haumiliki hii chapisho ndio uifute</string>-->
+    <!--<string name="are_you_sure_you_want_to_delete_this_post">Je, una hakika unataka kufuta chapisho hii?</string>-->
+    <!--<string name="post_deleted">Chapisho Limefutwa</string>-->
+    <!--<string name="unable_to_delete_post">Huwezi kufuta chapisho</string>-->
+    <!--<string name="delete_comment">Futa Maoni</string>-->
+    <!--<string name="you_dont_own_this_comment_to_delete_it">Haumiliki maoni haya ili kuyafuta</string>-->
+    <!--<string name="are_you_sure_you_want_to_delete_this_comment">Je, una hakika unataka kufuta  maoni haya?</string>-->
+    <!--<string name="comment_deleted">Maoni yamefutwa</string>-->
+    <!--<string name="unable_to_delete_comment">Haikuweza kufuta maoni</string>-->
+    <!--<string name="flag_post">Weka chapisho alama</string>-->
+    <!--<string name="cant_do_anything_with_comment_since_you_dont_own_it">Huwezi kufanya chochote kwa maoni haya kwa vile hauimiliki</string>-->
+    <!--<string name="you_dont_own_this_post_to_edit_it">Haumiliki chapisho hili ili kuihariri</string>-->
+    <!--<string name="edit_post">Hariri Chapisho</string>-->
+    <!--<string name="do_you_want_to_edit_this_post">Je, unataka kuhariri chapisho hili?</string>-->
+    <!--<string name="update_post">Sasisha</string>-->
+    <!--<string name="unable_to_edit_post">Haikuweza kusasisha baada</string>-->
+    <!--<string name="post_edited">Chapisho limehaririwa</string>-->
+    <!--<string name="updating_post">Chapisho linasasisha...</string>-->
+    <!--<string name="flag_as_inappropriate">Weka alama ya kuonyesha haifai</string>-->
+    <!--<string name="edit_post_options_menu">Hariri chapisho</string>-->
+    <!--<string name="delete_post_options_menu">Futa Chapisho</string>-->
+    <!--<string name="you_cannot_change_the_audience_when_editing_a_post">Uwezi kubadilisha hadhira wakati unapohariri chapisho</string>-->
+    <!--<string name="enter_your_comment_here">Ingiza maoni yako hapa</string>-->
+    <!--<string name="edit_comment_options_menu">Hariri maoni</string>-->
+    <!--<string name="delete_comment_options_menu">Futa maoni</string>-->
+    <!--<string name="update">Sasisha</string>-->
+    <!--<string name="edit_comment">Hariri Maoni</string>-->
+    <!--<string name="you_dont_own_this_comment_to_edit_it">Haumiliki maoni haya kuyahariri</string>-->
+    <!--<string name="comment_updated">Maoni Yamesasishwa</string>-->
+    <!--<string name="unable_to_update_post_comment">Imeshindwa kusasisha maoni</string>-->
+    <!--<string name="updating_comment">Updating comment...</string>-->
+    <!--&lt;!&ndash; TODO - Finish these translations once I get back the missing set &ndash;&gt;-->
+    <!--<string name="something_went_wrong_while_uploading_your_image"/>-->
+    <!--<string name="something_went_wrong_while_uploading_your_file"/>-->
+    <!--<string name="would_you_like_to_take_a_photo_or_upload_one_from_your_library"/>-->
+    <!--<string name="would_you_like_to_take_a_video_or_upload_one_from_your_library"/>-->
+    <!--<string name="photo_option"/>-->
+    <!--<string name="video_option">Video</string>-->
+    <!--<string name="block_user_option">Zuia Mtumiaji</string>-->
+    <!--<string name="remove_from_group_option">Ondoa Kutoka kwa kikundi</string>-->
+    <!--<string name="you_cant_do_anything_with_this_group_member">Huwezi  kufanya chochote na mwanakikundi huyu kwa vile sio mwenye kikundi</string>-->
+    <!--<string name="remove_user_from_group">Ondoa Mtumiaji kutoka kwenye kikundi</string>-->
+    <!--<string name="are_you_sure_you_want_to_block_this_user">Unahakika unataka kuzuia mtumiaji huyu kutoka kwenye kikundi?</string>-->
+    <!--<string name="block_user">Zuia Mtumiaji</string>-->
+    <!--<string name="are_you_sure_you_want_to_remove_this_user_from_the_group">Una hakika unataka kuondoa mtumiaji huyu kutoka kwenye kikundi?</string>-->
+    <!--<string name="member">Mwanachama</string>-->
+    <!--<string name="follower">Mfuasi</string>-->
+    <!--<string name="unable_to_follow_group">Umeshindwa kufuata kikundi</string>-->
+    <!--<string name="unable_to_unfollow_group">Imeshindwa kuacha kufuata kikundi</string>-->
+    <!--<string name="unblock_user_option">Acha kuzuia mtumiaji</string>-->
+    <!--<string name="group_followers">Wafuasi wa chama</string>-->
+    <!--<string name="search_for_followers">Tafuta wafuasi</string>-->
+    <!--<string name="unable_to_send_invite_to_follow_group">Imeshindwa kualika mtumiaji ili afuate kikundi</string>-->
+    <!--<string name="invite_to_follow_group_sent">Mwaliko ili kufuata kikundi umetumwa</string>-->
+    <!--<string name="unable_to_block_user_from_group">Imeshindwa kuzuia mtumiaji kutoka kwa kikundi</string>-->
+    <!--<string name="you_have_blocked_this_user_from_the_group">Umezuia mtumiaji huyu kutoka kwa kikundi.</string>-->
+    <!--<string name="unable_to_remove_user_from_group">Imeshindwa kuondoa mtumiaji kutoka kwa kikundi</string>-->
+    <!--<string name="user_has_been_removed_from_group">Mtumiaji ameondolewa kutoka kwa kikundi</string>-->
+    <!--<string name="invited_you_to_follow_group">Umealikwa kufuata kikundi</string>-->
+    <!--<string name="search_for_groups">tafuta vikundi</string>-->
+    <!--<string name="private_group">Binafsi</string>-->
+    <!--<string name="blog_group">blogi</string>-->
+    <!--<string name="discussion_group">Majadiliano</string>-->
+    <!--<string name="empty_string" />-->
+    <!--<string name="unable_to_leave_group">Imeshindwa kuacha kikundi</string>-->
+    <!--<string name="unable_to_get_group_followers">Imeshindwa kupata wafuasi wa kikundi</string>-->
+    <!--<string name="unable_to_unblock_user">Imeshindwa kuacha kuzuilia watumiaji</string>-->
+    <!--<string name="you_have_unblocked_this_user_from_the_group">Umeacha kuzuilia mtumiaji huyu kutoka kwa kikundi</string>-->
+    <!--<string name="unable_to_post_to_group_blocked">Imeshindwa kuchapisha kwenye kikundi, imezuiwa</string>-->
+    <!--<string name="unable_to_post_comment_blocked">Imeshindwa kuchapisha maoni, imezuiwa</string>-->
+    <!--<string name="unblock_user">Acha kuzuia mtumiaji</string>-->
+    <!--<string name="are_you_sure_you_want_to_unblock_this_user">Je, una hakika unataka kuacha kuzuia mtumiaji?</string>-->
+    <!--<string name="unable_to_update_post_blocked">Imeshindwa kusasisha chapisho, imezuiwa</string>-->
+    <!--<string name="unable_to_update_comment_blocked">Imeshindwa kusasisha maono, imezuiwa</string>-->
+    <!--<string name="emergency_logout_toast_text">Kipindi chako ni batili. Tafadhali ingia tena.</string>-->
+    <!--<string name="unable_to_leave_or_delete_group">Imeshindwa kuacha au kufuta kikundi</string>-->
+    <!--<string name="public_group_button_text">Umma</string>-->
+    <!--<string name="private_group_button_text">Binafsi</string>-->
+    <!--<string name="discussion_group_button_text">Majadiliano</string>-->
+    <!--<string name="blog_group_button_text">Blogi</string>-->
+    <!--<string name="creating_group">Inaunda kikundi...</string>-->
+    <!--<string name="updating_group">Inasasisha kikundi...</string>-->
+    <!--<string name="unable_to_delete_group">Imeshindwa kufuta kikundi</string>-->
+    <!--<string name="are_you_sure_you_want_to_unfollow_the_group">Je una hakika unataka kuacha kufuata kikundi?</string>-->
+    <!--<string name="unfollow_group">Acha kufuata kikundi</string>-->
+
+<!--</resources>-->

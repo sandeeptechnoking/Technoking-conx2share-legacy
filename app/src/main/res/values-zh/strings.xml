@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="applicationName">"ConX2Share"</string>
+    <string name="labelSignin">"登录"</string>
+    <string name="labelSignup">"注册"</string>
+    <string name="labelEmail">"电子邮件"</string>
+    <string name="labelPassword">"密码"</string>
+    <string name="labelOr">"或"</string>
+    <string name="labelUsername">"用户名"</string>
+    <string name="labelConfirmPassword">"确认用户名"</string>
+    <string name="labelFirstName">"名字"</string>
+    <string name="labelLastName">"姓氏"</string>
+    <string name="blurbTermsAndConditions">"我已阅读并同意条款与条件"</string>
+    <string name="statusAuthenticating">"正在登录…"</string>
+    <string name="statusUnexpectedError">"发生意外错误。"</string>
+    <string name="statusMessagedMarkedAsViewed">"消息已标记为已查看"</string>
+    <string name="labelSuccess">"成功"</string>
+    <string name="statusMessageSent">"消息已发送"</string>
+    <string name="statusMessageSentFailed">"消息发送失败"</string>
+    <string name="hintEnterMessageHere">"请在此处输入消息…"</string>
+    <string name="statusGotSentMessages">"已获得发送的消息"</string>
+    <string name="hintTypeAMessage">"键入消息…"</string>
+    <string name="hintAddTextHere">"请在此处添加文本…"</string>
+    <string name="statusFileError">"文件错误"</string>
+    <string name="statusCameraError">"摄像头错误"</string>
+    <string name="labelAddAttachment">"添加附件："</string>
+    <string name="labelTakeAPhoto">"拍照"</string>
+    <string name="labelTakeAVideo">"拍视频"</string>
+    <string name="labelMessageType">"消息类型："</string>
+    <string name="labelError">"错误："</string>
+
+    <!-- Post Activity -->
+    <string name="labelPost">"发布"</string>
+    <string name="titleCreatePost">"创建发布"</string>
+    <string name="labelPostTo">"接收人："</string>
+    <string name="labelEveryone">"所有人"</string>
+    <string name="statusPostSuccessful">"发布成功"</string>
+    <string name="statusPostFailed">"发布失败： "</string>
+
+    <!-- Image Upload Dialog -->
+    <string name="titleUploadPhoto">"上传图片"</string>
+    <string name="promptUploadOrSelectImageQuestion">"拍照还是从媒体库中上传？"</string>
+    <string name="promptUploadOrSelectVideoQuestion">"录制视频还是从媒体库中上传？"</string>
+    <string name="labelTakePhoto">"拍照"</string>
+    <string name="labelLibrary">"图库"</string>
+    <string name="blurbNotYetImplemented">"尚未执行。"</string>
+
+    <!-- Feed Activity -->
+    <string name="labelDrawerOpen">"打开Drawer"</string>
+    <string name="labelDrawerClose">"关闭Drawer"</string>
+    <string name="labelSignout">"注销"</string>
+    <string name="labelProfilePicture">"个人资料图片"</string>
+
+    <!-- Share Dialog -->
+    <string name="labelShareTo">"分享到..."</string>
+    <string name="labelCancel">"取消"</string>
+
+    <!-- Contacts -->
+    <string name="labelContacts">"联系人"</string>
+    <string name="statusInviteSuccessful">"已邀请好友"</string>
+    <string name="statusInviteFailed">"邀请好友失败："</string>
+
+    <!-- Groups -->
+    <string name="titleGroupName">"组名称"</string>
+    <string name="labelCreateGroup">"创建组"</string>
+    <string name="blurbGroupNameInvalid">"组必须具有名称"</string>
+    <string name="blurbGroupImageInvalid">"组必须具有图像"</string>
+    <string name="labelEditGroup">"编辑组"</string>
+    <string name="blurbGroupCreationFail">"未能成功创建组。请重试。"</string>
+    <string name="blurbGroupCreationSuccess">"已创建组 %s！"</string>
+    <string name="blurbGroupUpdateFail">"未能成功更新组。请重试。"</string>
+    <string name="blurbGenericErrorMessage">"发生错误。请重试。"</string>
+    <string name="statusNoUsersFound">"未找到符合条件的用户"</string>
+    <string name="labelMembers">"成员"</string>
+    <string name="labelSend">"发送"</string>
+    <string name="statusFailedToTetrieveMessages">"检索新消息失败"</string>
+    <string name="questionSaveMessage">"保存消息？"</string>
+
+    <!-- Message Friends -->
+    <string name="hintFriendsName">"姓名"</string>
+    <string name="blurbErrorLoadingIndex">"加载聊天时发生错误。"</string>
+    <string name="titleNewMessage">"新消息"</string>
+
+    <!-- Drawer Notifications -->
+    <string name="statusSentYouANewMessage">"向您发送了新消息"</string>
+    <string name="statusReadYourMessage">"阅读您的消息"</string>
+    <string name="labelCommentedOnYourPost">"评论了您的帖子"</string>
+    <string name="statusInvitedYouToJoin">"邀请您加入"</string>
+    <string name="statusLoginFailed">"登录失败。请检查网络连接并重试。"</string>
+
+    <!-- ######################################### SET 2 STRINGS ##################################################### -->
+    <string name="labelNone">"无"</string>
+    <string name="label15s">"15秒"</string>
+    <string name="label30s">"30秒"</string>
+    <string name="label60s">"60秒"</string>
+    <string name="label120s">"120秒"</string>
+    <string name="labelHome">"主页"</string>
+    <string name="labelMessages">"消息"</string>
+    <string name="labelFriends">"好友"</string>
+    <string name="labelGroups">"组"</string>
+    <string name="labelNotifications">"通知"</string>
+    <string name="labelSubscriptionsGP">"获取PLUS"</string>
+    <string name="labelInvite">"邀请"</string>
+    <string name="labelStore">"存储"</string>
+    <string name="labelAbout">"关于"</string>
+    <string name="labelChange">"更改"</string>
+    <string name="labelPushMNotifications">"推送通知"</string>
+    <string name="titleSwitchTitle1">"切换标题1"</string>
+    <string name="titleSwitchTitle2">"切换标题2"</string>
+
+    <!-- Strings for Async Errors -->
+    <string name="labelRetry">"重试"</string>
+    <string name="statusUnableToGatherFriendsToInvite">"无法收集要邀请的好友"</string>
+    <string name="statusUnableToInviteFriends">"无法邀请好友"</string>
+    <string name="statusUnableToPostToGroup">"无法向组发布"</string>
+    <string name="statusUnableToPost">"无法发布"</string>
+    <string name="statusPostAlreadyFlagged">"无法标记帖子，您已对此标记"</string>
+    <string name="statusUnableToFlagPost">"无法标记帖子"</string>
+    <string name="statusUnableToGetPost">"无法获取帖子"</string>
+    <string name="statusUnableToGetPostComments">"无法获取帖子评论"</string>
+    <string name="statusUnableToLikePost">"无法赞帖子"</string>
+    <string name="statusUnableToUnlikePost">"无法踩帖子"</string>
+    <string name="statusUnableToCreateGroup">"无法创建组"</string>
+    <string name="statusUnableToUpdateGroup">"无法更新组"</string>
+    <string name="statusUnableToRefreshFeed">"无法刷新源"</string>
+    <string name="statusUnableToGetPosts">"无法获取帖子"</string>
+    <string name="statusUnableToGetUnreadMessages">"无法获取未读消息"</string>
+    <string name="statusUnableToGetFriends">"无法获取好友"</string>
+    <string name="statusUnableToGetGroup">"无法获取组"</string>
+    <string name="statusUnableToGetGroupPosts">"无法获取组帖子"</string>
+    <string name="statusUnableToGetGroupList">"无法获取组列表"</string>
+    <string name="statusUnableToRemoveOrDeleteGroup">"无法删除组"</string>
+    <string name="statusUnableToGetChats">"无法获取聊天"</string>
+    <string name="statusUnableToGetSavedMessages">"无法获取保存的消息"</string>
+    <string name="statusUnableToUpdateNotificationAsViewed">"无法将通知更新为已查看"</string>
+    <string name="statusUnableToGetMessage">"无法获取消息"</string>
+    <string name="statusUnableToFollowUser">"无法关注用户"</string>
+    <string name="statusUnableToUnfollowUser">"无法取消关注用户"</string>
+    <string name="statusUnableToLoadProfile">"无法加载个人资料"</string>
+    <string name="statusUnableToUpdateAvatar">"无法更新头像"</string>
+    <string name="statusUnableToInviteUserToGroup">"无法邀请用户加入组"</string>
+    <string name="statusUnableToPurchaseSubscription">"无法购买订阅"</string>
+    <string name="statusUnableToUpdateUsersProfile">"无法更新用户的个人资料"</string>
+    <string name="statusUnableToSendMessage">"无法发送消息"</string>
+    <string name="statusUnableToSetExpiration">"无法设置消息到期时间"</string>
+    <string name="statusUnableToSaveMessage">"无法保存消息"</string>
+    <string name="statusUnableToGetChat">"无法获取与用户的聊天"</string>
+    <string name="statusUnableToGetSentMessages">"无法获取已发送消息"</string>
+    <string name="statusUnableToGetMissedMessages">"无法获取未读消息"</string>
+    <string name="statusUnableToGetNotifications">"无法获取通知"</string>
+    <string name="statusUnableToAcceptGroupInvite">"无法接受组邀请"</string>
+    <string name="statusUnableToDeclineGroupInvite">"无法拒绝组邀请"</string>
+    <string name="statusUnableToGetMoreNotifications">"无法获取更多通知"</string>
+    <string name="statusUnableToGetFollowingUsers">"无法获取您关注的用户"</string>
+    <string name="statusUnableToGetFollowers">"无法获取关注者"</string>
+    <string name="statusUnableToGetMessages">"无法获取消息"</string>
+    <string name="statusUnableToGoToChat">"无法转到聊天"</string>
+
+    <!-- Search hints -->
+    <string name="hintSearchForUsersToInvite">"搜索要邀请的人"</string>
+    <string name="hintSearchFriends">"搜索好友"</string>
+    <string name="hintSearchForFriends">"搜索好友"</string>
+    <string name="hintSearchForMembers">"搜索成员"</string>
+    <string name="hintSearchForUsersToChatWith">"搜索聊天对象"</string>
+    <string name="hintSearchContacts">"搜索联系人"</string>
+
+    <!-- Notifications -->
+    <string name="statusNewNotificationReceived">"收到了新通知"</string>
+    <string name="labelRefresh">"刷新"</string>
+    <string name="labelViewed">" - 已查看"</string>
+    <string name="labelAccepted">"已接受"</string>
+    <string name="labelDeclined">"已拒绝"</string>
+    <string name="titleNotification">"Conx2Share通知"</string>
+
+    <!-- Prompt text -->
+    <string name="labelYes">"是"</string>
+    <string name="labelNo">"否"</string>
+    <string name="labelOk">"确定"</string>
+    <string name="labelExclamation">"!"</string>
+
+    <!-- Subscription Strings -->
+    <string name="statusSubscribedSuccessfully">"订阅成功"</string>
+    <string name="statusFailedToSubscribe">"订阅失败"</string>
+    <string name="labelPriceFree">"0"</string>
+    <string name="labelPricePlus">"2.40/年"</string>
+    <string name="labelPricePremium">"29.99/年"</string>
+    <string name="labelPricePlatinum">"49.99/年"</string>
+    <string name="blurbFreeSubscriptionDescription"><![CDATA[照片和视频在查看后将会被删除。]]></string>
+    <string name="titleFreeSubscription">"免费"</string>
+    <string name="labelSubscribe">"订阅！"</string>
+    <string name="labelCurrentSubscription">"当前订阅"</string>
+    <string name="labelAgo">"前"</string>
+    <string name="labelPlus">"Plus"</string>
+    <string name="blurbPlusSubscriptionDescription">"最多保存5张照片和1个视频。"</string>
+    <string name="titlePremiumSubscription">"高级"</string>
+    <string name="blurbPremiumSubscriptionDescription"><![CDATA[Cx2share电子邮件，50GB的消息、图像和视频数据存储。]]></string>
+    <string name="titlePlatinumSubscription">"白金级"</string>
+    <string name="blurbPlatinumSubscriptionDescription"><![CDATA[Cx2share电子邮件，100GB的消息、图像和视频数据存储。]]></string>
+
+    <!-- Sharing Strings -->
+    <string name="labelSharedBy">"\" 由 "</string>
+    <string name="blurbViaConx2shareAndroid">" 通过Conx2share Android分享"</string>
+    <string name="titleConx2shareForAndroid">"适合Android的Conx2share"</string>
+    <string name="messagePleaseInstallFacebook">"请安装Facebook应用以分享您的帖子。"</string>
+    <string name="messagePleaseInstallTheTwiiterApp">"请安装Twitter应用以分享您的帖子。"</string>
+
+    <!-- Progress Dialog Strings -->
+    <string name="statusLoadingMessages">"正在加载消息..."</string>
+    <string name="statusGatheringFriends">"正在收集好友..."</string>
+    <string name="statusGatheringMessages">"正在收集消息..."</string>
+    <string name="statusGatheringChats">"正在收集聊天..."</string>
+    <string name="statusGatheringFollowedUsers">"正在收集您关注的用户..."</string>
+    <string name="statusGatheringFollowers">"正在收集关注者..."</string>
+    <string name="statusSendingMessage">"正在发送消息..."</string>
+    <string name="statusPosting">"正在发布..."</string>
+    <string name="statusGatheringSavedMessages">"正在收集保存的消息..."</string>
+    <string name="statusGatheringChatInformation">"正在收集聊天信息..."</string>
+
+    <!-- Group Strings -->
+    <string name="labelDeleteGroup">"删除组"</string>
+    <string name="labelLeaveGroup">"离开组"</string>
+    <string name="labelDeletedGroup">"已删除组 "</string>
+    <string name="labelLeftGroup">"已离开组 "</string>
+    <string name="labelUpdatedGroup">"已更新组 "</string>
+    <string name="labelGroupOwner">"组所有者"</string>
+    <string name="labelGroupMembers">"组成员"</string>
+    <string name="labelGroupName">"组名称"</string>
+
+    <!-- Following Strings -->
+    <string name="labelFollowers">"关注者"</string>
+    <string name="labelFollowing">"正在关注"</string>
+    <string name="statusFailedToFollow">"关注失败。请重试。"</string>
+    <string name="labelUnfollowed">"已取消关注"</string>
+    <string name="labelFollow">"关注"</string>
+    <string name="labelUnfollow">"取消关注"</string>
+    <string name="statusFollowedYou">"关注了您"</string>
+
+    <!-- SignUp Strings -->
+    <string name="statusYouAreNowSignedUp">"您现已注册！"</string>
+    <string name="statusFailedToSignUp">"无法注册，请重试。"</string>
+    <string name="statusPleaseFillOutAllFields">"请填写所有字段"</string>
+
+    <!-- Image and video strings -->
+    <string name="titleSelectPicture">"选择图片"</string>
+    <string name="questionUploadFromLibrary">"拍视频还是从图库中上传？"</string>
+    <string name="statusErrorUploadingVideo">"加载视频时出错"</string>
+    <string name="messageSelectImageError">"请选择设备上存储的图像。这不包括其他应用程序或社交媒体渠道中缓存的图像。"</string>
+    <string name="statusTwitterImageError">"图像无法加载并附加到Twitter帖子中。"</string>
+    <string name="satusErrorSelectingImage">"选择图像时出错"</string>
+    <string name="questionSelectUpload">"希望上传什么内容？"</string>
+    <string name="statusImageDownloadFailed">"图像下载失败"</string>
+    <string name="statusImageNotFound">"找不到图像"</string>
+    <string name="labelVideoTake">"拍视频"</string>
+    <string name="statusFileExceedsLimit">"文件超过10Mb限制。"</string>
+    <string name="questionSelectVideoSource">"拍视频还是从图库中获取视频？"</string>
+    <string name="questionSelectImageSource">"拍照还是从图库中获取图片？"</string>
+
+    <!-- Fuzzy -->
+    <string name="indicatorMedia">"（媒体）"</string>
+
+    <!-- Fuzzy -->
+    <string name="indicatorPicture">"（图片）"</string>
+
+    <!-- Fuzzy -->
+    <string name="indicatorVideo">"（视频）"</string>
+
+    <!-- Fuzzy -->
+    <string name="indicatorAudio">"（音频）"</string>
+
+    <!-- Post Strings -->
+    <string name="promptFlagContentAsInappropriate">"是否将该帖子标记为不适当内容？"</string>
+    <string name="statusPostFlagged">"该帖子已被标记"</string>
+    <string name="statusMadeANewPost">"已发布新帖子"</string>
+    <string name="statusMadeANewGroupPost">"发布新组帖子"</string>
+    <string name="hintEnterYourMessageHere">"请在此输入消息..."</string>
+
+    <!-- Password Strings -->
+    <string name="promptForgotPassword">"忘记密码？"</string>
+    <string name="hintEnterYourEmail">"请输入您的电子邮件。"</string>
+    <string name="labelChangePassword">"更改密码"</string>
+    <string name="statusCantResetPassword">"无法重置密码"</string>
+    <string name="labelResetPassword">"重置密码"</string>
+    <string name="statusResetPasswordEmailSent">"重置密码的电子邮件已发送"</string>
+    <string name="statusPleaseEnterYourEmailAddress">"请输入您的电子邮件地址并重试。"</string>
+    <string name="labelConfirmNewPassword">"确认新密码"</string>
+    <string name="labelNewPassword">"新密码"</string>
+    <string name="labelOldPassword">"旧密码"</string>
+    <string name="statusUpdatingPassword">"正在更新密码"</string>
+    <string name="statusOldPasswordIncorrect">"旧密码不正确。"</string>
+    <string name="statusPasswordUpdated">"密码已更新"</string>
+    <string name="statusPasswordFailedToUpdate">"密码无法更新，请重试"</string>
+    <string name="statusPasswordsDontMatch">"您的密码不匹配"</string>
+    <string name="statusOldPasswordError">"旧密码错误"</string>
+    <string name="statusOldPasswordInvalid">"您输入的旧密码无效"</string>
+    <string name="blurbPasswordsDontMatch">"新密码与确认密码不匹配。请稍后重试。"</string>
+    <string name="you_password_has_been_updated">"您的密码已更新"</string>
+    <string name="change_password_error">"错误"</string>
+
+    <!-- Drawer Items -->
+    <string name="labelDrawerHome">"主页"</string>
+    <string name="labelDrawerMessages">"消息"</string>
+    <string name="labelDrawerFriends">"好友"</string>
+    <string name="labelDrawerGroups">"组"</string>
+    <string name="labelDrawerNotifications">"通知"</string>
+    <string name="labelDrawerSubscriptions">"订阅"</string>
+    <string name="labelDrawerInvite">"邀请"</string>
+    <string name="labelDrawerStore">"存储"</string>
+    <string name="labelDrawerEshopping">"网上购物"</string>
+    <string name="labelDrawerGames">"游戏"</string>
+    <string name="labelDrawerBusiness">"商务"</string>
+
+    <!-- Other Strings -->
+    <string name="blurbFacebookConnectNotImplemented">"Facebook连接尚未执行"</string>
+    <string name="blurbTwiterConnectNotImplemented">"Twitter连接尚未执行"</string>
+    <string name="errorNoChatNotFollowed">"两个用户必须互相关注才能聊天"</string>
+    <string name="errorTryAgain">"请重试"</string>
+    <string name="statusMessageSaved">"消息已保存。"</string>
+    <string name="errorPasswordLength">"密码必须至少包含8个字符"</string>
+    <string name="errorPasswordsNotMatch">"密码不匹配"</string>
+    <string name="errorGenericSignUp">"注册时出错。"</string>
+    <string name="statusSigningUp">"正在注册..."</string>
+    <string name="blurbSubscriptionLevelTooLow">"您已有较高的订阅级别"</string>
+    <string name="errorPleaseAcceptTerms">"请接受条款与条件。"</string>
+
+    <!-- <string name="please_accept_the_terms_of_service">Please accept the terms of service</string> -->
+    <string name="errorUsernameTaken">"用户名已被占用。"</string>
+    <string name="blurbNotConnectedToGooglePlay">"未连接到Google Play商店"</string>
+    <string name="blurbComingSoon">"即将推出！"</string>
+    <string name="labelAccept">"接受"</string>
+    <string name="labelDecline">"拒绝"</string>
+    <string name="hintLeaveAComment">"发布评论..."</string>
+    <string name="labelZero">"0"</string>
+    <string name="labelOne">"1"</string>
+
+    <!-- ######################################### SET 3 STRINGS ##################################################### -->
+    <string name="statusUnableToGetGroupMembers">"无法获取当前组成员"</string>
+    <string name="statusUnableToLoadWebPage">"无法加载网页"</string>
+    <string name="hintEnterText">"请输入文本"</string>
+    <string name="labelTermsOfService">"服务条款"</string>
+    <string name="blurbTermsOfServiceAndPrivacyPolicy">"我已阅读并同意服务条款和隐私政策"</string>
+    <string name="labelPrivacyPolicy">"隐私政策"</string>
+    <string name="statusGroupUpdateSuccess">"已更新组 %s!"</string>
+    <string name="statusRetrievingNotificationsFailed">"检索通知失败。请重试。"</string>
+    <string name="errorGenericMessaging">"收发消息时出现错误"</string>
+
+    <!-- Message Friends Index -->
+    <string name="labelSaved">"已保存"</string>
+    <string name="labelCurrent">"当前"</string>
+
+    <!-- Follow -->
+    <string name="labelFollowed">"已关注"</string>
+    <string name="statusUnfollowFailed">"取消关注失败。请重试。"</string>
+    <string name="labelStartRecording">"开始录制"</string>
+    <string name="labelSubmit">"提交"</string>
+    <string name="errorInvalidUsernameOrPassword">"无效的用户名或密码"</string>
+    <string name="statusUnableToUpdateFollowersCount">"无法更新关注者数量"</string>
+
+    <!-- Promo Codes -->
+    <string name="labelPromoCode">"优惠码（可选）"</string>
+    <string name="labelActivatePromoCode">"激活优惠码"</string>
+    <string name="errorInvalidPromoCode">"您输入的优惠码无效。"</string>
+    <string name="blurbInvalidPromoCode">"您输入的优惠码无效。请输入有效的优惠码或清除当前的优惠码。"</string>
+    <string name="hintEnterPromoCode">"请输入优惠码。"</string>
+    <string name="blurbAccountSubscriptionUpgradedPlus">"您的账户已升级为Plus订阅。"</string>
+
+    <!-- ######################################### SET 4 STRINGS ##################################################### -->
+    <string name="statusUnableToCheckPromoCodeValid">"无法检查优惠码是否有效"</string>
+    <string name="blurbPromoUpgradePlusDescription">"您输入的优惠码是有效的。如果您是免费用户，您的账户已升级到Plus订阅。"</string>
+    <string name="statusValidPromoCode">"有效优惠码"</string>
+    <string name="statusInvalidPromoCode">"无效优惠码"</string>
+    <string name="statusUnableUpdateUserToPromoUser">"无法将用户更新到优惠用户"</string>
+    <string name="errorEmailAlreadyUsed">"电子邮件已被占用"</string>
+
+    <!-- ######################################### SET 5 Strings ##################################################### -->
+    <string name="statusUserFavoritingFailed">"用户收藏失败。"</string>
+    <string name="statusUserUnfavoritingFailed">"用户取消收藏失败"</string>
+    <string name="errorGroupNameTaken">"组名称已被占用。"</string>
+    <string name="blurbNewMessageReceivedFrom">"您收到了一条新消息，来自"</string>
+    <string name="labelOneM">"1m"</string>
+    <string name="statusUnableToPostComment">"无法发布评论"</string>
+    <string name="labelStartChat">"开始新聊天"</string>
+    <string name="promptDeleteGroupConfirm">"确定要删除组？"</string>
+    <string name="promptLeaveGroupConfirm">"确定要离开组？"</string>
+    <string name="labelExit">"退出"</string>
+    <string name="labelAttachPhoto">"请附加照片"</string>
+    <string name="labelAttachVideo">"请附加视频。"</string>
+    <string name="errorEmailBlank">"电子邮件不能为空"</string>
+
+    <!-- ######################################### SET 6 Strings ##################################################### -->
+    <string name="errorGroupIsPerminant">"无法离开或删除Conx2Share组"</string>
+    <string name="labelPromoted">"已推广"</string>
+    <string name="errorRecordingTooShort">"录制不够长。"</string>
+    <string name="warningRecordingWillBeTruncated">"仅发送前两分钟的录制。"</string>
+    <string name="statusUnableToSendAudioMessage">"无法发送语音信息"</string>
+    <string name="statusUnableToGetBusinessInfo">"无法加载业务信息"</string>
+    <string name="statusCouldNotRetrieveYourBusinesses">"无法检索业务"</string>
+    <string name="statusCannotPostToConx2shareGroup">"无法发布到Conx2share组"</string>
+    <string name="hintSearchForBusinesses">"搜索业务"</string>
+    <string name="LabelBusinesses">"业务"</string>
+    <string name="labelBusinessOwner">"业务所有者"</string>
+    <string name="labelGroup">"组："</string>
+    <string name="labelBusiness">"业务："</string>
+    <string name="labelBusinesses">"业务"</string>
+    <string name="labelDeletePost">"删除帖子"</string>
+    <string name="errorDeletePostNotOwner">"无法删除不属于您的帖子"</string>
+    <string name="promptDeletePostConfirm">"确实要删除此帖子吗？"</string>
+    <string name="statusPostDeleted">"已删除帖子"</string>
+    <string name="statusUnableDeletePost">"无法删除帖子"</string>
+    <string name="labelDeleteComment">"删除评论"</string>
+    <string name="errorDeleteCommentNotOwner">"无法删除不属于您的评论"</string>
+    <string name="promptDeleteCommentConfirm">"确实要删除此评论吗？"</string>
+    <string name="statusCommentDeleted">"已删除评论"</string>
+    <string name="statusUnableDeleteComment">"无法删除评论"</string>
+    <string name="labelFlagPost">"标记帖子"</string>
+    <string name="errorGenericCommentNotOwner">"此评论不属于您，因此无法对此评论进行任何操作"</string>
+    <string name="errorEditPostNotOwner">"无法编辑不属于您的帖子"</string>
+    <string name="labelEditPost">"编辑帖子"</string>
+    <string name="promptEditPost">"是否编辑此帖子？"</string>
+    <string name="lableUpdate">"更新"</string>
+    <string name="statusUnableToUpdatePost">"无法更新帖子"</string>
+    <string name="statusPostEdited">"已编辑帖子"</string>
+    <string name="statusUpdatingPost">"正在更新帖子..."</string>
+    <string name="labelFlagInappropriate">"标记为不合适"</string>
+    <string name="errorCannotChangeAudienceEditingPost">"编辑帖子时无法更改受众。"</string>
+    <string name="hintEnterCommentHere">"在此输入评论..."</string>
+    <string name="labelUpdate">"更新"</string>
+    <string name="labelEditComment">"编辑评论"</string>
+    <string name="errorEditCommentNotOwner">"无法编辑不属于您的评论。"</string>
+    <string name="statusCommentUpdated">"已更新评论！"</string>
+    <string name="statusUnableUpdateComment">"无法更新评论"</string>
+    <string name="statusUpdatingComment">"正在更新评论..."</string>
+    <string name="errorGenericImageUploadFailed">"上传图像时出现错误"</string>
+    <string name="errorGenericFileUploadFailed">"上传文件时出现错误"</string>
+    <string name="labelPhoto">"图片"</string>
+    <string name="labelVideo">"视频"</string>
+    <string name="labelRemoveFromGroup">"从组中删除"</string>
+    <string name="errorEditGroupMemberNotOwner">"您不是组所有者，因此无法对组成员进行任何操作"</string>
+    <string name="labelRemoveUserFromGroup">"从组中删除用户"</string>
+    <string name="promptBlockUserFromGroupConfirm">"确实要阻止组中的此用户吗？"</string>
+    <string name="labelBlockUser">"阻止用户"</string>
+    <string name="promptRemoveUserFromGroupConfirm">"确实要从组中删除此用户吗？"</string>
+    <string name="labelMember">"成员"</string>
+    <string name="labelFollower">"关注者"</string>
+    <string name="statusUnableFollowGroup">"无法关注组"</string>
+    <string name="labelUnableUnfollowGroup">"无法取消关注组"</string>
+    <string name="labelGroupFollowers">"组关注者"</string>
+    <string name="hintSearchForFollowers">"搜索关注者"</string>
+    <string name="statusUnableToInviteUserToFollowGroup">"无法邀请用户关注组"</string>
+    <string name="statusSendInviteToFollowGroup">"关注组的邀请已发送"</string>
+    <string name="statusUnableToBlockUserFromGroup">"无法阻止组中的用户"</string>
+    <string name="statusUserBlockedFromGroup">"已阻止组中的此用户。"</string>
+    <string name="statusUnableToRemoveUserFromGroup">"无法从组中删除用户"</string>
+    <string name="statusUserRemovedFromGroup">"已将用户从组中删除"</string>
+    <string name="statusInvitedToFollowGroup">"已邀请您关注组"</string>
+    <string name="hintSearchForGroups">"搜索组"</string>
+    <string name="labelPrivate">"私密"</string>
+    <string name="labelBlog">"博客"</string>
+    <string name="labelDiscussion">"讨论"</string>
+    <string name="statusUnableToLeaveGroup">"无法退出组"</string>
+    <string name="statusUnableToGetGroupFollowers">"无法获得组关注者"</string>
+    <string name="statusUnableToUnblockUser">"无法取消阻止用户"</string>
+    <string name="statusUserUnblockedFromGroup">"已取消阻止组中的此用户"</string>
+    <string name="statusBlockedUnablePostGroup">"无法向组发帖，已阻止"</string>
+    <string name="statusBlockedUnablePostComment">"无法发布评论，已阻止"</string>
+    <string name="labelUnblockUser">"取消阻止用户"</string>
+    <string name="promptUnblockUserConfirm">"确实要取消阻止此用户吗？"</string>
+    <string name="statusBlockedUnableToUpdatePost">"无法更新帖子，已阻止"</string>
+    <string name="statusBlockedUnableToUpdateComment">"无法更新评论，已阻止"</string>
+    <string name="bogusEmergencyLogoutToast">"您的会话无效。请重新登录。"</string>
+    <string name="statusUnableToLeaveOrDeleteGroup">"无法离开或删除组"</string>
+    <string name="labelPublic">"公开"</string>
+    <string name="statusCreatingGroup">"正在创建组..."</string>
+    <string name="statusUpdatingGroup">"正在更新组..."</string>
+    <string name="statusUnableToDeleteGroup">"无法删除组"</string>
+    <string name="promptUnfollowGroupConfirm">"确实要取消关注组吗？"</string>
+    <string name="labelUnfollowGroup">"取消关注组"</string>
+
+    <!-- Anything with the prefix "label" is a generic word used where ever "Go" would be used.
+    It may actually be obsolete in the code, as there is currently no references in Android.
+    I recommend this be a generic translation meaning "to move" or "to change position from here to there" and in "go to". -->
+    <string name="labelGo">"转到"</string>
+    <string name="hintSearchHashtags">"搜索哈希标记"</string>
+    <string name="statusNoPostsFoundForHashtag">"找不到该哈希标记对应的帖子"</string>
+    <string name="statusUnableToGetHashtagResults">"无法获取哈希标记结果"</string>
+    <string name="labelSubscriptions">"订阅"</string>
+    <string name="labelAddFriends">"添加好友"</string>
+    <string name="labelSearchBusinesses">"搜索业务"</string>
+    <string name="labelInviteFollowers">"邀请关注者"</string>
+    <string name="labelInviteMembers">"邀请成员"</string>
+    <string name="labelSearchGroups">"搜索组"</string>
+    <string name="labelDiscover">"发现"</string>
+    <string name="bogusAnErrorOccurredTryingToStartYourGallery">"尝试启动图库时发生错误"</string>
+    <string name="statusHashtagNotFound">"找不到搜索的哈希标记"</string>
+    <string name="labelRestore">"还原"</string>
+    <string name="statusSubscriptionRestoredSuccessfully">"已成功还原订阅"</string>
+    <string name="statusUnableToRestoreSubscription">"无法还原订阅"</string>
+    <string name="statusRestoringSubscription">"正在还原订阅..."</string>
+    <string name="labelRestoreSubscription">"还原订阅"</string>
+    <string name="promptRestoreSubscriptionFromGoogleConfirm">"是否要基于Google的信息还原订阅？"</string>
+    <string name="statusUnableToSearchUsers">"无法搜索要标记的用户"</string>
+    <string name="labelSelectFile">"选择文件"</string>
+    <string name="statusUpdatingUserAvatar">"正在更新用户头像..."</string>
+    <string name="labelHashtags">"哈希标记"</string>
+    <string name="lableUsers">"用户"</string>
+    <string name="labelPage">"页面"</string>
+    <string name="labelTags">"标记"</string>
+    <string name="labelInvites">"邀请"</string>
+    <string name="labelPosts">"帖子"</string>
+    <string name="messageCancelGoogleSubscriptionNotice">"购买新订阅时，如果您当前已有订阅，请单击“当前订阅”链接，以便通过Google Play商店将其取消。"</string>
+    <string name="titleCancelGoogleSubscription">"当前订阅所有者的通知"</string>
+    <string name="labelContinueToPurchase">"继续购买"</string>
+    <string name="labelGoBack">"返回"</string>
+    <string name="hintSearchUsers">"搜索用户"</string>
+    <string name="labelUnknownShort">"(?)"</string>
+    <string name="labelUnknown">"未知"</string>
+    <string name="labelPeople">"人脉"</string>
+    <string name="blurbPushNotificationNewMessages">"启用或禁用接收关于新消息的推送通知"</string>
+    <string name="blurbPushNotificationGroupInvites">"启用或禁用接收关于邀请新组的推送通知"</string>
+    <string name="blurbPushNotificationNewComments">"启用或禁用接收关于帖子新评论的推送通知"</string>
+    <string name="blurbPushNotificationFromFollowedGroupsAndBusiness">"启用或禁用接收来自您关注的业务或组的新帖子的推送通知"</string>
+    <string name="blurbPushNotificationWhenFollowed">"启用或禁用接收某人关注您时的推送通知"</string>
+    <string name="blurbPushNotificationWhenTagged">"启用或禁用接收某人在帖子或评论中标记您时的推送通知"</string>
+    <string name="statusUnableToFollowBusiness">"无法关注业务"</string>
+    <string name="statusUnableToUnfollowBusiness">"无法取消关注业务"</string>
+    <string name="statusNoBusinesses">"您没有业务"</string>
+    <string name="statusTaggedYouPost">"已在帖子中标记您"</string>
+    <string name="statusTaggedYouComment">"已在评论中标记您"</string>
+    <string name="statusCreatedBusinessPost">"发布了一个新的业务帖子"</string>
+    <string name="labelAbort">"中止"</string>
+    <string name="promptAbortBusinessDetailsConfirm">"是否确定要中止提供业务详情？"</string>
+    <string name="blurbSignUpBusinessNotice">"这是业务帐户 - 需要进一步设置帐户"</string>
+    <string name="errorEnterValidEmailAddress">"请输入有效的电子邮件地址"</string>
+    <string name="errorUsernameLettersAndNumbersOnly">"用户名只可由字母和数字组成"</string>
+    <string name="statusMustRestoreAccountUsingYourGoogleCredentials">"您无法使用其他人的Google凭据还原帐户"</string>
+    <string name="blurbRegisterAsBusiness">"注册业务帐户"</string>
+    <string name="errorEnterUsernameMinimumMaximumChars">"请输入一个介于2到20个字符的用户名"</string>
+    <string name="hintSearchToDiscover">"搜索以发现"</string>
+    <string name="labelNews">"新闻"</string>
+    <string name="statusUnableToLoadRssFeed">"无法加载RSS源"</string>
+    <string name="statusUnableToGetNewsSources">"无法获取新闻来源"</string>
+    <string name="statusNoNewsSourcesFound">"服务器未返回新闻来源"</string>
+    <string name="hintSearchTheNews">"搜索新闻"</string>
+    <string name="labelBirthday">"生日"</string>
+    <string name="errorDateOfBirthRequired">"请输入生日"</string>
+    <string name="errorBusinessRegistrationDateOfBirthRequired">"您必须输入生日并且年满18周岁才可注册业务。"</string>
+    <string name="errorBusinessRegistrationMinimumAge">"您必须年满18周岁才可注册业务"</string>
+    <string name="statusUnableToSearchHashtags">"无法搜索要包括的哈希标记"</string>
+
+    <!-- Denoted a user initiated operation that was cancelled. e.g. the user tries to take a picture, but then cancels the operation. -->
+    <string name="blurbGenericOperationCanceled">"操作被取消"</string>
+    <string name="statusPasswordNotValid">"输入的密码无效"</string>
+
+    <!-- Authentication -->
+    <string name="blurbLoginRequested">"登录帐户"</string>
+
+    <!-- Authentication -->
+    <string name="blurbLoginPasswordRequested">"输入此帐户的密码"</string>
+
+    <!-- Selecting a picture of video source, e.g. camera or gallery? -->
+    <string name="titleSelectSource">"选择来源"</string>
+
+    <!-- Rational for granting security access to the camera. -->
+    <string name="permissionCameraAccessRationale">"需要获取相机的访问权限才可拍摄照片和视频进行分享。"</string>
+
+    <!-- Camera access was denied by the user. -->
+    <string name="permissionCameraAccessDenied">"相机的访问权限被拒绝。"</string>
+
+    <!-- Covers all permission related to including images/videos/media to a post. -->
+    <string name="permissionAttachRationale">"相机和文件系统的访问权限用于将媒体附加到消息。"</string>
+
+    <!-- Permissions used to attach media were denied. -->
+    <string name="permissionAttachAccessDenied">"此应用需要“相机”和“存储”权限才可添加附件。一个或多个权限已被拒绝。"</string>
+
+    <!-- Permission to read external storage is denied. -->
+    <string name="permissionReadExternalStorageAccessDenied">"从存储读取被拒绝。"</string>
+
+    <!-- Permission to write to external storage is denied. -->
+    <string name="permissionWriteExternalStorageAccessDenied">"写入存储被拒绝。"</string>
+
+    <!-- Why the app needs to read to external storage. -->
+    <string name="permissionReadExternalStorageRational">"需要读取文件的访问权限才可分享照片和视频。"</string>
+
+    <!-- Why the app needs to write to external storage. -->
+    <string name="permissionWriteExternalStorageRational">"需要写入文件的访问权限才可分享照片和视频。"</string>
+
+    <!-- Permission was granted. -->
+    <string name="permissionAttachAccessGranted">"已授予添加附件的权限。"</string>
+
+    <!-- Common title for all rational dialogs -->
+    <string name="permissionRationalTitle">"权限请求"</string>
+    <string name="labelSettings">"设置"</string>
+
+    <!-- RecordAudio is used for voice messaging. -->
+    <string name="permissionRecordAudioAccessRationale">"语音消息需要录制音频权限。"</string>
+
+    <!-- RecordAudio permission was rejected. -->
+    <string name="permissionRecordAudioAccessDenied">"录制音频权限被拒绝。"</string>
+
+    <!-- Why do we need the micropphone -->
+    <string name="permissionMicrophoneRationale">"麦克风和文件系统的访问权限用于发送语音消息。"</string>
+    <string name="permissionMicrophoneAccessGranted">"已授予麦克风权限。"</string>
+    <string name="permissionMicrophoneAccessDenied">"麦克风权限被拒绝。"</string>
+    <string name="permissionReadContactsAccessRationale">"允许应用程序读取您的联系人。"</string>
+    <string name="permissionReadContactsAccessDenied">"读取联系人的访问权限被拒绝。"</string>
+    <string name="permissionContactRationale">"联系人的访问权限用于查找要邀请的人。"</string>
+    <string name="permissionContactAccessGranted">"已授予联系人访问权限。"</string>
+    <string name="permissionContactAccessDenied">"联系人访问权限被拒绝。"</string>
+
+    <!-- Generic empty list content -->
+    <string name="emptyList">"无内容显示"</string>
+
+    <!-- Empty list of groups -->
+    <string name="emptyListGroups">"找不到组"</string>
+
+    <!-- Text label used as a placeholder when there is no other data. -->
+    <string name="emptyNoData">"（空白）"</string>
+
+    <!-- label to show that there is a picture attached, but nothing in the text field. -->
+    <string name="emptyNoDataImage">"（图片）"</string>
+
+    <!-- label to show that there is a video attached, but nothing in the text field. -->
+    <string name="emptyNoDataVideo">"（视频）"</string>
+
+    <!-- label to show that there is audio attached, but nothing in the text field. -->
+    <string name="emptyNoDataAudio">"（音频）"</string>
+
+    <!-- The title of the dialog that informs the user that they don't have network connectivity. -->
+    <string name="dialogNoNetworkTitle">"（无网络）"</string>
+
+    <!-- The message telling the user that they don't have network connectivity. -->
+    <string name="dialogNoNetworkMessage">"此应用程序需要网络连接才可提供完整功能。当没有网络连接时，某些功能可能无法正常工作。"</string>
+    <string name="labelPlay">"播放"</string>
+    <string name="labelEvent">"事件"</string>
+    <string name="labelText">"文本"</string>
+    <string name="labelAudio">"音频"</string>
+    <string name="labelVerbose">"详细"</string>
+    <string name="labelNormal">"正常"</string>
+    <string name="labelLogging">"记录"</string>
+    <string name="labelLive">"实时"</string>
+    <string name="labelDelete">"删除"</string>
+    <string name="labelEdit">"编辑"</string>
+    <string name="labelEvents">"事件"</string>
+    <string name="labelBoth">"两者"</string>
+    <string name="labelOnline">"在线"</string>
+    <string name="labelStarting">"开始"</string>
+
+    <!-- the app was unable to create an event -->
+    <string name="statusErrorUnableToCreateEvent">"无法创建事件"</string>
+
+    <!-- The app was unable to update an event -->
+    <string name="statusErrorUnableToUpdateEvent">"无法更新事件"</string>
+
+    <!-- the app was unable to get an event for the business -->
+    <string name="statusErrorUnableToGetEventsForBusiness">"无法获取业务事件"</string>
+
+    <!-- the app was unable to get an event for the organization -->
+    <string name="statusErrorUnableToGetEventsForGroup">"无法获取组的事件"</string>
+
+    <!-- the app was unable to get livestream events -->
+    <string name="statusErrorUnableToGetLiveStreamEvents">"无法获取实时流事件"</string>
+
+    <!-- the app was unable to delete an event -->
+    <string name="statusErrorUnableToDeleteEvent">"无法删除事件"</string>
+    <string name="labelMyEvents">"我的事件"</string>
+    <string name="labelEventType">"事件类型"</string>
+    <string name="labelBusinessName">"业务名称"</string>
+    <string name="labelEventDate">"事件日期"</string>
+    <string name="labelEventEndTime">"事件结束时间"</string>
+    <string name="labelEventStartTime">"事件开始时间"</string>
+    <string name="labelEventDescription">"事件描述"</string>
+    <string name="labelEventName">"事件名称"</string>
+    <string name="labelEventLocation">"事件位置"</string>
+    <string name="labelLiveStreaming">"实时流"</string>
+    <string name="labelMyEvent">"我的事件"</string>
+    <string name="labelDeleteEvent">"删除事件"</string>
+    <string name="labelWatch">"观看"</string>
+    <string name="labelOffline">"离线"</string>
+    <string name="promptConfirmDeleteEvent">"是否确定要删除此事件？"</string>
+    <string name="errorEventMissingName">"请输入事件的名称"</string>
+    <string name="errorEventMissingDescription">"请输入事件的描述"</string>
+    <string name="errorEventMissingDate">"请输入事件的日期"</string>
+    <string name="errorEventMissingStartTime">"请输入事件的开始时间"</string>
+    <string name="errorEventMissingEndTime">"请输入事件的结束时间"</string>
+    <string name="errorEventEndBeforeStart">"结束时间不得早于开始时间"</string>
+    <string name="errorEventDescriptionLengthOverLimit">"描述不得超过200个字符"</string>
+    <string name="labelDrawerLivestream">"实时流"</string>
+    <string name="statusErrorUnableToGetEvent">"无法获取事件"</string>
+    <string name="indicatorOff">"[关]"</string>
+
+    <!-- The device is tool old to support the DRM scheme. -->
+    <string name="statusErrorDrmUnsupportedOldDevice">"设备太旧，无法播放受保护的内容。"</string>
+
+    <!-- The device does not support this DRM scheme -->
+    <string name="statusErrorDrmUnsupportedScheme">"此设备不支持要求的DRM方案"</string>
+
+    <!-- An unknown DRM error -->
+    <string name="statusErrorDrmUnknown">"发生未知的DRM错误"</string>
+    <string name="labelMaybe">"或许"</string>
+    <string name="labelGoing">"进行中"</string>
+    <string name="statusEventIsStarting">"正在开始"</string>
+    <string name="labelAttendees">"参与者"</string>
+    <string name="labelNoEvents">"无事件"</string>
+    <string name="labelGoLive">"上线"</string>
+    <string name="errorGettingStreamInfo">"获取流信息时发生错误"</string>
+    <string name="statusErrorUnableToGetBusinessList">"无法获取业务列表"</string>
+    <string name="errorSpecifyValidGroupOrBusiness">"您必须指定有效的组或业务"</string>
+    <string name="statusEventStreamOffline">"事件流当前处于离线状态"</string>
+    <string name="infoNoLocationGiven">"未提供位置"</string>
+    <string name="optionEnableBackgroundAudio">"后台播放"</string>
+    <string name="promptPickStartTime">"选择开始时间"</string>
+    <string name="promptPickEndTime">"选择结束时间"</string>
+    <string name="promptPickDate">"选择日期"</string>
+    <string name="labelCreateEvent">"创建事件"</string>
+    <string name="statusWaiting">"等待\u2026"</string>
+    <string name="labelURL">"URL"</string>
+    <string name="labelVideoBitrate">"视频比特率"</string>
+    <string name="labelAudioBitrate">"音频比特率"</string>
+    <string name="labelFramesPerSecond">"帧/秒"</string>
+    <string name="labelKeyFrameInterval">"关键帧间隔"</string>
+    <string name="labelSampleRate">"采样率"</string>
+    <string name="labelSave">"保存"</string>
+    <string name="statusStabilizationOn">"防抖 开"</string>
+    <string name="statusFlashOn">"Flash 开"</string>
+    <string name="statusFlashOff">"Flash 关"</string>
+    <string name="statusStabilizationOff">"防抖 关"</string>
+    <string name="statusMuteOn">"麦克风 关"</string>
+    <string name="statusMuteOff">"麦克风 开"</string>
+    <string name="permissionLivestreamRationale">"相机、麦克风、内存和网络的访问权限用于录制广播的实时流。"</string>
+    <string name="permissionLivestreamAccessGranted">"已授予流传输所需的权限。"</string>
+    <string name="permissionLivestreamAccessDenied">"此应用需要“相机”、“麦克风”、“存储”和“因特网”权限才可进行流传输。一个或多个权限已被拒绝。"</string>
+    <string name="paramLabelReceivedMessage">"%1$s向您发送了一条消息。"</string>
+
+    <!-- A button label that will open Conx2share from an external or partial component. -->
+    <string name="labelAppLaunch">"打开Conx2share"</string>
+
+    <!-- This is a generic parameterized label. The variable string will be replaced with a name or other identifying information. -->
+    <string name="paramLabelNotFound">"未找到 %1$s"</string>
+
+    <!-- to reply to a message or mail. -->
+    <string name="labelReply">"回复"</string>
+
+    <!-- a label meaning to display something. to make it visible. -->
+    <string name="labelShow">"显示"</string>
+
+    <!-- Meaning taking an action to see something. -->
+    <string name="labelView">"查看"</string>
+</resources>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<resources>-->
+
+    <!--<string name="app_name">ConX2Share</string>-->
+    <!--<string name="hello_world">您好，世界</string>-->
+    <!--<string name="sign_in">登录</string>-->
+    <!--<string name="sign_up">注册</string>-->
+    <!--<string name="email">电子邮件</string>-->
+    <!--<string name="password">密码</string>-->
+    <!--<string name="or">或</string>-->
+    <!--<string name="username">用户名</string>-->
+    <!--<string name="confirm_password">确认用户名</string>-->
+    <!--<string name="first_name">名字</string>-->
+    <!--<string name="last_name">姓氏</string>-->
+    <!--<string name="terms_and_conditions">我已阅读并同意条款与条件</string>-->
+    <!--<string name="signing_in">正在登录&#8230;</string>-->
+    <!--<string name="unexpected_error">发生意外错误。</string>-->
+    <!--<string name="mark_messaged_viewed">消息已标记为已查看</string>-->
+    <!--<string name="success">成功</string>-->
+    <!--<string name="message_sent">消息已发送</string>-->
+    <!--<string name="message_failed_to_send">消息发送失败</string>-->
+    <!--<string name="enter_message_here">请在此处输入消息…</string>-->
+    <!--<string name="got_sent_messages">已获得发送的消息</string>-->
+    <!--<string name="type_a_message">键入消息…</string>-->
+    <!--<string name="add_text_here">请在此处添加文本…</string>-->
+    <!--<string name="logging_in">正在登录…</string>-->
+    <!--<string name="file_error">文件错误</string>-->
+    <!--<string name="camera_error">摄像头错误</string>-->
+    <!--<string name="add_attachment">添加附件：</string>-->
+    <!--<string name="take_a_photo">拍照</string>-->
+    <!--<string name="take_a_video">拍视频</string>-->
+    <!--<string name="message_type">消息类型：</string>-->
+    <!--<string name="error">错误：</string>-->
+
+    <!--&lt;!&ndash; Post Activity &ndash;&gt;-->
+    <!--<string name="post">发布</string>-->
+    <!--<string name="post_activity_title">创建发布</string>-->
+    <!--<string name="post_to">接收人：</string>-->
+    <!--<string name="post_everyone">所有人</string>-->
+    <!--<string name="post_successful">发布成功</string>-->
+    <!--<string name="post_failed">发布失败： </string>-->
+
+    <!--&lt;!&ndash; Image Upload Dialog &ndash;&gt;-->
+    <!--<string name="upload_photo_title">上传图片</string>-->
+    <!--<string name="upload_photo_message">拍照还是从图库中上传？</string>-->
+    <!--<string name="take_photo">拍照</string>-->
+    <!--<string name="library">图库</string>-->
+    <!--<string name="not_yet_implemented">尚未执行。</string>-->
+
+    <!--&lt;!&ndash; Feed Activity &ndash;&gt;-->
+    <!--<string name="feed_activity_drawer_toggle_open">打开Drawer</string>-->
+    <!--<string name="feed_activity_drawer_toggle_close">关闭Drawer</string>-->
+    <!--<string name="feed_activity_drawer_logout">注销</string>-->
+    <!--<string name="feed_activity_drawer_header_picture_content_desc">个人资料图片</string>-->
+
+    <!--&lt;!&ndash; Share Dialog &ndash;&gt;-->
+    <!--<string name="share_to">分享到...</string>-->
+    <!--<string name="cancel">取消</string>-->
+    <!--<string name="facebook_app_id">195797437257242</string>-->
+
+    <!--&lt;!&ndash; Contacts &ndash;&gt;-->
+    <!--<string name="contacts">联系人</string>-->
+    <!--<string name="invite">邀请</string>-->
+    <!--<string name="invite_successful">已邀请好友</string>-->
+    <!--<string name="invite_failed">邀请好友失败：</string>-->
+
+    <!--&lt;!&ndash;Groups&ndash;&gt;-->
+    <!--<string name="group_name_layout_title">组名称</string>-->
+    <!--<string name="action_create_group">创建组</string>-->
+    <!--<string name="invalid_group_name">组必须具有名称</string>-->
+    <!--<string name="invalid_group_image">组必须具有图像</string>-->
+    <!--<string name="action_edit_group">编辑组</string>-->
+    <!--<string name="group_creation_fail">未能成功创建组。请重试。</string>-->
+    <!--<string name="group_creation_success">已创建组 %s！</string>-->
+    <!--<string name="group_update_fail">未能成功更新组。请重试。</string>-->
+    <!--<string name="post_button_text">发布</string>-->
+    <!--<string name="generic_error_message">发生错误。请重试。</string>-->
+    <!--<string name="no_users_found">未找到符合条件的用户</string>-->
+    <!--<string name="members">成员</string>-->
+    <!--<string name="send">发送</string>-->
+    <!--<string name="failed_to_retrieve_messages">检索新消息失败</string>-->
+    <!--<string name="save_message">保存消息？</string>-->
+
+    <!--&lt;!&ndash;Message Friends&ndash;&gt;-->
+    <!--<string name="message_friends_name_holder">姓名</string>-->
+    <!--<string name="error_loading_index">加载聊天时发生错误。</string>-->
+    <!--<string name="arrow"><![CDATA[>]]></string>-->
+    <!--<string name="message_friends_title">新消息</string>-->
+
+    <!--&lt;!&ndash; Drawer Notifications &ndash;&gt;-->
+    <!--<string name="item_count_holder">##</string>-->
+    <!--<string name="sent_you_a_new_message">向您发送了新消息</string>-->
+    <!--<string name="read_your_message">阅读消息</string>-->
+    <!--<string name="commented_on_your_post">评论了您的帖子</string>-->
+    <!--<string name="invited_you_to_join">邀请您加入</string>-->
+    <!--<string name="login_failed">登录失败。请检查网络连接并重试。</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 2 STRINGS #####################################################&ndash;&gt;-->
+
+    <!--&lt;!&ndash; Timers &ndash;&gt;-->
+    <!--<string-array name="timers">-->
+        <!--<item>无</item>-->
+        <!--<item>15秒</item>-->
+        <!--<item>30秒</item>-->
+        <!--<item>60秒</item>-->
+        <!--<item>120秒</item>-->
+    <!--</string-array>-->
+
+    <!--<string name="home">主页</string>-->
+    <!--<string name="messages">消息</string>-->
+    <!--<string name="friends">好友</string>-->
+    <!--<string name="groups">组</string>-->
+    <!--<string name="notifications">通知</string>-->
+    <!--<string name="get_plus">获取PLUS</string>-->
+    <!--<string name="store">存储</string>-->
+    <!--<string name="about">关于</string>-->
+    <!--<string name="change">更改</string>-->
+    <!--<string name="push_notifications">推送通知</string>-->
+    <!--<string name="switch_title_1">切换标题1</string>-->
+    <!--<string name="switch_title_2">切换标题2</string>-->
+    <!--<string name="logout">注销</string>-->
+
+    <!--&lt;!&ndash; Strings for Async Errors &ndash;&gt;-->
+    <!--<string name="retry">RETRY</string>-->
+    <!--<string name="unable_to_gather_friends_text">无法收集要邀请的好友</string>-->
+    <!--<string name="unable_to_invite_friends_text">无法邀请好友</string>-->
+    <!--<string name="unable_to_post_to_group_text">无法向组发布</string>-->
+    <!--<string name="unable_to_post_text">无法发布</string>-->
+    <!--<string name="post_already_flagged">无法标记帖子，您已对此标记</string>-->
+    <!--<string name="unable_to_flag_post_text">无法标记帖子</string>-->
+    <!--<string name="unable_to_get_post_text">无法获取帖子</string>-->
+    <!--<string name="unable_to_get_post_comments_text">无法获取帖子评论</string>-->
+    <!--<string name="unable_to_like_post_text">无法赞帖子</string>-->
+    <!--<string name="unable_to_unlike_post_text">无法踩帖子</string>-->
+    <!--<string name="unable_to_create_group_text">无法创建组</string>-->
+    <!--<string name="unable_to_update_group_text">无法更新组</string>-->
+    <!--<string name="unable_to_refresh_feed_text">无法刷新源</string>-->
+    <!--<string name="unable_to_get_posts_text">无法获取帖子</string>-->
+    <!--<string name="unable_to_get_unread_messages_text">无法获取未读消息</string>-->
+    <!--<string name="unable_to_get_friends_text">无法获取好友</string>-->
+    <!--<string name="unable_to_get_group_text">无法获取组</string>-->
+    <!--<string name="unable_to_get_group_posts_text">无法获取组帖子</string>-->
+    <!--<string name="unable_to_get_group_list_text">无法获取组列表</string>-->
+    <!--<string name="unable_to_remove_or_delete_group_text">无法删除组</string>-->
+    <!--<string name="unable_to_get_chats_text">无法获取聊天</string>-->
+    <!--<string name="unable_to_get_saved_messages_text">无法获取保存的消息</string>-->
+    <!--<string name="unable_to_update_notification_as_viewed_text">无法将通知更新为已查看</string>-->
+    <!--<string name="unable_to_get_message_text">无法获取消息</string>-->
+    <!--<string name="unable_to_follow_user">无法关注用户</string>-->
+    <!--<string name="unable_to_unfollow_user_text">无法取消关注用户</string>-->
+    <!--<string name="unable_to_load_profile_text">无法加载个人资料</string>-->
+    <!--<string name="unable_to_update_avatar_text">无法更新头像</string>-->
+    <!--<string name="unable_to_invite_user_to_group_text">无法邀请用户加入组</string>-->
+    <!--<string name="unable_to_purchase_subscription_text">无法购买订阅</string>-->
+    <!--<string name="unable_to_update_users_profile_text">无法更新用户的个人资料</string>-->
+    <!--<string name="unable_to_send_message_text">无法发送消息</string>-->
+    <!--<string name="unable_to_set_expiration_text">无法设置消息到期时间</string>-->
+    <!--<string name="unable_to_save_message_text">无法保存消息</string>-->
+    <!--<string name="unable_to_get_chat_text">无法获取与用户的聊天</string>-->
+    <!--<string name="unable_to_get_sent_messages_text">无法获取已发送消息</string>-->
+    <!--<string name="unable_to_get_missed_messages_text">无法获取未读消息</string>-->
+    <!--<string name="unable_to_get_notifications_text">无法获取通知</string>-->
+    <!--<string name="unable_to_accept_group_invite">无法接受组邀请</string>-->
+    <!--<string name="unable_to_decline_group_invite">无法拒绝组邀请</string>-->
+    <!--<string name="unable_to_get_more_notifications">无法获取更多通知</string>-->
+    <!--<string name="unable_to_get_following_users">无法获取您关注的用户</string>-->
+    <!--<string name="unable_to_get_followers">无法获取关注者</string>-->
+    <!--<string name="unable_to_get_messages_text">无法获取消息</string>-->
+    <!--<string name="unable_to_go_to_chat">无法转到聊天</string>-->
+
+    <!--&lt;!&ndash; Search hints &ndash;&gt;-->
+    <!--<string name="search_for_users_to_invite_text">搜索要邀请的人</string>-->
+    <!--<string name="search_friends">搜索好友</string>-->
+    <!--<string name="search_for_friends">搜索好友</string>-->
+    <!--<string name="search_for_members">搜索成员</string>-->
+    <!--<string name="search_for_users_to_chat_with">搜索聊天对象</string>-->
+    <!--<string name="search_contacts">搜索联系人</string>-->
+
+    <!--&lt;!&ndash; Notifications &ndash;&gt;-->
+    <!--<string name="new_notification_was_received_text">收到了新通知</string>-->
+    <!--<string name="refresh_text">刷新</string>-->
+    <!--<string name="viewed">" - 已查看"</string>-->
+    <!--<string name="accepted">已接受</string>-->
+    <!--<string name="declined">已拒绝</string>-->
+    <!--<string name="conx2share_notification">Conx2Share通知</string>-->
+
+    <!--&lt;!&ndash; Prompt text &ndash;&gt;-->
+    <!--<string name="yes">是</string>-->
+    <!--<string name="no">否</string>-->
+    <!--<string name="ok">确定</string>-->
+    <!--<string name="Success">成功</string>-->
+    <!--<string name="exclamation">!</string>-->
+    <!--<string name="error_text">"错误："</string>-->
+
+    <!--&lt;!&ndash; Subscription Strings &ndash;&gt;-->
+    <!--<string name="subscribed_successfully_text">订阅成功</string>-->
+    <!--<string name="failed_to_subscribe_text">订阅失败</string>-->
+    <!--<string name="free_price">0</string>-->
+    <!--<string name="plus_price">2.40/年</string>-->
+    <!--<string name="premium_price">29.99/年</string>-->
+    <!--<string name="platinum_price">49.99/年</string>-->
+    <!--<string name="free_subscription_description"><![CDATA[照片和视频在查看后将会被删除。]]></string>-->
+    <!--<string name="free_subscription_title">免费</string>-->
+    <!--<string name="subscribe">订阅！!</string>-->
+    <!--<string name="current_subscription">当前订阅</string>-->
+    <!--<string name="ago">前</string>-->
+    <!--<string name="plus">Plus</string>-->
+    <!--<string name="plus_subscription_description">最多保存5张照片和1个视频。</string>-->
+    <!--<string name="premium_subscription_title">高级</string>-->
+    <!--<string name="premium_subscription_description"><![CDATA[Cx2share电子邮件，50GB的消息、图像和视频数据存储。]]></string>-->
+    <!--<string name="platinum_subscription_title">白金级</string>-->
+    <!--<string name="platinum_subscription_description"><![CDATA[Cx2share电子邮件，100GB的消息、图像和视频数据存储。]]></string>-->
+
+    <!--&lt;!&ndash; Sharing Strings &ndash;&gt;-->
+    <!--<string name="shared_by_text">"\" 由 "</string>-->
+    <!--<string name="via_conx2share_android_text">" 通过Conx2Share Android分享"</string>-->
+    <!--<string name="conx2share_for_android">适合Android的ConX2Share</string>-->
+    <!--<string name="please_install_facebook">请安装Facebook应用以分享您的帖子。</string>-->
+    <!--<string name="please_install_the_twiiter_app">请安装Twitter应用以分享您的帖子。</string>-->
+
+    <!--&lt;!&ndash; Progress Dialog Strings &ndash;&gt;-->
+    <!--<string name="loading_messages">正在加载消息...</string>-->
+    <!--<string name="gathering_friends_text">正在收集好友...</string>-->
+    <!--<string name="gathering_messages_text">正在收集消息...</string>-->
+    <!--<string name="gather_chats_text">正在收集聊天...</string>-->
+    <!--<string name="gathering_following_users_text">正在收集您关注的用户...</string>-->
+    <!--<string name="gathering_followers">正在收集关注者...</string>-->
+    <!--<string name="sending_message_text">正在发送消息...</string>-->
+    <!--<string name="posting">正在发布...</string>-->
+    <!--<string name="gathering_saved_messages">正在收集保存的消息...</string>-->
+    <!--<string name="gathering_chat_information_text">正在收集聊天信息...</string>-->
+
+    <!--&lt;!&ndash; Group Strings &ndash;&gt;-->
+    <!--<string name="delete_group_text">删除组</string>-->
+    <!--<string name="leave_group_text">离开组</string>-->
+    <!--<string name="deleted_group_text">"已删除组 "</string>-->
+    <!--<string name="left_group_text">"已离开组 "</string>-->
+    <!--<string name="updated_group">"已更新组 "</string>-->
+    <!--<string name="group_owner">组所有者</string>-->
+    <!--<string name="group_members">组成员</string>-->
+    <!--<string name="group_name">组名称</string>-->
+
+    <!--&lt;!&ndash; Following Strings &ndash;&gt;-->
+    <!--<string name="followers">关注者</string>-->
+    <!--<string name="following">正在关注</string>-->
+    <!--<string name="following_failed_try_again">关注失败。请重试。</string>-->
+    <!--<string name="unfollowed">已取消关注</string>-->
+    <!--<string name="follow">关注</string>-->
+    <!--<string name="unfollow">取消关注</string>-->
+    <!--<string name="followed_you">关注了您u</string>-->
+
+    <!--&lt;!&ndash; SignUp Strings &ndash;&gt;-->
+    <!--<string name="you_are_now_signed_up">您现已注册！</string>-->
+    <!--<string name="failed_to_sign_up">无法注册，请重试。</string>-->
+    <!--<string name="please_fill_out_all_fields_text">请填写所有字段</string>-->
+
+    <!--&lt;!&ndash; Image and video strings &ndash;&gt;-->
+    <!--<string name="select_picture">选择图片</string>-->
+    <!--<string name="would_you_like_to_upload_a_video_from_your_library">拍视频还是从图库中上传？</string>-->
+    <!--<string name="error_occurred_while_loading_your_video">加载视频时出错</string>-->
+    <!--<string name="image_null_error">请选择设备上存储的图像。这不包括其他应用程序或社交媒体渠道中缓存的图像。</string>-->
+    <!--<string name="image_error">图像无法加载并附加到Twitter帖子中。</string>-->
+    <!--<string name="error_occurred_when_selecting_your_image">选择图像时出错</string>-->
+    <!--<string name="what_upload">希望上传什么内容？</string>-->
+    <!--<string name="image_download_failed">图像下载失败</string>-->
+    <!--<string name="image_could_not_be_found">找不到图像</string>-->
+    <!--<string name="take_video">拍视频</string>-->
+    <!--<string name="file_exceeds_limit">文件超过10Mb限制。</string>-->
+    <!--<string name="take_a_video_from_your_library_or_get_one_from_your_library">拍视频还是从图库中获取视频？</string>-->
+    <!--<string name="take_a_picture_or_get_one_from_your_library">拍照还是从图库中获取图片？</string>-->
+    <!--<string name="media">（媒体）</string>-->
+    <!--<string name="picture">（图片）</string>-->
+    <!--<string name="video">（视频）</string>-->
+
+    <!--&lt;!&ndash; Post Strings &ndash;&gt;-->
+    <!--<string name="flag_content_as_inappropriate_prompt">是否将该帖子标记为不适当内容？</string>-->
+    <!--<string name="post_flagged">该帖子已被标记</string>-->
+    <!--<string name="made_a_new_post">已发布新帖子</string>-->
+    <!--<string name="made_a_new_group_post">发布新组帖子</string>-->
+    <!--<string name="enter_your_message_here">请在此输入消息...</string>-->
+
+    <!--&lt;!&ndash; Password Strings &ndash;&gt;-->
+    <!--<string name="forgot_password">忘记密码？</string>-->
+    <!--<string name="please_enter_your_email">请输入您的电子邮件。</string>-->
+    <!--<string name="change_password">更改密码</string>-->
+    <!--<string name="cant_reset_password">无法重置密码</string>-->
+    <!--<string name="reset_password">重置密码</string>-->
+    <!--<string name="reset_password_email_sent">重置密码的电子邮件已发送</string>-->
+    <!--<string name="please_enter_your_email_address">请输入您的电子邮件地址并重试。</string>-->
+    <!--<string name="confirm_new_password">确认新密码</string>-->
+    <!--<string name="new_password">新密码</string>-->
+    <!--<string name="old_password">旧密码</string>-->
+    <!--<string name="updating_password">正在更新密码</string>-->
+    <!--<string name="old_password_incorrect">旧密码不正确。</string>-->
+    <!--<string name="password_updated">密码已更新</string>-->
+    <!--<string name="password_failed_to_update">密码无法更新，请重试</string>-->
+    <!--<string name="passwords_dont_match">您的密码不匹配</string>-->
+    <!--<string name="old_password_error">旧密码错误</string>-->
+    <!--<string name="the_old_password_you_entered_is_invalid">您输入的旧密码无效</string>-->
+    <!--<string name="the_new_password_and_confirm_password_dont_match">新密码与确认密码不匹配。请稍后重试。</string>-->
+    <!--<string name="you_password_has_been_updated">您的密码已更新</string>-->
+    <!--<string name="change_password_error">错误</string>-->
+
+    <!--&lt;!&ndash; Drawer Items &ndash;&gt;-->
+    <!--<string name="drawer_home">主页</string>-->
+    <!--<string name="drawer_messages">消息</string>-->
+    <!--<string name="drawer_friends">好友</string>-->
+    <!--<string name="drawer_groups">组</string>-->
+    <!--<string name="drawer_notifications">通知</string>-->
+    <!--<string name="drawer_plus">获取PLUS</string>-->
+    <!--<string name="drawer_invite">邀请</string>-->
+    <!--<string name="drawer_store">存储</string>-->
+    <!--<string name="drawer_eshopping">网上购物</string>-->
+    <!--<string name="drawer_games">游戏</string>-->
+    <!--<string name="drawer_business">商务</string>-->
+
+    <!--&lt;!&ndash; Other Strings &ndash;&gt;-->
+    <!--<string name="facebook_connect_not_implemented_text">Facebook连接尚未执行</string>-->
+    <!--<string name="twiiter_connect_not_implemented_yet">Twitter连接尚未执行</string>-->
+    <!--<string name="this_user_has_not_followed_you_text">两个用户必须互相关注才能聊天</string>-->
+    <!--<string name="please_try_again">请重试</string>-->
+    <!--<string name="message_is_saved">消息已保存。</string>-->
+    <!--<string name="password_length">密码必须至少包含8个字符</string>-->
+    <!--<string name="passwords_do_not_match">密码不匹配</string>-->
+    <!--<string name="sign_up_error">注册时出错。</string>-->
+    <!--<string name="signup_dialog">正在注册...</string>-->
+    <!--<string name="you_already_have_a_higher_subscription_level">您已有较高的订阅级别</string>-->
+    <!--<string name="please_accept_terms">请接受条款与条件。</string>-->
+    <!--<string name="user_name_is_taken">用户名已被占用。</string>-->
+    <!--<string name="not_connected_to_the_google_play_store">未连接到Google Play商店</string>-->
+    <!--<string name="coming_soon">即将推出！</string>-->
+    <!--<string name="accept">接受</string>-->
+    <!--<string name="decline">拒绝</string>-->
+    <!--<string name="leave_a_comment">发布评论...</string>-->
+
+    <!--<string name="zero">0</string>-->
+    <!--<string name="one">1</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 3 STRINGS #####################################################&ndash;&gt;-->
+
+    <!--<string name="unable_to_get_group_members">无法获取当前组成员</string>-->
+    <!--<string name="unable_to_load_web_page">无法加载网页</string>-->
+    <!--<string name="please_enter_text">请输入文本</string>-->
+
+    <!--<string name="terms_of_service">服务条款</string>-->
+    <!--<string name="terms_of_service_and_privacy_policy">我已阅读并同意服务条款和隐私政策</string>-->
+    <!--<string name="privacy_policy">隐私政策</string>-->
+
+    <!--<string name="group_update_success">"已更新组 %s!"</string>-->
+    <!--<string name="retrieving_notifications_failed">检索通知失败。请重试。</string>-->
+    <!--<string name="messaging_error">收发消息时出现错误</string>-->
+
+    <!--&lt;!&ndash; Message Friends Index &ndash;&gt;-->
+    <!--<string name="saved_messages_text">已保存</string>-->
+    <!--<string name="chats_text">当前</string>-->
+
+    <!--&lt;!&ndash; Follow &ndash;&gt;-->
+    <!--<string name="followed">已关注</string>-->
+    <!--<string name="unfollow_failed">取消关注失败。请重试。</string>-->
+    <!--<string name="start_recording">开始录制</string>-->
+    <!--<string name="submit">提交</string>-->
+    <!--<string name="invalid_user_name_or_password">无效的用户名或密码</string>-->
+    <!--<string name="unable_to_update_followers_count">无法更新关注者数量</string>-->
+    <!--<string name="please_accept_the_terms_of_service">请接受服务条款</string>-->
+
+    <!--&lt;!&ndash; Promo Codes &ndash;&gt;-->
+    <!--<string name="promo_code_optional">优惠码（可选）</string>-->
+    <!--<string name="activate_promo_code">激活优惠码</string>-->
+    <!--<string name="the_promo_code_you_entered_is_invalid">您输入的优惠码无效。</string>-->
+    <!--<string name="the_promo_code_you_entered_is_invalid_sign_up">您输入的优惠码无效。请输入有效的优惠码或清除当前的优惠码。</string>-->
+    <!--<string name="please_enter_your_promo_code">请输入优惠码。</string>-->
+    <!--<string name="your_account_has_been_upgraded_to_a_plus_subscription">您的账户已升级为Plus订阅。</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 4 STRINGS #####################################################&ndash;&gt;-->
+
+    <!--<string name="unable_to_check_if_promo_code_is_valid">无法检查优惠码是否有效</string>-->
+    <!--<string name="promo_upgrade_description">您输入的优惠码是有效的。如果您是免费用户，您的账户已升级到Plus订阅。</string>-->
+    <!--<string name="valid_promo_code">有效优惠码</string>-->
+    <!--<string name="invalid_promo_code">无效优惠码</string>-->
+    <!--<string name="unable_to_update_user_to_promo_user">无法将用户更新到优惠用户</string>-->
+    <!--<string name="email_has_already_been_taken">电子邮件已被占用</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 5 Strings #####################################################&ndash;&gt;-->
+
+    <!--<string name="user_favoriting_failed">用户收藏失败。</string>-->
+    <!--<string name="user_unfavoriting_failed">用户取消收藏失败</string>-->
+    <!--<string name="group_name_taken">组名称已被占用。</string>-->
+    <!--<string name="you_have_received_a_new_message_from">您收到了一条新消息，来自</string>-->
+    <!--<string name="one_m">1m</string>-->
+    <!--<string name="unable_to_post_comment_text">无法发布评论</string>-->
+    <!--<string name="chats_button_title">开始新聊天</string>-->
+    <!--<string name="are_you_sure_you_want_to_delete_the_group">确定要删除组？</string>-->
+    <!--<string name="are_you_sure_you_want_to_leave_the_group">确定要离开组？</string>-->
+    <!--<string name="exit">退出</string>-->
+    <!--<string name="please_attach_photo">请附加照片</string>-->
+    <!--<string name="please_attach_video">请附加视频。</string>-->
+    <!--<string name="email_cant_be_blank">电子邮件不能为空</string>-->
+
+    <!--&lt;!&ndash;######################################### SET 6 Strings #####################################################&ndash;&gt;-->
+
+    <!--<string name="you_cannot_leave_or_delete_the_conx2share_group">无法离开或删除Conx2Share组</string>-->
+    <!--<string name="promoted">已推广</string>-->
+    <!--<string name="audio">（音频）</string>-->
+    <!--<string name="recording_is_not_long_enough">录制不够长。</string>-->
+    <!--<string name="only_the_first_two_mins_will_be_sent">仅发送前两分钟的录制。</string>-->
+    <!--<string name="would_you_like_to_take_a_picture_or_upload_from_your_library">拍照还是从媒体库中上传？</string>-->
+    <!--<string name="unable_to_send_audio_message">无法发送语音信息</string>-->
+    <!--<string name="unable_to_get_business_info">无法加载业务信息</string>-->
+    <!--<string name="could_not_retrieve_your_businesses">无法检索业务</string>-->
+    <!--<string name="you_cannot_post_to_the_conx2share_group">无法发布到ConX2share组</string>-->
+    <!--<string name="search_for_businesses">搜索业务</string>-->
+    <!--<string name="drawer_businesses">业务</string>-->
+    <!--<string name="business_owner">业务所有者</string>-->
+    <!--<string name="group">"组："</string>-->
+    <!--<string name="business">"业务："</string>-->
+    <!--<string name="delete_post">删除帖子</string>-->
+    <!--<string name="you_dont_own_this_post_to_delete_it">无法删除不属于您的帖子</string>-->
+    <!--<string name="are_you_sure_you_want_to_delete_this_post">确实要删除此帖子吗？</string>-->
+    <!--<string name="post_deleted">已删除帖子</string>-->
+    <!--<string name="unable_to_delete_post">无法删除帖子</string>-->
+    <!--<string name="delete_comment">删除评论</string>-->
+    <!--<string name="you_dont_own_this_comment_to_delete_it">无法删除不属于您的评论</string>-->
+    <!--<string name="are_you_sure_you_want_to_delete_this_comment">确实要删除此评论吗？</string>-->
+    <!--<string name="comment_deleted">已删除评论</string>-->
+    <!--<string name="unable_to_delete_comment">无法删除评论</string>-->
+    <!--<string name="flag_post">标记帖子</string>-->
+    <!--<string name="cant_do_anything_with_comment_since_you_dont_own_it">此评论不属于您，因此无法对此评论进行任何操作</string>-->
+    <!--<string name="you_dont_own_this_post_to_edit_it">无法编辑不属于您的帖子</string>-->
+    <!--<string name="edit_post">编辑帖子</string>-->
+    <!--<string name="do_you_want_to_edit_this_post">是否编辑此帖子？</string>-->
+    <!--<string name="update_post">更新</string>-->
+    <!--<string name="unable_to_edit_post">无法更新帖子</string>-->
+    <!--<string name="post_edited">已编辑帖子</string>-->
+    <!--<string name="updating_post">正在更新帖子...</string>-->
+    <!--<string name="flag_as_inappropriate">标记为不合适</string>-->
+    <!--<string name="edit_post_options_menu">编辑帖子</string>-->
+    <!--<string name="delete_post_options_menu">删除帖子</string>-->
+    <!--<string name="you_cannot_change_the_audience_when_editing_a_post">编辑帖子时无法更改受众。</string>-->
+    <!--<string name="enter_your_comment_here">在此输入评论...</string>-->
+    <!--<string name="edit_comment_options_menu">编辑评论</string>-->
+    <!--<string name="delete_comment_options_menu">删除评论</string>-->
+    <!--<string name="update">更新</string>-->
+    <!--<string name="edit_comment">编辑评论</string>-->
+    <!--<string name="you_dont_own_this_comment_to_edit_it">无法编辑不属于您的评论。</string>-->
+    <!--<string name="comment_updated">已更新评论！</string>-->
+    <!--<string name="unable_to_update_post_comment">无法更新评论</string>-->
+    <!--<string name="updating_comment">正在更新评论...</string>-->
+    <!--<string name="something_went_wrong_while_uploading_your_image">上传图像时出现错误</string>-->
+    <!--<string name="something_went_wrong_while_uploading_your_file">上传文件时出现错误</string>-->
+    <!--<string name="would_you_like_to_take_a_photo_or_upload_one_from_your_library">拍照还是从媒体库中上传？</string>-->
+    <!--<string name="would_you_like_to_take_a_video_or_upload_one_from_your_library">录制视频还是从媒体库中上传？</string>-->
+    <!--<string name="photo_option">图片</string>-->
+    <!--<string name="video_option">视频</string>-->
+    <!--<string name="block_user_option">阻止用户</string>-->
+    <!--<string name="remove_from_group_option">从组中删除</string>-->
+    <!--<string name="you_cant_do_anything_with_this_group_member">您不是组所有者，因此无法对组成员进行任何操作</string>-->
+    <!--<string name="remove_user_from_group">从组中删除用户</string>-->
+    <!--<string name="are_you_sure_you_want_to_block_this_user">确实要阻止组中的此用户吗？</string>-->
+    <!--<string name="block_user">阻止用户</string>-->
+    <!--<string name="are_you_sure_you_want_to_remove_this_user_from_the_group">确实要从组中删除此用户吗？</string>-->
+    <!--<string name="member">成员</string>-->
+    <!--<string name="follower">关注者</string>-->
+    <!--<string name="unable_to_follow_group">无法关注组</string>-->
+    <!--<string name="unable_to_unfollow_group">无法取消关注组</string>-->
+    <!--<string name="unblock_user_option">取消阻止用户</string>-->
+    <!--<string name="group_followers">组关注者</string>-->
+    <!--<string name="search_for_followers">搜索关注者</string>-->
+    <!--<string name="unable_to_send_invite_to_follow_group">无法邀请用户关注组</string>-->
+    <!--<string name="invite_to_follow_group_sent">关注组的邀请已发送</string>-->
+    <!--<string name="unable_to_block_user_from_group">无法阻止组中的用户</string>-->
+    <!--<string name="you_have_blocked_this_user_from_the_group">已阻止组中的此用户。</string>-->
+    <!--<string name="unable_to_remove_user_from_group">无法从组中删除用户</string>-->
+    <!--<string name="user_has_been_removed_from_group">已将用户从组中删除</string>-->
+    <!--<string name="invited_you_to_follow_group">已邀请您关注组</string>-->
+    <!--<string name="search_for_groups">搜索组</string>-->
+    <!--<string name="private_group">私密</string>-->
+    <!--<string name="blog_group">博客</string>-->
+    <!--<string name="discussion_group">讨论</string>-->
+    <!--<string name="empty_string" />-->
+    <!--<string name="unable_to_leave_group">无法退出组</string>-->
+    <!--<string name="unable_to_get_group_followers">无法获得组关注者</string>-->
+    <!--<string name="unable_to_unblock_user">无法取消阻止用户</string>-->
+    <!--<string name="you_have_unblocked_this_user_from_the_group">已取消阻止组中的此用户</string>-->
+    <!--<string name="unable_to_post_to_group_blocked">无法向组发帖，已阻止</string>-->
+    <!--<string name="unable_to_post_comment_blocked">无法发布评论，已阻止</string>-->
+    <!--<string name="unblock_user">取消阻止用户</string>-->
+    <!--<string name="are_you_sure_you_want_to_unblock_this_user">确实要取消阻止此用户吗？</string>-->
+    <!--<string name="unable_to_update_post_blocked">无法更新帖子，已阻止</string>-->
+    <!--<string name="unable_to_update_comment_blocked">无法更新评论，已阻止</string>-->
+    <!--<string name="emergency_logout_toast_text">您的会话无效。请重新登录。</string>-->
+    <!--<string name="unable_to_leave_or_delete_group">无法离开或删除组</string>-->
+    <!--<string name="public_group_button_text">公开</string>-->
+    <!--<string name="private_group_button_text">私密</string>-->
+    <!--<string name="discussion_group_button_text">讨论</string>-->
+    <!--<string name="blog_group_button_text">博客</string>-->
+    <!--<string name="creating_group">正在创建组...</string>-->
+    <!--<string name="updating_group">正在更新组...</string>-->
+    <!--<string name="unable_to_delete_group">无法删除组</string>-->
+    <!--<string name="are_you_sure_you_want_to_unfollow_the_group">确实要取消关注组吗？</string>-->
+    <!--<string name="unfollow_group">取消关注组</string>-->
+
+<!--</resources>-->
