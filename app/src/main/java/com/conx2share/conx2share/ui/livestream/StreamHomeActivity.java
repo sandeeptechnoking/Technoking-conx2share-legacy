@@ -46,6 +46,7 @@ import java.util.concurrent.Callable;
 
 import javax.inject.Inject;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 //import butterknife.InjectView;
 import butterknife.OnClick;
@@ -64,28 +65,28 @@ public class StreamHomeActivity extends BaseAppCompatActivity {
     private static final String EXTRAS_IS_GROUP = "from_group_key";
     private static final String EXTRAS_STREAMER_ID = "streamer_id_key";
 
-    @InjectView(R.id.stream_toolbar)
+    @BindView(R.id.stream_toolbar)
     Toolbar toolbar;
 
-    @InjectView(R.id.stream_description_input_layout)
+    @BindView(R.id.stream_description_input_layout)
     TextInputLayout streamDescriptionInputLayout;
 
-    @InjectView(R.id.associated_event_dropdown_arrow)
+    @BindView(R.id.associated_event_dropdown_arrow)
     ImageView associatedEventDropdownArrow;
 
-    @InjectView(R.id.stream_as_image)
+    @BindView(R.id.stream_as_image)
     AvatarImageView streamAsImage;
 
-    @InjectView(R.id.associated_event_image)
+    @BindView(R.id.associated_event_image)
     AvatarImageView associatedEventImage;
 
-    @InjectView(R.id.stream_as_value_tv)
+    @BindView(R.id.stream_as_value_tv)
     TextView streamAsValueTv;
 
-    @InjectView(R.id.associated_event_value_tv)
+    @BindView(R.id.associated_event_value_tv)
     TextView associatedEventTv;
 
-    @InjectView(R.id.associated_event_container)
+    @BindView(R.id.associated_event_container)
     View associatedEventContainer;
 
     @Inject

@@ -56,6 +56,7 @@ import java.util.List;
 
 import javax.inject.Inject;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 //import butterknife.InjectView;
 import butterknife.OnClick;
@@ -76,40 +77,40 @@ public class MessagingActivity extends BaseAppCompatActivity {
 
     public static final String EXTRA_FRIEND = "extra-friend";
 
-    @InjectView(R.id.messaging_toolbar)
+    @BindView(R.id.messaging_toolbar)
     Toolbar toolbar;
 
-    @InjectView(R.id.messaging_toolbar_title)
+    @BindView(R.id.messaging_toolbar_title)
     TextView toolbarTitle;
 
-    @InjectView(R.id.messaging_friend_icon)
+    @BindView(R.id.messaging_friend_icon)
     AvatarImageView messagingFriendIcon;
 
-    @InjectView(R.id.chat_recycler_view)
+    @BindView(R.id.chat_recycler_view)
     RecyclerView chatRecyclerView;
 
-    @InjectView(R.id.chat_input_edit_text)
+    @BindView(R.id.chat_input_edit_text)
     EditText messageEt;
 
-    @InjectView(R.id.chat_send_button)
+    @BindView(R.id.chat_send_button)
     ImageButton chatSendButton;
 
-    @InjectView(R.id.text_message_layout)
+    @BindView(R.id.text_message_layout)
     LinearLayout textMessageLayout;
 
-    @InjectView(R.id.audio_length)
+    @BindView(R.id.audio_length)
     TextView audioLength;
 
-    @InjectView(R.id.audio_send_bt)
+    @BindView(R.id.audio_send_bt)
     ImageView audioSendBt;
 
-    @InjectView(R.id.audio_cancel_bt)
+    @BindView(R.id.audio_cancel_bt)
     ImageView audioCancelBt;
 
-    @InjectView(R.id.recording_red_dot)
+    @BindView(R.id.recording_red_dot)
     ImageView redDot;
 
-    @InjectView(R.id.audio_message_layout)
+    @BindView(R.id.audio_message_layout)
     RelativeLayout audioMessageLayout;
 
     @Inject
