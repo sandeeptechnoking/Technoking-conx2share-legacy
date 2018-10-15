@@ -12,13 +12,14 @@ import android.support.v7.widget.Toolbar;
 import android.view.KeyEvent;
 import android.view.View;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 //import butterknife.InjectView;
 import roboguice.inject.InjectView;
 
 public class FriendsIndexActivity extends BaseActionBarActivity {
 
-    @InjectView(R.id.friends_index_toolbar)
+    @BindView(R.id.friends_index_toolbar)
     Toolbar mFriendsIndexToolbar;
 
     @Override

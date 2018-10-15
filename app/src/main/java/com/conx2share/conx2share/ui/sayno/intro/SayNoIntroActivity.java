@@ -29,6 +29,7 @@ import com.rd.PageIndicatorView;
 
 import javax.inject.Inject;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 //import butterknife.InjectView;
 import butterknife.OnClick;
@@ -40,16 +41,16 @@ public class SayNoIntroActivity extends BaseAppCompatActivity {
 
     private static final int FINAL_PAGE_POSITION = 2;
 
-    @InjectView(R.id.intro_view_pager)
+    @BindView(R.id.intro_view_pager)
     ViewPager introPager;
 
-    @InjectView(R.id.circleIndicator)
+    @BindView(R.id.circleIndicator)
     PageIndicatorView indicator;
 
-    @InjectView(R.id.say_no_into_skip_btn)
+    @BindView(R.id.say_no_into_skip_btn)
     Button skipBtn;
 
-    @InjectView(R.id.say_no_into_next_btn)
+    @BindView(R.id.say_no_into_next_btn)
     Button confirmButton;
 
     @Inject

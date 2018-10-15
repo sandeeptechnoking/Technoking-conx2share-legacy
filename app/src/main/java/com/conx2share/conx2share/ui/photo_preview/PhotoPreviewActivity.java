@@ -21,6 +21,7 @@ import android.widget.ImageView;
 
 import javax.inject.Inject;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 //import butterknife.InjectView;
 import roboguice.inject.InjectView;
@@ -29,16 +30,16 @@ public class PhotoPreviewActivity extends BaseActivity {
 
     private static String TAG = PhotoPreviewActivity.class.getSimpleName();
 
-    @InjectView(R.id.photo_preview_image)
+    @BindView(R.id.photo_preview_image)
     ImageView photoPreviewImage;
 
-    @InjectView(R.id.photo_edit_text)
+    @BindView(R.id.photo_edit_text)
     EditText photoEditText;
 
-    @InjectView(R.id.send_photo_button)
+    @BindView(R.id.send_photo_button)
     Button sendImageButton;
 
-    @InjectView(R.id.close_photo_preview)
+    @BindView(R.id.close_photo_preview)
     ImageButton closePhotoPreviewImageButton;
 
     @Inject

@@ -8,13 +8,14 @@ import android.widget.TextView;
 
 import com.conx2share.conx2share.R;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 //import butterknife.InjectView;
 import roboguice.inject.InjectView;
 
 public class TitleViewHolder extends RecyclerView.ViewHolder {
 
-    @InjectView(R.id.stream_as_header_tv)
+    @BindView(R.id.stream_as_header_tv)
     public TextView headerTv;
 
     public TitleViewHolder(View itemView) {

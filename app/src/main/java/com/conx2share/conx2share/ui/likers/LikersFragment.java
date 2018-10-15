@@ -35,6 +35,7 @@ import java.util.List;
 import javax.inject.Inject;
 
 //import butterknife.InjectView;
+import butterknife.BindView;
 import roboguice.inject.InjectView;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
@@ -50,10 +51,10 @@ public class LikersFragment extends BaseFragment {
     @Inject
     NetworkClient mNetworkClient;
 
-    @InjectView(R.id.likers_recycler_view)
+    @BindView(R.id.likers_recycler_view)
     RecyclerView mRecyclerView;
 
-    @InjectView(R.id.likers_progress_bar)
+    @BindView(R.id.likers_progress_bar)
     ProgressBar mProgressBar;
 
     private ArrayList<Like> mLikes;

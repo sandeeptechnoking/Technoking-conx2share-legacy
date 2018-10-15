@@ -38,6 +38,7 @@ import java.net.URL;
 import java.util.ArrayList;
 
 //import butterknife.InjectView;
+import butterknife.BindView;
 import roboguice.inject.InjectView;
 
 public class NewsFragment extends BaseFragment {
@@ -45,16 +46,16 @@ public class NewsFragment extends BaseFragment {
     @Inject
     SnackbarUtil mSnackbarUtil;
 
-    @InjectView(R.id.news_source_logo)
+    @BindView(R.id.news_source_logo)
     ImageView mNewsSourceLogo;
 
-    @InjectView(R.id.news_search)
+    @BindView(R.id.news_search)
     EditText mNewsSearch;
 
-    @InjectView(R.id.news_list_view)
+    @BindView(R.id.news_list_view)
     ListView mNewsListView;
 
-    @InjectView(R.id.news_progress_bar)
+    @BindView(R.id.news_progress_bar)
     ProgressBar mNewsProgressBar;
 
     public static String TAG = NewsFragment.class.getSimpleName();

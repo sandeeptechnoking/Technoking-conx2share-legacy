@@ -11,17 +11,20 @@ import android.widget.TextView;
 
 import com.conx2share.conx2share.R;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 //import butterknife.InjectView;
 import butterknife.OnClick;
+import butterknife.Unbinder;
 import roboguice.inject.InjectView;
 
 public class SayNoNotificationDialogFragment extends DialogFragment {
     private static final String EXTRA_TEXT_ID = "text-id";
+    private Unbinder unbinder;
 
     private static final String EXTRA_CANCELABLE = "cancelable";
 
-    @InjectView(R.id.say_no_notification_dialog_text)
+    @BindView(R.id.say_no_notification_dialog_text)
     TextView textTv;
 
     private NotificationDialogInteraction notificationDialogInteraction;
@@ -45,7 +48,7 @@ public class SayNoNotificationDialogFragment extends DialogFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_say_no_pending_dialog, container, false);
-        ButterKnife.bind(this, view);
+       unbinder= ButterKnife.bind(this, view);
 
         Bundle args = getArguments();
         setCancelable(args.getBoolean(EXTRA_CANCELABLE));

@@ -57,6 +57,7 @@ import java.util.ArrayList;
 
 import javax.inject.Inject;
 
+import butterknife.BindView;
 import butterknife.OnClick;
 import roboguice.inject.InjectView;
 import rx.android.schedulers.AndroidSchedulers;
@@ -75,70 +76,70 @@ public class ProfileFragment extends BaseProfileFragment implements PostsAdapter
     @Inject
     PreferencesUtil mPreferencesUtil;
 
-    @InjectView(R.id.profile_toolbar)
+    @BindView(R.id.profile_toolbar)
     Toolbar mToolbar;
 
-    @InjectView(R.id.profile_toolbar_up)
+    @BindView(R.id.profile_toolbar_up)
     ImageView mToolbarUp;
 
-    @InjectView(R.id.profile_header_background)
+    @BindView(R.id.profile_header_background)
     ImageView mProfileHeaderBackground;
 
-    @InjectView(R.id.profile_user_avatar)
+    @BindView(R.id.profile_user_avatar)
     RoundedImageView mProfileUserAvatar;
 
-    @InjectView(R.id.profile_user_name)
+    @BindView(R.id.profile_user_name)
     TextView mProfileUserNameTextView;
 
-    @InjectView(R.id.profile_user_handle)
+    @BindView(R.id.profile_user_handle)
     TextView mUserHandleTextView;
 
-    @InjectView(R.id.followers_count)
+    @BindView(R.id.followers_count)
     TextView mFollowersCount;
 
-    @InjectView(R.id.following_count)
+    @BindView(R.id.following_count)
     TextView mFollowingCount;
 
-    @InjectView(R.id.profile_feed_list_view)
+    @BindView(R.id.profile_feed_list_view)
     RecyclerView mProfileFeedRecyclerView;
 
-    @InjectView(R.id.profile_follow_layout)
+    @BindView(R.id.profile_follow_layout)
     RelativeLayout mFollowLayout;
 
-    @InjectView(R.id.profile_follow_text)
+    @BindView(R.id.profile_follow_text)
     TextView mFollowText;
 
-    @InjectView(R.id.profile_swipe_container)
+    @BindView(R.id.profile_swipe_container)
     SwipeRefreshLayout mSwipeContainer;
 
-    @InjectView(R.id.main_view)
+    @BindView(R.id.main_view)
     RelativeLayout mMainView;
 
-    @InjectView(R.id.about_text)
+    @BindView(R.id.about_text)
     TextView mAboutText;
 
-    @InjectView(R.id.play_button)
+    @BindView(R.id.play_button)
     ImageView mPlayStream;
 
     @Inject
     SnackbarUtil mSnackbarUtil;
 
-    @InjectView(R.id.profile_progress_bar)
+    @BindView(R.id.profile_progress_bar)
     ProgressBar mProfileProgressBar;
 
-    @InjectView(R.id.check_favorite_view)
+    @BindView(R.id.check_favorite_view)
     ImageView mFavoriteView;
 
-    @InjectView(R.id.unchecked_favorite_view)
+    @BindView(R.id.unchecked_favorite_view)
     ImageView mUnfilledFavoriteView;
 
-    @InjectView(R.id.followers_section)
+    @BindView(R.id.followers_section)
     View mFollowersContainer;
 
-    @InjectView(R.id.following_section)
+    @BindView(R.id.following_section)
     View mFollowingContainer;
 
-    @InjectView(R.id.user_chat_fab)
+    @BindView(R.id.user_chat_fab)
     FloatingActionButton startChatFab;
 
     private String mProfileUserId;

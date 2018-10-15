@@ -18,7 +18,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 
-import roboguice.inject.InjectView;
+import butterknife.BindView;
+
+//import roboguice.inject.BindView;
 
 public class DiscoverFragment extends BaseFragment {
 
@@ -26,13 +28,13 @@ public class DiscoverFragment extends BaseFragment {
 
     public static final String HASHTAG = "hashtag";
 
-    @InjectView(R.id.discover_search_ac_tv)
+    @BindView(R.id.discover_search_ac_tv)
     EditText mSearch;
 
-    @InjectView(R.id.discover_view_pager)
+    @BindView(R.id.discover_view_pager)
     ViewPager mViewPager;
 
-    @InjectView(R.id.discover_view_pager_title_strip)
+    @BindView(R.id.discover_view_pager_title_strip)
     TabLayout mDiscoverPagerTitleStrip;
 
     private final TextWatcher mSearchTextWatcher = new TextWatcher() {

@@ -37,6 +37,7 @@ import java.util.ArrayList;
 import javax.inject.Inject;
 
 //import butterknife.InjectView;
+import butterknife.BindView;
 import retrofit.RetrofitError;
 import roboguice.inject.InjectView;
 
@@ -44,13 +45,13 @@ public class GroupFollowersInviteFragment extends BaseFragment implements GroupF
 
     public static final String TAG = GroupFollowersInviteFragment.class.getSimpleName();
 
-    @InjectView(R.id.group_followers_invite_edit_text)
+    @BindView(R.id.group_followers_invite_edit_text)
     EditText mGroupFollowersInviteEditText;
 
-    @InjectView(R.id.group_followers_invite_back_button)
+    @BindView(R.id.group_followers_invite_back_button)
     ImageButton mGroupFollowersInviteBackButton;
 
-    @InjectView(R.id.group_followers_invite_listview)
+    @BindView(R.id.group_followers_invite_listview)
     ListView mGroupFollowersListView;
 
     @Inject

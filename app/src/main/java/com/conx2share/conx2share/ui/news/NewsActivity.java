@@ -6,13 +6,15 @@ import com.conx2share.conx2share.ui.base.BaseActionBarActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+
+import butterknife.BindView;
 import butterknife.ButterKnife;
 //import butterknife.InjectView;
 import roboguice.inject.InjectView;
 
 public class NewsActivity extends BaseActionBarActivity {
 
-    @InjectView(R.id.news_toolbar)
+    @BindView(R.id.news_toolbar)
     Toolbar mNewsToolbar;
 
     @Override

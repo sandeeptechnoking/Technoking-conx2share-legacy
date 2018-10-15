@@ -20,6 +20,7 @@ import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
 
 //import butterknife.InjectView;
+import butterknife.BindView;
 import roboguice.inject.InjectView;
 
 
@@ -29,10 +30,10 @@ public class WebViewFragment extends BaseFragment {
 
     public static String EXTRA_WEB_URI = "webURI";
 
-    @InjectView(R.id.web_view)
+    @BindView(R.id.web_view)
     WebView mWebView;
 
-    @InjectView(R.id.web_view_progress_bar)
+    @BindView(R.id.web_view_progress_bar)
     ProgressBar mWebViewProgressBar;
 
     private String mWebURI;

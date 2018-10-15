@@ -146,8 +146,10 @@ public final class MediaHelper {
     }
 
     public static void startActivityForTakingPhoto(Fragment fragment, String fileName) throws IOException {
-        photoFile = createMediaFile(fragment.getContext(), () -> fileName);
-        fragment.startActivityForResult(getTakePictureIntent(photoFile), TAKE_PHOTO_REQUEST);
+        if (fragment.getContext() != null) {
+            photoFile = createMediaFile(fragment.getContext(), () -> fileName);
+            fragment.startActivityForResult(getTakePictureIntent(photoFile), TAKE_PHOTO_REQUEST);
+        }
     }
 
     public static void startActivityForTakingVideo(Activity activity) {
@@ -272,10 +274,10 @@ public final class MediaHelper {
 
     private static Intent getPickImageOrVideoIntent(String[] mimeTypes) {
         return new Intent(Intent.ACTION_OPEN_DOCUMENT)
-        .addCategory(Intent.CATEGORY_OPENABLE)
-        .putExtra(Intent.EXTRA_LOCAL_ONLY, true)
-        .setType("image/*")
-        .putExtra(Intent.EXTRA_MIME_TYPES, mimeTypes);
+                .addCategory(Intent.CATEGORY_OPENABLE)
+                .putExtra(Intent.EXTRA_LOCAL_ONLY, true)
+                .setType("image/*")
+                .putExtra(Intent.EXTRA_MIME_TYPES, mimeTypes);
     }
 
     @NonNull

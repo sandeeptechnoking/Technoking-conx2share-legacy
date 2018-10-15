@@ -50,7 +50,7 @@ import java.util.List;
  * Class that overrides {@link EditText} in order to have more control over touch events and selection ranges for use in
  * the {@link RichEditorView}.
  */
-public class MentionsEditText extends EditText implements TokenSource {
+public class MentionsEditText extends android.support.v7.widget.AppCompatEditText implements TokenSource {
 
     private Tokenizer mTokenizer;
     private QueryTokenReceiver mQueryTokenReceiver;

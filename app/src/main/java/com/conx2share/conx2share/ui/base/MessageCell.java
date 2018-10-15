@@ -17,6 +17,7 @@ import com.conx2share.conx2share.util.PreferencesUtil;
 
 import javax.inject.Inject;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 //import butterknife.InjectView;
 import io.techery.celladapter.Cell;
@@ -25,16 +26,16 @@ import roboguice.inject.InjectView;
 
 @Layout(R.layout.item_chat_message)
 public class MessageCell extends BaseRoboCell<Message, MessageCell.MessageCellListener> {
-    @InjectView(R.id.item_chat_avatar)
+    @BindView(R.id.item_chat_avatar)
     AvatarImageView avatar;
 
-    @InjectView(R.id.item_chat_message)
+    @BindView(R.id.item_chat_message)
     TextView message;
 
-    @InjectView(R.id.item_chat_attachment)
+    @BindView(R.id.item_chat_attachment)
     ImageView attachment;
 
-    @InjectView(R.id.item_chat_message_container)
+    @BindView(R.id.item_chat_message_container)
     ViewGroup messageContainer;
 
     @Inject

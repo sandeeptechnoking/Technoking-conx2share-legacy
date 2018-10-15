@@ -29,6 +29,7 @@ import java.util.ArrayList;
 import javax.inject.Inject;
 
 //import butterknife.InjectView;
+import butterknife.BindView;
 import roboguice.inject.InjectView;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Action0;
@@ -47,10 +48,10 @@ public class FriendsIndexFragment extends BaseFragment {
     @Inject
     SnackbarUtil mSnackbarUtil;
 
-    @InjectView(R.id.friends_index_list_view)
+    @BindView(R.id.friends_index_list_view)
     ListView mFriendsIndexListView;
 
-    @InjectView(R.id.friends_index__progress_bar)
+    @BindView(R.id.friends_index__progress_bar)
     ProgressBar mFriendsIndexProgressBar;
 
     private FriendsIndexAdapter mFriendsIndexAdapter;

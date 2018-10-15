@@ -53,6 +53,7 @@ import java.util.Calendar;
 
 import javax.inject.Inject;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 //import butterknife.InjectView;
 import butterknife.OnClick;
@@ -68,28 +69,28 @@ public class NewEventActivity extends BaseAppCompatActivity implements DatePicke
 
     public static final int PERMISSION_CAMERA_RESULT = 1000;
 
-    @InjectView(R.id.new_event_collapsing_bar)
+    @BindView(R.id.new_event_collapsing_bar)
     CollapsingToolbarLayout collapsingToolbarLayout;
 
-    @InjectView(R.id.new_event_toolbar)
+    @BindView(R.id.new_event_toolbar)
     Toolbar toolbar;
 
-    @InjectView(R.id.new_event_backdrop_img)
+    @BindView(R.id.new_event_backdrop_img)
     ImageView collapseBackdropImage;
 
-    @InjectView(R.id.new_event_name_input_edit_text)
+    @BindView(R.id.new_event_name_input_edit_text)
     TextInputEditText eventNameInputET;
 
-    @InjectView(R.id.new_event_description_input_edit_text)
+    @BindView(R.id.new_event_description_input_edit_text)
     TextInputEditText eventDescriptionInputET;
 
-    @InjectView(R.id.new_event_location_input_edit_text)
+    @BindView(R.id.new_event_location_input_edit_text)
     TextInputEditText eventLocationInputET;
 
-    @InjectView(R.id.new_event_date_value_tv)
+    @BindView(R.id.new_event_date_value_tv)
     TextView eventDateTv;
 
-    @InjectView(R.id.new_event_time_value_tv)
+    @BindView(R.id.new_event_time_value_tv)
     TextView eventTimeTv;
 
     @Inject

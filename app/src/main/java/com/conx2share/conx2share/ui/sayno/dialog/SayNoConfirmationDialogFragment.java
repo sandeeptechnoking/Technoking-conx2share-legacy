@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import com.conx2share.conx2share.R;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 //import butterknife.InjectView;
 import butterknife.OnClick;
@@ -25,10 +26,10 @@ public class SayNoConfirmationDialogFragment extends DialogFragment {
 
     private static final String EXTRA_CANCELABLE = "cancelable";
 
-    @InjectView(R.id.say_no_confirmation_text)
+    @BindView(R.id.say_no_confirmation_text)
     TextView textTv;
 
-    @InjectView(R.id.say_no_confirmation_create_new)
+    @BindView(R.id.say_no_confirmation_create_new)
     Button positiveBtn;
 
     private ConfirmationDialogInteraction callback;

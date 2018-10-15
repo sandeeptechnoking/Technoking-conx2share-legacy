@@ -38,6 +38,7 @@ import java.util.concurrent.TimeUnit;
 
 import javax.inject.Inject;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 //import butterknife.InjectView;
 import io.techery.celladapter.Cell;
@@ -57,25 +58,25 @@ public class SayNoSignInActivity extends BaseAppCompatActivity {
 
     private static final int MIN_NUMBER_LETTERS = 2;
 
-    @InjectView(R.id.say_no_sign_in_toolbar)
+    @BindView(R.id.say_no_sign_in_toolbar)
     Toolbar toolbar;
 
-    @InjectView(R.id.say_no_sign_in_search)
+    @BindView(R.id.say_no_sign_in_search)
     SearchView searchView;
 
-    @InjectView(R.id.say_no_sign_in_progress_bar)
+    @BindView(R.id.say_no_sign_in_progress_bar)
     ProgressBar progressBar;
 
-    @InjectView(R.id.say_no_sign_in_school_list)
+    @BindView(R.id.say_no_sign_in_school_list)
     RecyclerView schoolList;
 
-    @InjectView(R.id.empty_view_container)
+    @BindView(R.id.empty_view_container)
     ViewGroup emptyContainer;
 
-    @InjectView(R.id.empty_view_logo)
+    @BindView(R.id.empty_view_logo)
     ImageView emptyLogo;
 
-    @InjectView(R.id.empty_view_text)
+    @BindView(R.id.empty_view_text)
     TextView emptyText;
 
     @Inject

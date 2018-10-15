@@ -45,8 +45,9 @@ import java.util.List;
 
 import javax.inject.Inject;
 
+import butterknife.BindView;
 import retrofit.RetrofitError;
-import roboguice.inject.InjectView;
+//import roboguice.inject.InjectView;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Action1;
 
@@ -58,13 +59,13 @@ public class EditPostCommentFragment extends BaseFragment implements QueryTokenR
 
     private static final int COMMENT_CHAR_LIMIT = 300;
 
-    @InjectView(R.id.edit_post_comment_edit_text)
+    @BindView(R.id.edit_post_comment_edit_text)
     RichEditorView mCommentEditText;
 
-    @InjectView(R.id.edit_post_comment_back_button)
+    @BindView(R.id.edit_post_comment_back_button)
     ImageButton mBackButton;
 
-    @InjectView(R.id.edit_post_comment_update)
+    @BindView(R.id.edit_post_comment_update)
     TextView mEditPostCommentTextView;
 
     @Inject

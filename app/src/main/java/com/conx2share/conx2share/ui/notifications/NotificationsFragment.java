@@ -50,6 +50,7 @@ import java.util.ArrayList;
 
 import javax.inject.Inject;
 
+import butterknife.BindView;
 import roboguice.inject.InjectView;
 import rx.Observable;
 import rx.android.schedulers.AndroidSchedulers;
@@ -75,13 +76,13 @@ public class NotificationsFragment extends BaseFragment implements Notifications
     @Inject
     NetworkClient mNetworkClient;
 
-    @InjectView(R.id.notifications_listview)
+    @BindView(R.id.notifications_listview)
     ListView mNotificationsListView;
 
-    @InjectView(R.id.notifications_progress_bar)
+    @BindView(R.id.notifications_progress_bar)
     ProgressBar mNotificationsProgressBar;
 
-    @InjectView(R.id.notifications_progress_bar_bottom)
+    @BindView(R.id.notifications_progress_bar_bottom)
     ProgressBar mProgressBottom;
 
     private int mNotificationsListViewLastPosition = 0;

@@ -19,6 +19,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 //import butterknife.InjectView;
 
@@ -99,16 +100,16 @@ public class MessageIndexChatsAdapter extends BaseAdapter {
 
     public class Holder {
 
-        @InjectView(R.id.messageIndexItem_name)
+        @BindView(R.id.messageIndexItem_name)
         TextView userName;
 
-        @InjectView(R.id.messageIndexItem_message)
+        @BindView(R.id.messageIndexItem_message)
         TextView message;
 
-        @InjectView(R.id.messageIndexItem_picture)
+        @BindView(R.id.messageIndexItem_picture)
         AvatarImageView userImage;
 
-        @InjectView(R.id.messageIndexItem_handle)
+        @BindView(R.id.messageIndexItem_handle)
         TextView handle;
 
         public Holder(View view) {

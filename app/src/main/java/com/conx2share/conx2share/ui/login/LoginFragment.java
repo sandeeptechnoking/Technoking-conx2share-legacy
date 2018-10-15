@@ -58,6 +58,7 @@ import java.util.Locale;
 import javax.inject.Inject;
 
 //import butterknife.InjectView;
+import butterknife.BindView;
 import butterknife.OnClick;
 import retrofit.RetrofitError;
 import roboguice.inject.InjectView;
@@ -83,40 +84,40 @@ public class LoginFragment extends BaseFragment {
     @Inject
     GooglePlayServicesUtil mGooglePlayServicesUtil;
 
-    @InjectView(R.id.login_email)
+    @BindView(R.id.login_email)
     InputFormView mLoginEmail;
 
-    @InjectView(R.id.login_password)
+    @BindView(R.id.login_password)
     InputFormView mLoginPassword;
 
-    @InjectView(R.id.signup_email)
+    @BindView(R.id.signup_email)
     public InputFormView emailFormView;
 
-    @InjectView(R.id.signup_first_name)
+    @BindView(R.id.signup_first_name)
     public InputFormView firstNameFormView;
 
-    @InjectView(R.id.signup_last_name)
+    @BindView(R.id.signup_last_name)
     public InputFormView lastNameFormView;
 
-    @InjectView(R.id.signup_username)
+    @BindView(R.id.signup_username)
     public InputFormView usernameFormView;
 
-    @InjectView(R.id.signup_password)
+    @BindView(R.id.signup_password)
     public InputFormView passwordFormView;
 
-    @InjectView(R.id.login_container)
+    @BindView(R.id.login_container)
     public LinearLayout loginContainer;
 
-    @InjectView(R.id.signup_container)
+    @BindView(R.id.signup_container)
     public LinearLayout signupContainer;
 
-    @InjectView(R.id.buttons_container)
+    @BindView(R.id.buttons_container)
     public LinearLayout buttonContainer;
 
-    @InjectView(R.id.video_view)
+    @BindView(R.id.video_view)
     ScalableVideoView videoView;
 
-    @InjectView(R.id.singup_terms)
+    @BindView(R.id.singup_terms)
     TextView termsTv;
 
     private GoogleCloudMessaging mGoogleCloudMessaging;

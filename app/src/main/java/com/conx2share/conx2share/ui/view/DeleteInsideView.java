@@ -16,6 +16,7 @@ import android.widget.RelativeLayout;
 import com.conx2share.conx2share.R;
 import com.conx2share.conx2share.adapter.FriendsAdapter;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 //import butterknife.InjectView;
 import roboguice.RoboGuice;
@@ -24,10 +25,10 @@ import roboguice.inject.InjectView;
 
 public class DeleteInsideView extends RelativeLayout implements View.OnDragListener {
 
-    @InjectView(R.id.recycler_friend_iv)
+    @BindView(R.id.recycler_friend_iv)
     ImageView recyclerFriendIv;
 
-    @InjectView(R.id.recycler_friend_layout)
+    @BindView(R.id.recycler_friend_layout)
     RelativeLayout recyclerFriendLayout;
 
     FriendWasDeleted friendWasDeleted;

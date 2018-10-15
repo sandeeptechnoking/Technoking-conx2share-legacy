@@ -66,6 +66,7 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 //import butterknife.InjectView;
+import butterknife.Unbinder;
 import retrofit.RetrofitError;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
@@ -165,6 +166,7 @@ public abstract class BaseDrawerActivity extends BaseAppCompatActivity {
         }
 
         ButterKnife.bind(this);
+
 
         getNotificationBadgeCount();
         getGroupsBadgeCount();

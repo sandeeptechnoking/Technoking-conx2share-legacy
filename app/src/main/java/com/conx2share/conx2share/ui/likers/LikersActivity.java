@@ -7,6 +7,7 @@ import android.view.View;
 import com.conx2share.conx2share.R;
 import com.conx2share.conx2share.ui.base.BaseActionBarActivity;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 //import butterknife.InjectView;
 import roboguice.inject.InjectView;
@@ -14,7 +15,7 @@ import roboguice.inject.InjectView;
 public class LikersActivity extends BaseActionBarActivity {
 
     public static final String EXTRA_POST_ID = "post_id";
-    @InjectView(R.id.likers_toolbar)
+    @BindView(R.id.likers_toolbar)
     Toolbar mToolbar;
 
     @Override

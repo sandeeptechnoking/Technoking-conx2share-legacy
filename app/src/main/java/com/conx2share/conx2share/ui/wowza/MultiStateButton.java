@@ -18,7 +18,7 @@ import com.conx2share.conx2share.R;
 /**
  * A utility class for a multi-state toggle button
  */
-public class MultiStateButton extends ImageView {
+public class MultiStateButton extends android.support.v7.widget.AppCompatImageView {
 
     private Drawable    mOnDrawable;
     private Drawable    mOffDrawable;

@@ -15,6 +15,7 @@ import com.makeramen.roundedimageview.RoundedImageView;
 
 import javax.inject.Inject;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 //import butterknife.InjectView;
 import butterknife.OnClick;
@@ -26,10 +27,10 @@ public class SayNoAnonymityChooseActivity extends BaseAppCompatActivity {
 
     private static final String EXTRA_IS_ANONYMOUS = "is-anonymous";
 
-    @InjectView(R.id.toolbar)
+    @BindView(R.id.toolbar)
     Toolbar toolbar;
 
-    @InjectView(R.id.say_no_anonymity_chooser_user_avatar)
+    @BindView(R.id.say_no_anonymity_chooser_user_avatar)
     RoundedImageView userAvatarIv;
 
     @Inject

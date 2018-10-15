@@ -33,6 +33,7 @@ import net.protyposis.android.spectaculum.VideoView;
 
 import java.io.IOException;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 //import butterknife.InjectView;
 import roboguice.inject.InjectView;
@@ -64,13 +65,13 @@ public class MediaViewerActivity extends BaseActivity {
                 .putExtra(extraKey, url));
     }
 
-    @InjectView(R.id.photo_message_view)
+    @BindView(R.id.photo_message_view)
     PhotoView photoMessageView;
 
-    @InjectView(R.id.spectaculum_video_view)
+    @BindView(R.id.spectaculum_video_view)
     VideoView spectaculumVideoView;
 
-    @InjectView(R.id.video_buffering_spinner)
+    @BindView(R.id.video_buffering_spinner)
     ProgressBar videoBufferingSpinner;
 
     private MediaPlayer mediaPlayer;

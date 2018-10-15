@@ -85,6 +85,7 @@ import java.util.List;
 
 import javax.inject.Inject;
 
+import butterknife.BindView;
 import butterknife.OnClick;
 import retrofit.RetrofitError;
 import roboguice.inject.InjectView;
@@ -105,19 +106,19 @@ public class PostCommentsFragment extends BaseFragment implements PostCommentsAd
     @Inject
     SnackbarUtil mSnackbarUtil;
 
-    @InjectView(R.id.post_comments_toolbar)
+    @BindView(R.id.post_comments_toolbar)
     Toolbar mToolbar;
-    @InjectView(R.id.post_comments_listview)
+    @BindView(R.id.post_comments_listview)
     ListView mPostCommentsListView;
-    @InjectView(R.id.comment_edit_text)
+    @BindView(R.id.comment_edit_text)
     RichEditorView mCommentEditText;
-    @InjectView(R.id.submit_comment)
+    @BindView(R.id.submit_comment)
     TextView mSubmitComment;
-    @InjectView(R.id.comments_toolbar_title)
+    @BindView(R.id.comments_toolbar_title)
     TextView mToolbarTitle;
-    @InjectView(R.id.leave_a_comment_bar)
+    @BindView(R.id.leave_a_comment_bar)
     LinearLayout mLeaveACommentBar;
-    @InjectView(R.id.post_button_layout)
+    @BindView(R.id.post_button_layout)
     LinearLayout mButtonLayout;
 
     private String mPostId;

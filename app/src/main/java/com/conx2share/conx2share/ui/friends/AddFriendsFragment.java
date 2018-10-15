@@ -29,6 +29,7 @@ import java.util.ArrayList;
 import javax.inject.Inject;
 
 //import butterknife.InjectView;
+import butterknife.BindView;
 import retrofit.RetrofitError;
 import roboguice.inject.InjectView;
 import rx.android.schedulers.AndroidSchedulers;
@@ -38,10 +39,10 @@ public class AddFriendsFragment extends BaseFragment implements UsersAdapter.Use
 
     public static final String TAG = AddFriendsFragment.class.getSimpleName();
 
-    @InjectView(R.id.search_for_friends_edit_text)
+    @BindView(R.id.search_for_friends_edit_text)
     EditText mSearchForFriendsEditText;
 
-    @InjectView(R.id.search_users_listview)
+    @BindView(R.id.search_users_listview)
     ListView mSearchUsersListView;
 
     @Inject

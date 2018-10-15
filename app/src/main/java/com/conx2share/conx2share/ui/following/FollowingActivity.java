@@ -7,13 +7,14 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 //import butterknife.InjectView;
 import roboguice.inject.InjectView;
 
 public class FollowingActivity extends BaseActionBarActivity {
 
-    @InjectView(R.id.following_toolbar)
+    @BindView(R.id.following_toolbar)
     Toolbar mFollowersToolbar;
 
     @Override

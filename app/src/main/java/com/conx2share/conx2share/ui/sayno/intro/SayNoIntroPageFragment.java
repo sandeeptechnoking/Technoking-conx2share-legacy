@@ -14,6 +14,7 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.conx2share.conx2share.R;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 //import butterknife.InjectView;
 import roboguice.inject.InjectView;
@@ -24,13 +25,13 @@ public class SayNoIntroPageFragment extends Fragment {
     private static final String EXTRA_HEADER_RES = "header-res";
     private static final String EXTRA_TEXT_RES = "text-res";
 
-    @InjectView(R.id.say_no_intro_page_logo)
+    @BindView(R.id.say_no_intro_page_logo)
     ImageView logo;
 
-    @InjectView(R.id.say_no_intro_page_header)
+    @BindView(R.id.say_no_intro_page_header)
     TextView header;
 
-    @InjectView(R.id.say_no_intro_page_text)
+    @BindView(R.id.say_no_intro_page_text)
     TextView text;
 
     public static SayNoIntroPageFragment newInstance(@DrawableRes int logoRes,

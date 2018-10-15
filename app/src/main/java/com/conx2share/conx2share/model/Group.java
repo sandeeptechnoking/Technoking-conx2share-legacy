@@ -457,9 +457,9 @@ public class Group implements Parcelable, PostReceiver {
         if (liveStream != null ? !liveStream.equals(group.liveStream) : group.liveStream != null) {
             return false;
         }
-
-
-        return true;
+    else {
+            return true;
+        }
     }
 
     @Override

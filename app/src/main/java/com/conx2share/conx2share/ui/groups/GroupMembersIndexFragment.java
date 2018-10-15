@@ -34,6 +34,7 @@ import java.util.ArrayList;
 
 import javax.inject.Inject;
 
+import butterknife.BindView;
 import retrofit.RetrofitError;
 import roboguice.inject.InjectView;
 
@@ -44,16 +45,16 @@ public class GroupMembersIndexFragment extends BaseFragment implements GroupMemb
     @Inject
     PreferencesUtil mPreferencesUtil;
 
-    @InjectView(R.id.group_members_listview)
+    @BindView(R.id.group_members_listview)
     ListView mGroupMembersListView;
 
-    @InjectView(R.id.invite_new_members_button)
+    @BindView(R.id.invite_new_members_button)
     ImageButton mInviteMembers;
 
-    @InjectView(R.id.toolbar)
+    @BindView(R.id.toolbar)
     Toolbar mToolbar;
 
-    @InjectView(R.id.group_members_back_button)
+    @BindView(R.id.group_members_back_button)
     ImageButton mGroupMemberBackButton;
 
     @Inject

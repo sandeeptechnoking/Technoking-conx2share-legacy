@@ -9,6 +9,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.ImageButton;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 //import butterknife.InjectView;
 import roboguice.inject.InjectView;
@@ -17,10 +18,10 @@ public class SearchGroupsActivity extends BaseActionBarActivity {
 
     public static final String TAG = SearchGroupsActivity.class.getSimpleName();
 
-    @InjectView(R.id.search_groups_toolbar)
+    @BindView(R.id.search_groups_toolbar)
     Toolbar mSearchGroupsToolbar;
 
-    @InjectView(R.id.search_groups_back_button)
+    @BindView(R.id.search_groups_back_button)
     ImageButton mSearchGroupsBackButton;
 
     @Override

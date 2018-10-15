@@ -16,10 +16,11 @@ import com.conx2share.conx2share.model.EventResponse;
 import com.conx2share.conx2share.network.Result;
 import com.conx2share.conx2share.ui.base.BaseActionBarActivity;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 //import butterknife.InjectView;
 import retrofit.RetrofitError;
-import roboguice.inject.InjectView;
+//import roboguice.inject.InjectView;
 
 public class EventActivity extends BaseActionBarActivity {
 
@@ -31,7 +32,7 @@ public class EventActivity extends BaseActionBarActivity {
     private int mEventId;
     private String groupType;
 
-    @InjectView(R.id.event_toolbar)
+    @BindView(R.id.event_toolbar)
     Toolbar mEventToolbar;
 
     public Event mEvent;

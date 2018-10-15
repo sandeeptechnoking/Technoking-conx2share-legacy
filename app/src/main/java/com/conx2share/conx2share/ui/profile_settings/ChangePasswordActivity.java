@@ -23,6 +23,7 @@ import android.widget.EditText;
 
 import java.util.Locale;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import roboguice.inject.InjectView;
 import rx.android.schedulers.AndroidSchedulers;
@@ -38,16 +39,16 @@ public class ChangePasswordActivity extends BaseRxAppCompatActivity {
     @Inject
     PreferencesUtil preferencesUtil;
 
-    @InjectView(R.id.old_password_input)
+    @BindView(R.id.old_password_input)
     EditText mOldPasswordInput;
 
-    @InjectView(R.id.new_password_input)
+    @BindView(R.id.new_password_input)
     EditText mNewPasswordInput;
 
-    @InjectView(R.id.confirm_new_password_input)
+    @BindView(R.id.confirm_new_password_input)
     EditText mConfirmNewPasswordInput;
 
-    @InjectView(R.id.change_password_submit_button)
+    @BindView(R.id.change_password_submit_button)
     Button mChangePasswordSubmitButton;
 
     private String mNewPassword;

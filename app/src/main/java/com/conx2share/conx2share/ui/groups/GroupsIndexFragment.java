@@ -34,6 +34,7 @@ import java.util.Collections;
 
 import javax.inject.Inject;
 
+import butterknife.BindView;
 import butterknife.OnClick;
 import retrofit.RetrofitError;
 import roboguice.inject.InjectView;
@@ -45,10 +46,10 @@ public class GroupsIndexFragment extends BaseFragment implements GroupIndexAdapt
     @Inject
     PreferencesUtil mPreferencesUtil;
 
-    @InjectView(R.id.group_index_listview)
+    @BindView(R.id.group_index_listview)
     ListView mGroupsIndexListview;
 
-    @InjectView(R.id.group_index__progress_bar)
+    @BindView(R.id.group_index__progress_bar)
     ProgressBar mGroupIndexProgressBar;
 
     @Inject

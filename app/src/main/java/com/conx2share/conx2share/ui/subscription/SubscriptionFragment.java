@@ -37,6 +37,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import javax.inject.Inject;
 
 //import butterknife.InjectView;
+import butterknife.BindView;
 import retrofit.RetrofitError;
 import roboguice.inject.InjectView;
 
@@ -65,7 +66,7 @@ public class SubscriptionFragment extends BaseFragment implements SubscriptionsA
     @Inject
     GooglePlayServicesUtil mGooglePlayServicesUtil;
 
-    @InjectView(R.id.subscriptions_listview)
+    @BindView(R.id.subscriptions_listview)
     ListView mSubscriptionsListView;
 
     @Inject

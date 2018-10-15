@@ -56,6 +56,7 @@ import java.util.regex.Pattern;
 import javax.inject.Inject;
 
 //import butterknife.InjectView;
+import butterknife.BindView;
 import butterknife.OnClick;
 import retrofit.RetrofitError;
 import roboguice.inject.InjectView;
@@ -79,40 +80,40 @@ public class SignUpFragment extends BaseFragment {
     @Inject
     GooglePlayServicesUtil mGooglePlayServicesUtil;
 
-    @InjectView(R.id.sign_up_email)
+    @BindView(R.id.sign_up_email)
     EditText mSignUpEmail;
 
-    @InjectView(R.id.sign_up_username)
+    @BindView(R.id.sign_up_username)
     EditText mSignUpUsername;
 
-    @InjectView(R.id.sign_up_password)
+    @BindView(R.id.sign_up_password)
     EditText mSignUpPassword;
 
-    @InjectView(R.id.sign_up_confirm_password)
+    @BindView(R.id.sign_up_confirm_password)
     EditText mSignUpPasswordConfirm;
 
-    @InjectView(R.id.sign_up_first_name)
+    @BindView(R.id.sign_up_first_name)
     EditText mSignUpFirstName;
 
-    @InjectView(R.id.sign_up_last_name)
+    @BindView(R.id.sign_up_last_name)
     EditText mSignUpLastName;
 
-    @InjectView(R.id.terms_and_conditions_checkbox)
+    @BindView(R.id.terms_and_conditions_checkbox)
     CheckBox mCheckBox;
 
-    @InjectView(R.id.sign_up_ive_read_and_agree)
+    @BindView(R.id.sign_up_ive_read_and_agree)
     TextView mTermsAndConditionsTextView;
 
-    @InjectView(R.id.sign_up_promo_code)
+    @BindView(R.id.sign_up_promo_code)
     EditText mSignUpPromoCode;
 
-    @InjectView(R.id.i_am_a_business_checkbox)
+    @BindView(R.id.i_am_a_business_checkbox)
     CheckBox mBusinessCheckbox;
 
-    @InjectView(R.id.i_am_a_business_text)
+    @BindView(R.id.i_am_a_business_text)
     TextView mBusinessText;
 
-    @InjectView(R.id.sign_up_birthday)
+    @BindView(R.id.sign_up_birthday)
     EditText mSignUpBirthday;
 
     private GoogleCloudMessaging mGoogleCloudMessaging;

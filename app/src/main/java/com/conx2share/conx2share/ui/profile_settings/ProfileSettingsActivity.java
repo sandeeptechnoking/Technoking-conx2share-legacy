@@ -4,21 +4,25 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
+
 import com.conx2share.conx2share.R;
 import com.conx2share.conx2share.ui.base.BaseActionBarActivity;
+import com.conx2share.conx2share.ui.base.BaseAppCompatActivity;
 import com.conx2share.conx2share.ui.sayno.SayNoFlowInteractor;
 import com.conx2share.conx2share.util.MediaUploadUtil;
 
 import javax.inject.Inject;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 //import butterknife.InjectView;
-import roboguice.inject.InjectView;
+//import roboguice.inject.InjectView;
 
-public class ProfileSettingsActivity extends BaseActionBarActivity {
-    @InjectView(R.id.profile_toolbar)
+public class ProfileSettingsActivity extends BaseAppCompatActivity {
+    @BindView(R.id.profile_toolbar)
     Toolbar toolbar;
 
     @Inject

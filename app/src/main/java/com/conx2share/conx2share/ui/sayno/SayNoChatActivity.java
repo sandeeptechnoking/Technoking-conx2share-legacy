@@ -54,6 +54,7 @@ import java.util.List;
 
 import javax.inject.Inject;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 //import butterknife.InjectView;
 import butterknife.OnClick;
@@ -77,16 +78,16 @@ public class SayNoChatActivity extends BaseAppCompatActivity {
 
     private static final int PERMISSION_CAMERA_RESULT = 1000;
 
-    @InjectView(R.id.say_no_chat_toolbar)
+    @BindView(R.id.say_no_chat_toolbar)
     Toolbar toolbar;
 
-    @InjectView(R.id.say_no_chat_recycler_view)
+    @BindView(R.id.say_no_chat_recycler_view)
     RecyclerView chatRecyclerView;
 
-    @InjectView(R.id.say_no_chat_input_edit_text)
+    @BindView(R.id.say_no_chat_input_edit_text)
     EditText textInput;
 
-    @InjectView(R.id.say_no_chat_send_button)
+    @BindView(R.id.say_no_chat_send_button)
     ImageButton chatSendButton;
 
     @Inject

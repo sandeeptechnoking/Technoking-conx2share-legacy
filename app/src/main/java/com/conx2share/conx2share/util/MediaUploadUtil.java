@@ -9,17 +9,21 @@ import android.content.ContentUris;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.media.ThumbnailUtils;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Environment;
+import android.os.StrictMode;
 import android.provider.DocumentsContract;
 import android.provider.MediaStore;
 import android.provider.OpenableColumns;
 import android.support.annotation.Nullable;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.content.CursorLoader;
 import android.util.Log;
 import android.webkit.MimeTypeMap;
@@ -31,6 +35,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.net.URI;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -135,6 +140,12 @@ public class MediaUploadUtil {
     }
 
     private void takePhoto() {
+
+        if (ContextCompat.checkSelfPermission(this.mContext, "android.permission.CAMERA") != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this.mActivity, new String[]{"android.permission.CAMERA"}, 110);
+            return;
+        }
+
         File image;
         try {
             image = createImageFile();
@@ -274,7 +285,7 @@ public class MediaUploadUtil {
      * other file-based ContentProviders.
      *
      * @param context The context.
-     * @param uri The Uri to query.
+     * @param uri     The Uri to query.
      * @author paulburke
      */
     public static String getPath(final Context context, final Uri uri) {
@@ -298,9 +309,18 @@ public class MediaUploadUtil {
             // DownloadsProvider
             else if (isDownloadsDocument(uri)) {
 
+                final boolean isOreo = Build.VERSION.SDK_INT >= Build.VERSION_CODES.O;
+                String stringContentURI;
+                String contentUriString;
+                if (isOreo) {
+                    contentUriString = "content://downloads/my_downloads";
+                } else {
+                    contentUriString = "content://downloads/public_downloads";
+                }
+
                 final String id = DocumentsContract.getDocumentId(uri);
                 final Uri contentUri = ContentUris.withAppendedId(
-                        Uri.parse("content://downloads/public_downloads"), Long.valueOf(id));
+                        Uri.parse(contentUriString), Long.valueOf(id));
 
                 return getDataColumn(context, contentUri, null, null);
             }
@@ -320,7 +340,7 @@ public class MediaUploadUtil {
                 }
 
                 final String selection = "_id=?";
-                final String[] selectionArgs = new String[] {
+                final String[] selectionArgs = new String[]{
                         split[1]
                 };
 
@@ -343,9 +363,9 @@ public class MediaUploadUtil {
      * Get the value of the data column for this Uri. This is useful for
      * MediaStore Uris, and other file-based ContentProviders.
      *
-     * @param context The context.
-     * @param uri The Uri to query.
-     * @param selection (Optional) Filter used in the query.
+     * @param context       The context.
+     * @param uri           The Uri to query.
+     * @param selection     (Optional) Filter used in the query.
      * @param selectionArgs (Optional) Selection arguments used in the query.
      * @return The value of the _data column, which is typically a file path.
      */

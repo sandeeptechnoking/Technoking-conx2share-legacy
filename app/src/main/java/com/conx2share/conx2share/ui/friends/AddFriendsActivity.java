@@ -10,6 +10,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 //import butterknife.InjectView;
 import roboguice.inject.InjectView;
@@ -22,7 +23,7 @@ public class AddFriendsActivity extends BaseActionBarActivity {
     public static void start(Context mContext) {
         mContext.startActivity(new Intent(mContext, AddFriendsActivity.class));
     }
-    @InjectView(R.id.add_friends_toolbar)
+    @BindView(R.id.add_friends_toolbar)
     Toolbar mAddFriendsToolbar;
 
     @Override

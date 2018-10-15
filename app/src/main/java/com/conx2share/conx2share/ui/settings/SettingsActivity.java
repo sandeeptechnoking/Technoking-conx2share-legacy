@@ -50,6 +50,7 @@ public class SettingsActivity extends RoboActionBarActivity {
         ButterKnife.bind(this);
 
 
+
         setSupportActionBar(toolbar);
         if (getSupportActionBar() != null) {
             getSupportActionBar().setTitle("");
@@ -62,8 +63,9 @@ public class SettingsActivity extends RoboActionBarActivity {
         Intent intent = new Intent(this, ProfileSettingsActivity.class);
         intent.putExtra(ProfileSettingsFragment.EXTRA_PROFILE_ID, getIntent().getIntExtra(ProfileSettingsFragment.EXTRA_PROFILE_ID, 0));
         startActivity(intent);
-    }
 
+
+    }
     @OnClick(R.id.setting_create_group_button)
     public void createGroupClicked() {
         Intent intent = new Intent(this, AddGroupActivity.class);

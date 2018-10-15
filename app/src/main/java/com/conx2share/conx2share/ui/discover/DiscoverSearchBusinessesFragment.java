@@ -21,17 +21,18 @@ import android.widget.ProgressBar;
 
 import java.util.ArrayList;
 
+import butterknife.BindView;
 import retrofit.RetrofitError;
-import roboguice.inject.InjectView;
+//import roboguice.inject.BindView;
 
 public class DiscoverSearchBusinessesFragment extends BaseFragment implements BusinessAdapter.BusinessAdapterCallbacks {
 
     public static final String TAG = DiscoverSearchBusinessesFragment.class.getSimpleName();
 
-    @InjectView(R.id.discover_businesses_list_view)
+    @BindView(R.id.discover_businesses_list_view)
     ListView mDiscoverBusinessesListView;
 
-    @InjectView(R.id.discover_businesses_progress_bar)
+    @BindView(R.id.discover_businesses_progress_bar)
     ProgressBar mDiscoverBusinessesProgressBar;
 
     private Integer mCurrentUserSearchPage;

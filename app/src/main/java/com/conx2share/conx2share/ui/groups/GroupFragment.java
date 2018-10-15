@@ -61,6 +61,7 @@ import java.util.ArrayList;
 import javax.inject.Inject;
 
 //import butterknife.InjectView;
+import butterknife.BindView;
 import butterknife.OnClick;
 import retrofit.RetrofitError;
 import roboguice.inject.InjectView;
@@ -73,67 +74,67 @@ public class GroupFragment extends BaseProfileFragment implements PostsAdapter.P
     @Inject
     PreferencesUtil preferencesUtil;
 
-    @InjectView(R.id.group_toolbar)
+    @BindView(R.id.group_toolbar)
     Toolbar mToolbar;
 
-    @InjectView(R.id.group_toolbar_up)
+    @BindView(R.id.group_toolbar_up)
     ImageView mToolbarUp;
 
-    @InjectView(R.id.group_header_background)
+    @BindView(R.id.group_header_background)
     ImageView mHeaderBackground;
 
-    @InjectView(R.id.group_avatar)
+    @BindView(R.id.group_avatar)
     RoundedImageView mUserAvatar;
 
-    @InjectView(R.id.members_count)
+    @BindView(R.id.members_count)
     TextView mMembersCount;
 
-    @InjectView(R.id.followers_count)
+    @BindView(R.id.followers_count)
     TextView mFollowersCount;
 
-    @InjectView(R.id.group_feed_list_view)
+    @BindView(R.id.group_feed_list_view)
     RecyclerView mGroupFeedRecyclerView;
 
-    @InjectView(R.id.group_swipe_container)
+    @BindView(R.id.group_swipe_container)
     SwipeRefreshLayout mSwipeContainer;
 
-    @InjectView(R.id.member_count_layout)
+    @BindView(R.id.member_count_layout)
     LinearLayout mMemberCountLayout;
 
-    @InjectView(R.id.followers_count_layout)
+    @BindView(R.id.followers_count_layout)
     LinearLayout mFollowersCountLayout;
 
-    @InjectView(R.id.group_name)
+    @BindView(R.id.group_name)
     TextView mGroupName;
 
-    @InjectView(R.id.group_settings_button)
+    @BindView(R.id.group_settings_button)
     ImageView mGroupSettings;
 
-    @InjectView(R.id.play_button)
+    @BindView(R.id.play_button)
     ImageView mPlayStream;
 
-    @InjectView(R.id.main_view)
+    @BindView(R.id.main_view)
     RelativeLayout mMainView;
 
-    @InjectView(R.id.group_profile_progress_bar)
+    @BindView(R.id.group_profile_progress_bar)
     ProgressBar mGroupProfileProgressBar;
 
-    @InjectView(R.id.group_follow_unfollow_layout)
+    @BindView(R.id.group_follow_unfollow_layout)
     LinearLayout mGroupFollowUnfollowLayout;
 
-    @InjectView(R.id.group_follow_unfollow_text)
+    @BindView(R.id.group_follow_unfollow_text)
     TextView mGroupFollowUnfollowText;
 
-    @InjectView(R.id.group_status)
+    @BindView(R.id.group_status)
     TextView mGroupStatus;
 
-    @InjectView(R.id.group_owner_sign)
+    @BindView(R.id.group_owner_sign)
     RoundedImageView mGroupOwnerSign;
 
-    @InjectView(R.id.group_multiple_actions)
+    @BindView(R.id.group_multiple_actions)
     FloatingActionMenu multipleActionsFab;
 
-    @InjectView(R.id.group_livestream_button)
+    @BindView(R.id.group_livestream_button)
     FloatingActionButton livestreamButton;
 
     @Inject

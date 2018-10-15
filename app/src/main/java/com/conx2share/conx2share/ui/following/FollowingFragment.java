@@ -27,6 +27,7 @@ import java.util.ArrayList;
 import javax.inject.Inject;
 
 //import butterknife.InjectView;
+import butterknife.BindView;
 import retrofit.RetrofitError;
 import roboguice.inject.InjectView;
 
@@ -36,13 +37,13 @@ public class FollowingFragment extends BaseFragment implements FollowingAndFollo
 
     public static final String PROFILEID_KEY = "profileId";
 
-    @InjectView(R.id.following_list_view)
+    @BindView(R.id.following_list_view)
     ListView mFollowingListView;
 
     @Inject
     SnackbarUtil mSnackbarUtil;
 
-    @InjectView(R.id.following_progress_bar)
+    @BindView(R.id.following_progress_bar)
     ProgressBar mFollowingProgressBar;
 
     private ArrayList<User> mFollowingUsers;

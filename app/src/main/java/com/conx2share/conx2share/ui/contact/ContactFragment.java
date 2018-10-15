@@ -43,9 +43,10 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-//import butterknife.InjectView;
+//import butterknife.BindView;
+import butterknife.BindView;
 import butterknife.OnClick;
-import roboguice.inject.InjectView;
+//import roboguice.inject.BindView;
 
 public class ContactFragment extends BaseFragment {
 
@@ -55,16 +56,16 @@ public class ContactFragment extends BaseFragment {
     @Inject
     NetworkClient mNetworkClient;
 
-    @InjectView(R.id.contact_list_view)
+    @BindView(R.id.contact_list_view)
     ListView mContactListView;
 
-    @InjectView(R.id.invite_button)
+    @BindView(R.id.invite_button)
     FloatingActionButton inviteButton;
 
-    @InjectView(R.id.search_edit_text)
+    @BindView(R.id.search_edit_text)
     EditText mSearchEditText;
 
-    @InjectView(R.id.contact_permission_layout)
+    @BindView(R.id.contact_permission_layout)
     RelativeLayout mDenyLayout;
 
     private List<Contact> mContacts;

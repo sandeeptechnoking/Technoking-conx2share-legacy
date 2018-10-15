@@ -19,16 +19,17 @@ import android.view.View;
 
 import java.util.ArrayList;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
-//import butterknife.InjectView;
+//import butterknife.BindView;
 import retrofit.RetrofitError;
-import roboguice.inject.InjectView;
+//import roboguice.inject.BindView;
 
 public class MyBusinessesActivity extends BaseActionBarActivity implements MyBusinessesFragment.MyBusinessesCallback {
 
     public static final String TAG = MyBusinessesActivity.class.getSimpleName();
 
-    @InjectView(R.id.toolbar)
+    @BindView(R.id.toolbar)
     Toolbar mToolbar;
 
     private GetBusinessPageBusinessesAsync mGetRelevantBusinessesAsync;

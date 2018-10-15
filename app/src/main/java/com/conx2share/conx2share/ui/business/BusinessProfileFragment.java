@@ -42,9 +42,12 @@ import java.util.ArrayList;
 
 import javax.inject.Inject;
 
+//import butterknife.BindView;
+import butterknife.BindView;
 import butterknife.OnClick;
 import retrofit.RetrofitError;
 import roboguice.inject.InjectView;
+//import roboguice.inject.BindView;
 
 public class BusinessProfileFragment extends BaseProfileFragment {
 
@@ -52,47 +55,47 @@ public class BusinessProfileFragment extends BaseProfileFragment {
     public static final String EXTRA_BUSINESS_ID = "extra_business_id";
     public static final String EXTRA_LOAD_STORE = "extra_load_store";
 
-    @InjectView(R.id.toolbar_up)
+    @BindView(R.id.toolbar_up)
     ImageView mToolbarUp;
 
-    @InjectView(R.id.swipe_container)
+    @BindView(R.id.swipe_container)
     SwipeRefreshLayout mSwipeContainer;
 
-    @InjectView(R.id.follow_layout)
+    @BindView(R.id.follow_layout)
     View mFollowView;
 
-    @InjectView(R.id.follow_text)
+    @BindView(R.id.follow_text)
     TextView mFollowText;
 
-    @InjectView(R.id.business_owner_sign)
+    @BindView(R.id.business_owner_sign)
     RoundedImageView mBusinessOwnerSign;
 
-    @InjectView(R.id.business_status)
+    @BindView(R.id.business_status)
     TextView mBusinessStatus;
 
-    @InjectView(R.id.main_view)
-    private View mMainView;
+    @BindView(R.id.main_view)
+    public View mMainView;
 
-    @InjectView(R.id.business_name)
-    private TextView mBusinessNameTextView;
+    @BindView(R.id.business_name)
+    public TextView mBusinessNameTextView;
 
-    @InjectView(R.id.business_avatar)
-    private ImageView mProfileImageView;
+    @BindView(R.id.business_avatar)
+    public ImageView mProfileImageView;
 
-    @InjectView(R.id.header_background)
-    private ImageView mBackgroundImageView;
+    @BindView(R.id.header_background)
+    public ImageView mBackgroundImageView;
 
-    @InjectView(R.id.posts_listView)
-    private RecyclerView mPostRecyclerView;
+    @BindView(R.id.posts_listView)
+    public RecyclerView mPostRecyclerView;
 
-    @InjectView(R.id.progress_bar)
-    private ProgressBar mProgressBar;
+    @BindView(R.id.progress_bar)
+    public ProgressBar mProgressBar;
 
-    @InjectView(R.id.post_button)
-    private FloatingActionButton mPostButton;
+    @BindView(R.id.post_button)
+     FloatingActionButton mPostButton;
 
-    @InjectView(R.id.eshopping_cart)
-    private ImageView mEshoppingCart;
+    @BindView(R.id.eshopping_cart)
+    public ImageView mEshoppingCart;
 
     @Inject
     private PreferencesUtil mPreferencesUtil;

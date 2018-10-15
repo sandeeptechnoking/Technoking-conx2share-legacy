@@ -35,6 +35,7 @@ import java.util.Date;
 
 import javax.inject.Inject;
 
+import butterknife.BindView;
 import retrofit.RetrofitError;
 import roboguice.inject.InjectView;
 
@@ -48,52 +49,52 @@ public class EventFragment extends BaseFragment {
 
     private Event mEvent;
 
-    @InjectView(R.id.event_photo)
+    @BindView(R.id.event_photo)
     ImageView mPhoto;
 
-    @InjectView(R.id.watch_button)
+    @BindView(R.id.watch_button)
     ImageView mWatchButton;
 
-    @InjectView(R.id.event_datetime)
+    @BindView(R.id.event_datetime)
     TextView mDateTime;
 
-    @InjectView(R.id.event_name)
+    @BindView(R.id.event_name)
     TextView mName;
 
-    @InjectView(R.id.event_location)
+    @BindView(R.id.event_location)
     TextView mLocation;
 
-    @InjectView(R.id.event_going_value)
+    @BindView(R.id.event_going_value)
     TextView mGoing;
 
-    @InjectView(R.id.event_maybe_value)
+    @BindView(R.id.event_maybe_value)
     TextView mMaybe;
 
-    @InjectView(R.id.event_attendees_value)
+    @BindView(R.id.event_attendees_value)
     TextView mAttendees;
 
-    @InjectView(R.id.event_description)
+    @BindView(R.id.event_description)
     TextView mDescription;
 
-    @InjectView(R.id.event_root)
+    @BindView(R.id.event_root)
     RelativeLayout mMainView;
 
-    @InjectView(R.id.event_progress)
+    @BindView(R.id.event_progress)
     ProgressBar mProgress;
 
     @Inject
     SnackbarUtil mSnackbarUtil;
 
-    @InjectView(R.id.event_user_stats)
+    @BindView(R.id.event_user_stats)
     LinearLayout mEventUserStats;
 
-    @InjectView(R.id.event_options_container)
+    @BindView(R.id.event_options_container)
     RadioGroup mRsvpOptions;
 
-    @InjectView(R.id.event_option_going)
+    @BindView(R.id.event_option_going)
     RadioButton mRsvpGoing;
 
-    @InjectView(R.id.event_option_maybe)
+    @BindView(R.id.event_option_maybe)
     RadioButton mRsvpMaybe;
 
     private GetEventAsync mGetEventAsync;

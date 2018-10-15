@@ -31,6 +31,7 @@ import java.util.Map;
 
 import javax.inject.Inject;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 //import butterknife.InjectView;
 import retrofit.RestAdapter;
@@ -45,16 +46,16 @@ import roboguice.util.RoboContext;
 
 public class ContactSupportActivity extends RoboActionBarActivity {
 
-    @InjectView(R.id.contact_support_toolbar)
+    @BindView(R.id.contact_support_toolbar)
     public Toolbar toolbar;
 
-    @InjectView(R.id.contact_support_name_input)
+    @BindView(R.id.contact_support_name_input)
     public InputFormView nameInput;
 
-    @InjectView(R.id.contact_support_email_input)
+    @BindView(R.id.contact_support_email_input)
     public InputFormView emailInput;
 
-    @InjectView(R.id.contact_support_message_input)
+    @BindView(R.id.contact_support_message_input)
     public InputFormView messageInput;
 
     public FreshdeskService networkClient;

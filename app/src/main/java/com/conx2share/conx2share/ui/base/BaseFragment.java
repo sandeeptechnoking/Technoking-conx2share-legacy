@@ -40,7 +40,7 @@ public abstract class BaseFragment extends RoboFragment {
     protected SnackbarUtil mSnackbarUtil;
 
     @Inject
-    PreferencesUtil mPreferencesUtil;
+   public PreferencesUtil mPreferencesUtil;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

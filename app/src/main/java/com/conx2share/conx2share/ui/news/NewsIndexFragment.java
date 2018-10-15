@@ -29,6 +29,7 @@ import android.widget.ProgressBar;
 
 import java.util.ArrayList;
 //import butterknife.InjectView;
+import butterknife.BindView;
 import retrofit.RetrofitError;
 import roboguice.inject.InjectView;
 
@@ -37,13 +38,13 @@ public class NewsIndexFragment extends BaseFragment{
     @Inject
     SnackbarUtil mSnackbarUtil;
 
-    @InjectView(R.id.news_index_grid_view)
+    @BindView(R.id.news_index_grid_view)
     GridView mNewsIndexGridView;
 
-    @InjectView(R.id.news_index_progress_bar)
+    @BindView(R.id.news_index_progress_bar)
     ProgressBar mNewsIndexProgressBar;
 
-    @InjectView(R.id.news_index_search)
+    @BindView(R.id.news_index_search)
     EditText mNewsIndexSearch;
 
     public static String TAG = NewsIndexFragment.class.getSimpleName();

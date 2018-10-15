@@ -22,17 +22,18 @@ import java.util.ArrayList;
 
 import javax.inject.Inject;
 
+import butterknife.BindView;
 import retrofit.RetrofitError;
-import roboguice.inject.InjectView;
+//import roboguice.inject.BindView;
 
 public class MyBusinessesFragment extends BaseFragment {
 
     public static final String TAG = MyBusinessesFragment.class.getSimpleName();
 
-    @InjectView(R.id.listView)
+    @BindView(R.id.listView)
     ListView mListView;
 
-    @InjectView(R.id.progressBar)
+    @BindView(R.id.progressBar)
     ProgressBar mProgressBar;
 
     @Inject

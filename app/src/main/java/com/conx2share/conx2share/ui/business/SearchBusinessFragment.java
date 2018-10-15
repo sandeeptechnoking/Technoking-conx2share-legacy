@@ -22,18 +22,19 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-//import butterknife.InjectView;
+//import butterknife.BindView;
+import butterknife.BindView;
 import retrofit.RetrofitError;
-import roboguice.inject.InjectView;
+//import roboguice.inject.BindView;
 
 public class SearchBusinessFragment extends BaseFragment implements BusinessAdapter.BusinessAdapterCallbacks {
 
     public static final String TAG = SearchBusinessFragment.class.getSimpleName();
 
-    @InjectView(R.id.search_businesses_edit_text)
+    @BindView(R.id.search_businesses_edit_text)
     EditText mSearchBusinessesEditText;
 
-    @InjectView(R.id.search_businesses_listview)
+    @BindView(R.id.search_businesses_listview)
     ListView mSearchBusinessesListView;
 
     private Integer mCurrentUserSearchPage;

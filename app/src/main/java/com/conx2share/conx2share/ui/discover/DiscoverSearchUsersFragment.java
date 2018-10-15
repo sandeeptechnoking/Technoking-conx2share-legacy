@@ -24,6 +24,7 @@ import java.util.ArrayList;
 
 import javax.inject.Inject;
 
+import butterknife.BindView;
 import roboguice.inject.InjectView;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
@@ -32,10 +33,10 @@ public class DiscoverSearchUsersFragment extends BaseFragment implements Discove
 
     public static final String TAG = DiscoverSearchUsersFragment.class.getSimpleName();
 
-    @InjectView(R.id.discover_users_list_view)
+    @BindView(R.id.discover_users_list_view)
     RecyclerView mDiscoverUsersListView;
 
-    @InjectView(R.id.discover_users_progress_bar)
+    @BindView(R.id.discover_users_progress_bar)
     ProgressBar mDiscoverUserProgressBar;
 
     private Integer mCurrentUserSearchPage;

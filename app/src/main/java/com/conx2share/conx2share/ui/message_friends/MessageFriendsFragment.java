@@ -37,6 +37,7 @@ import java.util.ArrayList;
 import javax.inject.Inject;
 
 //import butterknife.InjectView;
+import butterknife.BindView;
 import roboguice.inject.InjectView;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Action1;
@@ -55,10 +56,10 @@ public class MessageFriendsFragment extends BaseFragment {
     @butterknife.BindView(R.id.search_for_friends_to_message_edit_text)
     EditText searchForFriendsToMessageEditText;
 
-    @InjectView(R.id.message_friends_view)
+    @BindView(R.id.message_friends_view)
     ListView mMessageFriendsView;
 
-    @InjectView(R.id.message_friends_progress_bar)
+    @BindView(R.id.message_friends_progress_bar)
     ProgressBar mMessageFriendsProgressBar;
 
     private String mFriendId;

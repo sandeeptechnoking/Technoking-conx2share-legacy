@@ -63,6 +63,7 @@ import java.io.IOException;
 import javax.inject.Inject;
 
 //import butterknife.InjectView;
+import butterknife.BindView;
 import butterknife.OnClick;
 import retrofit.mime.TypedFile;
 import roboguice.inject.InjectView;
@@ -84,109 +85,109 @@ public class ProfileSettingsFragment extends BaseFragment {
     @Inject
     PreferencesUtil mPreferencesUtil;
 
-    @InjectView(R.id.profile_settings_header_background)
+    @BindView(R.id.profile_settings_header_background)
     ImageView mSettingsHeaderBackgroundImage;
 
-    @InjectView(R.id.profile_settings_avatar)
+    @BindView(R.id.profile_settings_avatar)
     RoundedImageView mProfileUserAvatar;
 
-    @InjectView(R.id.profile_settings_name)
+    @BindView(R.id.profile_settings_name)
     TextView mProfileName;
 
-    @InjectView(R.id.email_settings)
+    @BindView(R.id.email_settings)
     EditText mEmailSettings;
 
-    @InjectView(R.id.username_settings)
+    @BindView(R.id.username_settings)
     EditText mUsernameSettings;
 
-    @InjectView(R.id.change_profile_photo_button)
+    @BindView(R.id.change_profile_photo_button)
     Button mChangeProfilePhotoButton;
 
-    @InjectView(R.id.settings_version)
+    @BindView(R.id.settings_version)
     TextView mSettingVersion;
 
-    @InjectView(R.id.bio_settings)
+    @BindView(R.id.bio_settings)
     EditText mBioSettings;
 
-    @InjectView(R.id.old_password_input)
+    @BindView(R.id.old_password_input)
     EditText mOldPasswordInput;
 
-    @InjectView(R.id.new_password_input)
+    @BindView(R.id.new_password_input)
     EditText mNewPasswordInput;
 
-    @InjectView(R.id.confirm_new_password_input)
+    @BindView(R.id.confirm_new_password_input)
     EditText mConfirmNewPasswordInput;
 
-    @InjectView(R.id.change_password_submit_button)
+    @BindView(R.id.change_password_submit_button)
     Button mChangePasswordSubmitButton;
 
-    @InjectView(R.id.slide_up_about_panel)
+    @BindView(R.id.slide_up_about_panel)
     RelativeLayout mSlideUpPanel;
 
-    @InjectView(R.id.close_about_screen)
+    @BindView(R.id.close_about_screen)
     ImageButton mCloseAboutButton;
 
-    @InjectView(R.id.activate_promo_code_button)
+    @BindView(R.id.activate_promo_code_button)
     Button mActivatePromoCodeButton;
 
-    @InjectView(R.id.birthday)
+    @BindView(R.id.birthday)
     EditText mBirthday;
 
-    @InjectView(R.id.profile_settings_progress_bar)
+    @BindView(R.id.profile_settings_progress_bar)
     ProgressBar mProfileSettingsProgressBar;
 
-    @InjectView(R.id.progress_bar_avatar)
+    @BindView(R.id.progress_bar_avatar)
     ProgressBar mProgressBarAvatar;
 
-    @InjectView(R.id.progress_bar_back)
+    @BindView(R.id.progress_bar_back)
     ProgressBar mProgressBarBack;
 
-    @InjectView(R.id.main_view)
+    @BindView(R.id.main_view)
     RelativeLayout mMainView;
 
-    @InjectView(R.id.toggle_message_notifications)
+    @BindView(R.id.toggle_message_notifications)
     Switch mToggleMessages;
 
-    @InjectView(R.id.toggle_tag_notifications)
+    @BindView(R.id.toggle_tag_notifications)
     Switch mToggleTag;
 
-    @InjectView(R.id.toggle_post_notifications)
+    @BindView(R.id.toggle_post_notifications)
     Switch mTogglePosts;
 
-    @InjectView(R.id.toggle_invite_notifications)
+    @BindView(R.id.toggle_invite_notifications)
     Switch mToggleInvites;
 
-    @InjectView(R.id.toggle_following_notifications)
+    @BindView(R.id.toggle_following_notifications)
     Switch mToggleFollowing;
 
-    @InjectView(R.id.toggle_followers_notifications)
+    @BindView(R.id.toggle_followers_notifications)
     Switch mToggleFollowers;
 
-    @InjectView(R.id.helper_messages)
+    @BindView(R.id.helper_messages)
     TextView mHelperMessages;
 
-    @InjectView(R.id.helper_tags)
+    @BindView(R.id.helper_tags)
     TextView mHelperTags;
 
-    @InjectView(R.id.helper_posts)
+    @BindView(R.id.helper_posts)
     TextView mHelperPosts;
 
-    @InjectView(R.id.helper_invites)
+    @BindView(R.id.helper_invites)
     TextView mHelperInvites;
 
-    @InjectView(R.id.helper_following)
+    @BindView(R.id.helper_following)
     TextView mHelperFollowing;
 
-    @InjectView(R.id.helper_followers)
+    @BindView(R.id.helper_followers)
     TextView mHelperFollowers;
 
-    @InjectView(R.id.avatar_change_tv)
+    @BindView(R.id.avatar_change_tv)
     TextView mAvatarChangeTv;
 
-    @InjectView(R.id.register_as_a_business_button)
+    @BindView(R.id.register_as_a_business_button)
     Button mRegisterAsABusinessButton;
 
-    @InjectView(R.id.register_business_birthday_error)
+    @BindView(R.id.register_business_birthday_error)
     TextView mRegisterBusinessBirthdayError;
 
     @Inject

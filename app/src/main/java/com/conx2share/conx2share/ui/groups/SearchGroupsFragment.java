@@ -27,6 +27,7 @@ import java.util.ArrayList;
 import javax.inject.Inject;
 
 //import butterknife.InjectView;
+import butterknife.BindView;
 import retrofit.RetrofitError;
 import roboguice.inject.InjectView;
 
@@ -37,10 +38,10 @@ public class SearchGroupsFragment extends BaseFragment implements GroupIndexAdap
     @Inject
     PreferencesUtil mPreferencesUtil;
 
-    @InjectView(R.id.search_for_groups_edit_text)
+    @BindView(R.id.search_for_groups_edit_text)
     EditText mSearchGroupsEditText;
 
-    @InjectView(R.id.search_groups_list_view)
+    @BindView(R.id.search_groups_list_view)
     ListView mSearchGroupsListView;
 
     private String mSearchTerms;

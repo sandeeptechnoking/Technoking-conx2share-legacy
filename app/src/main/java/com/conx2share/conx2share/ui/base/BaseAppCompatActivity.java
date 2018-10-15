@@ -1,8 +1,10 @@
 package com.conx2share.conx2share.ui.base;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.support.v7.app.AppCompatActivity;
 
 import com.conx2share.conx2share.util.ForegroundUtil;
@@ -28,18 +30,23 @@ import roboguice.util.RoboContext;
 
 public class BaseAppCompatActivity extends AppCompatActivity implements RoboContext {
     protected EventManager eventManager;
+    protected HashMap<Key<?>,Object> scopedObjects = new HashMap<Key<?>, Object>();
 
-    protected HashMap<Key<?>, Object> scopedObjects = new HashMap<>();
+    //@Inject ContentViewListener ignored; // BUG find a better place to put this
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        StrictMode.VmPolicy.Builder builder = new StrictMode.VmPolicy.Builder();
+        StrictMode.setVmPolicy(builder.build());
+        builder.detectFileUriExposure();
+
         final RoboInjector injector = RoboGuice.getInjector(this);
         eventManager = injector.getInstance(EventManager.class);
         injector.injectMembersWithoutViews(this);
         super.onCreate(savedInstanceState);
-
         eventManager.fire(new OnCreateEvent(savedInstanceState));
     }
+
 
     @Override
     protected void onRestart() {

@@ -47,6 +47,7 @@ import com.nispok.snackbar.SnackbarManager;
 import javax.inject.Inject;
 
 //import butterknife.InjectView;
+import butterknife.BindView;
 import butterknife.OnClick;
 import retrofit.RetrofitError;
 import roboguice.inject.InjectView;
@@ -58,49 +59,49 @@ public class AddGroupFragment extends BaseFragment {
     @Inject
     NetworkClient mNetworkClient;
 
-    @InjectView(R.id.header_background_imageView)
+    @BindView(R.id.header_background_imageView)
     ImageView mHeaderBackgroundImage;
 
-    @InjectView(R.id.avatar)
+    @BindView(R.id.avatar)
     RoundedImageView mAvatar;
 
-    @InjectView(R.id.group_about_editText)
+    @BindView(R.id.group_about_editText)
     EditText mAboutEditText;
 
-    @InjectView(R.id.name_textView)
+    @BindView(R.id.name_textView)
     TextView mName;
 
-    @InjectView(R.id.delete_group_tv)
+    @BindView(R.id.delete_group_tv)
     TextView mDeleteGroup;
 
-    @InjectView(R.id.group_name_editText)
+    @BindView(R.id.group_name_editText)
     EditText mNameEditText;
 
-    @InjectView(R.id.change_photo_button)
+    @BindView(R.id.change_photo_button)
     Button mChangePhotoButton;
 
-    @InjectView(R.id.edit_group_toolbar)
+    @BindView(R.id.edit_group_toolbar)
     Toolbar mToolbar;
 
     @Inject
     SnackbarUtil mSnackbarUtil;
 
-    @InjectView(R.id.group_restriction)
+    @BindView(R.id.group_restriction)
     RadioGroup mGroupRestriction;
 
-    @InjectView(R.id.group_public)
+    @BindView(R.id.group_public)
     RadioButton mGroupPublic;
 
-    @InjectView(R.id.group_private)
+    @BindView(R.id.group_private)
     RadioButton mGroupPrivate;
 
-    @InjectView(R.id.group_type)
+    @BindView(R.id.group_type)
     RadioGroup mGroupType;
 
-    @InjectView(R.id.group_blog)
+    @BindView(R.id.group_blog)
     RadioButton mGroupBlog;
 
-    @InjectView(R.id.group_discussion)
+    @BindView(R.id.group_discussion)
     RadioButton mGroupDiscussion;
 
     @Inject

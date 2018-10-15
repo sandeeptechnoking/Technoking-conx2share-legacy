@@ -24,17 +24,18 @@ import android.widget.ProgressBar;
 
 import java.util.ArrayList;
 
+import butterknife.BindView;
 import retrofit.RetrofitError;
-import roboguice.inject.InjectView;
+//import roboguice.inject.BindView;
 
 public class DiscoverSearchHashTagPostsFragment extends BaseFragment implements DiscoverHashTagPostsAdapter.DiscoverHashTagPostsAdapterCallBacks {
 
     public static final String TAG = DiscoverSearchHashTagPostsFragment.class.getSimpleName();
 
-    @InjectView(R.id.discover_hash_tag_posts_recycler_view)
+    @BindView(R.id.discover_hash_tag_posts_recycler_view)
     RecyclerView mDiscoverHashTagPostsRecyclerView;
 
-    @InjectView(R.id.discover_hash_tag_posts_progress_bar)
+    @BindView(R.id.discover_hash_tag_posts_progress_bar)
     ProgressBar mDiscoverHashTagPostsProgressBar;
 
     private String mSearchTerms;

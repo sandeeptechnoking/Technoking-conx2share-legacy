@@ -38,6 +38,7 @@ import java.util.ArrayList;
 import javax.inject.Inject;
 
 //import butterknife.InjectView;
+import butterknife.BindView;
 import retrofit.RetrofitError;
 import roboguice.inject.InjectView;
 import rx.android.schedulers.AndroidSchedulers;
@@ -50,13 +51,13 @@ public class GroupMembersInviteFragment extends BaseFragment implements GroupMem
     @Inject
     NetworkClient mNetworkClient;
 
-    @InjectView(R.id.user_search_toolbar)
+    @BindView(R.id.user_search_toolbar)
     Toolbar mToolbar;
 
-    @InjectView(R.id.group_members_invite_edit_text)
+    @BindView(R.id.group_members_invite_edit_text)
     EditText mGroupMembersInviteEditText;
 
-    @InjectView(R.id.group_members_invite_listview)
+    @BindView(R.id.group_members_invite_listview)
     ListView mGroupMembersListView;
 
     @Inject

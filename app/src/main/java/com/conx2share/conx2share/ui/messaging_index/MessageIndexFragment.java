@@ -41,9 +41,12 @@ import butterknife.ButterKnife;
 //import butterknife.InjectView;
 import butterknife.OnClick;
 //import roboguice.inject.InjectView;
+import butterknife.Unbinder;
 import rx.android.schedulers.AndroidSchedulers;
 
 public class MessageIndexFragment extends BaseFragment {
+
+    private  Unbinder unbinder;
 
     public static final String TAG = MessageIndexFragment.class.getSimpleName();
 
@@ -71,7 +74,8 @@ public class MessageIndexFragment extends BaseFragment {
     private Integer totalPages;
 
     private boolean updateInProgress;
-    private View view;
+    //private View view;
+    //private Unbinder unbinder;
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -81,7 +85,8 @@ public class MessageIndexFragment extends BaseFragment {
     @Override
     public void onViewCreated(View view, @Nullable
     final Bundle savedInstanceState) {
-        ButterKnife.bind(this, view);
+      unbinder= ButterKnife.bind(this, view);
+
 
         final Button chatsButton = (Button) getActivity().findViewById(R.id.messageIndex_chats_button);
         final Button savedMessagesButton = (Button) getActivity().findViewById(R.id.messageIndex_saved_messages_button);
@@ -126,8 +131,8 @@ public class MessageIndexFragment extends BaseFragment {
     @Override
     public void onDestroy() {
         super.onDestroy();
-      //  ButterKnife.reset(this);
-        ButterKnife.bind(this, view).unbind();
+        //ButterKnife.bind(this, view).unbind();
+        unbinder.unbind();
     }
 
     private void launchChatsFailureDialog() {

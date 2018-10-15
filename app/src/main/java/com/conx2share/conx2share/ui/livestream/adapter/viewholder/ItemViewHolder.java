@@ -10,16 +10,17 @@ import android.widget.TextView;
 import com.conx2share.conx2share.R;
 import com.conx2share.conx2share.ui.view.AvatarImageView;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 //import butterknife.InjectView;
 import roboguice.inject.InjectView;
 
 public class ItemViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
-    @InjectView(R.id.stream_as_element_image)
+    @BindView(R.id.stream_as_element_image)
     public AvatarImageView image;
 
-    @InjectView(R.id.stream_as_element_name_tv)
+    @BindView(R.id.stream_as_element_name_tv)
     public TextView name;
 
     private OnItemClickListener itemClickListener;

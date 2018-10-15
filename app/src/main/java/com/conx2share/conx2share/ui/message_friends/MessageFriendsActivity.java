@@ -11,6 +11,7 @@ import com.conx2share.conx2share.ui.sayno.SayNoFlowInteractor;
 
 import javax.inject.Inject;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 //import butterknife.InjectView;
 import roboguice.inject.InjectView;
@@ -20,7 +21,7 @@ public class MessageFriendsActivity extends BaseActionBarActivity {
 
     public static final String TAG = MessageFriendsActivity.class.getSimpleName();
 
-    @InjectView(R.id.message_friends_toolbar)
+    @BindView(R.id.message_friends_toolbar)
     Toolbar mMessageFriendsToolbar;
 
     @Inject

@@ -10,6 +10,7 @@ import android.support.v4.app.FragmentTransaction;
 
 public class AddGroupActivity extends BaseActionBarActivity {
 
+
     private static final String TAG = AddGroupActivity.class.getSimpleName();
 
     @Override
