@@ -64,7 +64,7 @@ public class StreamHomeActivity extends BaseAppCompatActivity {
 
     private static final String EXTRAS_IS_GROUP = "from_group_key";
     private static final String EXTRAS_STREAMER_ID = "streamer_id_key";
-    private String check;
+    private String checkii;
 
     @BindView(R.id.stream_toolbar)
     Toolbar toolbar;
