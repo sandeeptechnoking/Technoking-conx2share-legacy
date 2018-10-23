@@ -383,7 +383,6 @@ public class StreamHomeActivity extends BaseAppCompatActivity {
                     streamAsAdapter.notifyDataSetChanged();
                 }, throwable -> businessList.clear());
     }
-
     private void loadGroupEventsAsync(int groupId, String type) {
         Calendar beforeDateLimit = Calendar.getInstance();
         Calendar afterDateLimit = Calendar.getInstance();
